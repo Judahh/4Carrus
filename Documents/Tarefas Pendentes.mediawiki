@@ -1,0 +1,24 @@
+= Tarefas Pendentes =
+
+== Tarefas Banco ==
+* Validar o 4Carrus (ex: chaves estrangeiras, tabelas, tuplas, relacionamentos...) 7 dias
+* Pesquisar qual o melhor banco para uma futura migração para o Oracle
+* Modelar Banco do Grupo para Brasil e U.E.A ( Cadastrar Usuário e Empresas )
+* Segurança dos bancos 4Carrus e do Grupo
+* Validar o banco do Grupo
+* Pesquisar segurança do Banco do 4Carros
+* pesquisar segurança do Banco do Grupo
+
+== Tarefas Site ==
+* Customizar Bootstrap CSS
+* Customizar Bootstrap HTML
+* Customizar Bootstrap PHP
+* Customizar fontes Bootstrap
+* Designer tela visualização: Veiculo
+* Designer tela visualização: Usuário
+* Designer tela visualização: Empresa
+* Designer tela Comparação entre veículos
+*  Designer Cadastro: Usuário
+* Designer Cadastro: Veículo
+* Designer Cadastro: Empresa
+* Designer Cadastro: ...
