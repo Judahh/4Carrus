@@ -1,0 +1,52 @@
+= Tarefas Atribuidas =
+
+== Data 05/05/2014 ==
+
+=== Tarciso ===
+* Criar o banco do grupo BRA USA:   inicio: 03/05  fim: 08/05
+
+=== Judah ===
+* Modificar o CSS do Bootstrap:  inicio: 01/05  fim: ---
+
+
+=== Silvio ===
+* Validar o Banco 4Carrus:  inicio: 05/05   fim: 12/05
+
+=== Presentes ===
+* Tarciso Torres
+* Judah Holanda
+
+=== Próxima Reunião ===
+
+==== Data ====
+* Dia: 11/05
+* Horário: 09:30
+
+==== Local ====
+* Endereco: Conjunto Ceará Rua 537 nº 56 2ª Etapa próximo ao deposito de construção Morada de São Francisco, fica na Av: C depois da Av: Ministro Albuquerque Lima.
+* Tempo Estimado: 1hr.
+
+
+
+== Data 11/05/2014 ==
+
+=== Tarciso ===
+* Corrigir o Banco:  inicio: 14/05  fim: próxima reunião
+
+=== Judah ===
+* Modificar os padrões:  inicio: ???  fim: próxima reunião
+
+
+=== Silvio ===
+* Validar o Banco DatabaseBlueLionGeneral: inicio: ???  fim: próxima reunião (op)
+
+=== Presentes ===
+
+=== Próxima Reunião ===
+
+==== Data ====
+* Dia: 08/06
+* Horário: 14:30
+
+==== Local ====
+* Endereco: Cocó, Rua Bento Albuquerque, nº 1300 ap: 202.
