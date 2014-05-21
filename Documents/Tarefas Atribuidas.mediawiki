@@ -16,14 +16,14 @@
 * Tarciso Torres
 * Judah Holanda
 
-=== Próxima Reunião ===
+=== Prï¿½xima Reuniï¿½o ===
 
 ==== Data ====
 * Dia: 11/05
-* Horário: 09:30
+* Horï¿½rio: 09:30
 
 ==== Local ====
-* Endereco: Conjunto Ceará Rua 537 nº 56 2ª Etapa próximo ao deposito de construção Morada de São Francisco, fica na Av: C depois da Av: Ministro Albuquerque Lima.
+* Endereco: Conjunto Cearï¿½ Rua 537 nï¿½ 56 2ï¿½ Etapa prï¿½ximo ao deposito de construï¿½ï¿½o Morada de Sï¿½o Francisco, fica na Av: C depois da Av: Ministro Albuquerque Lima.
 * Tempo Estimado: 1hr.
 
 
@@ -31,22 +31,21 @@
 == Data 11/05/2014 ==
 
 === Tarciso ===
-* Corrigir o Banco:  inicio: 14/05  fim: próxima reunião
+* Corrigir o Banco:  inicio: 14/05  fim: prï¿½xima reuniï¿½o
 
 === Judah ===
-* Modificar os padrões:  inicio: ???  fim: próxima reunião
+* Modificar os padrï¿½es:  inicio: ???  fim: prï¿½xima reuniï¿½o
 
 
 === Silvio ===
-* Validar o Banco DatabaseBlueLionGeneral: inicio: ???  fim: próxima reunião (op)
+* Validar o Banco DatabaseBlueLionGeneral: inicio: ???  fim: prï¿½xima reuniï¿½o (op)
 
 === Presentes ===
 
-=== Próxima Reunião ===
+=== Prï¿½xima Reuniï¿½o ===
 
 ==== Data ====
-* Dia: 08/06
-* Horário: 14:30
-
+* Dia: 15/06
+* Horï¿½rio: 19:00
 ==== Local ====
-* Endereco: Cocó, Rua Bento Albuquerque, nº 1300 ap: 202.
+* Endereco: Cocï¿½, Rua Bento Albuquerque, nï¿½ 1300 ap: 202.
