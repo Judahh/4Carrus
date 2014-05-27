@@ -1,0 +1,13 @@
+<OK>TableStore 
+<OK>TableModel
+<OK>TableSubModel
+<OK>TableVehicleIsta[n]ce -> integerForeignKeyTagBasicInformationVehicleInstance
+<OK>TableVehicle -> integerForeignKeySubModel, integerForeignKeyTagBasicInformationVehicle
+<>TableDealerShip -> (integerForeignKeyEnterprice)
+<>TableAutomaker  -> (integerForeignKeyEnterprice)
+<OK>TableTag
+<OK>TableTagRelation
+<OK>TableDealerShipAutomakerRelation -> integerForeignKeyDealership, integerForeignKeyAutomaker
+<OK>TableSubModelAutomakerRelation
+
+Obs.: Não consegui gerar o script
