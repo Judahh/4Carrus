@@ -19,10 +19,10 @@
        }
 
        function __toString() {
-          return $this->getStringDeclaration();
+          return $this->stringDeclaration();
        }
 
-       function getStringDeclaration() {
+       function stringDeclaration() {
           return $this->stringProperty . $this->stringValue . ";";
        }
 

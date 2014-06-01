@@ -33,15 +33,15 @@
           return $instance;
        }
 
-       function setStringValueRelation($stringValueRelation) {
+       function setStringValueRelationWithStringValueRelation($stringValueRelation) {
           $this->stringValueRelation = $stringValueRelation;
        }
 
        function __toString() {
-          return $this->getStringAttribute();
+          return $this->stringAttribute();
        }
 
-       function getStringAttribute() {
+       function stringAttribute() {
           return "[" . $this->stringAttribute . $this->stringValueRelation . $this->stringValue . "]";
        }
 

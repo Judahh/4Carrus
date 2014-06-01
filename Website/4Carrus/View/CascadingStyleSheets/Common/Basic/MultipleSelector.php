@@ -2,57 +2,57 @@
 
     class MultipleSelector {//TODO: terminar de testar e colocar include: Selector
 
-       private $listSelector;
-       private $listDeclaration;
+       private $arraySelector;
+       private $arrayDeclaration;
 
-       private function __construct($listSelector, $listDeclaration) {
-          $this->listSelector = $listSelector;
-          $this->listDeclaration = $listDeclaration;
+       private function __construct($arraySelector, $arrayDeclaration) {
+          $this->arraySelector = $arraySelector;
+          $this->arrayDeclaration = $arrayDeclaration;
        }
 
        //Constructors
        //   instantiation: 
        //      $multipleSelector = MultipleSelector::MultipleSelectorWithListSelector($listSelector);
        //      $multipleSelector = MultipleSelector::MultipleSelectorWithListSelectorWithListDeclaration($listSelector, $listDeclaration);
-       public static function MultipleSelectorWithListSelector($listSelector) {
-          $instance = new self($listSelector, array());
+       public static function MultipleSelectorWithListSelector($arraySelector) {
+          $instance = new self($arraySelector, array());
           return $instance;
        }
 
-       public static function MultipleSelectorWithListSelectorWithListDeclaration($listSelector, $listDeclaration) {
-          $instance = new self($listSelector, $listDeclaration);
+       public static function MultipleSelectorWithListSelectorWithListDeclaration($arraySelector, $arrayDeclaration) {
+          $instance = new self($arraySelector, $arrayDeclaration);
           return $instance;
        }
 
-       function addDeclaration($declaration) {
-          array_push($this->listDeclaration, $declaration);
+       function addDeclarationWithDeclaration($declaration) {
+          array_push($this->arrayDeclaration, $declaration);
        }
 
-       function addSelector($selector) {
-          array_push($this->listSelector, $selector);
+       function addSelectorWithSelector($selector) {
+          array_push($this->arraySelector, $selector);
        }
 
        function __toString() {
-          return $this->getStringSelector();
+          return $this->stringSelector();
        }
 
-       function getStringBasicSelector() {
+       function stringBasicSelector() {
           $stringSelector = "";
-          foreach ($this->listSelector as &$selectorItem) {
+          foreach ($this->arraySelector as &$selectorItem) {
              if (empty($stringSelector)) {
-                $stringSelector = $selectorItem->getStringSelector();
+                $stringSelector = $selectorItem->stringSelector();
              } else {
-                $stringSelector = $stringSelector . "," . $selectorItem->getStringSelector();
+                $stringSelector = $stringSelector . "," . $selectorItem->stringSelector();
              }
           }
           unset($selectorItem);
           return $stringSelector;
        }
 
-       function getStringSelector() {
-          $stringSelector = $this->getStringBasicSelector() . "{";
-          foreach ($this->listDeclaration as &$declaration) {
-             $stringSelector = $stringSelector . $declaration->getStringDeclaration();
+       function stringSelector() {
+          $stringSelector = $this->stringBasicSelector() . "{";
+          foreach ($this->arrayDeclaration as &$declaration) {
+             $stringSelector = $stringSelector . $declaration->stringDeclaration();
           }
           unset($declaration);
           $stringSelector = $stringSelector . "}";

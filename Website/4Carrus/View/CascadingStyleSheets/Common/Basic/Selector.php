@@ -8,7 +8,7 @@
        private $stringPseudoClass;
        private $stringPseudoElement;
        private $attribute;
-       private $listDeclaration;
+       private $arrayDeclaration;
 
        private function __construct($stringName, $stringType, $stringClassElement) {
           $this->stringName = $stringName;
@@ -17,7 +17,7 @@
           $this->stringPseudoClass = "";
           $this->stringPseudoElement = "";
           $this->attribute = "";
-          $this->listDeclaration = array();
+          $this->arrayDeclaration = array();
        }
 
        //Constructors
@@ -46,34 +46,34 @@
           return $instance;
        }
 
-       function setStringPseudoElement($stringPseudoElement) {
-          $this->stringPseudoElement = "::" . $stringPseudoElement;
+       function setStringPseudoElementWithString($string) {
+          $this->stringPseudoElement = "::" . $string;
        }
 
-       function setStringPseudoClass($stringPseudoClass) {
-          $this->stringPseudoClass = ":" . $stringPseudoClass;
+       function setStringPseudoClassWithString($string) {
+          $this->stringPseudoClass = ":" . $string;
        }
 
-       function setAttribute($attribute) {
+       function setAttributeWithAttribute($attribute) {
           $this->attribute = $attribute;
        }
 
-       function addDeclaration($declaration) {
-          array_push($this->listDeclaration, $declaration);
+       function addDeclarationWithDeclaration($declaration) {
+          array_push($this->arrayDeclaration, $declaration);
        }
 
        function __toString() {
-          return $this->getStringSelector();
+          return $this->stringSelector();
        }
 
-       function getStringBasicSelector() {
-          return $this->stringClassElement . $this->stringType . $this->stringName . $this->attribute->getStringAttribute() . $this->stringPseudoElement . $this->stringPseudoClass;
+       function stringBasicSelector() {
+          return $this->stringClassElement . $this->stringType . $this->stringName . $this->attribute->stringAttribute() . $this->stringPseudoElement . $this->stringPseudoClass;
        }
 
-       function getStringSelector() {
-          $stringSelector = $this->getStringBasicSelector() . "{";
-          foreach ($this->listDeclaration as &$declaration) {
-             $stringSelector = $stringSelector . $declaration->getStringDeclaration();
+       function stringSelector() {
+          $stringSelector = $this->stringBasicSelector() . "{";
+          foreach ($this->arrayDeclaration as &$declaration) {
+             $stringSelector = $stringSelector . $declaration->stringDeclaration();
           }
           $stringSelector = $stringSelector . "}";
           unset($declaration);

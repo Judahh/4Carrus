@@ -44,9 +44,9 @@
                 $stringSelector = "";
                 foreach ($this->listSelector as &$selectorItem) {
                    if (empty($stringSelector)) {
-                      $stringSelector = $selectorItem->getStringSelector();
+                      $stringSelector = $selectorItem->stringSelector();
                    } else {
-                      $stringSelector = $stringSelector . "," . $selectorItem->getStringSelector();
+                      $stringSelector = $stringSelector . "," . $selectorItem->stringSelector();
                    }
                 }
                 unset($selectorItem);
@@ -56,7 +56,7 @@
              function getStringSelector() {
                 $stringSelector = $this->getStringBasicSelector() . "{";
                 foreach ($this->listDeclaration as &$declaration) {
-                   $stringSelector = $stringSelector . $declaration->getStringDeclaration();
+                   $stringSelector = $stringSelector . $declaration->stringDeclaration();
                 }
                 unset($declaration);
                 $stringSelector = $stringSelector . "}";
@@ -166,13 +166,13 @@
              }
 
              function getStringBasicSelector() {
-                return $this->stringClassElement . $this->stringType . $this->stringName . $this->attribute->getStringAttribute() . $this->stringPseudoElement . $this->stringPseudoClass;
+                return $this->stringClassElement . $this->stringType . $this->stringName . $this->attribute->stringAttribute() . $this->stringPseudoElement . $this->stringPseudoClass;
              }
 
              function getStringSelector() {
                 $stringSelector = $this->getStringBasicSelector() . "{";
                 foreach ($this->listDeclaration as &$declaration) {
-                   $stringSelector = $stringSelector . $declaration->getStringDeclaration();
+                   $stringSelector = $stringSelector . $declaration->stringDeclaration();
                 }
                 $stringSelector = $stringSelector . "}";
                 unset($declaration);
