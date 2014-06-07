@@ -1,11 +1,7 @@
-<languages />
-{{TNT|PD Help Page}}
-<translate>
 <!--T:1-->
-You ''can format'' your text by using wiki markup. This consists of normal characters like asterisks, apostrophes or equal signs which have a special function in the wiki, sometimes depending on their position. For example, to format a word in ''italic'', you include it in two pairs of apostrophes like <code><nowiki>''this''</nowiki></code>.
+You ''can format'' your text by using wiki markup. This consists of normal characters like asterisks, apostrophes or equalï¿½signs which have a special function in the wiki, sometimes depending on their position. For example, to format a word in ''italic'', you include it in two pairs of apostrophes like <code><nowiki>''this''</nowiki></code>.
 
 == Text formatting markup == <!--T:2-->
-</translate>
 {| class="wikitable"
 ! <translate><!--T:3-->
 Description</translate>
@@ -15,7 +11,7 @@ You type</translate>
 You get</translate>
 |-
 ! colspan="3" style="background: #ABE" | <translate><!--T:6-->
-Character (inline) formatting – ''applies anywhere''</translate>
+Character (inline) formatting ï¿½ ''applies anywhere''</translate>
 |-
 | <translate><!--T:7-->
 Italic text</translate>
@@ -77,7 +73,7 @@ extension</translate>
 extension</translate>
 |-
 ! colspan="3" style="background: #ABE" | <translate><!--T:24-->
-Section formatting – ''only at the beginning of the line''</translate>
+Section formatting ï¿½ ''only at the beginning of the line''</translate>
 |-
 | <translate><!--T:25-->
 Headings of different levels</translate> 
@@ -568,7 +564,7 @@ This long sentence is used to demonstrate text wrapping. This additional sentenc
 == Inserting symbols == <!--T:132-->
 
 <!--T:133-->
-Symbols and other special characters not available on your keyboard can be inserted through a special sequence of characters. Those sequences are called HTML entities. For example, the following sequence (entity) '''&amp;rarr;''' when inserted will be shown as <ins>right arrow</ins> HTML symbol &rarr; and '''&amp;mdash;''' when inserted will be shown as an <ins>em dash</ins> HTML symbol &mdash;. </translate>
+Symbols and other special characters not available on your keyboard can be inserted through a special sequence of characters. Those sequences are called HTML entities. For example, the following sequence (entity)ï¿½'''&amp;rarr;''' when inserted will be shown as <ins>right arrow</ins> HTML symbol &rarr; and '''&amp;mdash;''' when inserted will be shown as an <ins>em dash</ins> HTML symbolï¿½&mdash;. </translate>
 ----
 {{note|<translate><!--T:134-->
 Hover over any character to find out the symbol that it produces.  Some symbols not available in the current font will appear as empty squares.</translate>}} 
@@ -895,20 +891,3 @@ But ''not'' &amp; symbol escapes:</translate>
 * &<<nowiki />nowiki />amp; &nbsp;&rarr; &amp;
 <translate><!--T:149-->
 To print &amp; symbol escapes as text, use "<tt>&amp;amp;</tt>" to replace the "&" character (eg. type "<tt>&amp;amp;nbsp;</tt>", which results in "<tt>&amp;nbsp;</tt>").
-
-== Other formatting == <!--T:150--> 
-
-<!--T:151-->
-Beyond the text formatting markup shown hereinbefore, here are some other formatting references:
-
-<!--T:152-->
-* [[<tvar|links>Special:MyLanguage/Help:Links</>|Links]]
-* [[<tvar|lists>Special:MyLanguage/Help:Lists</>|Lists]]
-* [[<tvar|images>Special:MyLanguage/Help:Images</>|Images]]
-* References - see [[<tvar|citephp>Special:MyLanguage/Extension:Cite/Cite.php</>|Extension:Cite/Cite.php]]
-* [[<tvar|tables>Special:MyLanguage/Help:Tables</>|Tables]]
-
-<!--T:153-->
-You can find more references at [[<tvar|help-contents>Special:MyLanguage/Help:Contents</>|Help:Contents]].
-</translate>
-[[Category:Help{{Langcat|Formatting}}|Formatting]]
