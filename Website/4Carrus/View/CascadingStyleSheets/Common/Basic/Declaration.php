@@ -18,11 +18,11 @@
           return $instance;
        }
 
-       function __toString() {
+       public function __toString() {
           return $this->stringDeclaration();
        }
 
-       function stringDeclaration() {
+       public function stringDeclaration() {
           return $this->stringProperty . $this->stringValue . ";";
        }
 

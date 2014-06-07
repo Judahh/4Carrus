@@ -46,31 +46,31 @@
           return $instance;
        }
 
-       function setStringPseudoElementWithString($string) {
+       public function setStringPseudoElementWithString($string) {
           $this->stringPseudoElement = "::" . $string;
        }
 
-       function setStringPseudoClassWithString($string) {
+       public function setStringPseudoClassWithString($string) {
           $this->stringPseudoClass = ":" . $string;
        }
 
-       function setAttributeWithAttribute($attribute) {
+       public function setAttributeWithAttribute($attribute) {
           $this->attribute = $attribute;
        }
 
-       function addDeclarationWithDeclaration($declaration) {
+       public function addDeclarationWithDeclaration($declaration) {
           array_push($this->arrayDeclaration, $declaration);
        }
 
-       function __toString() {
+       public function __toString() {
           return $this->stringSelector();
        }
 
-       function stringBasicSelector() {
+       public function stringBasicSelector() {
           return $this->stringClassElement . $this->stringType . $this->stringName . $this->attribute->stringAttribute() . $this->stringPseudoElement . $this->stringPseudoClass;
        }
 
-       function stringSelector() {
+       public function stringSelector() {
           $stringSelector = $this->stringBasicSelector() . "{";
           foreach ($this->arrayDeclaration as &$declaration) {
              $stringSelector = $stringSelector . $declaration->stringDeclaration();

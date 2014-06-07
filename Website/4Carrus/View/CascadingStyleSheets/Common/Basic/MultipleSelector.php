@@ -24,19 +24,19 @@
           return $instance;
        }
 
-       function addDeclarationWithDeclaration($declaration) {
+       public function addDeclarationWithDeclaration($declaration) {
           array_push($this->arrayDeclaration, $declaration);
        }
 
-       function addSelectorWithSelector($selector) {
+       public function addSelectorWithSelector($selector) {
           array_push($this->arraySelector, $selector);
        }
 
-       function __toString() {
+       public function __toString() {
           return $this->stringSelector();
        }
 
-       function stringBasicSelector() {
+       public function stringBasicSelector() {
           $stringSelector = "";
           foreach ($this->arraySelector as &$selectorItem) {
              if (empty($stringSelector)) {
@@ -49,7 +49,7 @@
           return $stringSelector;
        }
 
-       function stringSelector() {
+       public function stringSelector() {
           $stringSelector = $this->stringBasicSelector() . "{";
           foreach ($this->arrayDeclaration as &$declaration) {
              $stringSelector = $stringSelector . $declaration->stringDeclaration();
