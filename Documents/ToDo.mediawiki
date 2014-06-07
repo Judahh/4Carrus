@@ -1,0 +1,20 @@
+= Todo =
+
+== WebSite ==
+* Usar padrão adotado no css e php do site.
+* Mudar menu para div.
+* Fazer tuplas
+* Fazer pagina de visualização do veículo (Detalhes)
+* Fazer Página de Comparação de Veículos
+* Fazer página de registro (usuário, concessionária, ADM).
+* Fazer página da Concessionaria .
+* Fazer Página da ADM
+* Fazer página para popular o BD (uma especifica para ADM e outra para Concessionaria)
+* Fazer o pesquisar
+
+
+== Database ==
+* Fazer banco geral da empresa a qual possui usuários (pessoas e empresas).
+* Fazer modelo de arquitetura O.O para popular o BD (4Carrus).
+* Validar banco 4 carrus.
+

@@ -1,0 +1,22 @@
+= Regras =
+# Reuniões não podem ser adiadas (a não ser que seja de interesse de TODOS ou nenhum possa aparecer).
+
+# Um assunto decidido em uma reunião (pelos presentes) não pode ser voltado atrás (a não ser que seja de interesse de TODOS).
+
+# A falta numa reunião ou caso não se tenha feito nada da tarefa atribuída ao integrante em questão, este integrante deve informar o motivo pelo qual esta tarefa não pôde ser concluída, e este motivo deve ser analisado, pelo integrantes que cumpriram seus prazos, caso julgado que não houveram motivos sensatos para a não conclusão da tarefa, resultará numa redistribuição de 5% das ações deste entre os outros integrantes que participaram da reunião (inicialmente como são 4, ou seja cada um tem inicialmente 25% das ações). OBS.: reuniões de emergência não se aplicam a esta regra.
+
+# Caso falte parte de uma tarefa ser feita por um integrante e o prazo para o seu término tenha acabado, este integrante deve informar o motivo pelo qual esta tarefa não pôde ser concluída, e este motivo deve ser analisado, pelo integrantes que cumpriram seus prazos, caso julgado que não houveram motivos sensatos para a não conclusão da tarefa, resultará numa redistribuição de 2,5% das ações deste entre os outros integrantes que concluíram suas tarefas.
+
+# Um integrante só poderá/será expulso caso suas ações chegarem a 0%.
+
+# As Ações implicam diretamente no direito/peso de voto.
+
+# O integrante pode fazer o que quiser com suas ações inclusive dá-las para outro integrante ou para outra pessoa que não seja um integrante (se tornando assim um).
+
+# As reuniões devem ser marcadas com 1 semana de antecedência, a não ser que seja uma reunião adiada ou reunião de emergência. 
+
+# Os integrantes devem checar sua caixa de e-mail pelo menos 1x ao dia.
+
+# O Integrante deve responder o e-mail de confirmação de reunião assim que ler, caso não respondido será contado como confirmado (caso o falte apenas 2 dias para a reunião).
+
+# Caso algum e-mail não seja entregue cabe aos outros decidir que atitude deve ser tomada caso leve a uma redistribuição de ações.
