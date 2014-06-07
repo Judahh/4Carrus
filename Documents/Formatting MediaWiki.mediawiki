@@ -3,82 +3,82 @@ You ''can format'' your text by using wiki markup. This consists of normal chara
 
 == Text formatting markup == <!--T:2-->
 {| class="wikitable"
-! <translate><!--T:3-->
-Description</translate>
-! width=40% | <translate><!--T:4-->
-You type</translate>
-! width=40% | <translate><!--T:5-->
-You get</translate>
+! <!--T:3-->
+Description
+! width=40% | <!--T:4-->
+You type
+! width=40% | <!--T:5-->
+You get
 |-
-! colspan="3" style="background: #ABE" | <translate><!--T:6-->
-Character (inline) formatting � ''applies anywhere''</translate>
+! colspan="3" style="background: #ABE" | <!--T:6-->
+Character (inline) formatting � ''applies anywhere''
 |-
-| <translate><!--T:7-->
-Italic text</translate>
+| <!--T:7-->
+Italic text
 | <pre>
-''<translate><!--T:8-->
-italic</translate>''
+''<!--T:8-->
+italic''
 </pre>
 |
-''<translate><!--T:9-->
-italic</translate>''
+''<!--T:9-->
+italic''
 |-
-| <translate><!--T:10-->
-Bold text</translate>
+| <!--T:10-->
+Bold text
 | <pre>
-'''<translate><!--T:11-->
-bold</translate>'''
+'''<!--T:11-->
+bold'''
 </pre>
 |
-'''<translate><!--T:12-->
-bold</translate>'''
+'''<!--T:12-->
+bold'''
 |-
-| <translate><!--T:13-->
-Bold and italic</translate>
+| <!--T:13-->
+Bold and italic
 | <pre>
-'''''<translate><!--T:14-->
-bold & italic</translate>'''''
+'''''<!--T:14-->
+bold & italic'''''
 </pre>
 |
-'''''<translate><!--T:15-->
-bold & italic</translate>'''''
+'''''<!--T:15-->
+bold & italic'''''
 |-
-| <translate><!--T:16-->
-Strike text</translate>
+| <!--T:16-->
+Strike text
 | <pre>
-<strike> <translate><!--T:17-->
-strike text</translate> </strike>
+<strike> <!--T:17-->
+strike text </strike>
 </pre>
-|<strike> <translate><!--T:18-->
-strike text</translate> </strike>
+|<strike> <!--T:18-->
+strike text </strike>
 |-
-| <translate><!--T:19-->
-Escape wiki markup</translate>
+| <!--T:19-->
+Escape wiki markup
 | <pre>
-&lt;nowiki&gt;<translate><!--T:20-->
-no ''markup''</translate>&lt;/nowiki&gt;
-</pre>
-|
-<translate><!--T:155-->
-<nowiki>no ''markup''</nowiki></translate>
-|-
-| <translate><!--T:21-->
-Escape wiki markup once</translate>
-| <pre>
-[[API]]&lt;nowiki/><translate><!--T:22-->
-extension</translate>
+&lt;nowiki&gt;<!--T:20-->
+no ''markup''&lt;/nowiki&gt;
 </pre>
 |
-[[API]]<nowiki/><translate><!--T:23-->
-extension</translate>
+<!--T:155-->
+<nowiki>no ''markup''</nowiki>
 |-
-! colspan="3" style="background: #ABE" | <translate><!--T:24-->
-Section formatting � ''only at the beginning of the line''</translate>
-|-
-| <translate><!--T:25-->
-Headings of different levels</translate> 
+| <!--T:21-->
+Escape wiki markup once
 | <pre>
-<translate>
+[[API]]&lt;nowiki/><!--T:22-->
+extension
+</pre>
+|
+[[API]]<nowiki/><!--T:23-->
+extension
+|-
+! colspan="3" style="background: #ABE" | <!--T:24-->
+Section formatting � ''only at the beginning of the line''
+|-
+| <!--T:25-->
+Headings of different levels 
+| <pre>
+
 == Level 2 == <!--T:26-->
 
 === Level 3 === <!--T:27-->
@@ -88,19 +88,19 @@ Headings of different levels</translate>
 ===== Level 5 ===== <!--T:29-->
 
 ====== Level 6 ====== <!--T:30-->
-</translate>
+
 </pre>
 ----
 {{note|
-* [[Special:MyLanguage/Help_talk:Formatting#Level_1|<translate><!--T:31-->
-Skip Level 1</translate>]], <translate><!--T:32-->
-it is page name level.</translate>
-* <translate><!--T:33-->
-An article with 4 or more headings automatically creates a</translate> [[wikipedia:Wikipedia:Section#Table of contents (TOC)|<translate><!--T:34-->
-table of contents</translate>]].
+* [[Special:MyLanguage/Help_talk:Formatting#Level_1|<!--T:31-->
+Skip Level 1]], <!--T:32-->
+it is page name level.
+* <!--T:33-->
+An article with 4 or more headings automatically creates a [[wikipedia:Wikipedia:Section#Table of contents (TOC)|<!--T:34-->
+table of contents]].
 }}
 |
-<translate>
+
 <!--T:35-->
 <!-- using HTML markup to avoid creating new sections -->
 <h2>Level 2</h2>
@@ -116,29 +116,29 @@ table of contents</translate>]].
 
 <!--T:39-->
 <h6>Level 6</h6>
-</translate>
+
 |-
-| <translate><!--T:40-->
-Horizontal rule</translate>
+| <!--T:40-->
+Horizontal rule
 | <pre>
-<translate><!--T:41-->
-Text before</translate>
+<!--T:41-->
+Text before
 ----
-<translate><!--T:42-->
-Text after</translate>
+<!--T:42-->
+Text after
 </pre>
 |
-<translate><!--T:43-->
-Text before</translate>
+<!--T:43-->
+Text before
 ----
-<translate><!--T:44-->
-Text after</translate>
+<!--T:44-->
+Text after
 |-
-| <translate><!--T:45-->
-Bullet list</translate>
+| <!--T:45-->
+Bullet list
 |
 <pre>
-<translate>
+
 <!--T:46-->
 * Start each line
 * with an [[Wikipedia:asterisk|asterisk]] (*).
@@ -147,10 +147,10 @@ Bullet list</translate>
 * Line breaks <br />don't break levels.
 *** But jumping levels creates empty space.
 Any other start ends the list.
-</translate>
+
 </pre>
 |
-<translate>
+
 <!--T:47-->
 * Start each line
 * with an [[Wikipedia:asterisk|asterisk]] (*).
@@ -159,13 +159,13 @@ Any other start ends the list.
 * Line breaks <br />don't break levels.
 *** But jumping levels creates empty space.
 Any other start ends the list.
-</translate>
+
 |-
-| <translate><!--T:48-->
-Numbered list</translate>
+| <!--T:48-->
+Numbered list
 |
 <pre>
-<translate>
+
 <!--T:49-->
 # Start each line
 # with a [[Wikipedia:Number_sign|number sign]] (#).
@@ -180,10 +180,10 @@ Numbered list</translate>
 # end the list and start another.
 Any other start also
 ends the list.
-</translate>
+
 </pre>
 |
-<translate>
+
 <!--T:51-->
 # Start each line
 # with a [[Wikipedia:Number_sign|number sign]] (#).
@@ -198,56 +198,56 @@ ends the list.
 # end the list and start another.
 Any other start also
 ends the list.
-</translate>
+
 |-
-| <translate><!--T:53-->
-Definition list</translate>
+| <!--T:53-->
+Definition list
 | <pre>
-<translate>
+
 <!--T:54-->
 ;item 1
 : definition 1
 ;item 2
 : definition 2-1
 : definition 2-2
-</translate>
+
 </pre>
 |
-<translate>
+
 <!--T:55-->
 ;item 1
 : definition 1
 ;item 2
 : definition 2-1
 : definition 2-2
-</translate>
+
 |-
-| <translate><!--T:56-->
-Indent text</translate>
+| <!--T:56-->
+Indent text
 | <pre>
-<translate>
+
 <!--T:57-->
 : Single indent
 :: Double indent
 ::::: Multiple indent
-</translate>
+
 </pre>
 ----
-{{Note|<translate><!--T:58-->
-This workaround may harm accessibility.</translate>}}
+{{Note|<!--T:58-->
+This workaround may harm accessibility.}}
 |
-<translate>
+
 <!--T:59-->
 : Single indent
 :: Double indent
 ::::: Multiple indent
-</translate>
+
 |-
-| <translate><!--T:60-->
-Mixture of different types of list</translate>
+| <!--T:60-->
+Mixture of different types of list
 |
 <pre>
-<translate>
+
 <!--T:61-->
 # one
 # two
@@ -265,13 +265,13 @@ Mixture of different types of list</translate>
 ## five sub 1
 ### five sub 1 sub 1
 ## five sub 2
-</translate>
+
 </pre>
 ----
-{{note|<translate><!--T:62-->
-The usage of <code>#:</code> and <code>*:</code> for breaking a line within an item may also harm accessibility.</translate>}}
+{{note|<!--T:62-->
+The usage of <code>#:</code> and <code>*:</code> for breaking a line within an item may also harm accessibility.}}
 |
-<translate>
+
 <!--T:63-->
 # one
 # two
@@ -289,32 +289,32 @@ The usage of <code>#:</code> and <code>*:</code> for breaking a line within an i
 ## five sub 1
 ### five sub 1 sub 1
 ## five sub 2{{anchor|pre}}
-</translate>
+
 |-
-| <translate><!--T:64-->
-Preformatted text</translate>
+| <!--T:64-->
+Preformatted text
 | <pre>
-<translate>
+
  <!--T:65-->
 Start each line with a space.
  Text is '''preformatted''' and
  ''markups'' '''''can''''' be done.
-</translate>
+
 </pre>
 ----
-{{note|<translate><!--T:66-->
-This way of preformatting only applies to section formatting. Character formatting markups are still effective.</translate>}}
+{{note|<!--T:66-->
+This way of preformatting only applies to section formatting. Character formatting markups are still effective.}}
 |
-<translate>
+
  <!--T:67-->
 Start each line with a space.
  Text is '''preformatted''' and
  ''markups'' '''''can''''' be done.
-</translate>
+
 |-
-| <translate><!--T:68-->
-Preformatted text blocks</translate>
-| <pre> <translate><!--T:69-->
+| <!--T:68-->
+Preformatted text blocks
+| <pre> <!--T:69-->
 <nowiki><nowiki>Start with a space in the first column,
 (before the <nowiki>).
 
@@ -332,10 +332,10 @@ def function():
 if True:
         print True
     else:
-        print False</nowiki></nowiki></translate>
+        print False</nowiki></nowiki>
 </pre>
 |
- <translate><!--T:73-->
+ <!--T:73-->
 <nowiki>Start with a space in the first column,
 (before the <nowiki>).
 
@@ -354,9 +354,9 @@ def function():
 if True:
         print True
     else:
-        print False</nowiki></translate>
+        print False</nowiki>
 |}
-<translate>
+
 == Paragraphs == <!--T:78-->
 
 <!--T:79-->
@@ -366,175 +366,175 @@ MediaWiki ignores single line breaks. To start a new paragraph, leave an empty l
 
 <!--T:81-->
 Some [[wikipedia:HTML|HTML]] tags are allowed in MediaWiki, for example <code>&lt;code></code>, <code>&lt;div></code>, <code><nowiki><span></nowiki></code> and <code><nowiki><font></nowiki></code>. These apply anywhere you insert them.
-</translate>
+
 {| class="wikitable"
-! <translate><!--T:82-->
-Description</translate>
-! width=40% | <translate><!--T:83-->
-You type</translate>
-! width=40% | <translate><!--T:84-->
-You get</translate>
+! <!--T:82-->
+Description
+! width=40% | <!--T:83-->
+You type
+! width=40% | <!--T:84-->
+You get
 |-
-| <translate><!--T:85-->
-Inserted <br />(Displays as underline in most browsers)</translate>
+| <!--T:85-->
+Inserted <br />(Displays as underline in most browsers)
 | <pre>
-<ins><translate><!--T:86-->
-Inserted</translate></ins>
+<ins><!--T:86-->
+Inserted</ins>
 
-<translate><!--T:87-->
-or</translate>
+<!--T:87-->
+or
 
-<u><translate><!--T:88-->
-Underline</translate></u>
+<u><!--T:88-->
+Underline</u>
 </pre>
 |
-<ins><translate><!--T:89-->
-Inserted</translate></ins>
+<ins><!--T:89-->
+Inserted</ins>
 
-<translate><!--T:90-->
-or</translate>
+<!--T:90-->
+or
 
-<u><translate><!--T:91-->
-Underline</translate></u>
+<u><!--T:91-->
+Underline</u>
 |-
-| <translate><!--T:92-->
-Deleted <br />(Displays as strikethrough in most browsers)</translate>
+| <!--T:92-->
+Deleted <br />(Displays as strikethrough in most browsers)
 | <pre>
-<s><translate><!--T:93-->
-Struck out</translate></s>
+<s><!--T:93-->
+Struck out</s>
 
-<translate><!--T:94-->
-or</translate>
+<!--T:94-->
+or
 
-<del><translate><!--T:95-->
-Deleted</translate></del>
+<del><!--T:95-->
+Deleted</del>
 
 </pre>
 |
-<s><translate><!--T:96-->
-Struck out</translate></s>
+<s><!--T:96-->
+Struck out</s>
 
-<translate><!--T:97-->
-or</translate>
+<!--T:97-->
+or
 
-<del><translate><!--T:98-->
-Deleted</translate></del>
+<del><!--T:98-->
+Deleted</del>
 |-
-| <translate><!--T:99-->
-Fixed width text</translate>
+| <!--T:99-->
+Fixed width text
 | <pre>
-<code><translate><!--T:100-->
-Source code</translate></code>
+<code><!--T:100-->
+Source code</code>
 
-<translate><!--T:101-->
-or</translate>
+<!--T:101-->
+or
 
 <tt>Fixed width text</tt>
 </pre>
 |
-<code><translate><!--T:154-->
-Source code</translate></code>
+<code><!--T:154-->
+Source code</code>
 
-<translate><!--T:102-->
-or</translate>
+<!--T:102-->
+or
 
-<tt><translate><!--T:103-->
-Fixed width text</translate></tt>
+<tt><!--T:103-->
+Fixed width text</tt>
 |-
-| <translate><!--T:104-->
-Blockquotes</translate>
+| <!--T:104-->
+Blockquotes
 | <pre>
-<translate><!--T:105-->
-Text before</translate>
-<blockquote><translate><!--T:106-->
-Blockquote</translate></blockquote>
-<translate><!--T:107-->
-Text after</translate>
+<!--T:105-->
+Text before
+<blockquote><!--T:106-->
+Blockquote</blockquote>
+<!--T:107-->
+Text after
 </pre>
 |
-<translate><!--T:108-->
-Text before</translate>
-<blockquote><translate><!--T:109-->
-Blockquote</translate></blockquote>
-<translate><!--T:110-->
-Text after</translate>
+<!--T:108-->
+Text before
+<blockquote><!--T:109-->
+Blockquote</blockquote>
+<!--T:110-->
+Text after
 |-
-| <translate><!--T:111-->
-Comment</translate>
-| <pre><translate>
+| <!--T:111-->
+Comment
+| <pre>
 <!--T:112-->
 <!-- This is a comment -->
 Comments are visible only 
 in the edit zone.
-</translate></pre>
+</pre>
 |
-<translate>
+
 <!--T:113-->
 <!-- This is a comment -->
 Comments are visible only 
 in the edit zone.
-</translate>
+
 |-
-| <translate><!--T:114-->
-Completely preformatted text</translate>
+| <!--T:114-->
+Completely preformatted text
 | <pre>
-<pre><translate>
+<pre>
 <!--T:115-->
 Text is '''preformatted''' and 
 ''markups'' '''''cannot''''' be done&lt;/pre>
-</translate></pre>
+</pre>
 ----
-{{note|<translate><!--T:116-->
-For marking up of preformatted text, check the "Preformatted text" entry at the end of the previous table.</translate>}} 
+{{note|<!--T:116-->
+For marking up of preformatted text, check the "Preformatted text" entry at the end of the previous table.}} 
 |
-<pre><translate>
+<pre>
 <!--T:117-->
 Text is '''preformatted''' and 
 ''markups'' '''''cannot''''' be done
-</translate></pre>
+</pre>
 |-
-| <translate><!--T:118-->
-'''Customized''' preformatted text</translate>
+| <!--T:118-->
+'''Customized''' preformatted text
 | <pre>
-<pre style="color: red"><translate>
+<pre style="color: red">
 <!--T:119-->
 Text is '''preformatted''' 
 with a style and 
 ''markups'' '''''cannot''''' be done
 &lt;/pre>
-</translate></pre>
+</pre>
 ----
-{{note|<translate><!--T:120-->
-A CSS style can be named within the <code>style</code> property.</translate>}}
+{{note|<!--T:120-->
+A CSS style can be named within the <code>style</code> property.}}
 |
-<pre style="color: red"><translate>
+<pre style="color: red">
 <!--T:121-->
 Text is '''preformatted''' 
 with a style and 
 ''markups'' '''''cannot''''' be done
-</translate></pre>
+</pre>
 |}
-<translate>
+
 <!--T:122-->
-continued:</translate>
+continued:
 {| class="wikitable"
-! <translate><!--T:123-->
-Description</translate>
-! width=40% | <translate><!--T:124-->
-You type</translate>
-! width=40% | <translate><!--T:125-->
-You get</translate>
+! <!--T:123-->
+Description
+! width=40% | <!--T:124-->
+You type
+! width=40% | <!--T:125-->
+You get
 |-
-| <translate><!--T:126-->
-'''Customized''' preformatted text with text wrap according to available width</translate>
+| <!--T:126-->
+'''Customized''' preformatted text with text wrap according to available width
 | <pre>
 <pre style="white-space: pre-wrap; 
 white-space: -moz-pre-wrap; 
 white-space: -pre-wrap; 
 white-space: -o-pre-wrap; 
 word-wrap: break-word;">
-<translate><!--T:127-->
-This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.</translate>
+<!--T:127-->
+This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.
 &lt;/pre>
 </pre>
 |
@@ -543,31 +543,31 @@ white-space: -moz-pre-wrap;
 white-space: -pre-wrap; 
 white-space: -o-pre-wrap; 
 word-wrap: break-word;">
-<translate><!--T:128-->
-This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.</translate>
+<!--T:128-->
+This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.
 </pre>
 |-
-| <translate><!--T:129-->
-Preformatted text with text wrap according to available width</translate>
+| <!--T:129-->
+Preformatted text with text wrap according to available width
 | <pre>
 <code>
-<translate><!--T:130-->
-This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.</translate>
+<!--T:130-->
+This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.
 </code>
 </pre>
 | <code>
-<translate><!--T:131-->
-This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.</translate>
+<!--T:131-->
+This long sentence is used to demonstrate text wrapping. This additional sentence makes the text even longer.
 </code>
 |}
-<translate>
+
 == Inserting symbols == <!--T:132-->
 
 <!--T:133-->
-Symbols and other special characters not available on your keyboard can be inserted through a special sequence of characters. Those sequences are called HTML entities. For example, the following sequence (entity)�'''&amp;rarr;''' when inserted will be shown as <ins>right arrow</ins> HTML symbol &rarr; and '''&amp;mdash;''' when inserted will be shown as an <ins>em dash</ins> HTML symbol�&mdash;. </translate>
+Symbols and other special characters not available on your keyboard can be inserted through a special sequence of characters. Those sequences are called HTML entities. For example, the following sequence (entity)�'''&amp;rarr;''' when inserted will be shown as <ins>right arrow</ins> HTML symbol &rarr; and '''&amp;mdash;''' when inserted will be shown as an <ins>em dash</ins> HTML symbol�&mdash;. 
 ----
-{{note|<translate><!--T:134-->
-Hover over any character to find out the symbol that it produces.  Some symbols not available in the current font will appear as empty squares.</translate>}} 
+{{note|<!--T:134-->
+Hover over any character to find out the symbol that it produces.  Some symbols not available in the current font will appear as empty squares.}} 
 
 {| class="wikitable" align=center width=100%
 ! colspan=32 | HTML symbol entities
@@ -834,60 +834,60 @@ Hover over any character to find out the symbol that it produces.  Some symbols 
 |}
 
 {| class="wikitable"
-! <translate><!--T:135-->
-Description</translate>
-! width=40% | <translate><!--T:136-->
-You type</translate>
-! width=40% | <translate><!--T:137-->
-You get</translate>
+! <!--T:135-->
+Description
+! width=40% | <!--T:136-->
+You type
+! width=40% | <!--T:137-->
+You get
 |-
-| <translate><!--T:138-->
-Copyright symbol</translate>
+| <!--T:138-->
+Copyright symbol
 | <tt><pre>
 &amp;copy;
 </pre></tt>
 |
 :::'''&copy;'''
 |-
-| <translate><!--T:139-->
-Greek delta letter symbol</translate>
+| <!--T:139-->
+Greek delta letter symbol
 | <tt><pre>
 &amp;delta;
 </pre></tt>
 |
 :::'''&delta;'''
 |-
-| <translate><!--T:140-->
-Euro currency symbol</translate>
+| <!--T:140-->
+Euro currency symbol
 | <tt><pre>
 &amp;euro;
 </pre></tt>
 |
 :::'''&euro;'''
 |}
-<translate>
+
 <!--T:141-->
 See the list of all HTML entities on the Wikipedia article [[wikipedia:List of HTML entities|List of HTML entities]]. Additionally, MediaWiki supports two non-standard entity reference sequences: <code>&amp;???;</code> and <code>&amp;???;</code> which are both considered equivalent to <code>&amp;rlm;</code> which is a [[wikipedia:Right-to-left mark|right-to-left mark]]. (Used when combining right to left languages with left to right languages in the same page.)
 
 == HTML tags and symbol entities displayed themselves (with and without interpreting them) == <!--T:142-->
-</translate>
+
 :<tt>&amp;amp;euro;</tt> &nbsp;&rarr; '''&amp;euro;'''
 
-:<tt>&lt;span style="color: red; text-decoration: line-through;"><translate><!--T:143-->
-Typo to be corrected</translate>&lt;/span></tt> &nbsp;&rarr; '''<span style="color: red; text-decoration: line-through;"><translate><!--T:144-->
-Typo to be corrected</translate></span>'''
+:<tt>&lt;span style="color: red; text-decoration: line-through;"><!--T:143-->
+Typo to be corrected&lt;/span></tt> &nbsp;&rarr; '''<span style="color: red; text-decoration: line-through;"><!--T:144-->
+Typo to be corrected</span>'''
 
-:<tt><translate><!--T:156-->
-<nowiki>&amp;lt;span style="color: red; text-decoration: line-through;">Typo to be corrected</span></nowiki></translate></tt> &nbsp;&rarr; '''&lt;span style="color: red; text-decoration: line-through;"><translate><!--T:145-->
-Typo to be corrected</translate>&lt;/span>'''
-<translate>
+:<tt><!--T:156-->
+<nowiki>&amp;lt;span style="color: red; text-decoration: line-through;">Typo to be corrected</span></nowiki></tt> &nbsp;&rarr; '''&lt;span style="color: red; text-decoration: line-through;"><!--T:145-->
+Typo to be corrected&lt;/span>'''
+
 === Nowiki for HTML === <!--T:146-->
-</translate>
-<<nowiki />nowiki /> <translate><!--T:147-->
-can prohibit (HTML) tags:</translate>
+
+<<nowiki />nowiki /> <!--T:147-->
+can prohibit (HTML) tags:
 * <nowiki><<</nowiki>nowiki />pre> &nbsp;&rarr; <<nowiki/>pre>
-<translate><!--T:148-->
-But ''not'' &amp; symbol escapes:</translate>
+<!--T:148-->
+But ''not'' &amp; symbol escapes:
 * &<<nowiki />nowiki />amp; &nbsp;&rarr; &amp;
-<translate><!--T:149-->
+<!--T:149-->
 To print &amp; symbol escapes as text, use "<tt>&amp;amp;</tt>" to replace the "&" character (eg. type "<tt>&amp;amp;nbsp;</tt>", which results in "<tt>&amp;nbsp;</tt>").
