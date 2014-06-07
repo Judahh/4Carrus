@@ -1,0 +1,43 @@
+= Futuras Ideias =
+
+== Sistema Oficinas Mecânicas ==
+* Controle de serviços.
+* Controle de estoque.
+* Fluxo de caixa.
+* Agenda.
+* Notificações (ex: mudança de status...).
+* Status.
+* Histórico do carro.
+* Promoções.
+
+
+== Sistema para as Revendedoras de Automóveis ==
+* Controle de serviços.
+* Controle de estoque.
+* Fluxo de caixa.
+* Agenda.
+* Notificações (ex: mudança de status...).
+* Status.
+* Histórico do carro.
+* Promoções.
+
+== Sistema de Locação de Veículos ==
+* Controle do aluguel.
+* Status do veículo.
+* Estoque de veículos.
+* Fluxo de caixa.
+* Promoções
+
+== Meu Diário (Nome Provisório) ==
+* Histórico da vida do carro.
+* Media do consumo mensal e anual de combustível.
+* Dicas.
+* Localizar o carro (ex: no estacionamento).
+* Revisões (ex: acompanhar a KM para saber quando chegará a próxima revisão).
+* Chamar taxi.
+* Chamar reboque (ex: Fechar contrato com empresa para oferecer melhores condições para os usuários).
+* Promoções.
+
+== FREEDOM (antigo RTPHONE) ==
+
+
