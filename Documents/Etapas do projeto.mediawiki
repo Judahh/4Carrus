@@ -1,0 +1,38 @@
+﻿= Etapas do projeto =
+
+== Descrição ==
+
+=== 1ª Etapa ===
+* Definição e Criação do Baco de Dados.
+* Versão beta da interface do site.
+* Definição do banco de dados do 1º aplicativo.
+
+Data de entrega: 28/02/2014
+
+=== 2ª Etapa ===
+* Interface final do site.
+* 1ª versão funcional do site (tanto para clientes como para concessionárias).
+* Versão beta da interface do 1º aplicativo.
+* Versão beta da interface de criação de veículos.
+* Criação do Baco de Dados do 1º aplicativo.
+
+Data de entrega: 30/04/2014
+
+=== 3ª Etapa ===
+* 2ª versão funcional do site (funcional também para administradores).
+* Versão final da interface do 1º aplicativo.
+* Versão final da interface de criação de veículos.
+
+Data de entrega: 31/05/2014
+
+=== 4ª Etapa ===
+* Versão beta do site.
+* Versão beta 1º aplicativo
+* Testes e correções.
+
+Data de entrega: 30/06/2014
+
+=== 5ª Etapa ===
+* Venda do sistema para as revendedoras de carros.
+* Criação de outros aplicativos.
+

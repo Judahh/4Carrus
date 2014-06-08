@@ -1,0 +1,101 @@
+﻿= Definições =
+
+== Ideia ==
+* Um sistema de vendas de veículos.
+* Inicialmente direcionado a carros de concessionárias.
+* Possuirá diversos aplicativos para se sobressair da concorrência.
+* Para impedir fraudes, concessionárias poderão apenas criar instancias de veículos já existentes. Acelerando a criação de anúncios, impedindo falsas características e tornando a busca mais exata.
+* Diferentemente de outros sites de venda de veículos este permitirá uma busca mais genérica e com mais filtros, como buscar carros sedan médios e veículos com mais 150 cavalos.
+* Como os carros já serão cadastrados por nós, com exceção de adicionais que serão das instancias criadas por concessionarias será disponibilizado também como um banco de dados, para amantes de carros onde mostrará suas características cadastradas por nós e um pouco de sua história que pode ser feita por usuários ou wikipedia ou mesmo ambos.
+
+=== Design ===
+
+==== Desktop ====
+[[File:Images/Overview.png]]
+
+[[File:Images/A.png]]
+
+[[File:Images/B.png]]
+
+[[File:Images/C.png]]
+
+[[File:Images/D.png]]
+
+[[File:Images/E.png]]
+
+[[File:Images/F.png]]
+
+[[File:Images/G.png]]
+
+[[File:Images/H.png]]
+
+==== Mobile ====
+[[File:Images/I.png]]
+
+[[File:Images/J.png]]	[[File:Images/K.png]]
+
+[[File:Images/L.png]]	[[File:Images/M.png]]
+
+[[File:Images/N.png]]	[[File:Images/O.png]]
+
+[[File:Images/P.png]]	[[File:Images/Q.png]]
+
+[[File:Images/R.png]]
+
+=== Database ===
+
+==== Blue Lion (Global) ====
+Neste banco armazena-se informações gerais que facilmente seriam usadas por outros sistemas como:
+
+* Nome completo
+* CPF/CNPJ
+* RG
+* Informações de integração (Facebook, email, etc..).
+* Sexo.
+* Área da empresa.
+* Empregados (chave estrageira).
+* Cargo na empresa.
+* Etc..
+
+===== Repesentação Orientada a Objeto =====
+[[File:Images/S.png]]
+
+====== Exemplos ======
+
+===== Repesentação Relacional =====
+
+====== Exemplos ======
+
+==== 4Carrus ====
+Neste banco armazena-se informações específicas que dificilmente seriam usadas por outros sistemas como:
+
+* Veículos
+* Informações de veículos
+* Etc...
+
+===== Repesentação Orientada a Objeto =====
+[[File:Images/T.png]]
+
+OBS.: 
+* Car extends Vehicle
+* CarInstance extends VehicleInstance
+* Motorcycle extends Vehicle
+* Motorcycle Instance extends VehicleInstance
+* Etc...
+
+====== Exemplos ======
+
+===== Repesentação Relacional =====
+
+====== Exemplos ======
+
+=== Applications ===
+==== Gas Station ====
+* Armazena os preços de combustíveis e os tipos de combustível de cada posto;
+* Calcular qual combustível tem mais vantagens econômicas para o usuário;
+* Localizador de postos de combustíveis;
+* Confiabilidade dos postos de combustíveis, distribuidoras e dos combustíveis (Medida através de estrelinhas pelos próprios usuários);
+* Produtos e serviços;
+* Promoções;
+
+==== Database ==== 
