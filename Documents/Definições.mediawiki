@@ -11,7 +11,7 @@
 === Design ===
 
 ==== Desktop ====
-[[File:Images/Overview.png]]
+[[File:Images/OverView.png]]
 
 [[File:Images/A.png]]
 
@@ -32,13 +32,13 @@
 ==== Mobile ====
 [[File:Images/I.png]]
 
-[[File:Images/J.png]]	[[File:Images/K.png]]
+[[File:Images/J.png]] [[File:Images/K.png]]
 
-[[File:Images/L.png]]	[[File:Images/M.png]]
+[[File:Images/L.png]] [[File:Images/M.png]]
 
-[[File:Images/N.png]]	[[File:Images/O.png]]
+[[File:Images/N.png]] [[File:Images/O.png]]
 
-[[File:Images/P.png]]	[[File:Images/Q.png]]
+[[File:Images/P.png]] [[File:Images/Q.png]]
 
 [[File:Images/R.png]]
 
