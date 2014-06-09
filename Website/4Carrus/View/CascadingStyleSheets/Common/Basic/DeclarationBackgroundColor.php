@@ -11,13 +11,13 @@
  *
  * @author Judah
  */
-    class DeclarationColor extends Declaration {
+    class DeclarationBackgroundColor extends Declaration {
 
         //Constructor
         //   instantiation: 
         //      $declaration = DeclarationColor::DeclarationWithStringHexColorValue($stringHexColorValue);
         public static function DeclarationWithStringHexColorValue($stringHexColorValue) {
-            $instance = new parent("color", ":" . $stringHexColorValue); //arrumar
+            $instance = new parent("background-color", ":" . $stringHexColorValue); //arrumar
             return $instance;
         }
 

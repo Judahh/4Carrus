@@ -20,6 +20,8 @@
           $this->arrayDeclaration = array();
        }
 
+       // ver attribute
+       
        //Constructors
        //   instantiation: 
        //      $selector = Selector::SelectorWithStringName($stringName);
