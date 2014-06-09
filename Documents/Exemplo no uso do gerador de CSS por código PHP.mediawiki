@@ -1,4 +1,4 @@
-﻿= Exemplo no uso do gerador de CSS por código PHP =
+= Exemplo no uso do gerador de CSS por código PHP =
 
 == Observações ==
 * Nestes exemplos para facilitar o teste não é necessário import’s nem import’s foram usados.
