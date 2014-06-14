@@ -31,21 +31,24 @@
 == Data 11/05/2014 ==
 
 === Tarciso ===
-* Corrigir o Banco:  inicio: 14/05  fim: pr�xima reuni�o
+* Corrigir o Banco 4Carrus:  inicio: ???
+fim: pr�xima reuni�o
 
 === Judah ===
-* Modificar os padr�es:  inicio: ???  fim: pr�xima reuni�o
-
+* Continuar:  inicio: ???  fim: pr�xima reuni�o
 
 === Silvio ===
-* Validar o Banco DatabaseBlueLionGeneral: inicio: ???  fim: pr�xima reuni�o (op)
+* Corrigir o Banco DatabaseBlueLionGeneral: inicio: ???  fim: pr�xima reuni�o 
 
 === Presentes ===
-
+* Judah
+* Silvio
+* Tarciso
 === Pr�xima Reuni�o ===
-
+---Definir na maratona
 ==== Data ====
 * Dia: 13/06
 * Hor�rio: 19:00
 ==== Local ====
 * Endereco: Coc�, Rua Bento Albuquerque, n� 1300 ap: 202.
+
