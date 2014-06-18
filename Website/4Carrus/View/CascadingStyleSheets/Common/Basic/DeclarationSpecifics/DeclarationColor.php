@@ -21,6 +21,7 @@
             return $instance;
         }
 
+        //todo constructo with int
     }
 
 ?>

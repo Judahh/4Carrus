@@ -21,35 +21,35 @@
             return $instance;
         }
         
-        public function stringValueStretch() {
+        public static function stringValueStretch() {
             return "stretch";
         }
         
-        public function stringValueCenter() {
+        public static function stringValueCenter() {
             return "center";
         }
         
-        public function stringValueFlexStart() {
+        public static function stringValueFlexStart() {
             return "flex-start";
         }
         
-        public function stringValueFlexEnd() {
+        public static function stringValueFlexEnd() {
             return "flex-end";
         }
         
-        public function stringValueSpaceBetween() {
+        public static function stringValueSpaceBetween() {
             return "space-between";
         }
         
-        public function stringValueSpaceAround() {
+        public static function stringValueSpaceAround() {
             return "space-around";
         }
         
-        public function stringValueInitial() {
+        public static function stringValueInitial() {
             return "initial";
         }
         
-        public function stringValueInherit() {
+        public static function stringValueInherit() {
             return "inherit";
         }
         
