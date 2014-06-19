@@ -25,7 +25,6 @@
        public function stringDeclaration() {
           return $this->stringProperty . $this->stringValue . ";";
        }
-
     }
 
 ?>
