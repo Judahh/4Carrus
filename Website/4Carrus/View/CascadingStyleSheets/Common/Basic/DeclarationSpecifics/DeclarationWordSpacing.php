@@ -10,7 +10,7 @@
 //   instantiation: 
 //      $declaration = DeclarationWordSpacing::DeclarationWordSpacingWithStringValue($stringValue);
 
-class WordSpacing extends Declaration{
+class DeclarationWordSpacing extends Declaration{
      public static function DeclarationWordSpacingWithStringValue($stringValue) {
             $instance = new parent("word-spacing", ":" . $stringValue); //arrumar
             return $instance;
