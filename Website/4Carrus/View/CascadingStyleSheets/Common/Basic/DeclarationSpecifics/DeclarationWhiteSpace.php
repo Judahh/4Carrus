@@ -11,7 +11,7 @@
 class DeclarationWhiteSpace extends Declaration {
 
     public static function DeclarationWhiteSpaceWithStringValue($stringValue) {
-        $instance = new parent("white-space", ":" . $stringValue); //arrumar
+        $instance = new parent("white-space". $stringValue);
         return $instance;
     }
 

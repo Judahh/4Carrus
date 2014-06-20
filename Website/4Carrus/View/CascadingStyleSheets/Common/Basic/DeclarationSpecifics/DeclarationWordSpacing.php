@@ -5,6 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationWordSpacing::DeclarationWordSpacingWithStringValue($stringValue);
@@ -12,7 +13,7 @@
 class DeclarationWordSpacing extends Declaration {
 
     public static function DeclarationWordSpacingWithStringValue($stringValue) {
-        $instance = new parent("word-spacing", ":" . $stringValue); //arrumar
+        $instance = new parent("word-spacing" . $stringValue); //arrumar
         return $instance;
     }
 

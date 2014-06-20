@@ -10,7 +10,7 @@
 //      $declaration = DeclarationWordBreak::DeclarationWordBreakWithStringValue($stringValue);
 class DeclarationWordBreak extends Declaration{
     public static function DeclarationWordSpacingWithStringValue($stringValue) {
-        $instance = new parent("word-break", ":" . $stringValue); //arrumar
+        $instance = new parent("word-break". $stringValue);
         return $instance;
     }
 
