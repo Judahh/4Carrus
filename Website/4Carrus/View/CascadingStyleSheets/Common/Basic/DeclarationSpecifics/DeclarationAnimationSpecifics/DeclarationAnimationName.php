@@ -11,22 +11,22 @@
  *
  * @author Judah
  */
-class DeclarationAnimationIterationCount extends DeclarationAnimation {
+class DeclarationAnimationName extends DeclarationAnimation {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationAnimationIterationCountWithStringValue($stringValue) {
-        $instance = new parent("animation-iteration-count", $stringValue);
+    public static function DeclarationAnimationNameWithStringValue($stringValue) {
+        $instance = new parent("animation-name", $stringValue);
         return $instance;
     }
     
-    public static function DeclarationAnimationIterationCountWithIntValue($intValue) {
-        $instance = new parent("animation-iteration-count", $intValue);
+    public static function DeclarationAnimationNameWithStringKeyframe($stringKeyframe) {
+        $instance = new parent("animation-name", $stringKeyframe);
         return $instance;
     }
     
-    public static function stringValueInfinite() {
-        return "infinite";
+    public static function stringValueNone() {
+        return "none";
     }
 }
 

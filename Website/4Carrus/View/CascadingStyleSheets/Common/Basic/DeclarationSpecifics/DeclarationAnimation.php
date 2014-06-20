@@ -17,12 +17,12 @@ class DeclarationAnimation extends Declaration {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationAnimationWithStringDurationWithStringKeyframeWithStringloop($stringDuration, $stringKeyframe, $stringLoop) {
-        $instance = new parent("animation", $stringKeyframe . " " . $stringDuration . " " . $stringLoop); //arrumar
+        $instance = new parent("animation", $stringKeyframe . " " . $stringDuration . " " . $stringLoop);
         return $instance;
     }
     
     public static function DeclarationAnimationWithIntDurationSecondsWithStringKeyframeWithStringloop($intDurationSeconds, $stringKeyframe, $stringLoop) {
-        $instance = new parent("animation", $stringKeyframe . " " . $intDurationSeconds . "s " . $stringLoop); //arrumar
+        $instance = new parent("animation", $stringKeyframe . " " . $intDurationSeconds . "s " . $stringLoop);
         return $instance;
     }
 
