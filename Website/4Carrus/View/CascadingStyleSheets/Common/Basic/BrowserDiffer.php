@@ -19,6 +19,7 @@ class BrowserDiffer {
     private function __construct() {
         array_push($this->arrayStringBrowserPrefix, "");
         array_push($this->arrayStringBrowserPrefix, "-o-");
+        array_push($this->arrayStringBrowserPrefix, "-ms-");
         array_push($this->arrayStringBrowserPrefix, "-moz-");
         array_push($this->arrayStringBrowserPrefix, "-webkit-");
     }
