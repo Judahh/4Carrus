@@ -5,6 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationVerticaAlign::DeclarationVerticaAlignWithStringValue($stringValue);
@@ -15,38 +16,18 @@ class DeclarationVerticaAlign extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationWordSpacingWithStringValue($stringValue) {
-        $instance = new parent("vertical-align" . $stringValue);
+    public static function DeclarationVerticaAlignPercentWithFloatPercentValue($FloatPercentValue) {
+        $instance = new parent("vertical-align", $FloatPercentValue . "%");
         return $instance;
     }
 
-    public static function DeclarationWordSpacingWithStringPercentValue($stringPercentValue) {
-        $instance = new parent("vertical-align" . $stringValue . "%");
+    public static function DeclarationVerticaAlignWithFloatPixelValue($FloatPixelValue) {
+        $instance = new parent("vertical-align", $FloatPixelValue . "px");
         return $instance;
     }
 
-    public static function DeclarationWordSpacingPercentWithIntPercentValue($intPercentValue) {
-        $instance = new parent("vertical-align" . $intPercentValue . "%");
-        return $instance;
-    }
-
-    public static function DeclarationWordSpacingWithStringPixelValue($stringPixelValue) {
-        $instance = new parent("vertical-align", ":" . $stringPixelValue . "px");
-        return $instance;
-    }
-
-    public static function DeclarationWordSpacingWithIntPixelValue($intPixelValue) {
-        $instance = new parent("vertical-align", ":" . $intPixelValue . "px");
-        return $instance;
-    }
-
-    public static function DeclarationWordSpacingWithStringCentimeterValue($stringCentimeterValue) {
-        $instance = new parent("vertical-align", ":" . $stringCentimeterValue . "cm");
-        return $instance;
-    }
-
-    public static function DeclarationWordSpacingWithIntCentimeterValue($intCentimeterValue) {
-        $instance = new parent("vertical-align", ":" . $intCentimeterValue . "cm");
+    public static function DeclarationVerticaAlignWithFloatCentimeterValue($FloatCentimeterValue) {
+        $instance = new parent("vertical-align", $FloatCentimeterValue . "cm");
         return $instance;
     }
 

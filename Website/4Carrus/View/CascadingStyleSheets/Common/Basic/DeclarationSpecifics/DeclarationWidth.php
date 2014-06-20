@@ -11,41 +11,25 @@
 //      $declaration = DeclarationWidth::DeclarationWidthWithStringValue($stringValue);
 class DeclarationWidth extends Declaration {
 
-    public static function DeclarationWordSpacingWithStringValue($stringValue) {
-        $instance = new parent("word-break", $stringValue);
+    public static function DeclarationWidthWithStringValue($stringValue) {
+        $instance = new parent("width", $stringValue);
         return $instance;
     }
     
-    public static function DeclarationWordSpacingWithStringPercentValue($stringPercentValue) {
-        $instance = new parent("word-break". $stringValue."%");
+    public static function DeclarationWidthPercentWithFloatPercentValue($floatPercentValue) {
+        $instance = new parent("width". $floatPercentValue."%");
         return $instance;
     }
     
-    public static function DeclarationWordSpacingPercentWithIntPercentValue($intPercentValue) {
-        $instance = new parent("word-break". $intPercentValue."%");
+    public static function DeclarationWidthWithFloatPixelValue($FloatPixelValue) {
+        $instance = new parent("width". $FloatPixelValue."px");
         return $instance;
     }
     
-    public static function DeclarationWordSpacingWithStringPixelValue($stringPixelValue) {
-        $instance = new parent("word-break". $stringPixelValue."px");
+    public static function DeclarationWidthFloatCentimeterValue($FloatCentimeterValue) {
+        $instance = new parent("width". $FloatCentimeterValue."cm");
         return $instance;
     }
-    
-    public static function DeclarationWordSpacingWithIntPixelValue($intPixelValue) {
-        $instance = new parent("word-break". $intPixelValue."px");
-        return $instance;
-    }
-    
-    public static function DeclarationWordSpacingWithStringCentimeterValue($stringCentimeterValue) {
-        $instance = new parent("word-break". $stringCentimeterValue."cm");
-        return $instance;
-    }
-    
-    public static function DeclarationWordSpacingWithIntCentimeterValue($intCentimeterValue) {
-        $instance = new parent("word-break". $intCentimeterValue."cm");
-        return $instance;
-    }
-
 
     public static function stringValueAuto() {
         return "auto";

@@ -8,7 +8,7 @@
 
 //Constructor
 //   instantiation: 
-//      $declaration = DeclarationUnicodeBidi::DeclarationUnicodeBidiWithStringValue($stringValue);
+//      $declaration = DeclarationUnicodeBidirectional::DeclarationUnicodeBidirectionalWithStringValue($stringValue);
 class DeclarationUnicodeBidirectional extends Declaration{
     public static function DeclarationUnicodeBidirectionalWithStringValue($stringValue) {
         $instance = new parent("unicode-bidi", $stringValue);
