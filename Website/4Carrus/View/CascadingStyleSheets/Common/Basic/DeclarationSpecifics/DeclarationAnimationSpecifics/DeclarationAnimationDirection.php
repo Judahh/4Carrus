@@ -17,7 +17,7 @@ class DeclarationAnimationDirection extends DeclarationAnimation {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationAnimationDirectionWithStringValue($stringValue) {
-        $instance = new parent("animation", ":" .  $stringValue); //arrumar
+        $instance = new parent("animation-direction", ":" .  $stringValue); //arrumar
         return $instance;
     }
     

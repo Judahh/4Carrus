@@ -17,17 +17,22 @@ class DeclarationAnimationDelay extends DeclarationAnimation {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationAnimationDelayWithStringDuration($stringDuration) {
-        $instance = new parent("animation", ":" . $stringDuration); //arrumar
+        $instance = new parent("animation-delay", ":" . $stringDuration); //arrumar
         return $instance;
     }
 
     public static function DeclarationAnimationDelayWithIntDurationSeconds($intDurationSeconds) {
-        $instance = new parent("animation", ":" .  $intDurationSeconds . "s"); //arrumar
+        $instance = new parent("animation-delay", ":" .  $intDurationSeconds . "s"); //arrumar
+        return $instance;
+    }
+    
+    public static function DeclarationAnimationDelayWithIntDurationMiliseconds($intDurationMiliseconds) {
+        $instance = new parent("animation-delay", ":" .  $intDurationMiliseconds . "s"); //arrumar
         return $instance;
     }
     
     public static function DeclarationAnimationDelayWithStringValue($stringValue) {
-        $instance = new parent("animation", ":" .  $stringValue); //arrumar
+        $instance = new parent("animation-delay", ":" .  $stringValue); //arrumar
         return $instance;
     }
 }
