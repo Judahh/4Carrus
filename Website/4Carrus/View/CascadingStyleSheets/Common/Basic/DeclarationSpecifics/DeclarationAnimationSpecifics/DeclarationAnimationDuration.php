@@ -21,13 +21,13 @@ class DeclarationAnimationDuration extends DeclarationAnimation {
         return $instance;
     }
 
-    public static function DeclarationAnimationDurationWithIntDurationSeconds($intDurationSeconds) {
-        $instance = new parent("animation-duration", $intDurationSeconds . "s"); //arrumar
+    public static function DeclarationAnimationDurationWithIntDurationSeconds($floatDurationSeconds) {
+        $instance = new parent("animation-duration", $floatDurationSeconds . "s"); //arrumar
         return $instance;
     }
     
-    public static function DeclarationAnimationDurationWithIntDurationMiliSeconds($intDurationMiliseconds) {
-        $instance = new parent("animation-duration", $intDurationMiliseconds . "s"); //arrumar
+    public static function DeclarationAnimationDurationWithIntDurationMiliSeconds($floatDurationMiliseconds) {
+        $instance = new parent("animation-duration", $floatDurationMiliseconds . "ms"); //arrumar
         return $instance;
     }
     

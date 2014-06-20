@@ -16,13 +16,17 @@ class DeclarationAnimation extends Declaration {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationAnimationWithStringDurationWithStringKeyframeWithStringloop($stringDuration, $stringKeyframe, $stringLoop) {
-        $instance = new parent("animation", $stringKeyframe . " " . $stringDuration . " " . $stringLoop);
-        return $instance;
-    }
-    
-    public static function DeclarationAnimationWithIntDurationSecondsWithStringKeyframeWithStringloop($intDurationSeconds, $stringKeyframe, $stringLoop) {
-        $instance = new parent("animation", $stringKeyframe . " " . $intDurationSeconds . "s " . $stringLoop);
+
+    public static function
+    DeclarationAnimationWithAnimationValue($animationValue) {
+        $stringFullValue = "";
+        $arrayAnimationValue = $animationValue->getArrayAnimationValue();
+        $count = count($arrayAnimationValue);
+        for ($index = 0; $index < $count - 1; $index++) {
+            $stringFullValue = $stringFullValue . $arrayAnimationValue[$index] . " ";
+        }
+        $stringFullValue = $stringFullValue . $arrayAnimationValue[$count-1];
+        $instance = new parent("animation", $stringFullValue);
         return $instance;
     }
 
@@ -32,10 +36,6 @@ class DeclarationAnimation extends Declaration {
 
     public static function stringValueInherit() {
         return "inherit";
-    }
-
-    public static function stringLoopInfinite() {
-        return "infinite";
     }
 
     public function stringDeclaration() {

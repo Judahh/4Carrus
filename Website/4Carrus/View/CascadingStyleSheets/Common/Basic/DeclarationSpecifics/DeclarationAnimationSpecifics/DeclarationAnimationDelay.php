@@ -21,13 +21,13 @@ class DeclarationAnimationDelay extends DeclarationAnimation {
         return $instance;
     }
 
-    public static function DeclarationAnimationDelayWithIntDurationSeconds($intDurationSeconds) {
-        $instance = new parent("animation-delay", $intDurationSeconds . "s"); //arrumar
+    public static function DeclarationAnimationDelayWithIntDurationSeconds($floatDurationSeconds) {
+        $instance = new parent("animation-delay", $floatDurationSeconds . "s"); //arrumar
         return $instance;
     }
     
-    public static function DeclarationAnimationDelayWithIntDurationMiliseconds($intDurationMiliseconds) {
-        $instance = new parent("animation-delay", $intDurationMiliseconds . "s"); //arrumar
+    public static function DeclarationAnimationDelayWithIntDurationMiliseconds($floatDurationMiliseconds) {
+        $instance = new parent("animation-delay", $floatDurationMiliseconds . "ms"); //arrumar
         return $instance;
     }
     
