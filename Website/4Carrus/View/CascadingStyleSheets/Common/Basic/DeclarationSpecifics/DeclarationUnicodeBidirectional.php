@@ -1,7 +1,7 @@
 <?php
 
 /**
- * DeclarationUnicodeBidi [TIPO]
+ * DeclarationUnicodeBidirectional [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */

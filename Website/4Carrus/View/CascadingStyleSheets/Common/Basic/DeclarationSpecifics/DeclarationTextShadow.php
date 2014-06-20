@@ -1,7 +1,7 @@
 <?php
 
 /**
- * DeclarationUnicodeBidi [TIPO]
+ * DeclarationTextShadow [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
@@ -9,9 +9,8 @@
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextShadow::DeclarationTextShadowWithStringValue($stringValue);
-
 class DeclarationTextShadow extends Declaration{
-    public static function DeclarationTextShadowformWithStringValue($stringValue) {
+    public static function DeclarationTextShadowWithStringValue($stringValue) {
         $instance = new parent("text-shadow", $stringValue);
         return $instance;
     }

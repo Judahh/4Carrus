@@ -10,24 +10,28 @@
 //   instantiation: 
 //      $declaration = DeclarationWidth::DeclarationWidthWithStringValue($stringValue);
 class DeclarationWidth extends Declaration {
-
     public static function DeclarationWidthWithStringValue($stringValue) {
         $instance = new parent("width", $stringValue);
         return $instance;
     }
     
-    public static function DeclarationWidthPercentWithFloatPercentValue($floatPercentValue) {
-        $instance = new parent("width". $floatPercentValue."%");
+    public static function DeclarationWidthWithFloatPercentValue($floatPercentValue) {
+        $instance = new parent("width", $floatPercentValue."%");
         return $instance;
     }
     
     public static function DeclarationWidthWithFloatPixelValue($FloatPixelValue) {
-        $instance = new parent("width". $FloatPixelValue."px");
+        $instance = new parent("width", $FloatPixelValue."px");
         return $instance;
     }
     
-    public static function DeclarationWidthFloatCentimeterValue($FloatCentimeterValue) {
-        $instance = new parent("width". $FloatCentimeterValue."cm");
+    public static function DeclarationWidthWithFloatCentimeterValue($FloatCentimeterValue) {
+        $instance = new parent("width", $FloatCentimeterValue."cm");
+        return $instance;
+    }
+    
+    public static function DeclarationWidthWithFloatPointValue($floatPointValue) {
+        $instance = new parent("width", $floatPointValue."pt");
         return $instance;
     }
 

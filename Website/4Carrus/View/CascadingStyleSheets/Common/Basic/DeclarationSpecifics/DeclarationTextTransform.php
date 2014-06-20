@@ -1,7 +1,7 @@
 <?php
 
 /**
- * DeclarationUnicodeBidi [TIPO]
+ * DeclarationTextTransform [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
@@ -10,7 +10,6 @@
 //   instantiation: 
 //      $declaration = DeclarationTextTransform::DeclarationTextTransformWithStringValue($stringValue);
 class DeclarationTextTransform extends Declaration {
-
     public static function DeclarationTextTransformWithStringValue($stringValue) {
         $instance = new parent("text-transform", $stringValue);
         return $instance;

@@ -1,10 +1,11 @@
 <?php
 
 /**
- * DeclarationVerticaAlign [TIPO]
+ * DeclarationTop [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTop::DeclarationTopWithStringValue($stringValue);
