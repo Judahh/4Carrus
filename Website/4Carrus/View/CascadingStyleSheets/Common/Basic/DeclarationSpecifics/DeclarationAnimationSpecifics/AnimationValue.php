@@ -12,10 +12,13 @@
  * @author Judah
  */
 class AnimationValue {
+
     private $arrayAnimationValue;
-    
-    private function __construct() {}
-    
+
+    private function __construct() {
+        
+    }
+
     public static function
     AnimationValueWithStringKeyframeValueWithStringDurationValueWithStringTimingFunctionValueWithStringDelayValueWithStringIterationCountValueWithStringDirectionValueWithStringFillModeValueWithStringPlayStateValue
     ($stringKeyframeValue, $stringDurationValue, $stringTimingFunctionValue, $stringDelayValue, $stringIterationCountValue, $stringDirectionValue, $stringFillModeValue, $stringPlayStateValue) {
@@ -30,21 +33,22 @@ class AnimationValue {
         array_push($this->arrayAnimationName, $stringPlayStateValue);
         return $instance;
     }
-    
+
     public static function AnimationValue() {
         $instance = new self();
         return $instance;
     }
-    
+
     public static function getArrayAnimationValue() {
         return $this->arrayAnimationValue;
     }
-    
+
     public function addStringValueWithStringValue($stringValue) {
-          array_push($this->arrayAnimationValue, $stringValue);
-       }
-    
+        array_push($this->arrayAnimationValue, $stringValue);
+    }
+
     public static function getArrayAnimationNameValue() {
         return AnimationNameValue::getInstance()->getArrayAnimationNameValue();
     }
+
 }
