@@ -5,12 +5,12 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTop::DeclarationTopWithStringValue($stringValue);
-class DeclarationTop extends Declaration{
-        public static function DeclarationTopWithStringValue($stringValue) {
+class DeclarationTop extends Declaration {
+
+    public static function DeclarationTopWithStringValue($stringValue) {
         $instance = new parent("top", $stringValue);
         return $instance;
     }
@@ -41,5 +41,7 @@ class DeclarationTop extends Declaration{
     public static function stringValueInherit() {
         return "inherit";
     }
+
 }
+
 ?>
