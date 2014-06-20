@@ -11,7 +11,7 @@
 class DeclarationWordWrap {
 
     public static function DeclarationAlignItensWithStringValue($stringValue) {
-        $instance = new parent("word-wrap". $stringValue);
+        $instance = new parent("word-wrap", $stringValue);
         return $instance;
     }
 

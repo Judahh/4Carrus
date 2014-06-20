@@ -11,7 +11,7 @@
     //      $declaration = DeclarationZIndex::DeclarationZIndexWithStringValue($stringValue);
 class DeclarationZIndex extends Declaration {
     public static function DeclarationZIndexWithStringValue($stringValue) {
-        $instance = new parent("z-index" . $stringValue);
+        $instance = new parent("z-index", $stringValue);
         return $instance;
     }
 

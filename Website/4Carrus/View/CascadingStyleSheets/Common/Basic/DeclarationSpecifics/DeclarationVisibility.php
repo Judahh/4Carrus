@@ -11,7 +11,7 @@
 //      $declaration = DeclarationVisibility::DeclarationVisibilityWithStringValue($stringValue);
 class DeclarationVisibility {
     public static function DeclarationVisibilityWithStringValue($stringValue) {
-        $instance = new parent("visibility". $stringValue);
+        $instance = new parent("visibility", $stringValue);
         return $instance;
     }
 

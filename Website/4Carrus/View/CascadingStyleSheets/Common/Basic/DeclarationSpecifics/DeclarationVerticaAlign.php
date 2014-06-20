@@ -11,7 +11,7 @@
 class DeclarationVerticaAlign extends Declaration {
 
     public static function DeclarationVerticaAlignWithStringValue($stringValue) {
-        $instance = new parent("vertical-align" . $stringValue);
+        $instance = new parent("vertical-align", $stringValue);
         return $instance;
     }
 

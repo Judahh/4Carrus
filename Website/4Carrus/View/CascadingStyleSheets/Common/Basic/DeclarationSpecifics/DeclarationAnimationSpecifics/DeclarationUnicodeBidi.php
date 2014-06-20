@@ -11,7 +11,7 @@
 //      $declaration = DeclarationUnicodeBidi::DeclarationUnicodeBidiWithStringValue($stringValue);
 class DeclarationUnicodeBidi extends Declaration{
     public static function DeclarationUnicodeBidiWithStringValue($stringValue) {
-        $instance = new parent("unicode-bidi". $stringValue);
+        $instance = new parent("unicode-bidi", $stringValue);
         return $instance;
     }
     

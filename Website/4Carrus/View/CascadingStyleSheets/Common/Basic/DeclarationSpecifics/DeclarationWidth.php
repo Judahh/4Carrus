@@ -12,7 +12,7 @@
 class DeclarationWidth extends Declaration {
 
     public static function DeclarationWordSpacingWithStringValue($stringValue) {
-        $instance = new parent("word-break". $stringValue);
+        $instance = new parent("word-break", $stringValue);
         return $instance;
     }
     
