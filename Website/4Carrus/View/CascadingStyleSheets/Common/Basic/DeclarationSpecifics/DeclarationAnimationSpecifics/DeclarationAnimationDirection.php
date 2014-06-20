@@ -12,7 +12,6 @@
  * @author Judah
  */
 class DeclarationAnimationDirection extends DeclarationAnimation {
-
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);

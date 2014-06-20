@@ -40,8 +40,7 @@ class DeclarationAnimation extends Declaration {
 
     public function stringDeclaration() {
         $stringFullDeclaration = "";
-        $browserDiffer = BrowserDiffer::getInstance();
-        $arrayStringBrowserPrefix = $browserDiffer->getArrayStringBrowserPrefix();
+        $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
         foreach ($arrayStringBrowserPrefix as &$stringBrowserPrefix) {
             $stringFullDeclaration = $stringFullDeclaration . $stringBrowserPrefix . $this->stringProperty . ":" . $this->stringValue . ";";
         }

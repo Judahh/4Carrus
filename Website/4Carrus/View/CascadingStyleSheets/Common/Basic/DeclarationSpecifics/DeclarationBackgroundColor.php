@@ -11,16 +11,21 @@
  *
  * @author Judah
  */
-    class DeclarationBackgroundColor extends Declaration {
+class DeclarationBackgroundColor extends Declaration {
 
-        //Constructor
-        //   instantiation: 
-        //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
-        public static function DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue) {
-            $instance = new parent("background-color", $stringHexColorValue); //arrumar
-            return $instance;
-        }
-
+    //Constructor
+    //   instantiation: 
+    //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
+    public static function DeclarationBackgroundColorWithStringValue($stringValue) {
+        $instance = new parent("background-color", $stringValue); //arrumar
+        return $instance;
     }
+
+    public static function DeclarationBackgroundColorWithStringHexColorValue($intHexColorValue) {
+        $instance = new parent("background-color", "#" . $intHexColorValue); //arrumar
+        return $instance;
+    }
+
+}
 
 ?>

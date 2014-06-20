@@ -24,11 +24,11 @@ class BrowserDiffer {
     }
 
     public static function getInstance() {
-        if (self::browserDifferInstance == null) {
+        if (self::$browserDifferInstance == null) {
             self::$browserDifferInstance = new self;
         }
 
-        return self::$instance;
+        return self::$browserDifferInstance;
     }
 
     public function getArrayStringBrowserPrefix() {
