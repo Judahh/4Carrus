@@ -5,6 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationVisibility::DeclarationVisibilityWithStringValue($stringValue);
