@@ -11,44 +11,44 @@
  *
  * @author Judah
  */
-    class DeclarationAlignItens extends Declaration {
+class DeclarationAlignItens extends Declaration {
 
-        //Constructor
-        //   instantiation: 
-        //      $declaration = DeclarationAlignItens::DeclarationAlignItensWithStringValue($stringValue);
-        public static function DeclarationAlignItensWithStringValue($stringValue) {
-            $instance = new parent("align-itens", ":" . $stringValue); //arrumar
-            return $instance;
-        }
-        
-        public static function stringValueStretch() {
-            return "stretch";
-        }
-        
-        public static function stringValueCenter() {
-            return "center";
-        }
-        
-        public static function stringValueFlexStart() {
-            return "flex-start";
-        }
-        
-        public static function stringValueFlexEnd() {
-            return "flex-end";
-        }
-        
-        public static function stringValueBaseline() {
-            return "baseline";
-        }
-        
-        public static function stringValueInitial() {
-            return "initial";
-        }
-        
-        public static function stringValueInherit() {
-            return "inherit";
-        }
-        
+    //Constructor
+    //   instantiation: 
+    //      $declaration = DeclarationAlignItens::DeclarationAlignItensWithStringValue($stringValue);
+    public static function DeclarationAlignItensWithStringValue($stringValue) {
+        $instance = new parent("align-itens", ":" . $stringValue); //arrumar
+        return $instance;
     }
+
+    public static function stringValueStretch() {
+        return "stretch";
+    }
+
+    public static function stringValueCenter() {
+        return "center";
+    }
+
+    public static function stringValueFlexStart() {
+        return "flex-start";
+    }
+
+    public static function stringValueFlexEnd() {
+        return "flex-end";
+    }
+
+    public static function stringValueBaseline() {
+        return "baseline";
+    }
+
+    public static function stringValueInitial() {
+        return "initial";
+    }
+
+    public static function stringValueInherit() {
+        return "inherit";
+    }
+
+}
 
 ?>
