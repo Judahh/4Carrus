@@ -17,7 +17,7 @@
         //   instantiation: 
         //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
         public static function DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue) {
-            $instance = new parent("background-color", ":" . $stringHexColorValue); //arrumar
+            $instance = new parent("background-color", $stringHexColorValue); //arrumar
             return $instance;
         }
 

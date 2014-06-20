@@ -17,7 +17,7 @@ class DeclarationAlignItens extends Declaration {
     //   instantiation: 
     //      $declaration = DeclarationAlignItens::DeclarationAlignItensWithStringValue($stringValue);
     public static function DeclarationAlignItensWithStringValue($stringValue) {
-        $instance = new parent("align-itens", ":" . $stringValue); //arrumar
+        $instance = new parent("align-itens", $stringValue); //arrumar
         return $instance;
     }
 

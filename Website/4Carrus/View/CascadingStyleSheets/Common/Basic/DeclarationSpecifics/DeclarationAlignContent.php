@@ -17,7 +17,7 @@
         //   instantiation: 
         //      $declaration = DeclarationAlignContent::DeclarationAlignContentWithStringValue($stringValue);
         public static function DeclarationAlignContentWithStringValue($stringValue) {
-            $instance = new parent("align-content", ":" . $stringValue); //arrumar
+            $instance = new parent("align-content", $stringValue); //arrumar
             return $instance;
         }
         

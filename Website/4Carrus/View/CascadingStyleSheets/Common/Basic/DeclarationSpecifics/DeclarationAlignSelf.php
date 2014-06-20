@@ -17,7 +17,7 @@
         //   instantiation: 
         //      $declaration = DeclarationAlignSelf::DeclarationAlignSelfWithStringValue($stringValue);
         public static function DeclarationAlignSelfWithStringValue($stringValue) {
-            $instance = new parent("align-self", ":" . $stringValue); //arrumar
+            $instance = new parent("align-self", $stringValue); //arrumar
             return $instance;
         }
         

@@ -17,22 +17,22 @@ class DeclarationAnimationDuration extends DeclarationAnimation {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationAnimationDurationWithStringDuration($stringDuration) {
-        $instance = new parent("animation-duration", ":" . $stringDuration); //arrumar
+        $instance = new parent("animation-duration", $stringDuration); //arrumar
         return $instance;
     }
 
     public static function DeclarationAnimationDurationWithIntDurationSeconds($intDurationSeconds) {
-        $instance = new parent("animation-duration", ":" .  $intDurationSeconds . "s"); //arrumar
+        $instance = new parent("animation-duration", $intDurationSeconds . "s"); //arrumar
         return $instance;
     }
     
     public static function DeclarationAnimationDurationWithIntDurationMiliSeconds($intDurationMiliseconds) {
-        $instance = new parent("animation-duration", ":" .  $intDurationMiliseconds . "s"); //arrumar
+        $instance = new parent("animation-duration", $intDurationMiliseconds . "s"); //arrumar
         return $instance;
     }
     
     public static function DeclarationAnimationDurationWithStringValue($stringValue) {
-        $instance = new parent("animation-duration", ":" .  $stringValue); //arrumar
+        $instance = new parent("animation-duration", $stringValue); //arrumar
         return $instance;
     }
 }
