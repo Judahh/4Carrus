@@ -5,15 +5,16 @@
         <group name="BlueL"/>
         <group>
             <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationDelay.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationPlayState.php</file>
             <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimation.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationDirection.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationColor.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBackgroundColor.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAlignSelf.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAlignItens.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/AnimationValue.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/AnimationNameValue.php</file>
             <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationDuration.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAlignContent.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationName.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationTimingFunction.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/MultipleSelector.php</file>
             <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BrowserDiffer.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/Declaration.php</file>
         </group>
     </open-files>
 </project-private>
