@@ -17,12 +17,12 @@ class DeclarationColor extends Declaration {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationColorWithStringValue($stringValue) {
-        $instance = new parent("color", $stringValue); //arrumar
+        $instance = new parent("color", $stringValue);
         return $instance;
     }
 
     public static function DeclarationColorWithIntHexColorValue($intHexColorValue) {
-        $instance = new parent("color", "#" . $intHexColorValue); //arrumar
+        $instance = new parent("color", "#" . $intHexColorValue);
         return $instance;
     }
 

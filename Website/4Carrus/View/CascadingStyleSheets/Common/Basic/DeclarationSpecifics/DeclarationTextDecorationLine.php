@@ -10,5 +10,5 @@
 //   instantiation: 
 //      $declaration = DeclarationTextDecorationLine::DeclarationTextDecorationLineWithStringValue($stringValue);
 class DeclarationTextDecorationLine extends Declaration{
-    //put your code here
+    
 }
