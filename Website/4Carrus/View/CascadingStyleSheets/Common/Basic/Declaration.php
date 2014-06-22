@@ -26,6 +26,13 @@ class Declaration {//TODO: terminar de testar
         return $this->stringProperty . ":" . $this->stringValue . ";";
     }
 
+    public static function stringValueInitial() {
+        return "initial";
+    }
+
+    public static function stringValueInherit() {
+        return "inherit";
+    }
 }
 
 ?>

@@ -29,14 +29,6 @@ class DeclarationBackground extends Declaration {
         $instance = new parent("background", $stringFullValue);
         return $instance;
     }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
 }
 
 ?>

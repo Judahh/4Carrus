@@ -16,13 +16,13 @@ class DeclarationBackgroundColor extends DeclarationBackground {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationBackgroundColorWithStringValue($stringValue) {
-        $instance = new parent("background-color", $stringValue); //arrumar
+    public static function DeclarationBackgroundColorWithBasicColor($basicColor) {
+        $instance = new parent("color", $basicColor->stringBasicColor());
         return $instance;
     }
-
-    public static function DeclarationBackgroundColorWithStringHexColorValue($intHexColorValue) {
-        $instance = new parent("background-color", "#" . $intHexColorValue); //arrumar
+    
+    public static function DeclarationBackgroundColorWithStringValue($stringValue) {
+        $instance = new parent("color", $stringValue);
         return $instance;
     }
 

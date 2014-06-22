@@ -30,14 +30,6 @@ class DeclarationAnimation extends Declaration {
         return $instance;
     }
 
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
-
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();

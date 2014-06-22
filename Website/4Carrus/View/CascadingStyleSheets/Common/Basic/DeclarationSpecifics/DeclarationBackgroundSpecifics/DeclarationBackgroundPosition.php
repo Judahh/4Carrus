@@ -26,103 +26,23 @@ class DeclarationBackgroundPosition extends DeclarationBackground {
         return $instance;
     }
     
-    public static function DeclarationBackgroundPositionWithFloatXPercentValue($floatXPercentValue) {
-        $instance = new parent("background-position", $floatXPercentValue."%"); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicLengthX($basicLengthX) {
+        $instance = new parent("background-position", $basicLengthX->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBackgroundPositionWithFloatXPixelValue($floatXPixelValue) {
-        $instance = new parent("background-position", $floatXPixelValue."px"); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicLengthXWithBasicLengthY($basicLengthX, $basicLengthY) {
+        $instance = new parent("background-position", $basicLengthX->stringBasicLength()." ".$basicLengthY->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBackgroundPositionWithFloatXCentimeterValue($floatXCentimeterValue) {
-        $instance = new parent("background-position", $floatXCentimeterValue."cm"); //arrumar
+    public static function DeclarationBackgroundPositionWithStringXPositionValueWithBasicLengthY($stringXPositionValue, $basicLengthY) {
+        $instance = new parent("background-position", $stringXPositionValue." ".$basicLengthY->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    
-    public static function DeclarationBackgroundPositionWithStringXPositionValueWithStringYPositionValue($stringXPositionValue, $stringYPositionValue) {
-        $instance = new parent("background-position", $stringXPositionValue." ".$stringYPositionValue); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXPercentValueWithFloatYPercentValue($floatXPercentValue, $floatYPercentValue) {
-        $instance = new parent("background-position", $floatXPercentValue."% ".$floatYPercentValue."%"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXPixelValueWithFloatYPixelValue($floatXPixelValue, $floatYPixelValue) {
-        $instance = new parent("background-position", $floatXPixelValue."px ".$floatYPixelValue."px"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXCentimeterValueWithFloatYCentimeterValue($floatXCentimeterValue, $floatYCentimeterValue) {
-        $instance = new parent("background-position", $floatXCentimeterValue."cm ".$floatYCentimeterValue."cm"); //arrumar
-        return $instance;
-    }
-    
-    
-    public static function DeclarationBackgroundPositionWithStringXPositionValueWithFloatYPercentValue($stringXPositionValue, $floatYPercentValue) {
-        $instance = new parent("background-position", $stringXPositionValue." ".$floatYPercentValue."%"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithStringXPositionValueWithFloatYPixelValue($stringXPositionValue, $floatYPixelValue) {
-        $instance = new parent("background-position", $stringXPositionValue." ".$floatYPixelValue."px"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithStringXPositionValueValueWithFloatYCentimeterValue($stringXPositionValue, $floatYCentimeterValue) {
-        $instance = new parent("background-position", $stringXPositionValue." ".$floatYCentimeterValue."cm"); //arrumar
-        return $instance;
-    }
-        
-    
-    public static function DeclarationBackgroundPositionWithFloatXPercentValueWithStringYPositionValue($floatXPercentValue, $stringYPositionValue) {
-        $instance = new parent("background-position", $floatXPercentValue."% ".$stringYPositionValue); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXPercentValueWithFloatYPixelValue($floatXPercentValue, $floatYPixelValue) {
-        $instance = new parent("background-position", $floatXPercentValue."% ".$floatYPixelValue."px"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXPercentValueWithFloatYCentimeterValue($floatXPercentValue, $floatYCentimeterValue) {
-        $instance = new parent("background-position", $floatXPercentValue."% ".$floatYCentimeterValue."cm"); //arrumar
-        return $instance;
-    }
-        
-    
-    public static function DeclarationBackgroundPositionWithFloatXPixelValueWithStringYPositionValue($floatXPixelValue, $stringYPositionValue) {
-        $instance = new parent("background-position", $floatXPixelValue."px ".$stringYPositionValue); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXPixelValueWithFloatYPercentValue($floatXPixelValue, $floatYPercentValue) {
-        $instance = new parent("background-position", $floatXPixelValue."px ".$floatYPercentValue."%"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXPixelValueWithFloatYCentimeterValue($floatXPixelValue, $floatYCentimeterValue) {
-        $instance = new parent("background-position", $floatXPixelValue."px ".$floatYCentimeterValue."cm"); //arrumar
-        return $instance;
-    }
-        
-    
-    public static function DeclarationBackgroundPositionWithFloatXCentimeterValueWithStringYPositionValue($floatXCentimeterValue, $stringYPositionValue) {
-        $instance = new parent("background-position", $floatXCentimeterValue."cm ".$stringYPositionValue); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXCentimeterValueWithFloatYPercentValue($floatXCentimeterValue, $floatYPercentValue) {
-        $instance = new parent("background-position", $floatXCentimeterValue."cm ".$floatYPercentValue."%"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithFloatXCentimeterValueWithFloatYPixelValue($floatXCentimeterValue, $floatYPixelValue) {
-        $instance = new parent("background-position", $floatXCentimeterValue."cm ".$floatYPixelValue."px"); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicLengthXWithStringYPositionValue($basicLengthX, $stringYPositionValue) {
+        $instance = new parent("background-position", $basicLengthX->stringBasicLength()." ".$stringYPositionValue); //arrumar
         return $instance;
     }
     

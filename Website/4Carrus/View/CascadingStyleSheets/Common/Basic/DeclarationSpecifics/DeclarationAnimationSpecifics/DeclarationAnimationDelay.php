@@ -16,18 +16,8 @@ class DeclarationAnimationDelay extends DeclarationAnimation {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationAnimationDelayWithStringDuration($stringDuration) {
-        $instance = new parent("animation-delay", $stringDuration); //arrumar
-        return $instance;
-    }
-
-    public static function DeclarationAnimationDelayWithIntDurationSeconds($floatDurationSeconds) {
-        $instance = new parent("animation-delay", $floatDurationSeconds . "s"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationAnimationDelayWithIntDurationMiliseconds($floatDurationMiliseconds) {
-        $instance = new parent("animation-delay", $floatDurationMiliseconds . "ms"); //arrumar
+    public static function DeclarationAnimationDelayWithBasicTime($basicTime) {
+        $instance = new parent("animation-delay", $basicTime->stringBasicTime()); //arrumar
         return $instance;
     }
     

@@ -44,15 +44,6 @@
         public static function stringValueSpaceAround() {
             return "space-around";
         }
-        
-        public static function stringValueInitial() {
-            return "initial";
-        }
-        
-        public static function stringValueInherit() {
-            return "inherit";
-        }
-        
     }
 
 ?>

@@ -16,17 +16,15 @@ class DeclarationColor extends Declaration {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
+    public static function DeclarationColorWithBasicColor($basicColor) {
+        $instance = new parent("color", $basicColor->stringBasicColor());
+        return $instance;
+    }
+    
     public static function DeclarationColorWithStringValue($stringValue) {
         $instance = new parent("color", $stringValue);
         return $instance;
     }
-
-    public static function DeclarationColorWithIntHexColorValue($intHexColorValue) {
-        $instance = new parent("color", "#" . $intHexColorValue);
-        return $instance;
-    }
-
-    //todo constructo with int
 }
 
 ?>

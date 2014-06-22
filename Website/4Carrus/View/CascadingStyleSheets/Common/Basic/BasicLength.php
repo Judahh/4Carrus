@@ -42,6 +42,6 @@ class BasicLength {
     }
 
     public function stringBasicLength() {
-        return $floatLength.$stringUnity;
+        return $this->floatLength.$this->stringUnity;
     }
 }
