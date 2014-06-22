@@ -21,8 +21,8 @@ class DeclarationBackgroundPosition extends DeclarationBackground {
         return $instance;
     }
 
-    public static function DeclarationBackgroundPositionWithStringXPositionValue($stringXPositionValue) {
-        $instance = new parent("background-position", $stringXPositionValue); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicPositionX($basicPositionX) {
+        $instance = new parent("background-position", $basicPositionX->stringBasicPosition()); //arrumar
         return $instance;
     }
     
@@ -36,34 +36,19 @@ class DeclarationBackgroundPosition extends DeclarationBackground {
         return $instance;
     }
     
-    public static function DeclarationBackgroundPositionWithStringXPositionValueWithBasicLengthY($stringXPositionValue, $basicLengthY) {
-        $instance = new parent("background-position", $stringXPositionValue." ".$basicLengthY->stringBasicLength()); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicPositionXWithBasicLengthY($basicPositionX, $basicLengthY) {
+        $instance = new parent("background-position", $basicPositionX->stringBasicPosition()." ".$basicLengthY->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBackgroundPositionWithBasicLengthXWithStringYPositionValue($basicLengthX, $stringYPositionValue) {
-        $instance = new parent("background-position", $basicLengthX->stringBasicLength()." ".$stringYPositionValue); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicLengthXWithBasicPositionY($basicLengthX, $basicPositionY) {
+        $instance = new parent("background-position", $basicLengthX->stringBasicLength()." ".$basicPositionY->stringBasicPosition()); //arrumar
         return $instance;
     }
     
-    public static function stringPositionTopValue() {
-        return "top";
-    }
-    
-    public static function stringPositionCenterValue() {
-        return "center";
-    }
-    
-    public static function stringPositionBottomValue() {
-        return "bottom";
-    }
-    
-    public static function stringPositionLeftValue() {
-        return "left";
-    }
-    
-    public static function stringPositionRightValue() {
-        return "right";
+    public static function DeclarationBackgroundPositionWithBasicPositionXWithBasicPositionY($basicPositionX, $basicPositionY) {
+        $instance = new parent("background-position", $basicPositionY->stringBasicPosition()." ".$basicPositionY->stringBasicPosition()); //arrumar
+        return $instance;
     }
 }
 
