@@ -26,6 +26,11 @@ class DeclarationBackgroundSize extends DeclarationBackground {
         return $instance;
     }
     
+    public static function DeclarationBackgroundSizeWithBasicLengthY($basicLengthY) {
+        $instance = new parent("background-size", "auto ".$basicLengthY->stringBasicLength()); //arrumar
+        return $instance;
+    }
+    
     public static function DeclarationBackgroundSizeWithBasicLengthXWithBasicLengthY($basicLengthX, $basicLengthY) {
         $instance = new parent("background-size", $basicLengthX->stringBasicLength()." ".$basicLengthY->stringBasicLength()); //arrumar
         return $instance;

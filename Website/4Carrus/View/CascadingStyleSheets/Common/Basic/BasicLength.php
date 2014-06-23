@@ -26,8 +26,38 @@ class BasicLength {
         return $instance;
     }
     
+    public static function BasicLengthWithFloatLengthMillimeter($floatLengthMillimeter) {
+        $instance = new self($floatLengthMillimeter, "mm"); //arrumar
+        return $instance;
+    }
+    
     public static function BasicLengthWithFloatLengthCentimeter($floatLengthCentimeter) {
         $instance = new self($floatLengthCentimeter, "cm"); //arrumar
+        return $instance;
+    }
+    
+    public static function BasicLengthWithFloatLengthInch($floatLengthInch) {
+        $instance = new self($floatLengthInch, "in"); //arrumar
+        return $instance;
+    }
+    
+    public static function BasicLengthWithFloatLengthFontXHeight($floatLengthFontXHeight) {
+        $instance = new self($floatLengthFontXHeight, "ex"); //arrumar
+        return $instance;
+    }
+    
+    public static function BasicLengthWithFloatLengthFontSize($floatLengthFontSize) {
+        $instance = new self($floatLengthFontSize, "em"); //arrumar
+        return $instance;
+    }
+    
+    public static function BasicLengthWithFloatLengthPoint($floatLengthPoint) {
+        $instance = new self($floatLengthPoint, "pt"); //arrumar
+        return $instance;
+    }
+    
+    public static function BasicLengthWithFloatLengthPica($floatLengthPica) {
+        $instance = new self($floatLengthPica, "pc"); //arrumar
         return $instance;
     }
     
