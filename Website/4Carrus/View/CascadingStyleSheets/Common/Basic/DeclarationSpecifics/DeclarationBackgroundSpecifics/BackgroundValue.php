@@ -33,12 +33,12 @@ class BackgroundValue {
         return $instance;
     }
 
-    public static function AnimationValue() {
+    public static function BackgroundValue() {
         $instance = new self();
         return $instance;
     }
 
-    public static function getArrayAnimationValue() {
+    public static function getArrayBackgroundValue() {
         return $this->arrayBackgroundValue;
     }
 
@@ -46,8 +46,8 @@ class BackgroundValue {
         array_push($this->arrayBackgroundValue, $stringValue);
     }
 
-    public static function getArrayAnimationNameValue() {
-        return AnimationNameValue::getInstance()->getArrayAnimationNameValue();
+    public static function getArrayBackgroundNameValue() {
+        return AnimationNameValue::getInstance()->getArrayBackgroundNameValue();
     }
 
 }

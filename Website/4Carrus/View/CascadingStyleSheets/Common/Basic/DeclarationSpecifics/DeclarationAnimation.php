@@ -29,6 +29,12 @@ class DeclarationAnimation extends Declaration {
         $instance = new parent("animation", $stringFullValue);
         return $instance;
     }
+    
+    public static function
+    DeclarationAnimationWithStringValue($stringValue) {
+        $instance = new parent("animation", $stringValue);
+        return $instance;
+    }
 
     public function stringDeclaration() {
         $stringFullDeclaration = "";

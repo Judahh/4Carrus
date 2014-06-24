@@ -34,7 +34,7 @@ class BackgroundNameValue {
         return self::$backgroundNameValueInstance;
     }
 
-    public function getArrayAnimationNameValue() {
+    public function getArrayBackgroundNameValue() {
         return $this->arrayBackgroundNameValue;
     }
 

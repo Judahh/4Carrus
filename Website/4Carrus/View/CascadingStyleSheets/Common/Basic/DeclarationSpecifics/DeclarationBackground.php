@@ -17,8 +17,7 @@ class DeclarationBackground extends Declaration {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
 
-    public static function
-    DeclarationBackgroundWithBackgroundValue($backgroundValue) {
+    public static function DeclarationBackgroundWithBackgroundValue($backgroundValue) {
         $stringFullValue = "";
         $arrayBackgroundValue = $backgroundValue->getArrayBackgroundValue();
         $count = count($arrayBackgroundValue);
@@ -27,6 +26,11 @@ class DeclarationBackground extends Declaration {
         }
         $stringFullValue = $stringFullValue . $arrayBackgroundValue[$count-1];
         $instance = new parent("background", $stringFullValue);
+        return $instance;
+    }
+    
+    public static function DeclarationBackgroundWithStringValue($stringValue) {
+        $instance = new parent("background", $stringValue);
         return $instance;
     }
 }
