@@ -35,11 +35,4 @@ class DeclarationTextShadow extends Declaration{
         return "none";
     }
 
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
 }

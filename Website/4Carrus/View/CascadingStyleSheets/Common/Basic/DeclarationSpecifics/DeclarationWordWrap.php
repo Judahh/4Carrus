@@ -10,7 +10,7 @@
 //   instantiation: 
 //      $declaration = DeclarationWordWrap::DeclarationWordWrapWithStringValue($stringValue);
 class DeclarationWordWrap {
-    public static function DeclarationAlignItensWithStringValue($stringValue) {
+    public static function DeclarationWordWrapWithStringValue($stringValue) {
         $instance = new parent("word-wrap", $stringValue);
         return $instance;
     }

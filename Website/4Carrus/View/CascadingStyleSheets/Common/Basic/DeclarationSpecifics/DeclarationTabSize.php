@@ -10,7 +10,6 @@
 //   instantiation: 
 //      $declaration = DeclarationTabSize::DeclarationTabSizeWithStringValue($stringValue);
 class DeclarationTabSize extends Declaration {
-    
     public static function DeclarationTabSizeWithStringValue($stringValue) {
         $instance = new parent("tab-size", $stringValue);
         return $instance;
@@ -20,13 +19,6 @@ class DeclarationTabSize extends Declaration {
         return "number";
     }
 
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
 }
 
 ?>

@@ -9,42 +9,34 @@
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTabSize::DeclarationTabSizeWithStringValue($stringValue);
-class DeclarationRight extends DeclarationRight{
+class DeclarationRight extends Declaration{
     public static function DeclarationRightWithStringValue($stringValue) {
         $instance = new parent("right", $stringValue);
         return $instance;
     }
     
-    public static function DeclarationTextIndentWithFloatPercentValue($floatPercentValue) {
-        $instance = new parent("text-inden", $floatPercentValue."%");
+    public static function DeclarationRightWithFloatPercentValue($floatPercentValue) {
+        $instance = new parent("right", $floatPercentValue."%");
         return $instance;
     }
     
-    public static function DeclarationTextIndentWithFloatPixelValue($floatPixelValue) {
-        $instance = new parent("text-inden", $floatPixelValue."px");
+    public static function DeclarationRightWithFloatPixelValue($floatPixelValue) {
+        $instance = new parent("right", $floatPixelValue."px");
         return $instance;
     }
     
-    public static function DeclarationTextIndentWithFloatCentimeterValue($floatCentimeterValue) {
-        $instance = new parent("text-inden", $floatCentimeterValue."cm");
+    public static function DeclarationRightWithFloatCentimeterValue($floatCentimeterValue) {
+        $instance = new parent("right", $floatCentimeterValue."cm");
         return $instance;
     }
     
-    public static function DeclarationTextIndentWithFloatPointValue($floatPointValue) {
-        $instance = new parent("text-inden", $floatPointValue."pt");
+    public static function DeclarationRightWithFloatPointValue($floatPointValue) {
+        $instance = new parent("right", $floatPointValue."pt");
         return $instance;
     }
 
     public static function stringValueAuto() {
         return "auto";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
 }
 
