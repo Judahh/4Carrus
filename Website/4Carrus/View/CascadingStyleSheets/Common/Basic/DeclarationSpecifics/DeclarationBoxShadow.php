@@ -19,18 +19,18 @@ class DeclarationBoxShadow extends Declaration {
 
     public static function DeclarationBoxShadowWithBoxShadowValue($boxShadowValue) {
         $stringFullValue = "";
-        $arrayBoxShadowValue = $boxShadowValue->getArrayAnimationValue();
+        $arrayBoxShadowValue = $boxShadowValue->getArrayBoxShadowValue();
         $count = count($arrayBoxShadowValue);
         for ($index = 0; $index < $count - 1; $index++) {
             $stringFullValue = $stringFullValue . $arrayBoxShadowValue[$index] . " ";
         }
         $stringFullValue = $stringFullValue . $arrayBoxShadowValue[$count-1];
-        $instance = new parent("animation", $stringFullValue);
+        $instance = new parent("box-shadow", $stringFullValue);
         return $instance;
     }
     
     public static function DeclarationBoxShadowWithStringValue($stringValue) {
-        $instance = new parent("animation", $stringValue);
+        $instance = new parent("box-shadow", $stringValue);
         return $instance;
     }
     
