@@ -27,14 +27,6 @@ class DeclarationVisibility {
         return "collapse";
     }
 
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
-
 }
 
 ?>

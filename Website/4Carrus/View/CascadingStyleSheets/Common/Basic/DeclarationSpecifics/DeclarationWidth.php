@@ -43,14 +43,6 @@ class DeclarationWidth extends Declaration {
         return "length";
     }
     
-    public static function stringValueInitial() {
-        return "initial";
-    }
-    
-    public static function stringValueInherit() {
-        return "Inherit";
-    }
-    
 }
 
 ?>

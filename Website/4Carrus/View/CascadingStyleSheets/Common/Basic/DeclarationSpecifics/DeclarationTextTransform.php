@@ -31,12 +31,4 @@ class DeclarationTextTransform extends Declaration {
         return "lowercase";
     }
 
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
-
 }

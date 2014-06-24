@@ -26,14 +26,6 @@ class DeclarationUnicodeBidirectional extends Declaration{
     public static function stringValueBidirectionalOverride() {
         return "bidi-override";
     }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
     
 }
 
