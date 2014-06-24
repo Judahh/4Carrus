@@ -21,11 +21,11 @@ class BorderValue {
 
     
     
-    public static function BorderValueWithStringBorderWidthWithStringBorderStyleWithStringBorderColor($stringborderWidth, $stringborderStyle, $stringborderColor) {
+    public static function BorderValueWithStringBorderWidthWithStringBorderStyleWithStringBorderColor($stringBorderWidth, $stringBorderStyle, $stringBorderColor) {
         $instance = new self();
-        array_push($this->arrayBorderValue, $stringborderWidth);
-        array_push($this->arrayBorderValue, $stringborderStyle);
-        array_push($this->arrayBorderValue, $stringborderColor);
+        array_push($this->arrayBorderValue, $stringBorderWidth);
+        array_push($this->arrayBorderValue, $stringBorderStyle);
+        array_push($this->arrayBorderValue, $stringBorderColor);
         return $instance;
     }
 
