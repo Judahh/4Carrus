@@ -11,18 +11,18 @@
  *
  * @author Judah
  */
-class DeclarationBorderBottomLeftRadius extends DeclarationBorderBottom {
+class DeclarationBorderBottomRightRadius extends DeclarationBorderBottom {
 
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationBorderBottomLeftRadiusWithBasicLength($basicLength) {
-        $instance = new parent("border-bottom-left-radius", $basicLength->stringBasicLength()); //arrumar
+    public static function DeclarationBorderBottomRightRadiusWithBasicLength($basicLength) {
+        $instance = new parent("border-bottom-right-radius", $basicLength->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBorderBottomLeftRadiusWithStringValue($stringValue) {
-        $instance = new parent("border-bottom-left-radius", $stringValue);
+    public static function DeclarationBorderBottomRightRadiusWithStringValue($stringValue) {
+        $instance = new parent("border-bottom-right-radius", $stringValue);
         return $instance;
     }
 

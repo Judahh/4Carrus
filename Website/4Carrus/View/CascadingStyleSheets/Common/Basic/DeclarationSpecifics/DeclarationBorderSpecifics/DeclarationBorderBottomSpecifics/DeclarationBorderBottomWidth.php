@@ -11,7 +11,7 @@
  *
  * @author Judah
  */
-class DeclarationBorderBottomWidth extends Declaration {
+class DeclarationBorderBottomWidth extends DeclarationBorderBottom {
 
     //Constructor
     //   instantiation: 

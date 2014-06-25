@@ -11,7 +11,7 @@
  *
  * @author Judah
  */
-class DeclarationBorderBottomColor extends DeclarationBackground {
+class DeclarationBorderBottomColor extends DeclarationBorderBottom {
 
     //Constructor
     //   instantiation: 
