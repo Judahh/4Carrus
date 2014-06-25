@@ -5,11 +5,11 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextOverflow::DeclarationTextOverflowWithStringValue($stringValue);
 class DeclarationTextOverflow extends Declaration {
-
     public static function DeclarationTextOverflowWithStringValue($stringValue) {
         $instance = new parent("text-overflow", $stringValue);
         return $instance;
@@ -26,14 +26,6 @@ class DeclarationTextOverflow extends Declaration {
 
     public static function stringValueEllipsis() {
         return "ellipsis";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
 
 }

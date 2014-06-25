@@ -10,7 +10,6 @@
 //   instantiation: 
 //      $declaration = DeclarationTableLayout::DeclarationTableLayoutWithStringValue($stringValue);
 class DeclarationTableLayout extends Declaration {
-
     public static function DeclarationTableLayoutWithStringValue($stringValue) {
         $instance = new parent("table-layout", $stringValue);
         return $instance;
@@ -22,14 +21,6 @@ class DeclarationTableLayout extends Declaration {
 
     public static function stringValueFixed() {
         return "fixed";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
 
 }

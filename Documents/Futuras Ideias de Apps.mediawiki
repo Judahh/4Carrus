@@ -40,4 +40,9 @@
 
 == FREEDOM (antigo RTPHONE) ==
 
+== Carona 4Carrus ==
+*Cadastrar trajeto e verificar possibilidades de pegar ou dar carona com outros usuários.
+*Beneficios:
+**Diminuir o gasto com combustivel, manutenção com o veículo e a poluição.
+
 
