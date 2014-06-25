@@ -6,16 +6,23 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationQuotes extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationQuotes::DeclarationQuotesWithStringValue($stringValue);
-class DeclarationQuotes extends Declaration{
-    public static function DeclarationQuotesWithStringValue($stringValue) {
-        $instance = new parent("quotes", $stringValue);
+    public static function DeclarationQuotesWithstringQuotationMarkFirstLevelStartWithStringQuotationMarkFirstLevelEnd($stringQuotationMarkFirstLevelStart, $stringQuotationMarkFirstLevelEnd) {
+        $instance = new parent("quotes", $stringQuotationMarkFirstLevelStart .",". $stringQuotationMarkFirstLevelEnd);
         return $instance;
     }
     
-    
+    public static function DeclarationQuotesWithStringQuotationMarkFirstLevelStartWithStringQuotationMarkFirstLevelEndWithStringQuotationMarkSecondLevelStartWithStringQuotationMarkSecondLevelEnd(
+            $stringQuotationMarkFirstLevelStart, $stringQuotationMarkFirstLevelEnd,
+            $stringQuotationMarkSecondLevelStart, $stringQuotationMarkSecondLevelEnd) {
+        $instance = new parent("quotes", $stringQuotationMarkFirstLevelStart .",". $stringQuotationMarkFirstLevelEnd .",". 
+                $stringQuotationMarkSecondLevelStart .",". $stringQuotationMarkSecondLevelEnd);
+        return $instance;
+    }
+     
 }
 
 ?>

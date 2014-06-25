@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationPageBreakAfter extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationPageBreakAfter::DeclarationPageBreakAfterWithStringValue($stringValue);
-class DeclarationPageBreakAfter extends Declaration{
     public static function DeclarationPageBreakAfterWithStringValue($stringValue) {
         $instance = new parent("page-break-after", $stringValue);
         return $instance;
@@ -30,6 +30,7 @@ class DeclarationPageBreakAfter extends Declaration{
     public static function stringValueLeft() {
         return "left";
     }
+    
     public static function stringValueRight() {
         return "right";
     }
