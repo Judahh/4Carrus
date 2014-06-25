@@ -7,7 +7,7 @@
  */
 
 class DeclarationOverflowX extends DeclarationOverflow{
-    //Constructor
+//Constructor
 //   instantiation: 
 //      $declaration = DeclarationOverflowX::DeclarationOverflowXWithStringValue($stringValue);
     public static function DeclarationOverflowXWithStringValue($stringValue) {

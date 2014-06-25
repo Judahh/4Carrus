@@ -6,10 +6,11 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+
+class DeclarationTextDecorationColor extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextDecorationColor::DeclarationTextDecorationColorWithStringValue($stringValue);
-class DeclarationTextDecorationColor extends Declaration{
     public static function DeclarationTextDecorationColorWithStringValue($stringValue) {
         $instance = new parent("text-decoration-color", $stringValue);
         return $instance;
