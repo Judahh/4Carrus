@@ -18,7 +18,7 @@ class DeclarationClip extends Declaration{
             return "auto";
         }
         
-        public static function stringValueLeft() {
+        public static function stringValueShape() {
             return "shape";
         }
         
