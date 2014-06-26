@@ -21,8 +21,8 @@ class DeclarationBackgroundImage extends DeclarationBackground {
         return $instance;
     }
 
-    public static function DeclarationBackgroundColorWithStringUniformResourceLocatorValue($stringUniformResourceLocatorValue) {
-        $instance = new parent("background-image", "url('" . $stringUniformResourceLocatorValue . "')"); //arrumar
+    public static function DeclarationBackgroundColorWithBasicUniformResourceLocator($basicUniformResourceLocator) {
+        $instance = new parent("background-image", $basicUniformResourceLocator->stringBasicUniformResourceLocator()); //arrumar
         return $instance;
     }
 
