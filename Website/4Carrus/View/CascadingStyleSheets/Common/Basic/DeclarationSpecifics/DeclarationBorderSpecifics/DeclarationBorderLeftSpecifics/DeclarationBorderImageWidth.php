@@ -26,10 +26,17 @@ class DeclarationBorderLeftWidth extends DeclarationBorderLeft {
         return $instance;
     }
     
-    public static function stringValueAuto() {
-        return "auto";
+    public static function stringValueMedium() {
+        return "medium";
     }
-
+    
+    public static function stringValueThin() {
+        return "thin";
+    }
+    
+    public static function stringValueThick() {
+        return "thick";
+    }
 }
 
 ?>
