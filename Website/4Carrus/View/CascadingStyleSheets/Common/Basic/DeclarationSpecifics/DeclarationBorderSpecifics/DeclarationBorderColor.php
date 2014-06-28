@@ -21,30 +21,9 @@ class DeclarationBorderColor extends DeclarationBorder {
         return $instance;
     }
     
-    public static function DeclarationBorderColorWithBasicColorAllBorders
-            ($basicColorAllBorders) {
-        $instance = new parent("border-color", $basicColorAllBorders->stringBasicColor());
-        return $instance;
-    }
-    
-    public static function 
-            DeclarationBorderColorWithBasicColorTopAndBottomBordersWithBasicColorRightAndLeftBorders
-            ($basicColorTopAndBottomBorders, $basicColorRightAndLeftBorders) {
-        $instance = new parent("border-color", $basicColorTopAndBottomBorders->stringBasicColor()." ".$basicColorRightAndLeftBorders->stringBasicColor());
-        return $instance;
-    }
-    
-    public static function 
-            DeclarationBorderColorWithBasicColorTopBorderWithBasicColorRightAndLeftBordersWithBasicColorBottomBorder
-            ($basicColorTopBorder, $basicColorRightAndLeftBorders, $basicColorBottomBorder) {
-        $instance = new parent("border-color", $basicColorTopBorder->stringBasicColor()." ".$basicColorRightAndLeftBorders->stringBasicColor()." ".$basicColorBottomBorder->stringBasicColor());
-        return $instance;
-    }
-    
-    public static function 
-            DeclarationBorderColorWithBasicColorTopBorderWithBasicColorRightBorderWithBasicColorBottomBorderWithBasicColorLeftBorder
-            ($basicColorTopBorder, $basicColorRightBorder, $basicColorBottomBorder, $basicColorLeftBorder) {
-        $instance = new parent("border-color", $basicColorTopBorder->stringBasicColor()." ".$basicColorRightBorder->stringBasicColor()." ".$basicColorBottomBorder->stringBasicColor()." ".$basicColorLeftBorder->stringBasicColor());
+    public static function DeclarationBorderColorWithBasicFourPartsColor
+            ($basicFourPartsColor) {
+        $instance = new parent("border-color", $basicFourPartsColor->stringBasicFourPartsColor());
         return $instance;
     }
     

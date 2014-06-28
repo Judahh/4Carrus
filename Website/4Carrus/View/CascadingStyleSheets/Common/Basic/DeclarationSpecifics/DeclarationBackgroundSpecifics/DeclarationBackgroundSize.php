@@ -21,18 +21,18 @@ class DeclarationBackgroundSize extends DeclarationBackground {
         return $instance;
     }
     
-    public static function DeclarationBackgroundSizeWithBasicLengthX($basicLengthX) {
-        $instance = new parent("background-size", $basicLengthX->stringBasicLength()); //arrumar
+    public static function DeclarationBackgroundSizeWithBasicLengthHorizontal($basicLengthHorizontal) {
+        $instance = new parent("background-size", $basicLengthHorizontal->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBackgroundSizeWithBasicLengthY($basicLengthY) {
-        $instance = new parent("background-size", "auto ".$basicLengthY->stringBasicLength()); //arrumar
+    public static function DeclarationBackgroundSizeWithBasicLengthVertical($basicLengthVertical) {
+        $instance = new parent("background-size", "auto ".$basicLengthVertical->stringBasicLength()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBackgroundSizeWithBasicLengthXWithBasicLengthY($basicLengthX, $basicLengthY) {
-        $instance = new parent("background-size", $basicLengthX->stringBasicLength()." ".$basicLengthY->stringBasicLength()); //arrumar
+    public static function DeclarationBackgroundSizeWithBasicLengthHorizontalWithBasicLengthVertical($basicLengthHorizontal, $basicLengthVertical) {
+        $instance = new parent("background-size", $basicLengthHorizontal->stringBasicLength()." ".$basicLengthVertical->stringBasicLength()); //arrumar
         return $instance;
     }
     

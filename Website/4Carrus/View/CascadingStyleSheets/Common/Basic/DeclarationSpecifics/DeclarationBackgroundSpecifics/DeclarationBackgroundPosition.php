@@ -47,7 +47,7 @@ class DeclarationBackgroundPosition extends DeclarationBackground {
     }
     
     public static function DeclarationBackgroundPositionWithBasicPositionXWithBasicPositionY($basicPositionX, $basicPositionY) {
-        $instance = new parent("background-position", $basicPositionY->stringBasicPosition()." ".$basicPositionY->stringBasicPosition()); //arrumar
+        $instance = new parent("background-position", $basicPositionX->stringBasicPosition()." ".$basicPositionY->stringBasicPosition()); //arrumar
         return $instance;
     }
 }
