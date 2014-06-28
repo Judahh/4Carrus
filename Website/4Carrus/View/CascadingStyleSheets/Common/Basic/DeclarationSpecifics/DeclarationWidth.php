@@ -15,23 +15,8 @@ class DeclarationWidth extends Declaration {
         return $instance;
     }
     
-    public static function DeclarationWidthWithFloatPercentValue($floatPercentValue) {
-        $instance = new parent("width", $floatPercentValue."%");
-        return $instance;
-    }
-    
-    public static function DeclarationWidthWithFloatPixelValue($FloatPixelValue) {
-        $instance = new parent("width", $FloatPixelValue."px");
-        return $instance;
-    }
-    
-    public static function DeclarationWidthWithFloatCentimeterValue($FloatCentimeterValue) {
-        $instance = new parent("width", $FloatCentimeterValue."cm");
-        return $instance;
-    }
-    
-    public static function DeclarationWidthWithFloatPointValue($floatPointValue) {
-        $instance = new parent("width", $floatPointValue."pt");
+    public static function DeclarationWidthWithBasicLength($basicLength) {
+        $instance = new parent("width", $basicLength->stringBasicLength());
         return $instance;
     }
 

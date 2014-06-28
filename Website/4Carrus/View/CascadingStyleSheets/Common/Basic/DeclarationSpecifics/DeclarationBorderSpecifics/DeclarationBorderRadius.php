@@ -7,34 +7,30 @@
  */
 
 /**
- * Description of DeclarationRadius
+ * Description of DeclarationSpacing
  *
  * @author Judah
  */
-class DeclarationBorderRadius extends DeclarationBorder {
+class DeclarationBorderSpacing extends DeclarationBorder {
 
     //Constructor
     //   instantiation: 
-    //      $declaration = DeclarationBackgroundRadius::DeclarationBackgroundRadiusWithStringHexRadiusValue($stringHexRadiusValue);
-    public static function DeclarationBorderRadiusWithStringValue($stringValue) {
-        $instance = new parent("border-radius", $stringValue); //arrumar
+    //      $declaration = DeclarationBackgroundSpacing::DeclarationBackgroundSpacingWithStringHexSpacingValue($stringHexSpacingValue);
+    public static function DeclarationBorderSpacingWithStringValue($stringValue) {
+        $instance = new parent("border-spacing", $stringValue); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBorderRadiusWithBasicFourPartsLength
-            ($basicFourPartsLength) {
-        $instance = new parent("border-radius", $basicFourPartsLength->stringBasicFourPartsLength());
+    public static function DeclarationBorderSpacingWithBasicLength
+            ($basicLength) {
+        $instance = new parent("border-spacing", $basicLength->stringBasicLength());
         return $instance;
     }
     
-    public static function DeclarationBorderRadiusWithBasicFourPartsLengthHorizontalWithBasicFourPartsLengthVertical
-            ($basicFourPartsLengthHorizontal, $basicFourPartsLengthVertical) {
-        $instance = new parent("border-radius", $basicFourPartsLengthHorizontal->stringBasicFourPartsLength()."/".$basicFourPartsLengthVertical->stringBasicFourPartsLength());
+    public static function DeclarationBorderSpacingWithBasicLengthHorizontalWithBasicLengthVertical
+            ($basicLengthHorizontal, $basicLengthVertical) {
+        $instance = new parent("border-spacing", $basicLengthHorizontal->stringBasicLength()." ".$basicLengthVertical->stringBasicLength());
         return $instance;
-    }
-    
-    public static function stringValueTransparent() {
-        return "transparent";
     }
 }
 

@@ -11,19 +11,23 @@
  *
  * @author Judah
  */
-class DeclarationBorderBottomWidth extends DeclarationBorderBottom {
+class DeclarationBorderTopColor extends DeclarationBorderTop {
 
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationBorderBottomWidthWithStringValue($stringValue) {
-        $instance = new parent("border-bottom-width", $stringValue); //arrumar
+    public static function DeclarationBorderTopColorWithBasicColor($basicColor) {
+        $instance = new parent("border-top-color", $basicColor->stringBasicColor());
         return $instance;
     }
     
-    public static function DeclarationBorderBottomWidthWithBasicWidth($basicWidth) {
-        $instance = new parent("border-bottom-width", $basicWidth->stringBasicWidth()); //arrumar
+    public static function DeclarationBorderTopColorWithStringValue($stringValue) {
+        $instance = new parent("border-top-color", $stringValue);
         return $instance;
+    }
+
+    public static function stringValueTransparent() {
+        return "transparent";
     }
 }
 

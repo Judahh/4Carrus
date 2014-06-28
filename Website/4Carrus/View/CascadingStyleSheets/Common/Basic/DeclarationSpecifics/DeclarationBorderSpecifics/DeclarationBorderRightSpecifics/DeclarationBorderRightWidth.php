@@ -21,21 +21,9 @@ class DeclarationBorderRightWidth extends DeclarationBorderRight {
         return $instance;
     }
 
-    public static function DeclarationBorderRightWidthWithBasicLength($basicLength) {
-        $instance = new parent("border-right-width", $basicLength->stringBasicLength()); //arrumar
+    public static function DeclarationBorderRightWidthWithBasicWidth($basicWidth) {
+        $instance = new parent("border-right-width", $basicWidth->stringBasicWidth()); //arrumar
         return $instance;
-    }
-    
-    public static function stringValueMedium() {
-        return "medium";
-    }
-    
-    public static function stringValueThin() {
-        return "thin";
-    }
-    
-    public static function stringValueThick() {
-        return "thick";
     }
 }
 
