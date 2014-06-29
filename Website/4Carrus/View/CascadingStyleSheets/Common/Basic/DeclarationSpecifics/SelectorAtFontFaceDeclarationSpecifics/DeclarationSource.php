@@ -11,18 +11,18 @@
  *
  * @author Judah
  */
-class DeclarationBorderImageSource extends DeclarationBorderImage {
+class DeclarationSource extends DeclarationBorderImage {
 
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationBorderColor::DeclarationBorderColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationBorderImageSourceWithStringValue($stringValue) {
-        $instance = new parent("border-image-source", $stringValue); //arrumar
+    public static function DeclarationSourceWithStringValue($stringValue) {
+        $instance = new parent("src", $stringValue); //arrumar
         return $instance;
     }
 
-    public static function DeclarationBorderImageSourceWithBasicUniformResourceLocator($basicUniformResourceLocator) {
-        $instance = new parent("border-image-source", $basicUniformResourceLocator->stringBasicUniformResourceLocator()); //arrumar
+    public static function DeclarationSourceWithBasicUniformResourceLocator($basicUniformResourceLocator) {
+        $instance = new parent("src", $basicUniformResourceLocator->stringBasicUniformResourceLocator()); //arrumar
         return $instance;
     }
 
