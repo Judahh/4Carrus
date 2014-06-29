@@ -21,33 +21,13 @@ class DeclarationBackgroundPosition extends DeclarationBackground {
         return $instance;
     }
 
-    public static function DeclarationBackgroundPositionWithBasicPositionX($basicPositionX) {
-        $instance = new parent("background-position", $basicPositionX->stringBasicPosition()); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicFullPositionX($basicFullPositionX) {
+        $instance = new parent("background-position", $basicFullPositionX->stringBasicFullPosition()); //arrumar
         return $instance;
     }
     
-    public static function DeclarationBackgroundPositionWithBasicLengthX($basicLengthX) {
-        $instance = new parent("background-position", $basicLengthX->stringBasicLength()); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithBasicLengthXWithBasicLengthY($basicLengthX, $basicLengthY) {
-        $instance = new parent("background-position", $basicLengthX->stringBasicLength()." ".$basicLengthY->stringBasicLength()); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithBasicPositionXWithBasicLengthY($basicPositionX, $basicLengthY) {
-        $instance = new parent("background-position", $basicPositionX->stringBasicPosition()." ".$basicLengthY->stringBasicLength()); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithBasicLengthXWithBasicPositionY($basicLengthX, $basicPositionY) {
-        $instance = new parent("background-position", $basicLengthX->stringBasicLength()." ".$basicPositionY->stringBasicPosition()); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationBackgroundPositionWithBasicPositionXWithBasicPositionY($basicPositionX, $basicPositionY) {
-        $instance = new parent("background-position", $basicPositionX->stringBasicPosition()." ".$basicPositionY->stringBasicPosition()); //arrumar
+    public static function DeclarationBackgroundPositionWithBasicFullPositionXWithBasicFullPositionY($basicFullPositionX, $basicFullPositionY) {
+        $instance = new parent("background-position", $basicFullPositionX->stringBasicFullPosition()." ".$basicFullPositionY->stringBasicFullPosition()); //arrumar
         return $instance;
     }
 }
