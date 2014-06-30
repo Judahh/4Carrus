@@ -33,11 +33,13 @@ class DeclarationFontWeight extends DeclarationBorderImage {
     public static function stringValueBold() {
         return "bold";
     }
-
+    
+    //Sem Suporte
     public static function stringValueItalic() {
         return "bolder";
     }
     
+    //Sem Suporte
     public static function stringValueOblique() {
         return "lighter";
     }
