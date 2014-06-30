@@ -19,17 +19,17 @@ class BackgroundValue {
     }
 
     public static function
-    BackgroundValueWithStringAttachmentValueWithStringClipValueWithStringColorValueWithStringImageValueWithStringOriginValueWithStringPositionValueWithStringRepeatValueWithStringSizeValue
-    ($stringAttachmentValue, $stringClipValue, $stringColorValue, $stringImageValue, $stringOriginValue, $stringPositionValue, $stringRepeatValue, $stringSizeValue) {
+    BackgroundWithStringAttachmentWithStringClipWithStringColorWithStringImageWithStringOriginWithStringPositionWithStringRepeatWithStringSize
+    ($stringAttachment, $stringClip, $stringColor, $stringImage, $stringOrigin, $stringPosition, $stringRepeat, $stringSize) {
         $instance = new self();
-        array_push($this->arrayBackgroundValue, $stringColorValue);
-        array_push($this->arrayBackgroundValue, $stringPositionValue);
-        array_push($this->arrayBackgroundValue, $stringSizeValue);
-        array_push($this->arrayBackgroundValue, $stringRepeatValue);
-        array_push($this->arrayBackgroundValue, $stringOriginValue);
-        array_push($this->arrayBackgroundValue, $stringClipValue);
-        array_push($this->arrayBackgroundValue, $stringAttachmentValue);
-        array_push($this->arrayBackgroundValue, $stringImageValue);
+        array_push($this->arrayBackgroundValue, $stringColor);
+        array_push($this->arrayBackgroundValue, $stringPosition);
+        array_push($this->arrayBackgroundValue, $stringSize);
+        array_push($this->arrayBackgroundValue, $stringRepeat);
+        array_push($this->arrayBackgroundValue, $stringOrigin);
+        array_push($this->arrayBackgroundValue, $stringClip);
+        array_push($this->arrayBackgroundValue, $stringAttachment);
+        array_push($this->arrayBackgroundValue, $stringImage);
         return $instance;
     }
 

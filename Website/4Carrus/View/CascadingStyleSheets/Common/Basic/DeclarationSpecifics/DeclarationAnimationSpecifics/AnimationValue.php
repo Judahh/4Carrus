@@ -20,17 +20,17 @@ class AnimationValue {
     }
 
     public static function
-    AnimationValueWithStringKeyframeValueWithStringDurationValueWithStringTimingFunctionValueWithStringDelayValueWithStringIterationCountValueWithStringDirectionValueWithStringFillModeValueWithStringPlayStateValue
-    ($stringKeyframeValue, $stringDurationValue, $stringTimingFunctionValue, $stringDelayValue, $stringIterationCountValue, $stringDirectionValue, $stringFillModeValue, $stringPlayStateValue) {
+    AnimationWithStringKeyframesWithStringDurationWithStringTimingFunctionWithStringDelayWithStringIterationCountWithStringDirectionWithStringFillModeWithStringPlayState
+    ($stringKeyframes, $stringDuration, $stringTimingFunction, $stringDelay, $stringIterationCount, $stringDirection, $stringFillMode, $stringPlayState) {
         $instance = new self();
-        array_push($this->arrayAnimationValue, $stringKeyframeValue);
-        array_push($this->arrayAnimationValue, $stringDurationValue);
-        array_push($this->arrayAnimationValue, $stringTimingFunctionValue);
-        array_push($this->arrayAnimationValue, $stringDelayValue);
-        array_push($this->arrayAnimationValue, $stringIterationCountValue);
-        array_push($this->arrayAnimationValue, $stringDirectionValue);
-        array_push($this->arrayAnimationValue, $stringFillModeValue);
-        array_push($this->arrayAnimationValue, $stringPlayStateValue);
+        array_push($this->arrayAnimationValue, $stringKeyframes);
+        array_push($this->arrayAnimationValue, $stringDuration);
+        array_push($this->arrayAnimationValue, $stringTimingFunction);
+        array_push($this->arrayAnimationValue, $stringDelay);
+        array_push($this->arrayAnimationValue, $stringIterationCount);
+        array_push($this->arrayAnimationValue, $stringDirection);
+        array_push($this->arrayAnimationValue, $stringFillMode);
+        array_push($this->arrayAnimationValue, $stringPlayState);
         return $instance;
     }
 

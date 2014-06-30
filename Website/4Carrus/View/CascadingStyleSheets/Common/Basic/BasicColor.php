@@ -18,8 +18,8 @@ class BasicColor {
         $this->stringValue = $stringValue;
     }
 
-    public static function BasicColorWithIntHexdecimalColorValue($intHexdecimalColorValue) {
-        $instance = new self("#".$intHexdecimalColorValue); //arrumar
+    public static function BasicColorWithIntHexdecimalColor($intHexdecimalColor) {
+        $instance = new self("#".$intHexdecimalColor); //arrumar
         return $instance;
     }
     

@@ -17,14 +17,14 @@ class AnimationNameValue {
     private $arrayAnimationNameValue;
 
     private function __construct() {
-        array_push($this->arrayAnimationNameValue, "stringKeyframeValue");
-        array_push($this->arrayAnimationNameValue, "stringDurationValue");
-        array_push($this->arrayAnimationNameValue, "stringTimingFunctionValue");
-        array_push($this->arrayAnimationNameValue, "stringDelayValue");
-        array_push($this->arrayAnimationNameValue, "stringIterationCountValue");
-        array_push($this->arrayAnimationNameValue, "stringDirectionValue");
-        array_push($this->arrayAnimationNameValue, "stringFillModeValue");
-        array_push($this->arrayAnimationNameValue, "stringPlayStateValue");
+        array_push($this->arrayAnimationNameValue, "stringKeyframes");
+        array_push($this->arrayAnimationNameValue, "stringDuration");
+        array_push($this->arrayAnimationNameValue, "stringTimingFunction");
+        array_push($this->arrayAnimationNameValue, "stringDelay");
+        array_push($this->arrayAnimationNameValue, "stringIterationCount");
+        array_push($this->arrayAnimationNameValue, "stringDirection");
+        array_push($this->arrayAnimationNameValue, "stringFillMode");
+        array_push($this->arrayAnimationNameValue, "stringPlayState");
     }
 
     public static function getInstance() {

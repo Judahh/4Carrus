@@ -20,22 +20,22 @@ class BoxShadowValue {
     }
 
     public static function
-    BoxShadowValueWithStringHorizontalShadowValueWithStringVerticalShadowValueWithStringBlurValueWithStringSpreadValueWithStringColorValueWithStringInsetValue
-    ($stringHorizontalShadowValue, $stringVerticalShadowValue, $stringBlurValue, $stringSpreadValue, $stringColorValue, $stringInsetValue) {
+    BoxShadowWithStringHorizontalShadowWithStringVerticalShadowWithStringBlurWithStringSpreadWithStringColorWithStringInset
+    ($stringHorizontalShadow, $stringVerticalShadow, $stringBlur, $stringSpread, $stringColor, $stringInset) {
         $instance = new self();
-        array_push($this->arrayBoxShadowValue, $stringHorizontalShadowValue);
-        array_push($this->arrayBoxShadowValue, $stringVerticalShadowValue);
-        array_push($this->arrayBoxShadowValue, $stringBlurValue);
-        array_push($this->arrayBoxShadowValue, $stringSpreadValue);
-        array_push($this->arrayBoxShadowValue, $stringColorValue);
-        array_push($this->arrayBoxShadowValue, $stringInsetValue);
+        array_push($this->arrayBoxShadowValue, $stringHorizontalShadow);
+        array_push($this->arrayBoxShadowValue, $stringVerticalShadow);
+        array_push($this->arrayBoxShadowValue, $stringBlur);
+        array_push($this->arrayBoxShadowValue, $stringSpread);
+        array_push($this->arrayBoxShadowValue, $stringColor);
+        array_push($this->arrayBoxShadowValue, $stringInset);
         return $instance;
     }
 
-    public static function BoxShadowValueWithStringHorizontalShadowValueWithStringVerticalShadowValue($stringHorizontalShadowValue, $stringVerticalShadowValue) {
+    public static function BoxShadowWithStringHorizontalShadowWithStringVerticalShadow($stringHorizontalShadow, $stringVerticalShadow) {
         $instance = new self();
-        array_push($this->arrayBoxShadowValue, $stringHorizontalShadowValue);
-        array_push($this->arrayBoxShadowValue, $stringVerticalShadowValue);
+        array_push($this->arrayBoxShadowValue, $stringHorizontalShadow);
+        array_push($this->arrayBoxShadowValue, $stringVerticalShadow);
         return $instance;
     }
     
