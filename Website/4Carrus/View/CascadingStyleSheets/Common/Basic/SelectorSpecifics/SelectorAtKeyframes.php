@@ -28,9 +28,19 @@ class SelectorAtKeyframes extends Selector {
         $this->arraySelectorKeyframesSubSelector = $arraySelectorKeyframesSubSelector;
         return $instance;
     }
-    
+
     public function addSelectorWithArraySelectorKeyframesSubSelector($arraySelectorKeyframesSubSelector) {
         array_push($this->arraySelectorKeyframesSubSelector, $arraySelectorKeyframesSubSelector);
+    }
+
+    public function stringSelector() {
+        $stringSelector = $this->stringBasicSelector() . "{";
+        foreach ($this->arraySelectorKeyframesSubSelector as &$selector) {
+            $stringSelector = $stringSelector . $selector->stringSelector();
+        }
+        $stringSelector = $stringSelector . "}";
+        unset($selector);
+        return $stringSelector;
     }
 
 }
