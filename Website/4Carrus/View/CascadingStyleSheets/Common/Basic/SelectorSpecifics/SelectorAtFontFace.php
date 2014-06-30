@@ -16,7 +16,7 @@ class SelectorAtFontFace extends Selector {
 //Constructor
 //   instantiation: 
 //      $declaration = SelectorAtFontFace::SelectorAtFontFaceWithStringValue($stringValue);
-        public static function SelectorAtFontFaceWithStringValue() {
+        public static function SelectorAtFontFace() {
             $instance = new parent("font-face", "@", "");
             return $instance;
         }

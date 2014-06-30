@@ -11,18 +11,27 @@
  *
  * @author Judah
  */
-
 class SelectorAtKeyframes extends Selector {
-    
-    private $arraySelector;
+
+    private $arraySelectorKeyframesSubSelector;
+
 //Constructor
 //   instantiation: 
 //      $declaration = SelectorAtKeyframes::SelectorAtKeyframesWithStringValue($stringValue);
-        public static function SelectorAtKeyframesWithStringKeyframes($stringKeyframes) {
-            $instance = new parent("keyframes"." ".$stringKeyframes, "@", "");
-            return $instance;
-        }
-        
+    public static function SelectorAtKeyframesWithStringKeyframes($stringKeyframes) {
+        $instance = new parent("keyframes" . " " . $stringKeyframes, "@", "");
+        return $instance;
     }
 
+    public static function SelectorAtKeyframesWithStringKeyframesWithArraySelectorKeyframesSubSelector($stringKeyframes, $arraySelectorKeyframesSubSelector) {
+        $instance = new parent("keyframes" . " " . $stringKeyframes, "@", "");
+        $this->arraySelectorKeyframesSubSelector = $arraySelectorKeyframesSubSelector;
+        return $instance;
+    }
+    
+    public function addSelectorWithArraySelectorKeyframesSubSelector($arraySelectorKeyframesSubSelector) {
+        array_push($this->arraySelectorKeyframesSubSelector, $arraySelectorKeyframesSubSelector);
+    }
+
+}
 ?>
