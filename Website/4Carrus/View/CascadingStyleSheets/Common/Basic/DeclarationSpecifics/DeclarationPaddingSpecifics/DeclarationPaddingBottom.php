@@ -5,7 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-class DeclarationPaddingBottom {
+class DeclarationPaddingBottom extends DeclarationPadding{
     //put your code here
 }
 

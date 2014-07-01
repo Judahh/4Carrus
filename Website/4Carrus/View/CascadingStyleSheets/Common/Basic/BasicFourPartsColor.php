@@ -20,7 +20,7 @@ class BasicFourPartsColor{
     }
     
     public static function BasicFourPartsColorWithStringValue($stringValue) {
-        $instance = new parent($stringValue); //arrumar
+        $instance = new parent($stringValue);
         return $instance;
     }
     

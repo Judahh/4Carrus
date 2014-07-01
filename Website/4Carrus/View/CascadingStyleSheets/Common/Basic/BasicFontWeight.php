@@ -58,7 +58,7 @@ class BasicFontWeight {
                 $stringValue = "100";
             break;
         }
-        $instance = new self($stringValue); //arrumar
+        $instance = new self($stringValue);
         return $instance;
     }
 

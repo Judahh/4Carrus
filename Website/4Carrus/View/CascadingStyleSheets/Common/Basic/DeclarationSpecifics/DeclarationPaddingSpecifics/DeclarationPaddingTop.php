@@ -1,11 +1,11 @@
 <?php
 
 /**
- * DeclarationPaddingLeft [TIPO]
+ * DeclarationPaddingTop [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-class DeclarationPaddingLeft extends DeclarationPadding{
+class DeclarationPaddingTop extends DeclarationPadding{
     //put your code here
 }
 
