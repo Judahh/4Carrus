@@ -15,9 +15,9 @@ class DeclarationBorderRadius extends DeclarationBorder {
 
     //Constructor
     //   instantiation: 
-    //      $declaration = DeclarationBackgroundRadius::DeclarationBackgroundRadiusWithStringHexRadiusValue($stringHexRadiusValue);
+    //      $declaration = DeclarationBorderRadius::DeclarationBorderRadiusWithStringHexRadiusValue($stringHexRadiusValue);
     public static function DeclarationBorderRadiusWithStringValue($stringValue) {
-        $instance = new parent("border-radius", $stringValue); //arrumar
+        $instance = new parent("border-radius", $stringValue);
         return $instance;
     }
     

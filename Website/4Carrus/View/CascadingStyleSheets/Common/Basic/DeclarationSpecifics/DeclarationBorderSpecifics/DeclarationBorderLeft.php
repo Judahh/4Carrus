@@ -15,9 +15,9 @@ class DeclarationBorderLeft extends DeclarationBorder {
 
     //Constructor
     //   instantiation: 
-    //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
+    //      $declaration = DeclarationBorderLeft::DeclarationBorderLeftWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationBorderLeftWithStringValue($stringValue) {
-        $instance = new parent("border-left", $stringValue); //arrumar
+        $instance = new parent("border-left", $stringValue);
         return $instance;
     }
 

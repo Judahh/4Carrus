@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationWidth extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationWidth::DeclarationWidthWithStringValue($stringValue);
-class DeclarationWidth extends Declaration {
     public static function DeclarationWidthWithStringValue($stringValue) {
         $instance = new parent("width", $stringValue);
         return $instance;
