@@ -15,9 +15,9 @@ class DeclarationBorderTop extends DeclarationBorder {
 
     //Constructor
     //   instantiation: 
-    //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
+    //      $declaration = DeclarationBorderTop::DeclarationBorderTopWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationBorderTopWithStringValue($stringValue) {
-        $instance = new parent("border-top", $stringValue); //arrumar
+        $instance = new parent("border-top", $stringValue);
         return $instance;
     }
 

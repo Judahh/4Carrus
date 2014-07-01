@@ -15,9 +15,9 @@ class DeclarationBorderBottom extends DeclarationBorder {
 
     //Constructor
     //   instantiation: 
-    //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
+    //      $declaration = DeclarationBorderBottom::DeclarationBorderBottomWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationBorderBottomWithStringValue($stringValue) {
-        $instance = new parent("border-bottom", $stringValue); //arrumar
+        $instance = new parent("border-bottom", $stringValue);
         return $instance;
     }
 

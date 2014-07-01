@@ -19,17 +19,17 @@ class BasicColor {
     }
 
     public static function BasicColorWithIntHexdecimalColor($intHexdecimalColor) {
-        $instance = new self("#".$intHexdecimalColor); //arrumar
+        $instance = new self("#".$intHexdecimalColor);
         return $instance;
     }
     
     public static function BasicColorWithIntRedWithIntGreenWithIntBlue($intRed, $intGreen, $intBlue) {
-        $instance = new self("rgb(".$intRed.",".$intGreen.",".$intBlue.")"); //arrumar
+        $instance = new self("rgb(".$intRed.",".$intGreen.",".$intBlue.")");
         return $instance;
     }
     
     public static function BasicColorWithStringValue($stringValue) {
-        $instance = new self($stringValue); //arrumar
+        $instance = new self($stringValue);
         return $instance;
     }
 
