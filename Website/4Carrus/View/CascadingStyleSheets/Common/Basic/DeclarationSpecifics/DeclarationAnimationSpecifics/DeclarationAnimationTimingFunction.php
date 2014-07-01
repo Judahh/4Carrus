@@ -21,8 +21,8 @@ class DeclarationAnimationTimingFunction extends DeclarationAnimation {
         return $instance;
     }
 
-    public static function DeclarationAnimationTimingFunctionWithCubicBezier($cubicBezier) {
-        $instance = new parent("animation-timing-function", $cubicBezier->stringCubicBezier());
+    public static function DeclarationAnimationTimingFunctionWithBasicCubicBezier($basicCubicBezier) {
+        $instance = new parent("animation-timing-function", $basicCubicBezier->stringBasicCubicBezier());
         return $instance;
     }
 
