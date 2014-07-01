@@ -6,7 +6,13 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 class DeclarationPaddingBottom extends DeclarationPadding{
-    //put your code here
+//Constructor
+//   instantiation: 
+//      $declaration = DeclarationPaddingBottom::DeclarationPaddingBottomWithStringValue($stringValue);
+    public static function DeclarationPaddingBottomWithStringValue($stringValue) {
+        $instance = new parent("padding-bottom", $stringValue);
+        return $instance;
+    }
 }
 
 ?>
