@@ -6,7 +6,18 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 class DeclarationPaddingLeft extends DeclarationPadding{
-    //put your code here
+//Constructor
+//   instantiation: 
+//      $declaration = DeclarationPaddingLeft::DeclarationPaddingLeftWithStringValue($stringValue);
+    public static function DeclarationPaddingLeftWithStringValue($stringValue) {
+        $instance = new parent("padding-left", $stringValue);
+        return $instance;
+    }
+    
+    public static function DeclarationPaddingLeftWithBasicLength($basicLength) {
+        $instance = new parent("padding-left", $basicLength->stringBasicLength());
+        return $instance;
+    }
 }
 
 ?>

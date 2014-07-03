@@ -14,8 +14,8 @@ class DeclarationPaddingRight extends DeclarationPadding{
         return $instance;
     }
     
-    public static function DeclarationPaddingRightWithBasicFourPartsLength($basicFourPartsLength) {
-        $instance = new parent("padding-right", $basicFourPartsLength->stringBasicFourPartsLength());
+    public static function DeclarationPaddingRightWithBasicLength($basicLength) {
+        $instance = new parent("padding-right", $basicLength->stringBasicLength());
         return $instance;
     }
 }

@@ -14,8 +14,8 @@ class DeclarationPaddingBottom extends DeclarationPadding{
         return $instance;
     }
     
-    public static function DeclarationPaddingBottomWithBasicFourPartsLength($basicFourPartsLength) {
-        $instance = new parent("padding-bottom", $basicFourPartsLength->stringBasicFourPartsLength());
+    public static function DeclarationPaddingBottomWithBasicLength($basicLength) {
+        $instance = new parent("padding-bottom", $basicLength->stringBasicLength());
         return $instance;
     }
 }
