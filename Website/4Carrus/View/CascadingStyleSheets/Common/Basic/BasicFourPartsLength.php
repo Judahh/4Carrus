@@ -20,7 +20,7 @@ class BasicFourPartsLength{
     }
     
     public static function BasicFourPartsLengthWithStringValue($stringValue) {
-        $instance = new parent($stringValue); //arrumar
+        $instance = new parent($stringValue);
         return $instance;
     }
     
