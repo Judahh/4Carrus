@@ -11,13 +11,13 @@
  *
  * @author Judah
  */
-    class DeclarationAlignContent extends Declaration {
 
-        //Constructor
-        //   instantiation: 
-        //      $declaration = DeclarationAlignContent::DeclarationAlignContentWithStringValue($stringValue);
+class DeclarationAlignContent extends Declaration {
+//Constructor
+//   instantiation: 
+//      $declaration = DeclarationAlignContent::DeclarationAlignContentWithStringValue($stringValue);
         public static function DeclarationAlignContentWithStringValue($stringValue) {
-            $instance = new parent("align-content", ":" . $stringValue); //arrumar
+            $instance = new parent("align-content", $stringValue);
             return $instance;
         }
         
@@ -44,15 +44,6 @@
         public static function stringValueSpaceAround() {
             return "space-around";
         }
-        
-        public static function stringValueInitial() {
-            return "initial";
-        }
-        
-        public static function stringValueInherit() {
-            return "inherit";
-        }
-        
     }
 
 ?>

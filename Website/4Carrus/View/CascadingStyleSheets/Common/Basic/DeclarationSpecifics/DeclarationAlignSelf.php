@@ -17,7 +17,7 @@
         //   instantiation: 
         //      $declaration = DeclarationAlignSelf::DeclarationAlignSelfWithStringValue($stringValue);
         public static function DeclarationAlignSelfWithStringValue($stringValue) {
-            $instance = new parent("align-self", ":" . $stringValue); //arrumar
+            $instance = new parent("align-self", $stringValue); //arrumar
             return $instance;
         }
         
@@ -44,15 +44,6 @@
         public static function stringValueBaseline() {
             return "baseline";
         }
-        
-        public static function stringValueInitial() {
-            return "initial";
-        }
-        
-        public static function stringValueInherit() {
-            return "inherit";
-        }
-        
     }
 
 ?>

@@ -5,33 +5,18 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
+class DeclarationWidth extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationWidth::DeclarationWidthWithStringValue($stringValue);
-class DeclarationWidth extends Declaration {
-
-    public static function DeclarationWordSpacingWithStringValue($stringValue) {
-        $instance = new parent("word-break", ":" . $stringValue); //arrumar
+    public static function DeclarationWidthWithStringValue($stringValue) {
+        $instance = new parent("width", $stringValue);
         return $instance;
     }
     
-    public static function DeclarationWordSpacingWithStringPercentValue($stringPercentValue) {
-        $instance = new parent("word-break", ":" . $stringValue."%"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationWordSpacingPercentWithIntPercentValue($intPercentValue) {
-        $instance = new parent("word-break", ":" . $intPercentValue."%"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationWordSpacingWithStringPixelValue($stringPixelValue) {
-        $instance = new parent("word-break", ":" . $stringPixelValue."px"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationWordSpacingWithIntPixelValue($intPixelValue) {
-        $instance = new parent("word-break", ":" . $intPixelValue."%"); //arrumar
+    public static function DeclarationWidthWithBasicLength($basicLength) {
+        $instance = new parent("width", $basicLength->stringBasicLength());
         return $instance;
     }
 
@@ -41,14 +26,6 @@ class DeclarationWidth extends Declaration {
 
     public static function stringValueLength() {
         return "length";
-    }
-    
-    public static function stringValueInitial() {
-        return "initial";
-    }
-    
-    public static function stringValueInherit() {
-        return "Inherit";
     }
     
 }

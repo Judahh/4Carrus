@@ -16,33 +16,31 @@ class DeclarationAnimation extends Declaration {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationAnimationWithStringDurationWithStringKeyframeWithStringloop($stringDuration, $stringKeyframe, $stringLoop) {
-        $instance = new parent("animation", ":" .  $stringKeyframe . " " . $stringDuration . " " . $stringLoop); //arrumar
+
+    public static function
+    DeclarationAnimationWithAnimationValue($animationValue) {
+        $stringFullValue = "";
+        $arrayAnimationValue = $animationValue->getArrayAnimationValue();
+        $count = count($arrayAnimationValue);
+        for ($index = 0; $index < $count - 1; $index++) {
+            $stringFullValue = $stringFullValue . $arrayAnimationValue[$index] . " ";
+        }
+        $stringFullValue = $stringFullValue . $arrayAnimationValue[$count-1];
+        $instance = new parent("animation", $stringFullValue);
         return $instance;
     }
     
-    public static function DeclarationAnimationWithIntDurationSecondsWithStringKeyframeWithStringloop($intDurationSeconds, $stringKeyframe, $stringLoop) {
-        $instance = new parent("animation", ":" .  $stringKeyframe . " " . $intDurationSeconds . "s " . $stringLoop); //arrumar
+    public static function
+    DeclarationAnimationWithStringValue($stringValue) {
+        $instance = new parent("animation", $stringValue);
         return $instance;
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
-
-    public static function stringLoopInfinite() {
-        return "infinite";
     }
 
     public function stringDeclaration() {
         $stringFullDeclaration = "";
-        $browserDiffer = BrowserDiffer::getInstance();
-        foreach ($browserDiffer as &$browserDifferItem) {
-            $stringFullDeclaration = $stringFullDeclaration . $browserDifferItem . $this->stringProperty . $this->stringValue . ";";
+        $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
+        foreach ($arrayStringBrowserPrefix as &$stringBrowserPrefix) {
+            $stringFullDeclaration = $stringFullDeclaration . $stringBrowserPrefix . $this->stringProperty . ":" . $this->stringValue . ";";
         }
         return $stringFullDeclaration;
     }

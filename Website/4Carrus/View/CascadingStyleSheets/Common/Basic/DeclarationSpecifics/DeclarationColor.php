@@ -11,17 +11,20 @@
  *
  * @author Judah
  */
-    class DeclarationColor extends Declaration {
+class DeclarationColor extends Declaration {
 
-        //Constructor
-        //   instantiation: 
-        //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-        public static function DeclarationColorWithStringHexColorValue($stringHexColorValue) {
-            $instance = new parent("color", ":" . $stringHexColorValue); //arrumar
-            return $instance;
-        }
-
-        //todo constructo with int
+    //Constructor
+    //   instantiation: 
+    //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
+    public static function DeclarationColorWithBasicColor($basicColor) {
+        $instance = new parent("color", $basicColor->stringBasicColor());
+        return $instance;
     }
+    
+    public static function DeclarationColorWithStringValue($stringValue) {
+        $instance = new parent("color", $stringValue);
+        return $instance;
+    }
+}
 
 ?>

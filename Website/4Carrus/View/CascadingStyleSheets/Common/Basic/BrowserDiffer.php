@@ -19,16 +19,17 @@ class BrowserDiffer {
     private function __construct() {
         array_push($this->arrayStringBrowserPrefix, "");
         array_push($this->arrayStringBrowserPrefix, "-o-");
+        array_push($this->arrayStringBrowserPrefix, "-ms-");
         array_push($this->arrayStringBrowserPrefix, "-moz-");
         array_push($this->arrayStringBrowserPrefix, "-webkit-");
     }
 
     public static function getInstance() {
-        if (self::browserDifferInstance == null) {
+        if (self::$browserDifferInstance == null) {
             self::$browserDifferInstance = new self;
         }
 
-        return self::$instance;
+        return self::$browserDifferInstance;
     }
 
     public function getArrayStringBrowserPrefix() {

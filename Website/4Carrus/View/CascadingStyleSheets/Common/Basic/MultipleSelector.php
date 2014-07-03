@@ -12,14 +12,14 @@
 
        //Constructors
        //   instantiation: 
-       //      $multipleSelector = MultipleSelector::MultipleSelectorWithListSelector($listSelector);
-       //      $multipleSelector = MultipleSelector::MultipleSelectorWithListSelectorWithListDeclaration($listSelector, $listDeclaration);
-       public static function MultipleSelectorWithListSelector($arraySelector) {
+       //      $multipleSelector = MultipleSelector::MultipleSelectorWithArraySelector($listSelector);
+       //      $multipleSelector = MultipleSelector::MultipleSelectorWithArraySelectorWithArrayDeclaration($listSelector, $listDeclaration);
+       public static function MultipleSelectorWithArraySelector($arraySelector) {
           $instance = new self($arraySelector, array());
           return $instance;
        }
 
-       public static function MultipleSelectorWithListSelectorWithListDeclaration($arraySelector, $arrayDeclaration) {
+       public static function MultipleSelectorWithArraySelectorWithArrayDeclaration($arraySelector, $arrayDeclaration) {
           $instance = new self($arraySelector, $arrayDeclaration);
           return $instance;
        }

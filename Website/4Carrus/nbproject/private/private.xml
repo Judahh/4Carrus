@@ -2,9 +2,23 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="BlueL"/>
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Asus/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAlignContent.php</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicCubicBezier.php</file>
+            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimationSpecifics/DeclarationAnimationTimingFunction.php</file>
+=======
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingBottom.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBorderSpecifics/DeclarationBorderColor.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBorderSpecifics/DeclarationBorderImageSpecifics/DeclarationBorderImageOutset.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicFourPartsLength.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBorderSpecifics/DeclarationBorderSpacing.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPadding.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicFourPartsColor.php</file>
+>>>>>>> origin/master
+>>>>>>> origin/master
         </group>
     </open-files>
 </project-private>
