@@ -18,8 +18,6 @@ class BorderValue {
     private function __construct() {
         
     }
-
-    
     
     public static function BorderValueWithStringBorderWidthWithStringBorderStyleWithStringBorderColor($stringBorderWidth, $stringBorderStyle, $stringBorderColor) {
         $instance = new self();
