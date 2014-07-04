@@ -28,6 +28,14 @@ class BorderValue {
         array_push($this->arrayBorderValue, $stringBorderColor);
         return $instance;
     }
+    
+    public static function BorderValueWithDeclarationBorderWidthWithDeclarationBorderStyleWithDeclarationBorderColor($declarationBorderWidth, $declarationBorderStyle, $declarationBorderColor) {
+        $instance = new self();
+        array_push($this->arrayBorderValue, $declarationBorderWidth->getStringValue());
+        array_push($this->arrayBorderValue, $declarationBorderStyle->getStringValue());
+        array_push($this->arrayBorderValue, $declarationBorderColor->getStringValue());
+        return $instance;
+    }
 
     public static function BorderValue() {
         $instance = new self();
@@ -42,6 +50,10 @@ class BorderValue {
         array_push($this->arrayBorderValue, $stringValue);
     }
 
+    public function addStringValueWithDeclarationBorderSpecific($declarationBorderSpecific) {
+        array_push($this->arrayBorderValue, $declarationBorderSpecific->getStringValue());
+    }
+    
     public static function getArrayBorderNameValue() {
         return AnimationNameValue::getInstance()->getArrayBorderNameValue();
     }

@@ -11,18 +11,18 @@
  *
  * @author Judah
  */
-class DeclarationBorderRightWidth extends DeclarationBorderRight {
+class DeclarationBorderWidth extends DeclarationBorderRight {
 
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationBorderColor::DeclarationBorderColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationBorderRightWidthWithStringValue($stringValue) {
-        $instance = new parent("border-right-width", $stringValue); //arrumar
+    public static function DeclarationBorderWidthWithStringValue($stringValue) {
+        $instance = new parent("border-width", $stringValue); //arrumar
         return $instance;
     }
 
-    public static function DeclarationBorderRightWidthWithBasicFourPartsWidth($basicFourPartsWidth) {
-        $instance = new parent("border-right-width", $basicFourPartsWidth->stringBasicFourPartsWidth()); //arrumar
+    public static function DeclarationBorderWidthWithBasicFourPartsWidth($basicFourPartsWidth) {
+        $instance = new parent("border-width", $basicFourPartsWidth->stringBasicFourPartsWidth()); //arrumar
         return $instance;
     }
 }
