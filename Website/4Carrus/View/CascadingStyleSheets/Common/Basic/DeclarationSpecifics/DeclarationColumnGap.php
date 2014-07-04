@@ -9,7 +9,7 @@
 /**
  * Description of Declaration ColumnGap
  *
- * @author Asus
+ * @author Silvio
  */
 class DeclarationColumnGap extends Declaration{
 //Constructor
