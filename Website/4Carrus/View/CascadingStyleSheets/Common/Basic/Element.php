@@ -15,15 +15,19 @@ class Element {
     private $arraySelector;
     
     private function __construct($arraySelector) {
-        $this->$arraySelector = $arraySelector;
+        $this->arraySelector = $arraySelector;
     }
     
-    public static function SelectorWithArraySelector($arraySelector) {
+    public static function ElementWithArraySelector($arraySelector) {
         $instance = new self($arraySelector);
         return $instance;
     }
     
-    public static function Selector() {
+    public function addSelectorWithSelector($Selector) {
+          array_push($this->arraySelector, $Selector);
+       }
+    
+    public static function Element() {
         $instance = new self(array());
         return $instance;
     }
