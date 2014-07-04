@@ -32,6 +32,21 @@ class BackgroundValue {
         array_push($this->arrayBackgroundValue, $stringImage);
         return $instance;
     }
+    
+    public static function
+    BackgroundWithDeclarationBackgroundAttachmentWithDeclarationBackgroundClipWithDeclarationBackgroundColorWithDeclarationBackgroundImageWithDeclarationBackgroundOriginWithDeclarationBackgroundPositionWithDeclarationBackgroundRepeatWithDeclarationBackgroundSize
+    ($declarationBackgroundAttachment, $declarationBackgroundClip, $declarationBackgroundColor, $declarationBackgroundImage, $declarationBackgroundOrigin, $declarationBackgroundPosition, $declarationBackgroundRepeat, $declarationBackgroundSize) {
+        $instance = new self();
+        array_push($this->arrayBackgroundValue, $declarationBackgroundColor->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundPosition->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundSize->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundRepeat->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundOrigin->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundClip->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundAttachment->getStringValue());
+        array_push($this->arrayBackgroundValue, $declarationBackgroundImage->getStringValue());
+        return $instance;
+    }
 
     public static function BackgroundValue() {
         $instance = new self();
@@ -46,6 +61,10 @@ class BackgroundValue {
         array_push($this->arrayBackgroundValue, $stringValue);
     }
 
+    public function addStringValueWithDeclarationBackgroundSpecific($declarationBackgroundSpecific) {
+        array_push($this->arrayAnimationValue, $declarationBackgroundSpecific->getStringValue());
+    }
+    
     public static function getArrayBackgroundNameValue() {
         return AnimationNameValue::getInstance()->getArrayBackgroundNameValue();
     }
