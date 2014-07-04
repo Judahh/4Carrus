@@ -28,6 +28,21 @@ class BasicColor {
         return $instance;
     }
     
+    public static function BasicColorWithIntRedWithIntGreenWithIntBlueWithFloatOpacity($intRed, $intGreen, $intBlue, $floatOpacity) {
+        $instance = new self("rgba(".$intRed.",".$intGreen.",".$intBlue.",".$floatOpacity.")");
+        return $instance;
+    }
+    
+    public static function BasicColorWithIntHueWithIntPercentSaturationWithIntPercentLightness($intHue, $intPercentSaturation, $intPercentLightness) {
+        $instance = new self("hsl(".$intHue.",".$intPercentSaturation."%,".$intPercentLightness."%)");
+        return $instance;
+    }
+    
+    public static function BasicColorWithIntHueWithIntPercentSaturationWithIntPercentLightnessWithFloatOpacity($intHue, $intPercentSaturation, $intPercentLightness, $floatOpacity) {
+        $instance = new self("hsla(".$intHue.",".$intPercentSaturation."%,".$intPercentLightness."%,".$floatOpacity.")");
+        return $instance;
+    }
+    
     public static function BasicColorWithStringValue($stringValue) {
         $instance = new self($stringValue);
         return $instance;
