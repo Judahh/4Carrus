@@ -33,6 +33,21 @@ class AnimationValue {
         array_push($this->arrayAnimationValue, $stringPlayState);
         return $instance;
     }
+    
+    public static function
+    AnimationWithDeclarationAnimationNameWithDeclarationAnimationDurationWithDeclarationAnimationTimingFunctionWithDeclarationAnimationDelayWithDeclarationAnimationIterationCountWithDeclarationAnimationDirectionWithDeclarationAnimationFillModeWithDeclarationAnimationPlayState
+    ($declarationAnimationName, $declarationAnimationDuration, $declarationAnimationTimingFunction, $declarationAnimationDelay, $declarationAnimationIterationCount, $declarationAnimationDirection, $declarationAnimationFillMode, $declarationAnimationPlayState) {
+        $instance = new self();
+        array_push($this->arrayAnimationValue, $declarationAnimationName->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationDuration->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationTimingFunction->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationDelay->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationIterationCount->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationDirection->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationFillMode->getStringValue());
+        array_push($this->arrayAnimationValue, $declarationAnimationPlayState->getStringValue());
+        return $instance;
+    }
 
     public static function AnimationValue() {
         $instance = new self();
@@ -45,6 +60,10 @@ class AnimationValue {
 
     public function addStringValueWithStringValue($stringValue) {
         array_push($this->arrayAnimationValue, $stringValue);
+    }
+    
+    public function addStringValueWithDeclarationAnimationSpecific($declarationAnimationSpecific) {
+        array_push($this->arrayAnimationValue, $declarationAnimationSpecific->getStringValue());
     }
 
     public static function getArrayAnimationNameValue() {
