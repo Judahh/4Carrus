@@ -19,6 +19,14 @@ class BorderRightValue {
         
     }
 
+    public static function BorderRightValueWithDeclarationBorderRightWidthWithDeclarationBorderRightStyleWithDeclarationBorderRightColor($declarationBorderRightWidth, $declarationBorderRightStyle, $declarationBorderRightColor) {
+        $instance = new self();
+        array_push($this->arrayBorderRightValue, $declarationBorderRightWidth->getStringValue());
+        array_push($this->arrayBorderRightValue, $declarationBorderRightStyle->getStringValue());
+        array_push($this->arrayBorderRightValue, $declarationBorderRightColor->getStringValue());
+        return $instance;
+    }
+    
     public static function
     BorderRightValueWithStringBorderRightWidthWithStringBorderRightStyleWithStringBorderRightColor
     ($stringBorderRightWidth, $stringBorderRightStyle, $stringBorderRightColor) {
@@ -40,6 +48,10 @@ class BorderRightValue {
 
     public function addStringValueWithStringValue($stringValue) {
         array_push($this->arrayBorderRightValue, $stringValue);
+    }
+    
+    public function addStringValueWithDeclarationBorderRightSpecific($declarationBorderRightSpecific) {
+        array_push($this->arrayBorderValue, $declarationBorderRightSpecific->getStringValue());
     }
 
     public static function getArrayBorderRightNameValue() {
