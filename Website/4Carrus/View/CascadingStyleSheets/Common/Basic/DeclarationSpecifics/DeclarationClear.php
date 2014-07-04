@@ -22,12 +22,12 @@ class DeclarationClear extends Declaration{
             return "left";
         }
         
-        public static function stringValueTargetRight() {
-            return "target-name";
+        public static function stringValueRight() {
+            return "right";
         }
         
-        public static function stringValueTargetboth() {
-            return "target-name";
+        public static function stringValueBoth() {
+            return "both";
         }
         
 }
