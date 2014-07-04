@@ -19,7 +19,13 @@ class BorderTopValue {
         
     }
 
-    
+    public static function BorderTopValueWithDeclarationBorderTopWidthWithDeclarationBorderTopStyleWithDeclarationBorderTopColor($declarationBorderTopWidth, $declarationBorderTopStyle, $declarationBorderTopColor) {
+        $instance = new self();
+        array_push($this->arrayBorderTopValue, $declarationBorderTopWidth->getStringValue());
+        array_push($this->arrayBorderTopValue, $declarationBorderTopStyle->getStringValue());
+        array_push($this->arrayBorderTopValue, $declarationBorderTopColor->getStringValue());
+        return $instance;
+    }
     
     public static function BorderTopValueWithStringBorderTopWidthWithStringBorderTopStyleWithStringBorderTopColor($stringBorderTopWidth, $stringBorderTopStyle, $stringBorderTopColor) {
         $instance = new self();
@@ -41,9 +47,12 @@ class BorderTopValue {
     public function addStringValueWithStringValue($stringValue) {
         array_push($this->arrayBorderTopValue, $stringValue);
     }
+    
+    public function addStringValueWithDeclarationBorderTopSpecific($declarationBorderTopSpecific) {
+        array_push($this->arrayBorderValue, $declarationBorderTopSpecific->getStringValue());
+    }
 
     public static function getArrayBorderTopNameValue() {
         return AnimationNameValue::getInstance()->getArrayBorderTopNameValue();
     }
-
 }
