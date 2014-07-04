@@ -18,7 +18,19 @@ class BorderImageValue {
     private function __construct() {
         
     }
-
+    
+    public static function
+    BorderImageValueWithDeclarationBorderImageSourceWithDeclarationBorderImageSliceWithDeclarationBorderImageWidthWithDeclarationBorderImageOutsetWithDeclarationBorderImageRepeat
+    ($declarationBorderImageSource, $declarationBorderImageSlice, $declarationBorderImageWidth, $declarationBorderImageOutset, $declarationBorderImageRepeat) {
+        $instance = new self();
+        array_push($this->arrayBorderImageValue, $declarationBorderImageSource->getStringValue());
+        array_push($this->arrayBorderImageValue, $declarationBorderImageSlice->getStringValue());
+        array_push($this->arrayBorderImageValue, $declarationBorderImageWidth->getStringValue());
+        array_push($this->arrayBorderImageValue, $declarationBorderImageOutset->getStringValue());
+        array_push($this->arrayBorderImageValue, $declarationBorderImageRepeat->getStringValue());
+        return $instance;
+    }
+    
     public static function
     BorderImageValueWithStringBorderImageSourceWithStringBorderImageSliceWithStringBorderImageWidthWithStringBorderImageOutsetWithStringBorderImageRepeat
     ($stringBorderImageSource, $stringBorderImageSlice, $stringBorderImageWidth, $stringBorderImageOutset, $stringBorderImageRepeat) {
@@ -42,6 +54,10 @@ class BorderImageValue {
 
     public function addStringValueWithStringValue($stringValue) {
         array_push($this->arrayBorderImageValue, $stringValue);
+    }
+    
+    public function addStringValueWithDeclarationBorderImageSpecific($declarationBorderImageSpecific) {
+        array_push($this->arrayBorderValue, $declarationBorderImageSpecific->getStringValue());
     }
 
     public static function getArrayBorderImageNameValue() {
