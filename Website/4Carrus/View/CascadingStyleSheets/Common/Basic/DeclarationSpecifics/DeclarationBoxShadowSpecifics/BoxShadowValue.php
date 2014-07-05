@@ -20,22 +20,44 @@ class BoxShadowValue {
     }
 
     public static function
-    BoxShadowWithStringHorizontalShadowWithStringVerticalShadowWithStringBlurWithStringSpreadWithStringColorWithStringInset
-    ($stringHorizontalShadow, $stringVerticalShadow, $stringBlur, $stringSpread, $stringColor, $stringInset) {
+    BoxShadowWithBasicLengthHorizontalShadowPositionWithBasicLengthVerticalShadowPositionWithBasicLengthBlurDistanceWithBasicLengthShadowSizeWithBasicColor
+    ($basicLengthHorizontalShadowPosition, $basicLengthVerticalShadowPosition, $basicLengthBlurDistance, $basicLengthShadowSize, $basicColor) {
         $instance = new self();
-        array_push($this->arrayBoxShadowValue, $stringHorizontalShadow);
-        array_push($this->arrayBoxShadowValue, $stringVerticalShadow);
-        array_push($this->arrayBoxShadowValue, $stringBlur);
-        array_push($this->arrayBoxShadowValue, $stringSpread);
+        array_push($this->arrayBoxShadowValue, $basicLengthHorizontalShadowPosition->stringBasicLength());
+        array_push($this->arrayBoxShadowValue, $basicLengthVerticalShadowPosition->stringBasicLength());
+        array_push($this->arrayBoxShadowValue, $basicLengthBlurDistance->stringBasicLength());
+        array_push($this->arrayBoxShadowValue, $basicLengthShadowSize->stringBasicLength());
+        array_push($this->arrayBoxShadowValue, $basicColor->stringBasicColor());
+        return $instance;
+    }
+    
+    public static function
+    BoxShadowWithStringHorizontalShadowPositionWithStringVerticalShadowPositionWithStringBlurDistanceWithStringShadowSizeWithStringColor
+    ($stringHorizontalShadowPosition, $stringVerticalShadowPosition, $stringBlurDistance, $stringShadowSize, $stringColor) {
+        $instance = new self();
+        array_push($this->arrayBoxShadowValue, $stringHorizontalShadowPosition);
+        array_push($this->arrayBoxShadowValue, $stringVerticalShadowPosition);
+        array_push($this->arrayBoxShadowValue, $stringBlurDistance);
+        array_push($this->arrayBoxShadowValue, $stringShadowSize);
         array_push($this->arrayBoxShadowValue, $stringColor);
-        array_push($this->arrayBoxShadowValue, $stringInset);
+        return $instance;
+    }
+    
+    public static function
+    BoxShadowWithBasicLengthHorizontalShadowPositionWithBasicLengthVerticalShadowPosition
+    ($basicLengthHorizontalShadowPosition, $basicLengthVerticalShadowPosition) {
+        $instance = new self();
+        array_push($this->arrayBoxShadowValue, $basicLengthHorizontalShadowPosition->stringBasicLength());
+        array_push($this->arrayBoxShadowValue, $basicLengthVerticalShadowPosition->stringBasicLength());
         return $instance;
     }
 
-    public static function BoxShadowWithStringHorizontalShadowWithStringVerticalShadow($stringHorizontalShadow, $stringVerticalShadow) {
+    public static function
+    BoxShadowWithStringHorizontalShadowPositionWithStringVerticalShadowPosition
+    ($stringHorizontalShadowPosition, $stringVerticalShadowPosition) {
         $instance = new self();
-        array_push($this->arrayBoxShadowValue, $stringHorizontalShadow);
-        array_push($this->arrayBoxShadowValue, $stringVerticalShadow);
+        array_push($this->arrayBoxShadowValue, $stringHorizontalShadowPosition);
+        array_push($this->arrayBoxShadowValue, $stringVerticalShadowPosition);
         return $instance;
     }
     
