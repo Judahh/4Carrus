@@ -33,7 +33,7 @@ class BasicxHorizontalAxis {
     }
 
     public static function BasicHorizontalAxisWithStringPositionValue($stringHorizontalAxisValue) {
-        $instance = new self($stringHorizontalAxisValue); //arrumar
+        $instance = new self($stringHorizontalAxisValue);
         return $instance;
     }
 

@@ -1,16 +1,21 @@
 <?php
 
 /**
- * DeclarationTransformOrigin [TIPO]
+ * DeclarationPerspective [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-class DeclarationTransformOrigin extends DeclarationTransform{
+class DeclarationPerspective extends Declaration{
 //Constructor
 //   instantiation: 
-//      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationTransformOriginWithStringValue($stringValue) {
-        $instance = new parent("transform-origin", $stringValue);
+//      $declaration = DeclarationPerspective::DeclarationPerspectiveWithStringValue($stringValue);
+    public static function DeclarationPerspectiveWithStringValue($stringValue) {
+        $instance = new parent("perspective", $stringValue);
+        return $instance;
+    }
+    
+    public static function DeclarationPerspectivetWithBasicLength($basicLength) {
+        $instance = new parent("perspective", $basicLength->stringBasicLength());
         return $instance;
     }
     
@@ -22,6 +27,6 @@ class DeclarationTransformOrigin extends DeclarationTransform{
         }
         return $stringFullDeclaration;
     }
-    
 }
+
 ?>
