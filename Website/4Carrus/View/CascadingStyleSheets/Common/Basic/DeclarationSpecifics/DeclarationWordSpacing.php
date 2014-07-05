@@ -19,8 +19,9 @@ class DeclarationWordSpacing extends Declaration {
         return "normal";
     }
 
-    public static function stringValueLength() {
-        return "length";
+    public static function DeclarationWordSpacingWithBasicLength($basicLength) {
+        $instance = new parent("padding-top", $basicLength->stringBasicLength());
+        return $instance;
     }
 
 }

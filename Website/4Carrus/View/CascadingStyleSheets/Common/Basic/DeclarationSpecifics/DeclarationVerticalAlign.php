@@ -5,7 +5,6 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationVerticalAlign::DeclarationVerticalAlignWithStringValue($stringValue);
@@ -16,18 +15,8 @@ class DeclarationVerticalAlign extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationVerticalAlignPercentWithFloatPercentValue($FloatPercentValue) {
-        $instance = new parent("vertical-align", $FloatPercentValue . "%");
-        return $instance;
-    }
-
-    public static function DeclarationVerticalAlignWithFloatPixelValue($FloatPixelValue) {
-        $instance = new parent("vertical-align", $FloatPixelValue . "px");
-        return $instance;
-    }
-
-    public static function DeclarationVerticalAlignWithFloatCentimeterValue($FloatCentimeterValue) {
-        $instance = new parent("vertical-align", $FloatCentimeterValue . "cm");
+    public static function DeclarationVerticalAlignWithBasicLength($basicLength) {
+        $instance = new parent("vertical-align", $basicLength->stringBasicLength());
         return $instance;
     }
 
