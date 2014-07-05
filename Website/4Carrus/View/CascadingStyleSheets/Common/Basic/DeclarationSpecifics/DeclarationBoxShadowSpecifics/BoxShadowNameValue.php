@@ -22,11 +22,9 @@ class BoxShadowNameValue {
         array_push($this->arrayBoxShadowNameValue, "blur");
         array_push($this->arrayBoxShadowNameValue, "spread");
         array_push($this->arrayBoxShadowNameValue, "color");
-        array_push($this->arrayBoxShadowNameValue, "inset");
         
         array_push($this->arrayBoxShadowOptionalValue, "Required");
         array_push($this->arrayBoxShadowOptionalValue, "Required");
-        array_push($this->arrayBoxShadowOptionalValue, "Optional");
         array_push($this->arrayBoxShadowOptionalValue, "Optional");
         array_push($this->arrayBoxShadowOptionalValue, "Optional");
         array_push($this->arrayBoxShadowOptionalValue, "Optional");
