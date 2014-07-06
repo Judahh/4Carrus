@@ -1,8 +1,18 @@
 <?php
-
+/**
+ * DeclarationUnicodeBidirectional [TIPO]
+ * Descrição
+ * @copyright (c) year, Tarciso Torres Blue Lion
+ */
 
 class DeclarationTransition extends Declaration{
-   
+//Constructor
+//   instantiation: 
+//      $declaration = DeclarationTransition::DeclarationTransitionWithStringValue($stringValue);
+    public static function DeclarationTransitionWithStringValue($stringValue) {
+        $instance = new parent("transition", $stringValue);
+        return $instance;
+    }
     
     public function stringDeclaration() {
         $stringFullDeclaration = "";
