@@ -15,23 +15,8 @@ class DeclarationTextIndent extends Declaration{
         return $instance;
     }
     
-    public static function DeclarationTextIndentWithFloatPercentValue($floatPercentValue) {
-        $instance = new parent("text-indent", $floatPercentValue."%");
-        return $instance;
-    }
-    
-    public static function DeclarationTextIndentWithFloatPixelValue($floatPixelValue) {
-        $instance = new parent("text-indent", $floatPixelValue."px");
-        return $instance;
-    }
-    
-    public static function DeclarationTextIndentWithFloatCentimeterValue($floatCentimeterValue) {
-        $instance = new parent("text-indent", $floatCentimeterValue."cm");
-        return $instance;
-    }
-    
-    public static function DeclarationTextIndentWithFloatPointValue($floatPointValue) {
-        $instance = new parent("text-indent", $floatPointValue."pt");
+    public static function DeclarationTextIndentWithBasicLength($basicLength) {
+        $instance = new parent("text-indent", $basicLength->stringBasicLength());
         return $instance;
     }
     
