@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationTextJustify extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextJustify::DeclarationTextJustifyWithStringValue($stringValue);
-class DeclarationTextJustify extends Declaration {
     public static function DeclarationTextJustifyWithStringValue($stringValue) {
         $instance = new parent("text-justify", $stringValue);
         return $instance;

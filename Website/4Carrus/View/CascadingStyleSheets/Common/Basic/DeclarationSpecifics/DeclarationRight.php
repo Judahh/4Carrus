@@ -15,23 +15,8 @@ class DeclarationRight extends Declaration{
         return $instance;
     }
     
-    public static function DeclarationRightWithFloatPercentValue($floatPercentValue) {
-        $instance = new parent("right", $floatPercentValue."%");
-        return $instance;
-    }
-    
-    public static function DeclarationRightWithFloatPixelValue($floatPixelValue) {
-        $instance = new parent("right", $floatPixelValue."px");
-        return $instance;
-    }
-    
-    public static function DeclarationRightWithFloatCentimeterValue($floatCentimeterValue) {
-        $instance = new parent("right", $floatCentimeterValue."cm");
-        return $instance;
-    }
-    
-    public static function DeclarationRightWithFloatPointValue($floatPointValue) {
-        $instance = new parent("right", $floatPointValue."pt");
+     public static function DeclarationRighIndentWithBasicLength($basicLength) {
+        $instance = new parent("right", $basicLength->stringBasicLength());
         return $instance;
     }
 

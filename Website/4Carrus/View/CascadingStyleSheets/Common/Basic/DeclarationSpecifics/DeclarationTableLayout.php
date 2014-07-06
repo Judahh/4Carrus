@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationTableLayout extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTableLayout::DeclarationTableLayoutWithStringValue($stringValue);
-class DeclarationTableLayout extends Declaration {
     public static function DeclarationTableLayoutWithStringValue($stringValue) {
         $instance = new parent("table-layout", $stringValue);
         return $instance;

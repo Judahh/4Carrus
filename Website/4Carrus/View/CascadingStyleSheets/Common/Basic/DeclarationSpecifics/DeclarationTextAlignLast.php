@@ -1,20 +1,24 @@
 <?php
 
 /**
- * DeclarationTabSize [TIPO]
+ * DeclarationTextAlignLast [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
-class DeclarationTabSize extends Declaration {
+class DeclarationTextAlignLast extends Declaration{
 //Constructor
 //   instantiation: 
-//      $declaration = DeclarationTabSize::DeclarationTabSizeWithStringValue($stringValue);
-    public static function DeclarationTabSizeWithStringValue($stringValue) {
-        $instance = new parent("tab-size", $stringValue);
+//      $declaration = DeclarationTextAlignLast::DeclarationTextAlignLastWithStringValue($stringValue);
+    public static function DeclarationTextAlignLastWithStringValue($stringValue) {
+        $instance = new parent("text-align-last", $stringValue);
         return $instance;
     }
-    
+
+    public static function stringValueAuto() {
+        return "auto";
+    }
+
     public static function stringValueLeft() {
         return "left";
     }
@@ -31,9 +35,12 @@ class DeclarationTabSize extends Declaration {
         return "justify";
     }
     
-    public static function DeclarationTextIndentWithBasicLength($basicLength) {
-        $instance = new parent("tab-size", $basicLength->stringBasicLength());
-        return $instance;
+    public static function stringValueStart() {
+        return "start";
+    }
+    
+    public static function stringValueEnd() {
+        return "end";
     }
     
     public function stringDeclaration() {
@@ -44,10 +51,7 @@ class DeclarationTabSize extends Declaration {
         }
         return $stringFullDeclaration;
     }
-    public static function stringValueNumber() {
-        return "number";
-    }
-
+    
 }
 
 ?>

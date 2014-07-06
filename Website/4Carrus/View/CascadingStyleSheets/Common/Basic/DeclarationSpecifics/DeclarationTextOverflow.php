@@ -6,7 +6,6 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
-
 class DeclarationTextOverflow extends Declaration {
 //Constructor
 //   instantiation: 

@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationPosition extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationPosition::DeclarationPositionWithStringValue($stringValue);
-class DeclarationPosition extends Declaration{
     public static function DeclarationPositionWithStringValue($stringValue) {
         $instance = new parent("position", $stringValue);
         return $instance;
