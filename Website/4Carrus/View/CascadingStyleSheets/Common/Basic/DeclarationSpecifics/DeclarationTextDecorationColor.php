@@ -16,16 +16,10 @@ class DeclarationTextDecorationColor extends Declaration{
         return $instance;
     }
     
-    public static function DeclarationTextDecorationColorWithStringColorValue($stringValue) {
-        $instance = new parent("text-decoration-color", $stringValue);
+    public static function DeclarationTextDecorationColorWithBasicColor($basicColor) {
+        $instance = new parent("text-decoration-color", $basicColor->stringBasicColor());
         return $instance;
     }
-
-    public static function DeclarationTextDecorationColorWithIntHexColorValue($intHexColorValue) {
-        $instance = new parent("text-decoration-color", "#" . $intHexColorValue);
-        return $instance;
-    }
-    
 }
 
 ?>
