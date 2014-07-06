@@ -1,17 +1,17 @@
 <?php
 
 /**
- * DeclarationPerspective [TIPO]
+ * DeclarationPerspectiveOrigin [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
-class DeclarationPerspective extends Declaration{
-//Constructor
+class DeclarationPerspectiveOrigin extends Declaration{
+    //Constructor
 //   instantiation: 
-//      $declaration = DeclarationPerspective::DeclarationPerspectiveWithStringValue($stringValue);
-    public static function DeclarationPerspectiveWithStringValue($stringValue) {
-        $instance = new parent("perspective", $stringValue);
+//      $declaration = DeclarationPerspectiveOrigin::DeclarationPerspectiveOriginWithStringValue($stringValue);
+    public static function DeclarationPerspectiveOriginWithStringValue($stringValue) {
+        $instance = new parent("perspective-origin", $stringValue);
         return $instance;
     }
     
