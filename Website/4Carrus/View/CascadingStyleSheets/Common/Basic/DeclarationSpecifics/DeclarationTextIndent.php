@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationTextIndent extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextIndent::DeclarationTextIndentWithStringValue($stringValue);
-class DeclarationTextIndent extends Declaration{
     public static function DeclarationTextIndentWithStringValue($stringValue) {
         $instance = new parent("text-indent", $stringValue);
         return $instance;

@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationTextTransform extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextTransform::DeclarationTextTransformWithStringValue($stringValue);
-class DeclarationTextTransform extends Declaration {
     public static function DeclarationTextTransformWithStringValue($stringValue) {
         $instance = new parent("text-transform", $stringValue);
         return $instance;
