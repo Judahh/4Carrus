@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationWordBreak extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationWordBreak::DeclarationWordBreakWithStringValue($stringValue);
-class DeclarationWordBreak extends Declaration{
     public static function DeclarationWordBreakWithStringValue($stringValue) {
         $instance = new parent("word-break", $stringValue);
         return $instance;
