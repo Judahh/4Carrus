@@ -3,30 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimation.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTextTransform.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicFourPartsLength.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicVerticalAxis.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationUnicodeBidirectional.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTop.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicxHorizontalAxis.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPerspective.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingLeft.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTextIndent.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPadding.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingTop.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingRight.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationFontFamily.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationAnimation.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicFourPartsLength.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationWhiteSpace.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicVerticalAxis.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationRight.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationOverflowSpecifics/DeclarationOverflowX.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationWidth.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingBottom.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicxHorizontalAxis.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingLeft.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPageBreakInside.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBorderSpecifics/DeclarationBorderSpacing.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicCubicBezier.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationVerticalAlign.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPadding.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationPaddingSpecifics/DeclarationPaddingTop.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/DeclarationTransformOrigin.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationWordSpacing.php</file>
-=======
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicColor.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBoxShadow.php</file>
-            <file>file:/C:/Users/Judah/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationBoxShadowSpecifics/BoxShadowValue.php</file>
->>>>>>> origin/master
         </group>
     </open-files>
 </project-private>
