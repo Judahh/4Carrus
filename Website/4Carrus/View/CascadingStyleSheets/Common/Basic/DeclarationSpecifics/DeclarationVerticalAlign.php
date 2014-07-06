@@ -5,11 +5,11 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
+class DeclarationVerticalAlign extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationVerticalAlign::DeclarationVerticalAlignWithStringValue($stringValue);
-class DeclarationVerticalAlign extends Declaration {
-
     public static function DeclarationVerticalAlignWithStringValue($stringValue) {
         $instance = new parent("vertical-align", $stringValue);
         return $instance;
