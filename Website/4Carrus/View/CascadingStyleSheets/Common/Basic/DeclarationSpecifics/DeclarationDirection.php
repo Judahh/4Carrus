@@ -9,7 +9,7 @@
 /**
  * Description of DeclarationDirection
  *
- * @author Asus
+ * @author Silvio
  */
 class DeclarationDirection extends Declaration{
 //Constructor

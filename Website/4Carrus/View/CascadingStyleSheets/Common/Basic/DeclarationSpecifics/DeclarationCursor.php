@@ -9,7 +9,7 @@
 /**
  * Description of DeclarationCursor
  *
- * @author Asus
+ * @author Silvio
  */
 class DeclarationCursor extends Declaration{
 //Constructor
