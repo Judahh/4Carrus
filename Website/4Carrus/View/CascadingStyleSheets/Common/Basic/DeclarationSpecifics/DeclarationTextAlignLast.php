@@ -51,6 +51,7 @@ class DeclarationTextAlignLast extends Declaration{
         }
         return $stringFullDeclaration;
     }
+    
 }
 
 ?>
