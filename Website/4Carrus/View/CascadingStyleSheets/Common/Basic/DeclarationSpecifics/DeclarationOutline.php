@@ -14,6 +14,7 @@ class DeclarationOutline extends Declaration{
         $instance = new parent("outline", $stringValue);
         return $instance;
     }
+    
 }
 
 ?>
