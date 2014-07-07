@@ -27,7 +27,7 @@ class DeclarationOutlineWidth extends DeclarationOutline{
         return "thick";
     }
     
-    public static function DeclarationPaddingWithBasicLength($basicLength) {
+    public static function DeclarationOutlineWidthBasicLength($basicLength) {
         $instance = new parent("outline-width", $basicLength->stringBasicLength());
         return $instance;
     }
