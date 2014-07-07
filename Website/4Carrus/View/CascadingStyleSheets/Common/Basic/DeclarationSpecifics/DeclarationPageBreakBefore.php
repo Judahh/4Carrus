@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationPageBreakBefore extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationPageBreakBefore::DeclarationPageBreakBeforeWithStringValue($stringValue);
-class DeclarationPageBreakBefore extends Declaration{
     public static function DeclarationPageBreakBeforeWithStringValue($stringValue) {
         $instance = new parent("page-break-before", $stringValue);
         return $instance;
