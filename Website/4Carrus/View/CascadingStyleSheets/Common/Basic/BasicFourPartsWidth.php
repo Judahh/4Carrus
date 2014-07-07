@@ -20,7 +20,7 @@ class BasicFourPartsWidth{
     }
     
     public static function BasicFourPartsWidthWithStringValue($stringValue) {
-        $instance = new parent($stringValue); //arrumar
+        $instance = new parent($stringValue);
         return $instance;
     }
     
