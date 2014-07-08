@@ -8,7 +8,7 @@
 
 class BasicTranslateLongitudinal extends BasicTranslate{
     public static function BasicTranslateLongitudinalWithBasicLengthLongitudinal($basicLengthLongitudinal) {
-        $instance = new parent("z", $basicLengthLongitudinal->stringBasicLength());
+        $instance = new parent("Z", $basicLengthLongitudinal->stringBasicLength());
         return $instance;
     }
 }

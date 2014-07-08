@@ -22,7 +22,7 @@ class BasicTranslate {
     }
 
     public function stringBasicTranslate() {
-        return $this->stringTranslateType . "(" . $this->stringTranslateValue . ")";
+        return "translate" . $this->stringTranslateType . "(" . $this->stringTranslateValue . ")";
     }
     
 }

@@ -8,7 +8,7 @@
 
 class BasicTranslateVertical extends BasicTranslate{
     public static function BasicTranslateVerticalWithBasicLengthVertical($basicLengthVertical) {
-        $instance = new parent("y", $basicLengthVertical->stringBasicLength());
+        $instance = new parent("Y", $basicLengthVertical->stringBasicLength());
         return $instance;
     }
 }

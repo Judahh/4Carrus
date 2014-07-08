@@ -9,7 +9,7 @@
 class BasicTranslateHorizontal extends BasicTranslate {
 
     public static function BasicTranslateHorizontalWithBasicLengthHorizontal($basicLengthHorizontal) {
-        $instance = new parent("x", $basicLengthHorizontal->stringBasicLength());
+        $instance = new parent("X", $basicLengthHorizontal->stringBasicLength());
         return $instance;
     }
 
