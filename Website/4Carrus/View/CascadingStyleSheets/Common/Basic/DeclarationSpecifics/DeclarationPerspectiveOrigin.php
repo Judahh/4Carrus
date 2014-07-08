@@ -15,8 +15,8 @@ class DeclarationPerspectiveOrigin extends Declaration{
         return $instance;
     }
     
-    public static function DeclarationPerspectivetWithBasicLength($basicLength) {
-        $instance = new parent("perspective", $basicLength->stringBasicLength());
+    public static function DeclarationPerspectiveOriginWithBasicSimpleLength($basicSimpleLength) {
+        $instance = new parent("perspective-origin", $basicSimpleLength->stringBasicSimpleLength());
         return $instance;
     }
     
