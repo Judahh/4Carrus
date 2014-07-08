@@ -31,8 +31,8 @@ class BasicVerticalAxis {
         return $instance;
     }
 
-    public static function basicVerticalAxisWithStringPositionValue($stringHorizontalAxisValue) {
-        $instance = new self($stringHorizontalAxisValue);
+    public static function basicVerticalAxisWithStringPositionValue($stringVerticalAxisValue) {
+        $instance = new self($stringVerticalAxisValue);
         return $instance;
     }
 
@@ -48,7 +48,7 @@ class BasicVerticalAxis {
         return "center";
     }
 
-    public static function stringHorizontalAxisRightValue() {
+    public static function stringVerticalAxisRightValue() {
         return "right";
     }
     

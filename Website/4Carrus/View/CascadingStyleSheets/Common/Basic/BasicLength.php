@@ -11,6 +11,7 @@
  *
  * @author Judah
  */
+
 class BasicLength {
 
     private $floatLength;
