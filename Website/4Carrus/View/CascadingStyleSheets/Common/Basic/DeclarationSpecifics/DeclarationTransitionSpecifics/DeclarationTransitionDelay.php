@@ -5,8 +5,29 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 class DeclarationTransitionDelay extends DeclarationTransition{
-    //put your code here
+//Constructor
+//   instantiation: 
+//      $declaration = DeclarationTransitionDelay::DeclarationTransitionDelayWithStringValue($stringValue);
+    public static function DeclarationTransitionDelayWithStringValue($stringValue) {
+        $instance = new parent("transition-delay", $stringValue);
+        return $instance;
+    }
+  
+    public static function stringValueTime() {
+        return "time";
+    }
+    
+    public function stringDeclaration() {
+        $stringFullDeclaration = "";
+        $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
+        foreach ($arrayStringBrowserPrefix as &$stringBrowserPrefix) {
+            $stringFullDeclaration = $stringFullDeclaration . $stringBrowserPrefix . $this->stringProperty . ":" . $this->stringValue . ";";
+        }
+        return $stringFullDeclaration;
+    }
+    
 }
 
 ?>
