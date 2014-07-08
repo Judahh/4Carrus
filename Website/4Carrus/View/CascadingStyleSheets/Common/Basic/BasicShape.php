@@ -1,11 +1,5 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of Shape
  *
@@ -22,7 +16,7 @@ class BasicShape {
     }
 
     public static function BasicShapeWithStringShapeTypeWithStringShapeValue($stringShapeType, $stringShapeValue) {
-        $instance = new self($stringShapeType, $stringShapeValue); //arrumar
+        $instance = new self($stringShapeType, $stringShapeValue);
         return $instance;
     }
 
