@@ -15,16 +15,10 @@ class DeclarationPadding extends Declaration{
         return $instance;
     }
     
-    public static function DeclarationPaddingWithBasicFourPartsWidth($basicFourPartsWidth){
-        $instance = new parent("padding", $basicFourPartsWidth->stringBasicFourPartsWidth);
+    public static function DeclarationPaddingWithBasicFourPartsLength($basicFourPartsLength){
+        $instance = new parent("padding", $basicFourPartsLength->stringBasicFourPartsLength());
         return $instance;        
     }
-
-    public static function DeclarationPaddingWithBasicLength($basicLength) {
-        $instance = new parent("padding", $basicLength->stringBasicLength());
-        return $instance;
-    }
-    
 }
 
 ?>
