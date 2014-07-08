@@ -6,7 +6,26 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 class DeclarationTransitionDuration extends DeclarationTransition{
-    //put your code here
+//Constructor
+//   instantiation: 
+//      $declaration = DeclarationTransitionDuration::DeclarationTransitionDurationWithStringValue($stringValue);
+    public static function DeclarationTransitionDurationWithStringValue($stringValue) {
+        $instance = new parent("transition-duration", $stringValue);
+        return $instance;
+    }
+  
+    public static function stringValueTime() {
+        return "time";
+    }
+    
+    public function stringDeclaration() {
+        $stringFullDeclaration = "";
+        $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
+        foreach ($arrayStringBrowserPrefix as &$stringBrowserPrefix) {
+            $stringFullDeclaration = $stringFullDeclaration . $stringBrowserPrefix . $this->stringProperty . ":" . $this->stringValue . ";";
+        }
+        return $stringFullDeclaration;
+    }
 }
 
 ?>

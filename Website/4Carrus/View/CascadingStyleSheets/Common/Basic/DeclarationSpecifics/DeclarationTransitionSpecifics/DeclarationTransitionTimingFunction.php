@@ -35,10 +35,6 @@ class DeclarationTransitionTimingFunction extends DeclarationTransition{
         return "ease-in-out";
     }
     
-    public static function stringValueCubicBezier() {
-        return "cubic-bezier";
-    }
-    
     public static function DeclarationTransitionTimingFunctionWithBasicCubicBezier($basicCubicBezier) {
         $instance = new parent("transition-timing-function", $basicCubicBezier->basicCubicBezier());
         return $instance;
