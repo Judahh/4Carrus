@@ -8,21 +8,21 @@
 
 class BasicTranslate {
 
-    private $stringShapeType;
-    private $stringShapeValue;
+    private $stringTranslateType;
+    private $stringTranslateValue;
 
-    private function __construct($stringShapeType, $stringShapeValue) {
-        $this->stringShapeType = $stringShapeType;
-        $this->stringShapeValue = $stringShapeValue;
+    private function __construct($stringTranslateType, $stringTranslateValue) {
+        $this->stringTranslateType = $stringTranslateType;
+        $this->stringTranslateValue = $stringTranslateValue;
     }
 
-    public static function BasicTranslateWithStringShapeTypeWithStringShapeValue($stringShapeType, $stringShapeValue) {
-        $instance = new self($stringShapeType, $stringShapeValue);
+    public static function BasicTranslateWithStringTranslateTypeWithStringTranslateValue($stringTranslateType, $stringTranslateValue) {
+        $instance = new self($stringTranslateType, $stringTranslateValue);
         return $instance;
     }
 
-    public function stringBasicShape() {
-        return $this->stringShapeType . "(" . $this->stringShapeValue . ")";
+    public function stringBasicTranslate() {
+        return $this->stringTranslateType . "(" . $this->stringTranslateValue . ")";
     }
     
 }
