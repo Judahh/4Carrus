@@ -5,10 +5,11 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 class DeclarationTransformOrigin extends DeclarationTransform{
 //Constructor
 //   instantiation: 
-//      $declaration = DeclarationTransformOrigin::DeclarationTransformOriginWithStringHexColorValue($stringHexColorValue);
+//      $declaration = DeclarationTransformOrigin::DeclarationTransformOriginWithStringValue($stringValue);
     public static function DeclarationTransformOriginWithStringValue($stringValue) {
         $instance = new parent("transform-origin", $stringValue);
         return $instance;
