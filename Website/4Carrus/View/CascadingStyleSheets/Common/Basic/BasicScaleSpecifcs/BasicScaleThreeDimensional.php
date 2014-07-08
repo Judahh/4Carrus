@@ -7,8 +7,8 @@
  */
 
 class BasicScaleThreeDimensional {
-    public static function BasicScaleThreeDimensionalWithBasicLengthHorizontalWithBasicLengthVerticalWithBasicLengthBottom($basicLengthHorizontal, $basicLengthVertical, $basicLengthLongitudinal) {
-        $instance = new parent("3d", $basicLengthHorizontal->stringBasicLength() . "," . $basicLengthVertical->stringBasicLength() . "," . $basicLengthLongitudinal->stringBasicLength());
+    public static function BasicScaleThreeDimensionalWithFloatHorizontalWithFloatVerticalWithFloatBottom($floatHorizontal, $floatVertical, $floatLongitudinal) {
+        $instance = new parent("3d", $floatHorizontal . "," . $floatVertical . "," . $floatLongitudinal);
         return $instance;
     }
 }
