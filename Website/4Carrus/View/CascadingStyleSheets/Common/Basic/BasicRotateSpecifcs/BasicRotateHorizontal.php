@@ -6,7 +6,7 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 class BasicRotateHorizontal {
-    public static function BasicRotateHorizontalWithRotateHorizontal($basicAngleHorizontal) {
+    public static function BasicRotateHorizontalWithBasicAngleHorizontal($basicAngleHorizontal) {
         $instance = new parent("X", $basicAngleHorizontal->stringBasicAngle());
         return $instance;
     }
