@@ -21,7 +21,7 @@ class DeclarationCursor extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationBackgroundColorWithBasicUniformResourceLocatorWithStringValue($basicUniformResourceLocator, $stringValue) {
+    public static function DeclarationCursorWithBasicUniformResourceLocatorWithStringValue($basicUniformResourceLocator, $stringValue) {
         $instance = new parent("cursor", $basicUniformResourceLocator->stringBasicUniformResourceLocator().",".$stringValue); //arrumar
         return $instance;
     }
