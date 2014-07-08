@@ -51,6 +51,11 @@ class BasicVerticalAxis {
     public static function stringHorizontalAxisRightValue() {
         return "right";
     }
+    
+    public static function BasicVerticalAxisWithBasicLength($basicLength) {
+        $instance = new parent("y-axis", $basicLength->stringBasicLength());
+        return $instance;
+    }
 }
 
 ?>

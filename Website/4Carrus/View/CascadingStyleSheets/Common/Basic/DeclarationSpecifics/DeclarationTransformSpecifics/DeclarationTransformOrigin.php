@@ -8,9 +8,19 @@
 class DeclarationTransformOrigin extends DeclarationTransform{
 //Constructor
 //   instantiation: 
-//      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
+//      $declaration = DeclarationTransformOrigin::DeclarationTransformOriginWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationTransformOriginWithStringValue($stringValue) {
         $instance = new parent("transform-origin", $stringValue);
+        return $instance;
+    }
+    
+    public static function DeclarationTransformOriginWithBasicHorizontalAxis($basicHorizontalAxis) {
+        $instance = new parent("x-axis", $basicHorizontalAxis->stringBasicHorizontalAxis());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformOriginWithBasicVerticalAxis($basicVerticalAxis) {
+        $instance = new parent("y-axis", $basicVerticalAxis->stringBasicVerticalAxis());
         return $instance;
     }
     
