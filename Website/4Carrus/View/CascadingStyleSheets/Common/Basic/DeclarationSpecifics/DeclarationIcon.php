@@ -9,7 +9,7 @@
 /**
  * Description of DeclarationIcon
  *
- * @author Asus
+ * @author Silvio
  */
 class DeclarationIcon extends Declaration{
 //Constructor

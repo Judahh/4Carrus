@@ -28,6 +28,5 @@ class DeclarationHeight extends Declaration{
                 
         public static function stringValueAuto() {
             return "auto";
-        }
-    
+        }    
 }
