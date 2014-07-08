@@ -7,27 +7,24 @@
  */
 
 class BasicTranslate {
-    private $lengthHorizontal;
-    private $lengthVertical;
 
-    private function __construct($lengthHorizontal, $lengthVertical) {
-        $this->$lengthHorizontal = $lengthHorizontal;
-        $this->$lengthVertical = $lengthVertical;
+    private $stringShapeType;
+    private $stringShapeValue;
+
+    private function __construct($stringShapeType, $stringShapeValue) {
+        $this->stringShapeType = $stringShapeType;
+        $this->stringShapeValue = $stringShapeValue;
     }
-    
-    public static function BasicTranslatehWithFloatLengthWithStringUnity($lengthHorizontal, $lengthVertical) {
-        $instance = new self($lengthHorizontal,",", $lengthVertical);
+
+    public static function BasicTranslateWithStringShapeTypeWithStringShapeValue($stringShapeType, $stringShapeValue) {
+        $instance = new self($stringShapeType, $stringShapeValue);
         return $instance;
     }
-    
-    public static function BasicLengthWithFloatLengthMillimeter($lengthHorizontal, $lengthVertical) {
-        $instance = new parent($lengthHorizontal->stringBasicLength().",".$lengthVertical->stringBasicLength());
-        return $instance;
+
+    public function stringBasicShape() {
+        return $this->stringShapeType . "(" . $this->stringShapeValue . ")";
     }
     
-    public function stringBasicTranslate() {
-        return $this->stringBasicTranslate;
-    }
 }
 
 ?>
