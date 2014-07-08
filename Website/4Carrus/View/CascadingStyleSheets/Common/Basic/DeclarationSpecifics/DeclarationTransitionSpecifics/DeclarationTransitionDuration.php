@@ -5,6 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 class DeclarationTransitionDuration extends DeclarationTransition{
 //Constructor
 //   instantiation: 
