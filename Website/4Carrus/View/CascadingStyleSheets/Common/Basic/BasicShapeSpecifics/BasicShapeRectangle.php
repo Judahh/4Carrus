@@ -8,8 +8,8 @@
 class BasicShapeRectangle extends BasicShape{
 
 
-    public static function BasicShapeRectangleWithBasicLengthTopWithBasicLengthRightWithBasicLengthBottomWithBasicLengthLeft($basicLengthTop, $basicLengthRight, $basicLengthBottom, $basicLengthLeft) {
-        $instance = new parent("rect", $basicLengthTop->stringBasicLength() . "," . $basicLengthRight->stringBasicLength() . "," . $basicLengthBottom->stringBasicLength() . "," . $basicLengthLeft->stringBasicLength());
+    public static function BasicShapeRectangleWithBasicSimpleLengthTopWithBasicSimpleLengthRightWithBasicSimpleLengthBottomWithBasicSimpleLengthLeft($basicSimpleLengthTop, $basicSimpleLengthRight, $basicSimpleLengthBottom, $basicSimpleLengthLeft) {
+        $instance = new parent("rect", $basicSimpleLengthTop->stringBasicSimpleLength() . "," . $basicSimpleLengthRight->stringBasicSimpleLength() . "," . $basicSimpleLengthBottom->stringBasicSimpleLength() . "," . $basicSimpleLengthLeft->stringBasicSimpleLength());
         return $instance;
     }
 
