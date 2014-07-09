@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicMatrix.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicMatrixSpecifics/BasicMatrixThreeDimensional.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationWhiteSpace.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/AuxiliaryScale.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/AuxiliaryMatrix.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/BasicRotateSpecifcs/BasicRotateThreeDimensional.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/AuxiliaryTranslate.php</file>
             <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransform.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/DeclarationTransformMatrix.php</file>
-            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/DeclarationTransformTranslate.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/AuxiliaryRotate.php</file>
+            <file>file:/C:/Users/Tarciso%20Torres/Documents/GitHub/4Carrus/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationTransformSpecifics/AuxiliarySkew.php</file>
         </group>
     </open-files>
 </project-private>
