@@ -1,11 +1,11 @@
 <?php
 
 /**
- * DeclarationTransformTranslate [TIPO]
+ * AuxiliaryRotate [TIPO]
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-class DeclarationTransformTranslate {
+class AuxiliaryRotate {
     //put your code here
 }
 
