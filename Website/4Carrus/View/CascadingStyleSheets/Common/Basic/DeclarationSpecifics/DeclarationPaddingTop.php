@@ -5,7 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-class DeclarationPaddingTop extends DeclarationPadding{
+class DeclarationPaddingTop extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationPaddingTop::DeclarationPaddingTopWithStringValue($stringValue);
