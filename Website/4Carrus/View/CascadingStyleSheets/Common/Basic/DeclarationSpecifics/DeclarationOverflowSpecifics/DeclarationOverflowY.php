@@ -13,6 +13,7 @@ class DeclarationOverflowY extends DeclarationOverflow{
         $instance = new parent("overflow-y", $stringValue);
         return $instance;
     }
+
 }
 
 ?>

@@ -22,17 +22,17 @@ class BasicTime {
     }
 
     public static function BasicTimeWithFloatLengthWithStringUnity($floatTime, $stringUnity) {
-        $instance = new self($floatTime, $stringUnity); //arrumar
+        $instance = new self($floatTime, $stringUnity);
         return $instance;
     }
     
     public static function BasicTimeWithFloatTimeSecond($floatTimeSecond) {
-        $instance = new self($floatTimeSecond, "s"); //arrumar
+        $instance = new self($floatTimeSecond, "s");
         return $instance;
     }
     
     public static function BasicTimeWithFloatTimeMilisecond($floatTimeMilisecond) {
-        $instance = new self($floatTimeMilisecond, "ms"); //arrumar
+        $instance = new self($floatTimeMilisecond, "ms");
         return $instance;
     }
 

@@ -5,6 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 class DeclarationPadding extends Declaration{
 //Constructor
 //   instantiation: 
@@ -14,6 +15,11 @@ class DeclarationPadding extends Declaration{
         return $instance;
     }
     
+    public static function DeclarationPaddingWithBasicFourPartsWidth($basicFourPartsWidth){
+        $instance = new parent("padding", $basicFourPartsWidth->stringBasicFourPartsWidth);
+        return $instance;        
+    }
+
     public static function DeclarationPaddingWithBasicLength($basicLength) {
         $instance = new parent("padding", $basicLength->stringBasicLength());
         return $instance;

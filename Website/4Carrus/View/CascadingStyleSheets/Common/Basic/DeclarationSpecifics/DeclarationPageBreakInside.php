@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationPageBreakInside extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationPageBreakInside::DeclarationPageBreakInsideWithStringValue($stringValue);
-class DeclarationPageBreakInside extends Declaration{
     public static function DeclarationPageBreakInsidetWithStringValue($stringValue) {
         $instance = new parent("page-break-inside", $stringValue);
         return $instance;

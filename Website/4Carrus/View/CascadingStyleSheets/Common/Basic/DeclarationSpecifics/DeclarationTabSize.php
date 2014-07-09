@@ -31,6 +31,10 @@ class DeclarationTabSize extends Declaration {
         return "justify";
     }
     
+    public static function stringValueNumber() {
+        return "number";
+    }
+    
     public static function DeclarationTextIndentWithBasicLength($basicLength) {
         $instance = new parent("tab-size", $basicLength->stringBasicLength());
         return $instance;
@@ -43,9 +47,6 @@ class DeclarationTabSize extends Declaration {
             $stringFullDeclaration = $stringFullDeclaration . $stringBrowserPrefix . $this->stringProperty . ":" . $this->stringValue . ";";
         }
         return $stringFullDeclaration;
-    }
-    public static function stringValueNumber() {
-        return "number";
     }
 
 }
