@@ -5,7 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-class DeclarationTransformMatrix {
+class AuxiliaryMatrix {
     //put your code here
 }
 
