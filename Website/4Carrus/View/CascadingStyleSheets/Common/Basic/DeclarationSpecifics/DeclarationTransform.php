@@ -286,6 +286,31 @@ class DeclarationTransform extends Declaration{
         return $instance;
     }
     
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkewWithBasicPerspective($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryScale, $auxiliarySkew, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySTranslateWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliarySTranslateWithBasicPerspective($auxiliaryMatrix, $auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliarySTranslateWithBasicPerspective($auxiliaryRotate, $auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
