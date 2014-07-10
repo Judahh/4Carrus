@@ -186,6 +186,22 @@ class DeclarationTransform extends Declaration{
         $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
         return $instance;
     }
+    
+    public static function DeclarationTransformWithAuxiliaryRotateWithAuxiliaryTranslateWithBasicPerspective($auxiliaryRotate, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliarySTranslate($auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryScaleWithAuxiliarySkewWithBasicPerspective($auxiliaryScale, $auxiliarySkew, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
