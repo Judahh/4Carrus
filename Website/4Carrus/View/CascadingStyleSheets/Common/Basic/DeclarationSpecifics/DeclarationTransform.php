@@ -147,7 +147,15 @@ class DeclarationTransform extends Declaration{
         return $instance;
     }
     
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliarySkewWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliarySkew, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
     
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliarySkewWithBasicPerspective($auxiliaryMatrix, $auxiliarySkew, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
     
     public function stringDeclaration() {
         $stringFullDeclaration = "";
