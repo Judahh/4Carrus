@@ -201,6 +201,33 @@ class DeclarationTransform extends Declaration{
         $instance = new parent("transform", $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
         return $instance;
     }
+    
+    public static function DeclarationTransformWithAuxiliaryScaleWithAuxiliaryTranslateWithBasicPerspective($auxiliaryScale, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliarySkewWithAuxiliaryTranslateWithBasicPerspective($auxiliarySkew, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkew($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryScale, $auxiliarySkew) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryScale, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithBasicPerspective($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryScale, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    
 
     public function stringDeclaration() {
         $stringFullDeclaration = "";
