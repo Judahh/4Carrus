@@ -22,21 +22,15 @@ class DeclarationLineHeight extends Declaration{
         }
 
         // number
-        public static function DeclarationLineHeightWithIntegerValue($integerValue) {
-            $instance = new parent("line-height", $integerValue);
+        public static function DeclarationLineHeightWithIntFontSize($intFontSize) {
+            $instance = new parent("line-height", $intFontSize);
             return $instance;
         }
         
         // length        
-        public static function DeclarationLineHeightWithBasicLineHeight($basicLineHeight){
-            $instance = new parent("line-height", $basicLineHeight->stringBasicLineHeight());
+        public static function DeclarationLineHeightWithBasicLength($basicLength){
+            $instance = new parent("line-height", $basicLength->stringBasicLength());
             return $instance;           
-        }
-
-        // %
-        public static function LineHeightWithIntPercentFontSize($intPercentFontSize) {
-            $instance = new self($intPercentFontSize, "%");
-            return $instance;
         }
 
         public static function stringValueNormal() {
