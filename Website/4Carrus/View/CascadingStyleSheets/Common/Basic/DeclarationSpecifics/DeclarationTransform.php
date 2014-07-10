@@ -267,6 +267,25 @@ class DeclarationTransform extends Declaration{
         return $instance;
     }
     
+    public static function DeclarationTransformWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkewWithBasicPerspective($auxiliaryRotate, $auxiliaryScale, $auxiliarySkew , $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliaryTranslateWithBasicPerspective($auxiliaryRotate, $auxiliaryScale, $auxiliaryTranslate , $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryRotateWithAuxiliarySkewWithAuxiliaryTranslateWithBasicPerspective($auxiliaryRotate, $auxiliarySkew, $auxiliaryTranslate , $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    public static function DeclarationTransformWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliaryTranslateWithBasicPerspective($auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate , $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
