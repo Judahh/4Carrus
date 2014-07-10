@@ -311,6 +311,11 @@ class DeclarationTransform extends Declaration{
         return $instance;
     }
     
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliaryTranslateWithBasicPerspective($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
