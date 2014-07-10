@@ -132,13 +132,13 @@ class DeclarationTransform extends Declaration{
         return $instance;
     }
     
-    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliarySkew($auxiliaryMatrix, $auxiliaryScale, $AuxiliarySkew) {
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliarySkew($auxiliaryMatrix, $auxiliaryScale, $auxiliarySkew) {
         $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew());
         return $instance;
     }
     
-    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryScale, $AuxiliaryTranslate) {
-        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliaryTranslate());
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryScale, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
         return $instance;
     }
     
