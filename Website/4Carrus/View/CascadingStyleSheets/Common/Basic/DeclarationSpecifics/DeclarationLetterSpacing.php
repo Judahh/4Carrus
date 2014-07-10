@@ -21,8 +21,8 @@ class DeclarationLetterSpacing extends Declaration{
             return $instance;
         }
 
-        public static function DeclarationLetterSpacingWithIntegerValue($integerValue) {
-            $instance = new parent("letter-spacing", $integerValue);
+        public static function DeclarationLetterSpacingWithBasicSimpleLength($basicSimpleLength) {
+            $instance = new parent("letter-spacing", $basicSimpleLength->stringBasicSimpleLength());
             return $instance;
         }
                 

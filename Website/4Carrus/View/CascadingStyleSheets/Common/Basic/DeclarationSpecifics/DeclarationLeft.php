@@ -17,12 +17,12 @@ class DeclarationLeft extends Declaration{
 //      $declaration = DeclarationLeft::DeclarationLeftStringValue($stringValue);
 //      $declaration = DeclarationLeft::DeclarationLeftIntegerValue($integerValue);
         public static function DeclarationLeftWithStringValue($stringValue) {
-            $instance = new parent("column-gap", $stringValue);
+            $instance = new parent("left", $stringValue);
             return $instance;
         }
 
-        public static function DeclarationLeftWithIntegerValue($integerValue) {
-            $instance = new parent("column-gap", $integerValue);
+        public static function DeclarationLeftWithBasicLength($basicLength) {
+            $instance = new parent("left", $basicLength->stringBasicLength());
             return $instance;
         }
                 
