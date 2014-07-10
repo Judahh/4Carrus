@@ -248,11 +248,24 @@ class DeclarationTransform extends Declaration{
     }
     
     public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliarySkewWithBasicPerspective($auxiliaryMatrix, $auxiliaryScale, $auxiliarySkew, $basicPerspective) {
-        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryRScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
         return $instance;
     }
     
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliaryTranslateWithBasicPerspective($auxiliaryMatrix, $auxiliaryScale, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
     
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliarySkewWithAuxiliaryTranslateWithBasicPerspective($auxiliaryMatrix, $auxiliarySkew, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryRotateWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliaryTranslate($auxiliaryRotate, $auxiliaryScale, $auxiliarySkew , $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
     
     public function stringDeclaration() {
         $stringFullDeclaration = "";
