@@ -12,19 +12,19 @@
  * @author Judah
  */
 class Element {
-    private $arraySelector;
+    private $arrayMultipleSelector;
     
-    private function __construct($arraySelector) {
-        $this->arraySelector = $arraySelector;
+    private function __construct($arrayMultipleSelector) {
+        $this->arrayMultipleSelector = $arrayMultipleSelector;
     }
     
-    public static function ElementWithArraySelector($arraySelector) {
-        $instance = new self($arraySelector);
+    public static function ElementWithArrayMultipleSelector($arrayMultipleSelector) {
+        $instance = new self($arrayMultipleSelector);
         return $instance;
     }
     
-    public function addSelectorWithSelector($Selector) {
-          array_push($this->arraySelector, $Selector);
+    public function addMultipleSelectorWithMultipleSelector($MultipleSelector) {
+          array_push($this->arrayMultipleSelector, $MultipleSelector);
        }
     
     public static function Element() {
