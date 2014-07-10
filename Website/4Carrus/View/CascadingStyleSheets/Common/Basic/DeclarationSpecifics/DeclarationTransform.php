@@ -227,8 +227,26 @@ class DeclarationTransform extends Declaration{
         return $instance;
     }
     
-    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliarySkewWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryRotate, $auxiliarySkew, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
 
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliarySkewWithBasicPerspective($auxiliaryMatrix, $auxiliaryRotate, $auxiliarySkew, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryRotateWithAuxiliaryTranslateWithBasicPerspective($auxiliaryMatrix, $auxiliaryRotate, $auxiliaryTranslate, $basicPerspective) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryRotate->stringAuxiliaryRotate(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate(). " " . $basicPerspective->stringBasicPerspective());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformWithAuxiliaryMatrixWithAuxiliaryScaleWithAuxiliarySkewWithAuxiliaryTranslate($auxiliaryMatrix, $auxiliaryScale, $auxiliarySkew, $auxiliaryTranslate) {
+        $instance = new parent("transform", $auxiliaryMatrix->stringAuxiliaryMatrix(). " " . $auxiliaryScale->stringAuxiliaryScale(). " " . $auxiliarySkew->stringAuxiliarySkew(). " " . $auxiliaryTranslate->stringAuxiliaryTranslate());
+        return $instance;
+    }
+    
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
