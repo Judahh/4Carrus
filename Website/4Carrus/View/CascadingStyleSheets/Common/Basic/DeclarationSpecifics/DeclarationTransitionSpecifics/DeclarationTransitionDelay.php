@@ -15,8 +15,8 @@ class DeclarationTransitionDelay extends DeclarationTransition{
         return $instance;
     }
   
-    public static function DeclarationTextIndentWithBasicTime($basicTime) {
-        $instance = new parent("time", $basicTime->stringBasicTime());
+    public static function DeclarationTransitionDelayWithBasicTime($basicTime) {
+        $instance = new parent("transition-delay", $basicTime->stringBasicTime());
         return $instance;
     }
     
