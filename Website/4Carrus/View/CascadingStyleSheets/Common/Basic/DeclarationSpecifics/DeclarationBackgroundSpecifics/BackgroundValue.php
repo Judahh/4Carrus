@@ -19,7 +19,7 @@ class BackgroundValue {
     }
 
     public static function
-    BackgroundWithStringAttachmentWithStringClipWithStringColorWithStringImageWithStringOriginWithStringPositionWithStringRepeatWithStringSize
+    BackgroundValueWithStringAttachmentWithStringClipWithStringColorWithStringImageWithStringOriginWithStringPositionWithStringRepeatWithStringSize
     ($stringAttachment, $stringClip, $stringColor, $stringImage, $stringOrigin, $stringPosition, $stringRepeat, $stringSize) {
         $instance = new self();
         array_push($this->arrayBackgroundValue, $stringColor);
@@ -34,7 +34,7 @@ class BackgroundValue {
     }
     
     public static function
-    BackgroundWithDeclarationBackgroundAttachmentWithDeclarationBackgroundClipWithDeclarationBackgroundColorWithDeclarationBackgroundImageWithDeclarationBackgroundOriginWithDeclarationBackgroundPositionWithDeclarationBackgroundRepeatWithDeclarationBackgroundSize
+    BackgroundValueWithDeclarationBackgroundAttachmentWithDeclarationBackgroundClipWithDeclarationBackgroundColorWithDeclarationBackgroundImageWithDeclarationBackgroundOriginWithDeclarationBackgroundPositionWithDeclarationBackgroundRepeatWithDeclarationBackgroundSize
     ($declarationBackgroundAttachment, $declarationBackgroundClip, $declarationBackgroundColor, $declarationBackgroundImage, $declarationBackgroundOrigin, $declarationBackgroundPosition, $declarationBackgroundRepeat, $declarationBackgroundSize) {
         $instance = new self();
         array_push($this->arrayBackgroundValue, $declarationBackgroundColor->getStringValue());

@@ -20,7 +20,7 @@ class BoxShadowValue {
     }
 
     public static function
-    BoxShadowWithBasicLengthHorizontalShadowPositionWithBasicLengthVerticalShadowPositionWithBasicLengthBlurDistanceWithBasicLengthShadowSizeWithBasicColor
+    BoxShadowValueWithBasicLengthHorizontalShadowPositionWithBasicLengthVerticalShadowPositionWithBasicLengthBlurDistanceWithBasicLengthShadowSizeWithBasicColor
     ($basicLengthHorizontalShadowPosition, $basicLengthVerticalShadowPosition, $basicLengthBlurDistance, $basicLengthShadowSize, $basicColor) {
         $instance = new self();
         array_push($this->arrayBoxShadowValue, $basicLengthHorizontalShadowPosition->stringBasicLength());
@@ -32,7 +32,7 @@ class BoxShadowValue {
     }
     
     public static function
-    BoxShadowWithStringHorizontalShadowPositionWithStringVerticalShadowPositionWithStringBlurDistanceWithStringShadowSizeWithStringColor
+    BoxShadowValueWithStringHorizontalShadowPositionWithStringVerticalShadowPositionWithStringBlurDistanceWithStringShadowSizeWithStringColor
     ($stringHorizontalShadowPosition, $stringVerticalShadowPosition, $stringBlurDistance, $stringShadowSize, $stringColor) {
         $instance = new self();
         array_push($this->arrayBoxShadowValue, $stringHorizontalShadowPosition);
@@ -44,7 +44,7 @@ class BoxShadowValue {
     }
     
     public static function
-    BoxShadowWithBasicLengthHorizontalShadowPositionWithBasicLengthVerticalShadowPosition
+    BoxShadowValueWithBasicLengthHorizontalShadowPositionWithBasicLengthVerticalShadowPosition
     ($basicLengthHorizontalShadowPosition, $basicLengthVerticalShadowPosition) {
         $instance = new self();
         array_push($this->arrayBoxShadowValue, $basicLengthHorizontalShadowPosition->stringBasicLength());
@@ -53,7 +53,7 @@ class BoxShadowValue {
     }
 
     public static function
-    BoxShadowWithStringHorizontalShadowPositionWithStringVerticalShadowPosition
+    BoxShadowValueWithStringHorizontalShadowPositionWithStringVerticalShadowPosition
     ($stringHorizontalShadowPosition, $stringVerticalShadowPosition) {
         $instance = new self();
         array_push($this->arrayBoxShadowValue, $stringHorizontalShadowPosition);
