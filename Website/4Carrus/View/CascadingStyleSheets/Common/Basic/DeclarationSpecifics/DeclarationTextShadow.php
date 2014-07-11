@@ -6,10 +6,11 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+
+class DeclarationTextShadow extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTextShadow::DeclarationTextShadowWithStringValue($stringValue);
-class DeclarationTextShadow extends Declaration{
     public static function DeclarationTextShadowWithStringValue($stringValue) {
         $instance = new parent("text-shadow", $stringValue);
         return $instance;
@@ -35,11 +36,4 @@ class DeclarationTextShadow extends Declaration{
         return "none";
     }
 
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
 }

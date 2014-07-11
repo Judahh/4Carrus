@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationUnicodeBidirectional extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationUnicodeBidirectional::DeclarationUnicodeBidirectionalWithStringValue($stringValue);
-class DeclarationUnicodeBidirectional extends Declaration{
     public static function DeclarationUnicodeBidirectionalWithStringValue($stringValue) {
         $instance = new parent("unicode-bidi", $stringValue);
         return $instance;
@@ -25,14 +25,6 @@ class DeclarationUnicodeBidirectional extends Declaration{
     
     public static function stringValueBidirectionalOverride() {
         return "bidi-override";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
     
 }

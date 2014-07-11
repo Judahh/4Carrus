@@ -20,8 +20,8 @@ class DeclarationAnimationIterationCount extends DeclarationAnimation {
         return $instance;
     }
     
-    public static function DeclarationAnimationIterationCountWithIntValue($intValue) {
-        $instance = new parent("animation-iteration-count", $intValue);
+    public static function DeclarationAnimationIterationCountWithIntNumber($intNumber) {
+        $instance = new parent("animation-iteration-count", $intNumber);
         return $instance;
     }
     

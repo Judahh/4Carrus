@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationWhiteSpace extends Declaration {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationWhiteSpace::DeclarationWhiteSpaceWithStringValue($stringValue);
-class DeclarationWhiteSpace extends Declaration {
     public static function DeclarationWhiteSpaceWithStringValue($stringValue) {
         $instance = new parent("white-space", $stringValue);
         return $instance;
@@ -33,14 +33,6 @@ class DeclarationWhiteSpace extends Declaration {
 
     public static function stringValuePreWrap() {
         return "pre-wrap";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
 
 }

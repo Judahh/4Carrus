@@ -6,11 +6,11 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationWordWrap {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationWordWrap::DeclarationWordWrapWithStringValue($stringValue);
-class DeclarationWordWrap {
-    public static function DeclarationAlignItensWithStringValue($stringValue) {
+    public static function DeclarationWordWrapWithStringValue($stringValue) {
         $instance = new parent("word-wrap", $stringValue);
         return $instance;
     }
@@ -21,14 +21,6 @@ class DeclarationWordWrap {
 
     public static function stringValueBreakWord() {
         return "break-word";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
 
 }

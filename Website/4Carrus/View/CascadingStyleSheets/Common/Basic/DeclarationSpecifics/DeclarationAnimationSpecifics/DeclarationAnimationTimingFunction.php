@@ -17,12 +17,12 @@ class DeclarationAnimationTimingFunction extends DeclarationAnimation {
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationAnimationTimingFunctionWithStringValue($stringValue) {
-        $instance = new parent("animation-iteration-count", $stringValue);
+        $instance = new parent("animation-timing-function", $stringValue);
         return $instance;
     }
 
-    public static function DeclarationAnimationTimingFunctionWithFloatStartXValueWithFloatStartYValueWithFloatEndXValueWithFloatEndYValue($floatStartXValue, $floatStartYValue, $floatEndXValue, $floatEndYValue) {
-        $instance = new parent("animation-iteration-count", "cubic-bezier(" . $floatStartXValue . "," . $floatStartYValue . "," . $floatEndXValue . "," . $floatEndYValue . ")");
+    public static function DeclarationAnimationTimingFunctionWithBasicCubicBezier($basicCubicBezier) {
+        $instance = new parent("animation-timing-function", $basicCubicBezier->stringBasicCubicBezier());
         return $instance;
     }
 

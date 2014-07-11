@@ -16,18 +16,8 @@ class DeclarationAnimationDuration extends DeclarationAnimation {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function DeclarationAnimationDurationWithStringDuration($stringDuration) {
-        $instance = new parent("animation-duration", $stringDuration); //arrumar
-        return $instance;
-    }
-
-    public static function DeclarationAnimationDurationWithIntDurationSeconds($floatDurationSeconds) {
-        $instance = new parent("animation-duration", $floatDurationSeconds . "s"); //arrumar
-        return $instance;
-    }
-    
-    public static function DeclarationAnimationDurationWithIntDurationMiliSeconds($floatDurationMiliseconds) {
-        $instance = new parent("animation-duration", $floatDurationMiliseconds . "ms"); //arrumar
+    public static function DeclarationAnimationDurationWithBasicTime($basicTime) {
+        $instance = new parent("animation-duration", $basicTime->stringBasicTime()); //arrumar
         return $instance;
     }
     

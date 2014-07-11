@@ -6,10 +6,10 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
+class DeclarationVisibility {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationVisibility::DeclarationVisibilityWithStringValue($stringValue);
-class DeclarationVisibility {
     public static function DeclarationVisibilityWithStringValue($stringValue) {
         $instance = new parent("visibility", $stringValue);
         return $instance;
@@ -25,14 +25,6 @@ class DeclarationVisibility {
     
     public static function stringValueCollapse() {
         return "collapse";
-    }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
     }
 
 }

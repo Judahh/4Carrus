@@ -40,15 +40,6 @@ class DeclarationAlignItens extends Declaration {
     public static function stringValueBaseline() {
         return "baseline";
     }
-
-    public static function stringValueInitial() {
-        return "initial";
-    }
-
-    public static function stringValueInherit() {
-        return "inherit";
-    }
-
 }
 
 ?>

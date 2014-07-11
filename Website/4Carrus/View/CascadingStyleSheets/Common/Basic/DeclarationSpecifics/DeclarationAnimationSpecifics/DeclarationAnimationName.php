@@ -20,8 +20,8 @@ class DeclarationAnimationName extends DeclarationAnimation {
         return $instance;
     }
     
-    public static function DeclarationAnimationNameWithStringKeyframe($stringKeyframe) {
-        $instance = new parent("animation-name", $stringKeyframe);
+    public static function DeclarationAnimationNameWithStringKeyframes($stringKeyframes) {
+        $instance = new parent("animation-name", $stringKeyframes);
         return $instance;
     }
     
