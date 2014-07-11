@@ -15,7 +15,7 @@ class DeclarationWidth extends Declaration {
         return $instance;
     }
     
-    public static function DeclarationWidthWithSimpleLength($basicSimpleLength) {
+    public static function DeclarationWidthWithBasicBasicSimpleLength($basicSimpleLength) {
         $instance = new parent("width", $basicSimpleLength->stringBasicSimpleLength());
         return $instance;
     }
