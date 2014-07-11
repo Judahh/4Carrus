@@ -32,7 +32,7 @@ class DeclarationVerticalAlign extends Declaration {
         return "super";
     }
 
-    public static function stringValuePreWrap() {
+    public static function stringValueTop() {
         return "top";
     }
 
