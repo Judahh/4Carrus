@@ -5,8 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
-
-class DeclarationTransitionTimingFunction extends DeclarationTransition{
+class DeclarationTransitionTimingFunction extends DeclarationTransition {
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTransitionTimingFunction::DeclarationTransitionTimingFunctionWithStringValue($stringValue);
@@ -14,32 +13,32 @@ class DeclarationTransitionTimingFunction extends DeclarationTransition{
         $instance = new parent("transition-timing-function", $stringValue);
         return $instance;
     }
-  
-    public static function stringValueEase() {
-        return "ease";
-    }
-    
-    public static function stringValueLinear() {
-        return "linear";
-    }
-    
-    public static function stringValueEaseIn() {
-        return "ease-in";
-    }
-    
-    public static function stringValueEaseOut() {
-        return "ease-out";
-    }
-    
-    public static function stringValueEaseInOut() {
-        return "ease-in-out";
-    }
-    
+
     public static function DeclarationTransitionTimingFunctionWithBasicCubicBezier($basicCubicBezier) {
         $instance = new parent("transition-timing-function", $basicCubicBezier->basicCubicBezier());
         return $instance;
     }
-    
+
+    public static function stringValueEase() {
+        return "ease";
+    }
+
+    public static function stringValueLinear() {
+        return "linear";
+    }
+
+    public static function stringValueEaseIn() {
+        return "ease-in";
+    }
+
+    public static function stringValueEaseOut() {
+        return "ease-out";
+    }
+
+    public static function stringValueEaseInOut() {
+        return "ease-in-out";
+    }
+
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
@@ -48,6 +47,7 @@ class DeclarationTransitionTimingFunction extends DeclarationTransition{
         }
         return $stringFullDeclaration;
     }
+
 }
 
 ?>

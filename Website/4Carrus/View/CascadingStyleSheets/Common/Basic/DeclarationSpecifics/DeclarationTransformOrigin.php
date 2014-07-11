@@ -25,6 +25,31 @@ class DeclarationTransformOrigin extends DeclarationTransform{
         return $instance;
     }
     
+    public static function DeclarationTransformOriginWithBasicSimpleLengthLongitudinal($basicSimpleLengthLongitudinal) {
+        $instance = new parent("z-axis", $basicSimpleLengthLongitudinal->stringBasicSimpleLength());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformOriginWithBasicHorizontalAxisWithBasicVerticalAxis($basicHorizontalAxis, $basicVerticalAxis) {
+        $instance = new parent("x-axis", $basicHorizontalAxis->stringBasicHorizontalAxis() ." ". $basicVerticalAxis->stringBasicVerticalAxis());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformOriginWithBasicHorizontalAxisWithBasicSimpleLengthLongitudinal($basicHorizontalAxis, $basicSimpleLengthLongitudinal) {
+        $instance = new parent("x-axis", $basicHorizontalAxis->stringBasicHorizontalAxis() ." ". $basicSimpleLengthLongitudinal->stringBasicSimpleLength());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformOriginWithBasicVerticalAxisWithBasicSimpleLengthLongitudinal($basicVerticalAxis, $basicSimpleLengthLongitudinal) {
+        $instance = new parent("x-axis", $basicVerticalAxis->stringBasicVerticalAxis() ." ". $basicSimpleLengthLongitudinal->stringBasicSimpleLength());
+        return $instance;
+    }
+    
+    public static function DeclarationTransformOriginWithBasicHorizontalAxisWithBasicVerticalAxisWithBasicSimpleLengthLongitudinal($basicHorizontalAxis, $basicVerticalAxis, $basicSimpleLengthLongitudinal) {
+        $instance = new parent("x-axis", $basicHorizontalAxis->stringBasicHorizontalAxis() ." ". $basicVerticalAxis->stringBasicVerticalAxis() ." ". $basicSimpleLengthLongitudinal->stringBasicSimpleLength());
+        return $instance;
+    }
+    
     public function stringDeclaration() {
         $stringFullDeclaration = "";
         $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();

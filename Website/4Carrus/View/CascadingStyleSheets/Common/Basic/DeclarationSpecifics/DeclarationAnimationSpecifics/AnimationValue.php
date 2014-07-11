@@ -20,7 +20,7 @@ class AnimationValue {
     }
 
     public static function
-    AnimationWithStringKeyframesWithStringDurationWithStringTimingFunctionWithStringDelayWithStringIterationCountWithStringDirectionWithStringFillModeWithStringPlayState
+    AnimationValueWithStringKeyframesWithStringDurationWithStringTimingFunctionWithStringDelayWithStringIterationCountWithStringDirectionWithStringFillModeWithStringPlayState
     ($stringKeyframes, $stringDuration, $stringTimingFunction, $stringDelay, $stringIterationCount, $stringDirection, $stringFillMode, $stringPlayState) {
         $instance = new self();
         array_push($this->arrayAnimationValue, $stringKeyframes);
@@ -35,7 +35,7 @@ class AnimationValue {
     }
     
     public static function
-    AnimationWithDeclarationAnimationNameWithDeclarationAnimationDurationWithDeclarationAnimationTimingFunctionWithDeclarationAnimationDelayWithDeclarationAnimationIterationCountWithDeclarationAnimationDirectionWithDeclarationAnimationFillModeWithDeclarationAnimationPlayState
+    AnimationValueWithDeclarationAnimationNameWithDeclarationAnimationDurationWithDeclarationAnimationTimingFunctionWithDeclarationAnimationDelayWithDeclarationAnimationIterationCountWithDeclarationAnimationDirectionWithDeclarationAnimationFillModeWithDeclarationAnimationPlayState
     ($declarationAnimationName, $declarationAnimationDuration, $declarationAnimationTimingFunction, $declarationAnimationDelay, $declarationAnimationIterationCount, $declarationAnimationDirection, $declarationAnimationFillMode, $declarationAnimationPlayState) {
         $instance = new self();
         array_push($this->arrayAnimationValue, $declarationAnimationName->getStringValue());
