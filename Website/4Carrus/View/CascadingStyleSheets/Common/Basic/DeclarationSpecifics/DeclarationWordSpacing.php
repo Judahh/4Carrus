@@ -15,8 +15,8 @@ class DeclarationWordSpacing extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationWordSpacingWithBasicLength($basicLength) {
-        $instance = new parent("word-spacing", $basicLength->stringBasicLength());
+    public static function DeclarationWordSpacingWithBasicSimpleLength($basicSimpleLength) {
+        $instance = new parent("word-spacing", $basicSimpleLength->stringBasicSimpleLength());
         return $instance;
     }
     
