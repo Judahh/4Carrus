@@ -23,9 +23,9 @@ class Element {
         return $instance;
     }
     
-    public function addMultipleSelectorWithMultipleSelector($MultipleSelector) {
-          array_push($this->arrayMultipleSelector, $MultipleSelector);
-       }
+    public function addMultipleSelectorWithMultipleSelector($multipleSelector) {
+          array_push($this->arrayMultipleSelector, $multipleSelector);
+    }
     
     public static function Element() {
         $instance = new self(array());
