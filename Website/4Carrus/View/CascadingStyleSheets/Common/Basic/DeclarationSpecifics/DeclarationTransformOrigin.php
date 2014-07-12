@@ -6,7 +6,7 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
-class DeclarationTransformOrigin extends DeclarationTransform{
+class DeclarationTransformOrigin extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTransformOrigin::DeclarationTransformOriginWithStringValue($stringValue);

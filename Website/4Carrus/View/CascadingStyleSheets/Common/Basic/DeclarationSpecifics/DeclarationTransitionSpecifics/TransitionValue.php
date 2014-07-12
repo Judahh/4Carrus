@@ -1,8 +1,8 @@
 <?php
 /**
- * Description of TransitionValue
- *
- * @author G4flex
+ * DeclarationTransformOrigin [TIPO]
+ * Descrição
+ * @copyright (c) year, Tarciso Torres Blue Lion
  */
 class TransitionValue {
     private $arrayTransitionValue;

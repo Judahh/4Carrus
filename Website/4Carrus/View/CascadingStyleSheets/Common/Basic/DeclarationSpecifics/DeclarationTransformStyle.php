@@ -6,7 +6,7 @@
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
 
-class DeclarationTransformStyle extends DeclarationTransform{
+class DeclarationTransformStyle extends Declaration{
 //Constructor
 //   instantiation: 
 //      $declaration = DeclarationTransformStyle::DeclarationTransformStyleWithStringHexColorValue($stringHexColorValue);

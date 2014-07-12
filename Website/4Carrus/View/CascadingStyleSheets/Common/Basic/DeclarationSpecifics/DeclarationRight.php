@@ -15,7 +15,7 @@ class DeclarationRight extends Declaration{
         return $instance;
     }
     
-     public static function DeclarationRighIndentWithBasicLength($basicLength) {
+     public static function DeclarationRightIndentWithBasicLength($basicLength) {
         $instance = new parent("right", $basicLength->stringBasicLength());
         return $instance;
     }
