@@ -20,6 +20,15 @@ class DeclarationTextDecorationColor extends Declaration{
         $instance = new parent("text-decoration-color", $basicColor->stringBasicColor());
         return $instance;
     }
+    
+    public function stringDeclaration() {
+        $stringFullDeclaration = "";
+        $arrayStringBrowserPrefix = BrowserDiffer::getInstance()->getArrayStringBrowserPrefix();
+        foreach ($arrayStringBrowserPrefix as &$stringBrowserPrefix) {
+            $stringFullDeclaration = $stringFullDeclaration . $stringBrowserPrefix . $this->stringProperty . ":" . $this->stringValue . ";";
+        }
+        return $stringFullDeclaration;
+    }
 }
 
 ?>

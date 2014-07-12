@@ -35,5 +35,4 @@ class DeclarationTextShadow extends Declaration{
     public static function stringValueNone() {
         return "none";
     }
-
 }
