@@ -1,8 +1,8 @@
 <?php
 /**
- * Description of TransitionNameValue
- *
- * @author G4flex
+ * DeclarationTransformOrigin [TIPO]
+ * Descrição
+ * @copyright (c) year, Tarciso Torres Blue Lion
  */
 class TransitionNameValue {
     private static $transitionNameValueInstance = null;
