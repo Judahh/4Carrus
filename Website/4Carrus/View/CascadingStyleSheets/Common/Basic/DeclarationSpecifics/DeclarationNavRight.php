@@ -19,7 +19,7 @@ class DeclarationNavRight extends Declaration{
             return "auto";
         }
         
-        public static function stringValueId() {
+        public static function stringValueIdentification() {
             return "id";
         }
         
