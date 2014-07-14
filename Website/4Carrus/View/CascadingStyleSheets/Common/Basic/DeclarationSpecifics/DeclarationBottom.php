@@ -17,12 +17,12 @@ class DeclarationBottom extends Declaration {
     //   instantiation: 
     //      $declaration = DeclarationBackgroundColor::DeclarationBackgroundColorWithStringHexColorValue($stringHexColorValue);
     public static function DeclarationBottomWithStringValue($stringValue) {
-        $instance = new parent("background-size", $stringValue); //arrumar
+        $instance = new parent("background-size", $stringValue);
         return $instance;
     }
     
     public static function DeclarationBottomWithBasicLength($basicLength) {
-        $instance = new parent("background-size", $basicLength->stringBasicLength()); //arrumar
+        $instance = new parent("background-size", $basicLength->stringBasicLength());
         return $instance;
     }
     
