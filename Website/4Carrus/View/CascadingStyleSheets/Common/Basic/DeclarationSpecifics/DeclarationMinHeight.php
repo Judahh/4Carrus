@@ -15,8 +15,8 @@ class DeclarationMinHeight extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationMinHeightWithBasicSimpleLength($basicSimpleLength) {
-        $instance = new parent("min-height", $basicSimpleLength->stringBasicSimpleLength());
+    public static function DeclarationMinHeightWithBasicLength($basicLength) {
+        $instance = new parent("min-height", $basicLength->stringBasicLength());
         return $instance;
     }
 }

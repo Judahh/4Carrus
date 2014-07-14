@@ -15,7 +15,7 @@ class DeclarationMinWidth extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationMinWidthWithBasicFourPartsLength($basicLength) {
+    public static function DeclarationMinWidthWithBasicLength($basicLength) {
         $instance = new parent("min-width", $basicLength->stringBasicLength());
         return $instance;
     }
