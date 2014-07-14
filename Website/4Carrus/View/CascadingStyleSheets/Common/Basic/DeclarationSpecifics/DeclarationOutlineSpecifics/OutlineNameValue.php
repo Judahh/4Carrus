@@ -13,7 +13,7 @@ class OutlineNameValue {
     private function __construct() {
         array_push($this->arrayOutlineNameValue, "stringOutlineColor");
         array_push($this->arrayOutlineNameValue, "stringOutlineStyle");
-        array_push($this->arrayOutlineNameValue, "stringOutlineTimingWidth");
+        array_push($this->arrayOutlineNameValue, "stringOutlineWidth");
     }
 
     public static function getInstance() {

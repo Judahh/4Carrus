@@ -13,25 +13,23 @@ class OutlineValue {
     }
 
     public static function
-    OutlineValueWithStringOutlineDurationWithStringOutlineTimingFunctionWithStringOutlineDelayWithStringOutlineProperty
-    ($stringOutlineDuration, $stringOutlineTimingFunction, $stringOutlineDelay, $stringOutlineProperty) {
+    OutlineValueWithstringOutlineColorWithStringOutlineStyleWithStringOutlineWidth
+    ($stringOutlineColor, $stringOutlineStyle, $stringOutlineWidth) {
         $instance = new self();
-        array_push($this->arrayOutlineValue, $stringOutlineDuration);
-        array_push($this->arrayOutlineValue, $stringOutlineTimingFunction);
-        array_push($this->arrayOutlineValue, $stringOutlineDelay);
-        array_push($this->arrayOutlineValue, $stringOutlineProperty);
+        array_push($this->arrayOutlineValue, $stringOutlineColor);
+        array_push($this->arrayOutlineValue, $stringOutlineStyle);
+        array_push($this->arrayOutlineValue, $stringOutlineWidth);
         return $instance;
     }
     
     public static function
-    OutlineValueWithDeclarationOutlineDurationWithDeclarationOutlineTimingFunctionWithDeclarationOutlineDelayWithDeclarationOutlineProperty
-    ($declarationOutlineDuration, $declarationOutlineTimingFunction, $declarationOutlineDelay, $declarationOutlineProperty) {
+    OutlineValueWithDeclarationOutlineColorWithDeclarationOutlineStyleWithDeclarationOutlineWidth
+    ($declarationOutlineColor, $declarationOutlineStyle, $declarationOutlineWidth) {
         $instance = new self();
         
-        array_push($this->arrayOutlineValue, $declarationOutlineDuration->getStringValue());
-        array_push($this->arrayOutlineValue, $declarationOutlineTimingFunction->getStringValue());
-        array_push($this->arrayOutlineValue, $declarationOutlineDelay->getStringValue());
-        array_push($this->arrayOutlineValue, $declarationOutlineProperty->getStringValue());
+        array_push($this->arrayOutlineValue, $declarationOutlineColor->getStringValue());
+        array_push($this->arrayOutlineValue, $declarationOutlineStyle->getStringValue());
+        array_push($this->arrayOutlineValue, $declarationOutlineWidth->getStringValue());
         
         return $instance;
     }
