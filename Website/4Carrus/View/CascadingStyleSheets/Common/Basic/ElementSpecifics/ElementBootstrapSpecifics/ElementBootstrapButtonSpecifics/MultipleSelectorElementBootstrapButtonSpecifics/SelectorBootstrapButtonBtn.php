@@ -1,8 +1,13 @@
 <?php
     class SelectorBootstrapButtonBtn extends Selector {
-       public static function SelectorBootstrapButtonBtn() {
+       public static function SelectorBootstrapButtonDotBtn() {
           $instance = new parent("btn", ".", "");
-          addDeclarationWithDeclaration(DeclarationDisplay::DeclarationDisplayStringValue(DeclarationDisplay::stringValueInlineBlock()));
+          addDeclarationWithDeclaration(DeclarationDisplay::DeclarationDisplayWithStringValue(DeclarationDisplay::stringInlineBlockValue()));
+          return $instance;
+       }
+       
+       public static function SelectorBootstrapButtonBtn() {
+          $instance = new parent("btn", "", "");
           return $instance;
        }
     }
