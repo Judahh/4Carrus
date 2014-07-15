@@ -6184,7 +6184,7 @@ button.close {
 }
 @media print {
   .visible-print-inline {
-    display: inline !important;
+    display: inline ! ;
   }
 }
 .visible-print-inline-block {
