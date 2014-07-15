@@ -5,6 +5,7 @@
  * Descrição
  * @copyright (c) year, Tarciso Torres Blue Lion
  */
+
 class DeclarationPaddingLeft extends Declaration{
 //Constructor
 //   instantiation: 
