@@ -15,8 +15,8 @@ class DeclarationMaxHeight extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationMaxHeightWithBasicFourPartsLength($basicSimpleLength) {
-        $instance = new parent("max-height", $basicSimpleLength->stringBasicSimpleLength());
+    public static function DeclarationMaxHeightWithBasicLength($basicLength) {
+        $instance = new parent("max-height", $basicLength->stringBasicLength());
         return $instance;
     }
 
