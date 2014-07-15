@@ -4,7 +4,6 @@
           $instance = new parent("btn", ".", "");
           addDeclarationWithDeclaration(DeclarationDisplay::DeclarationDisplayWithStringValue(DeclarationDisplay::stringValueInlineBlock()));
           
-          
           $basicSimpleLengthTopAndBottomParts = BasicSimpleLength::BasicSimpleLengthWithFloatSimpleLengthPixel(6);
           $basicSimpleLengthRightAndLeftParts = BasicSimpleLength::BasicSimpleLengthWithFloatSimpleLengthPixel(12);
           
@@ -13,6 +12,8 @@
           
           $basicFourPartsLength = BasicFourPartsLength::BasicFourPartsLengthWithBasicLengthTopAndBottomPartsWithBasicLengthRightAndLeftParts($basicLengthTopAndBottomParts, $basicLengthRightAndLeftParts);
           addDeclarationWithDeclaration(DeclarationPadding::DeclarationPaddingWithBasicFourPartsLength($basicFourPartsLength));
+          
+          addDeclarationWithDeclaration(DeclarationMargin::DeclarationMarginBottomWithBasicLength());
           return $instance;
        }
        
@@ -21,5 +22,5 @@
           return $instance;
        }
     }
-
+ 
 ?>
