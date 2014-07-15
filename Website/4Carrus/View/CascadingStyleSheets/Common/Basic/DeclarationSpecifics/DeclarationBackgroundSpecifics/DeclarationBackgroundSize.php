@@ -36,7 +36,7 @@ class DeclarationBackgroundSize extends DeclarationBackground {
         return $instance;
     }
     
-    public static function stringAutoSizeValue() {
+    public static function stringValueAutoSize() {
         return "auto";
     }
     

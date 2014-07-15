@@ -27,8 +27,7 @@ class DeclarationBorderSpacing extends DeclarationBorder {
         return $instance;
     }
     
-    public static function DeclarationBorderSpacingWithBasicLengthHorizontalWithBasicLengthVertical
-            ($basicLengthHorizontal, $basicLengthVertical) {
+    public static function DeclarationBorderSpacingWithBasicLengthHorizontalWithBasicLengthVertical($basicLengthHorizontal, $basicLengthVertical) {
         $instance = new parent("border-spacing", $basicLengthHorizontal->stringBasicLength()." ".$basicLengthVertical->stringBasicLength());
         return $instance;
     }
