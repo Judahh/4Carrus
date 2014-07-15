@@ -16,8 +16,7 @@ class DeclarationAnimation extends Declaration {
     //Constructor
     //   instantiation: 
     //      $declaration = DeclarationColor::DeclarationColorWithStringHexColorValue($stringHexColorValue);
-    public static function
-    DeclarationAnimationWithAnimationValue($animationValue) {
+    public static function DeclarationAnimationWithAnimationValue($animationValue) {
         $stringFullValue = "";
         $arrayAnimationValue = $animationValue->getArrayAnimationValue();
         $count = count($arrayAnimationValue);
@@ -29,8 +28,7 @@ class DeclarationAnimation extends Declaration {
         return $instance;
     }
     
-    public static function
-    DeclarationAnimationWithStringValue($stringValue) {
+    public static function DeclarationAnimationWithStringValue($stringValue) {
         $instance = new parent("animation", $stringValue);
         return $instance;
     }

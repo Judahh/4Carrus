@@ -26,7 +26,7 @@ class DeclarationBottom extends Declaration {
         return $instance;
     }
     
-    public static function stringAutoSizeValue() {
+    public static function stringValueAutoSize() {
         return "auto";
     }
 }
