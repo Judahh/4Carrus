@@ -51,7 +51,6 @@
        public function setStringPseudoElementWithString($string) {
           $this->stringPseudoElement = "::" . $string;
        }
-
        public function setStringPseudoClassWithString($string) {
           $this->stringPseudoClass = ":" . $string;
        }
