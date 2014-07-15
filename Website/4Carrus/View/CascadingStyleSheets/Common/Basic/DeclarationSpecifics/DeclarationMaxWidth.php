@@ -15,7 +15,7 @@ class DeclarationMaxWidth extends Declaration {
         return $instance;
     }
 
-    public static function DeclarationMaxWidthWithBasicFourPartsLength($basicLength) {
+    public static function DeclarationMaxWidthWithBasicLength($basicLength) {
         $instance = new parent("max-width", $basicLength->stringBasicLength());
         return $instance;
     }

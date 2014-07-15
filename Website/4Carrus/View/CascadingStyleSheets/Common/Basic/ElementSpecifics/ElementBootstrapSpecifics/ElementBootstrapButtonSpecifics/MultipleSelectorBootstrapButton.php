@@ -6,7 +6,7 @@
  */
 class MultipleSelectorBootstrapButton extends Selector {
     public static function MultipleSelectorBootstrapButton() {
-        $instance = new self($arraySelector, array());
+        $instance = new parent($arraySelector, array());
         $selectorBootstrapButtonBtn = SelectorBootstrapButtonBtn::SelectorBootstrapButtonBtn();
         addSelectorWithSelector($selectorBootstrapButtonBtn);
         return $instance;
