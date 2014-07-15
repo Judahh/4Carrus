@@ -2,7 +2,7 @@
     class SelectorBootstrapButtonBtn extends Selector {
        public static function SelectorBootstrapButtonDotBtn() {
           $instance = new parent("btn", ".", "");
-          addDeclarationWithDeclaration(DeclarationDisplay::DeclarationDisplayWithStringValue(DeclarationDisplay::stringInlineBlockValue()));
+          addDeclarationWithDeclaration(DeclarationDisplay::DeclarationDisplayWithStringValue(DeclarationDisplay::stringValueInlineBlock()));
           return $instance;
        }
        
