@@ -11,6 +11,9 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
+    <div class="search">
+        
+    </div>
         <div class="menu">
             <li><a href="#"></a></li>
             <li><a href="#">›</a></li>
