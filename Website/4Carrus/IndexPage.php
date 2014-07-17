@@ -11,7 +11,19 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-    <div class="search">
+    <header>
+        <div class="search">
+            <p>'</p>
+            <div class="box">
+                <div class="form">
+                    <form name="formSearchCar">
+                        <input type="text" placeholder="search">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
         
     </div>
         <div class="menu">
