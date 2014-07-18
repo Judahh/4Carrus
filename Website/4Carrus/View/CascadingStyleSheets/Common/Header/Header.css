@@ -1,7 +1,7 @@
 @font-face {
     font-family: "FontHeader";
-    src: url("CarPart.otf");
-    src: url("CarPart.woff");
+    src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.otf");
+    src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.woff");
 }
 
 #search{
