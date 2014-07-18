@@ -12,34 +12,36 @@ and open the template in the editor.
     </head>
     <body>
     <header>
-        <div id="search">
-            '
-            <div class="box">
-                <div class="form">
-                    <form name="formSearchCar">
+        <nav id="Menu">
+            <div id="MenuSearch">
+                <div class="Icon">
+                    '
+                </div><!-- Icon -->
+                <div id="BoxMenuSearch">
+                    <form id="FormSearchCar">
                         <input type="text" placeholder="search">
-                    </form>
-                </div>
-            </div>
-        </div>
+                        <input type="text" placeholder="test">
+                    </form><!-- FormSearchCar -->
+                </div><!-- BoxMenuSearch -->
+            </div><!-- MenuSearch -->
+
+            <div id="BoxMenuOptions">
+                <div class="Icon">
+                    <ul>
+                        <li>›</li>
+                        <li>¥</li>
+                        <li>U</li>
+                        <li>t</li>
+                    </ul>
+                </div><!-- Icon -->
+            </div><!-- BoxMenuOptions -->
+        </nav><!-- Menu -->
     </header>
 
-        
-    </div>
-        <div class="menu">
-            <li><a href="#"></a></li>
-            <li><a href="#">›</a></li>
-            <li><a href="#">¥</a></li>
-            <li><a href="#">U</a>
-                <ul>
-                    <li><a href="#">CarService</a></li>
-                    <li><a href="#">GasStation</a></li>
-                </ul>
-            </li>
-            <li><a href="#">t</a></li>
-        </div>
+
         <?php
         
         ?>
     </body>
+
 </html>
