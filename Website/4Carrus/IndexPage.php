@@ -8,12 +8,12 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>4Carrus</title>
-        <link rel="stylesheet" type="text/css" href="CascadingStyleSheets/Common/Header/Header.php" />
+        <link rel="stylesheet" type="text/css" href="View/CascadingStyleSheets/Common/Header/Header.css" />
     </head>
     <body>
     <header>
-        <div class="search">
-            <p>'</p>
+        <div id="search">
+            '
             <div class="box">
                 <div class="form">
                     <form name="formSearchCar">
