@@ -14,7 +14,7 @@
 class Element {
     private $arrayMultipleSelector;
     
-    private function __construct($arrayMultipleSelector) {
+    private function _construct($arrayMultipleSelector) {
         $this->arrayMultipleSelector = $arrayMultipleSelector;
     }
     
