@@ -19,6 +19,7 @@ nav#Menu{
 
 .Icon{
     font-family: "FontHeader", Cursive;
+    font-size: 87%;
     color:blue;
 }
 
@@ -56,13 +57,14 @@ li{
     right:0%;
     float: left;
     opacity: 0.5;
-    width: 10%;
+    width: 8.5%;
     height: 100%;
 }
 
 #BoxMenuOptions {
     background-color: green;
     position: absolute;
+    width: 8.5%;
     right:0%;
     float: left;
 }
