@@ -11,32 +11,26 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="View/CascadingStyleSheets/Common/Header/Header.css" />
     </head>
     <body>
-    <header>
-        <nav id="Menu">
-            <div id="MenuSearch">
-                <div class="Icon">
-                    '
-                </div><!-- Icon -->
+        <header>
+            <nav id="Menu">
+                <div id="BoxMenuSearchHolder"></div>
                 <div id="BoxMenuSearch">
-                    <form id="FormSearchCar">
-                        <input type="text" placeholder="search">
-                        <input type="text" placeholder="test">
-                    </form><!-- FormSearchCar -->
-                </div><!-- BoxMenuSearch -->
-            </div><!-- MenuSearch -->
-
-            <div id="BoxMenuOptions">
-                <div class="Icon">
                     <ul>
-                        <li>›</li>
-                        <li>¥</li>
-                        <li>U</li>
-                        <li>t</li>
+                        <li><div class="Icon">'</div></li>
                     </ul>
-                </div><!-- Icon -->
-            </div><!-- BoxMenuOptions -->
-        </nav><!-- Menu -->
-    </header>
+                </div>
+
+                <div id="BoxMenuOptionsHolder"></div>
+                <div id="BoxMenuOptions">
+                    <ul>
+                        <li><div class="Icon">›</div></li>
+                        <li><div class="Icon">¥</div></li>
+                        <li><div class="Icon">U</div></li>
+                        <li><div class="Icon">t</div></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
 
         <?php
