@@ -7,7 +7,7 @@ nav#Menu{
     background-color: #AA0000;
     position: fixed;
     width: 100%;
-    height: 3%;
+    height: 5%;
 }
 #Search{
     width:2.5%; height:2.5%;
@@ -50,3 +50,13 @@ nav#Menu ul{
     font-family: "FontHeader", Cursive;
     color:#2c24ff;
 }
+
+#MenuSearch {
+}
+
+#BoxMenuOptionsHolder {
+}
+
+#BoxMenuOptions {
+}
+
