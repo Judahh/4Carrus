@@ -3,6 +3,12 @@
     src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.otf");
     src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.woff");
 }
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
 nav#Menu{
     background-color: red;
     position: absolute;
@@ -16,19 +22,14 @@ nav#Menu{
     color:blue;
 }
 
-li{
-    list-style: none;
-    display: inline-block;
-}
-
-body{
-    margin: 0%;
-    padding: 0%;
-}
-
 ul{
     margin: 0%;
     padding: 0%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
 }
 
 #BoxMenuSearchHolder {
