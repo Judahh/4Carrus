@@ -19,18 +19,12 @@ nav#Menu{
 
 .Icon{
     font-family: "FontHeader", Cursive;
-    font-size: 87%;
     color:blue;
 }
 
-ul{
-    margin: 0%;
-    padding: 0%;
-}
-
 li{
-    list-style: none;
     display: inline-block;
+    list-style: none;
 }
 
 #BoxMenuSearchHolder {
@@ -51,23 +45,86 @@ li{
 
 }
 
+#navMenu ul li a {
+    text-align:center;
+    height:30px;
+    width:150px;
+    display:block;
+    color:#000;
+    font-family:"Comic Sans MS", cursive;
+    text-decoration:none;
+    color:#FFF;
+    border:1px solid #FFF;
+    text-shadow:1px 1px 1px #000;
+}
+
+#navMenu ul ul {
+    position:absolute;
+    visibility:hidden;
+    top:32px;
+}
+
+#navMenu ul li:hover ul {
+    visibility:visible;
+    z-index:9999;
+}
+
 #BoxMenuOptionsHolder {
     background-color: yellow;
     position: absolute;
     right:0%;
     float: left;
     opacity: 0.5;
-    width: 8.5%;
+    width: 20%;
     height: 100%;
 }
 
 #BoxMenuOptions {
+    margin:0%;
+    width:auto;
     background-color: green;
     position: absolute;
-    width: 8.5%;
     right:0%;
     float: left;
 }
 
+#boxmenuoptions ul{
+    margin:0%;
+    padding:0%;
+    line-height:2%;
+    right: 0%;
+}
 
+#boxmenuoptions ul li {
+    margin:0%;
+    padding:0%;
+    list-style:none;
+    display: inline-block;
+    float:right;
+    position:relative;
+    background: transparent;
+}
 
+#BoxMenuOptions ul ul {
+    visibility: hidden;
+    float: right;
+}
+
+#boxmenuoptions a{
+    margin:0%;
+    padding:0%;
+    list-style:none;
+    text-align:center;
+    height:30px;
+    width:150px;
+    display:block;
+    color:#000;
+    font-family:"Comic Sans MS", cursive;
+    text-decoration:none;
+    border:1px solid #FFF;
+    text-shadow:1px 1px 1px #000;
+}
+
+#boxmenuoptions ul li .Icon:hover ul{
+    visibility: visible;
+}

@@ -1,0 +1,80 @@
+#navMenu {
+    margin:0;
+    width:auto;
+}
+
+#navMenu ul {
+    margin:0;
+    padding:0;
+    line-height:30px;
+}
+
+#navMenu li {
+    margin:0;
+    padding:0;
+    list-style:none;
+    float:left;
+    position:relative;
+    background:#999;
+}
+
+#navMenu ul li a {
+    text-align:center;
+    height:30px;
+    width:150px;
+    display:block;
+    color:#000;
+    font-family:"Comic Sans MS", cursive;
+    text-decoration:none;
+    color:#FFF;
+    border:1px solid #FFF;
+    text-shadow:1px 1px 1px #000;
+}
+
+#navMenu ul ul {
+    position:absolute;
+    visibility:hidden;
+    top:32px;
+}
+
+#navMenu ul li:hover ul {
+    visibility:visible;
+    z-index:9999;
+}
+
+/**********************************************/
+
+/*sets top level hover color*/
+
+#navMenu li:hover {
+    background:#09F;
+}
+
+/*sets link items hover color and background*/
+
+#navMenu ul li:hover ul li a:hover {
+    color:#000;
+    background:#CCC;
+}
+
+/* Changes text color on hover for main menu hover*/
+
+#navMenu a:hover {
+    color:#000;
+}
+
+/* Contains the Float */
+
+.clearFloat {
+    clear:both;
+    margin:0;
+    padding:0;
+}
+
+/* IE7 Display Fix */
+
+#navmenu ul li {
+
+    display: inline;
+
+}
