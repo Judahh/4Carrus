@@ -20,11 +20,32 @@ nav#Menu{
 .Icon{
     font-family: "FontHeader", Cursive;
     color:blue;
+    margin: 0.1% 1% 0.1% 0.1%;
+}
+
+.Icon:hover{
+    visibility: hidden;
+
+}
+
+.SubMenu{
+    position: relative;
+    float: left;
+}
+.SubMenu a{
+    visibility: visible;
+    text-decoration: none;
+    color: #000000;
+
 }
 
 li{
     display: inline-block;
     list-style: none;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
 }
 
 #BoxMenuSearchHolder {
@@ -46,16 +67,7 @@ li{
 }
 
 #navMenu ul li a {
-    text-align:center;
-    height:30px;
-    width:150px;
-    display:block;
-    color:#000;
-    font-family:"Comic Sans MS", cursive;
-    text-decoration:none;
-    color:#FFF;
-    border:1px solid #FFF;
-    text-shadow:1px 1px 1px #000;
+
 }
 
 #navMenu ul ul {
@@ -105,12 +117,13 @@ li{
     background: transparent;
 }
 
-#BoxMenuOptions ul ul {
+#BoxMenuOptions ul li ul li.SubMenu{
     visibility: hidden;
-    float: right;
+    float: inherit;
+    position: relative;
 }
 
-#boxmenuoptions a{
+# a{
     margin:0%;
     padding:0%;
     list-style:none;
@@ -125,6 +138,5 @@ li{
     text-shadow:1px 1px 1px #000;
 }
 
-#boxmenuoptions ul li .Icon:hover ul{
-    visibility: visible;
-}
+
+
