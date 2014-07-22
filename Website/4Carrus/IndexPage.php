@@ -8,37 +8,41 @@
 <body>
 <main>
     <header>
-        <nav id="Menu">
-            <div id="BoxMenuSearchHolder"></div>
-            <div id="BoxMenuSearch">
-                <ul>
-                    <li><div class="Icon">'</div></li>
-                </ul>
-            </div>
+        <div id="BoxMenuSearchHolder"></div>
+        <div id="BoxMenuSearch">
+            <ul>
+                <li><div class="Icon"><a href="#">'</a></div></li>
+            </ul>
+        </div>
 
-            <div id="BoxMenuOptionsHolder"></div>
-            <div id="BoxMenuOptions">
+        <div id="BoxMenuOptionsHolder"></div>
+        <nav id="Menu">
+            <ul>
+                <li class="Icon">›</li>
+                <li class="Icon">¥
                 <ul>
-                    <li class="Icon">›</li>
-                    <li class="Icon">¥</li>
-                        <ul>
-                            <li class="SubMenu"><a href="#">Preferências</a></li>
-                            <li class="SubMenu"><a href="#">Cores</a></li>
-                            <li class="SubMenu"><a href="#">Idioma</a></li>
-                            <li class="SubMenu"><a href="#">Região</a></li>
-                        </ul>
-                    <li class="Icon">U</li>
-                        <ul>
-                            <li class="SubMenu"><a href="#">Gas Station</a></li>
-                        </ul>
-                    <li class="Icon">t</li>
-                        <ul>
-                            <li class="SubMenu"><a href="#">Minha Conta</a></li>
-                            <li class="SubMenu"><a href="#">Meu Carrinho</a></li>
-                            <li class="SubMenu"><a href="#">Minha Agenda</a></li>
-                        </ul>
+                    <li class="SubMenu"><a href="#">Preferências</a></li>
+                    <li class="SubMenu"><a href="#">Cores</a></li>
+                    <li class="SubMenu"><a href="#">Idioma</a></li>
+                    <li class="SubMenu"><a href="#">Região</a></li>
                 </ul>
-            </div>
+                </li>
+
+                <li class="Icon">U
+                <ul>
+                    <li class="SubMenu"><a href="#">Gas Station</a></li>
+                </ul>
+                </li>
+
+                <li class="Icon">t
+                <ul>
+                    <li class="SubMenu"><a href="#">Minha Conta</a></li>
+                    <li class="SubMenu"><a href="#">Meu Carrinho</a></li>
+                    <li class="SubMenu"><a href="#">Minha Agenda</a></li>
+                </ul>
+                </li>
+
+            </ul>
         </nav>
     </header>
     <?php
