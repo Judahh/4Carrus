@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "FontHeader";
+    src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.otf");
+    src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.woff");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background: red center;
+    width: 100%;
+    height: 40px;
+    font-family: "FontHeader", Cursive;
+}
+
+nav #DivIdentificatonMenuSarch{
+    background: #ffff00;
+    width: 12%;
+    height: 100%;
+}
+
+nav #DivIdentificationMenuOptions{
+    background: #0099FF right;
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 100%;
+    top: -100%;
+}
+
+nav #DivIdentificationMenuOptions ul{
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+    position: relative;
+}
+
+nav #DivIdentificationMenuOptions ul li{
+    float: left;
+    display: block;
+    position: relative;
+}
+
+nav #DivIdentificationMenuOptions ul li a{
+    float: left;
+    font-family: "fontheader", cursive;
+    color: #87b715;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 17px;
+    border-right: 1px solid #dddddd;
+}
+
+nav #DivIdentificationMenuOptions ul li ul li a{
+    font-family: "Tahoma", cursive;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover{
+    background: #AA0000;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+nav #DivIdentificationMenuOptions ul ul{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: auto;
+    background: #FFF;
+    border-right: 4px solid #89B718;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 58px;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover ul li a{
+    border: none;
+    width: 126px;
+    border-bottom: 1px solid #ddd;
+}
+

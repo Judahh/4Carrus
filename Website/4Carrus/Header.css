@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "FontHeader";
+    src: url("View/Fonts/CarPart.otf");
+    src: url("View/Fonts/CarPart.woff");
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.BoxMenuTop{
+    background: #AA0000 center;
+    width: 100%;
+    height: 5%;
+    position: absolute;
+
+}
+
+nav#MenuOption{
+    background: #AA0000;
+    font-family: "FontHeader", Cursive;
+
+    width: 10%;
+    height: auto;
+    float: right;
+
+
+}
+
+#nav#MenuOption ul li ul li:hover{
+    display: block;
+    list-style: none;
+    color: #008000;
+}
+
+nav#MenuOption ul a{
+    text-decoration: none;
+}

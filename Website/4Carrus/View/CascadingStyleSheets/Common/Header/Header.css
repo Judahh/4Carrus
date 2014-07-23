@@ -4,14 +4,29 @@
     src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.woff");
 }
 
-body{
+*{
     margin: 0%;
     padding: 0%;
 }
 
-nav#Menu{
+.BoxMenuTop{
     background-color: red;
+    width: 100%;
+    height: 5%;
+}
+
+nav#Menu{
+    background-color: #000000;
     position: absolute;
+    width: 18%;
+    height: 5%;
+    float: left;
+    ;
+}
+
+nav#Menu ul {
+    background-color: #008000;
+    position: relative;
     width: 100%;
     height: 5%;
     float: left;
@@ -24,7 +39,7 @@ nav#Menu{
 }
 
 .Icon:hover{
-    visibility: hidden;
+    color: #0099FF;
 
 }
 

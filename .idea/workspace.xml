@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/Header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/teste2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/teste2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IndexPage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="55" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4556701" vertical-offset="0" max-vertical-offset="1003">
+            <state line="39" column="24" selection-start="1341" selection-end="1572" vertical-scroll-proportion="-12.730769" vertical-offset="332" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
+      <file leaf-file-name="teste2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="4" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2516">
+            <state line="40" column="10" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-22.23077" vertical-offset="102" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teste2.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="0" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.7671233" vertical-offset="1138" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -46,10 +61,8 @@
       <file leaf-file-name="teste1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="47" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-19.961538" vertical-offset="8" max-vertical-offset="697">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="4" column="4" selection-start="59" selection-end="128" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="697">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,7 +70,7 @@
       <file leaf-file-name="teste1.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="1309">
+            <state line="65" column="0" selection-start="976" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -82,11 +95,14 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/Element.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" />
         <option value="$PROJECT_DIR$/Website/teste1.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste1.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste1.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/Header.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/teste2.html" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/teste2.css" />
       </list>
     </option>
   </component>
@@ -169,6 +185,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,11 +294,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14528593" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14528593" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -282,23 +320,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1445" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="5" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -545,42 +566,65 @@
         <state line="12" column="38" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste.html">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="765" />
+        <state line="31" column="19" selection-start="466" selection-end="466" vertical-scroll-proportion="0.60078275" vertical-offset="220" max-vertical-offset="748">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="26" selection-start="460" selection-end="460" vertical-scroll-proportion="-0.12903225" vertical-offset="561" max-vertical-offset="1445" />
+        <state line="29" column="26" selection-start="460" selection-end="460" vertical-scroll-proportion="-0.1330724" vertical-offset="561" max-vertical-offset="1445">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="4" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2516">
+        <state line="27" column="39" selection-start="566" selection-end="566" vertical-scroll-proportion="0.5958763" vertical-offset="170" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="47" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-19.961538" vertical-offset="8" max-vertical-offset="697">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="1309">
+        <state line="4" column="4" selection-start="59" selection-end="128" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="55" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4556701" vertical-offset="0" max-vertical-offset="1003">
+        <state line="39" column="24" selection-start="1341" selection-end="1572" vertical-scroll-proportion="-12.730769" vertical-offset="332" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="182" vertical-scroll-proportion="-0.39921722" vertical-offset="204" max-vertical-offset="2771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="10" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-22.23077" vertical-offset="102" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="976" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.7671233" vertical-offset="1138" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
