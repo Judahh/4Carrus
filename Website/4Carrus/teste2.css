@@ -26,7 +26,7 @@ nav #DivIdentificationMenuOptions{
     background: #0099FF right;
     position: relative;
     float: right;
-    width: 15%;
+    width: 20%;
     height: 100%;
     top: -100%;
 }
@@ -34,7 +34,8 @@ nav #DivIdentificationMenuOptions{
 nav #DivIdentificationMenuOptions ul{
     width: 100%;
     height: 100%;
-    margin: 0% auto;
+    margin-top: -5%;
+    padding-top: -5%;
     position: relative;
 }
 
@@ -47,12 +48,12 @@ nav #DivIdentificationMenuOptions ul li{
 nav #DivIdentificationMenuOptions ul li a{
     float: left;
     font-family: "fontheader", cursive;
-    color: #87b715;
+    color: #0555b7;
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px 17px;
-    border-right: 1px solid #dddddd;
+
 }
 
 nav #DivIdentificationMenuOptions ul li ul li a{
@@ -60,7 +61,7 @@ nav #DivIdentificationMenuOptions ul li ul li a{
 }
 
 nav #DivIdentificationMenuOptions ul li:hover{
-    background: #AA0000;
+    text-decoration-color: #aa1c34;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -73,14 +74,14 @@ nav #DivIdentificationMenuOptions ul ul{
     position: absolute;
     width: 160px;
     height: auto;
-    background: #FFF;
-    border-right: 4px solid #89B718;
+    background: transparent;
+
 }
 
 nav #DivIdentificationMenuOptions ul li:hover ul{
     display: block;
     position: absolute;
-    top: 58px;
+    top: 100%;
 }
 
 nav #DivIdentificationMenuOptions ul li:hover ul li a{
