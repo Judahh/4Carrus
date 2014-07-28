@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/teste2.html" afterPath="$PROJECT_DIR$/Website/4Carrus/teste2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/teste2main.css" afterPath="$PROJECT_DIR$/Website/4Carrus/teste2main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -35,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teste2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="teste2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="13" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.9321357" vertical-offset="723" max-vertical-offset="1615">
+            <state line="6" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1632">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teste2main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="19" selection-start="155" selection-end="155" vertical-scroll-proportion="0.3548387" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -108,6 +118,7 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/teste2footer.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste2.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste2.html" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/teste2main.css" />
       </list>
     </option>
   </component>
@@ -327,11 +338,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationOverflow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326" />
@@ -615,7 +621,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="13" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.9321357" vertical-offset="723" max-vertical-offset="1615">
+        <state line="6" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/teste2main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="155" selection-end="155" vertical-scroll-proportion="0.3548387" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
