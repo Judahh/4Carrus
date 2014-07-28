@@ -20,8 +20,14 @@ nav{
 
 nav #DivIdentificatonMenuSarch{
     background: #ffff00;
-    width: 12%;
+    width: 2%;
     height: 100%;
+}
+
+nav #DivIdentificatonMenuSarch a:hover{
+    background: #003333;
+    width: 12%;
+    height: 300%;
 }
 
 nav #DivIdentificationMenuOptions{
@@ -90,5 +96,9 @@ nav #DivIdentificationMenuOptions ul li:hover ul li a{
     border: none;
     width: 126px;
     border-bottom: 1px solid #ddd;
+}
+
+nav #DivIdentificationMenuOptions a:hover{
+    color: #99941b;
 }
 
