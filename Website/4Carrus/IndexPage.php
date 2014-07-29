@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>4Carrus</title>
-   <!-- <link rel="stylesheet" type="text/css" href="View/CascadingStyleSheets/Common/Header/Header.css" /> -->
-    <link href="Header.css" rel="stylesheet" type="text/css" media="all">
+   <link rel="stylesheet" type="text/css" href="View/CascadingStyleSheets/Common/Header/Header.css" />
 </head>
 <body>
 <main>
@@ -29,21 +28,6 @@
                             <li><a href="#">Região</a></li>
                         </ul>
                     </li>
-
-                    <li><a href="#">U</a>
-                        <ul>
-                            <li><a href="#">Gas Station</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="#">t</a>
-                        <ul>
-                            <li><a href="#">Minha Conta</a></li>
-                            <li><a href="#">Meu Carrinho</a></li>
-                            <li><a href="#">Minha Agenda</a></li>
-                        </ul>
-                    </li>
-
                 </ul>
             </nav>
         </div>

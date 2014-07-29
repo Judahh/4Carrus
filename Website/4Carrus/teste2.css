@@ -10,7 +10,6 @@
 }
 
 nav{
-    background: red center;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -18,32 +17,50 @@ nav{
     font-family: "FontHeader", Cursive;
 }
 
-nav #DivIdentificatonMenuSarch{
-    background: #ffff00;
-    width: 2%;
+nav #BoxMenuSearchHolder {
+    background-color: yellow;
+    position: absolute;
+    left:0%;
+    float: left;
+    opacity: 0.5;
+    width: 3%;
     height: 100%;
 }
 
-nav #DivIdentificatonMenuSarch a:hover{
+nav #DivIdentificatonMenuSearch{
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    float: left;
+}
+
+nav #DivIdentificatonMenuSearch a:hover{
     background: #003333;
     width: 12%;
     height: 300%;
 }
 
-nav #DivIdentificationMenuOptions{
-    background: #0099FF right;
-    position: relative;
-    float: right;
-    width: 20%;
+nav #BoxMenuOptionsHolder {
+    width:10%;
+    background-color: green;
+    opacity: 0.5;
+    position: absolute;
+    right:0%;
+    float: left;
     height: 100%;
-    top: -100%;
+}
+
+nav #DivIdentificationMenuOptions{
+    width:10%;
+    position: absolute;
+    right:0%;
+    float: left;
+    height: 100%;
 }
 
 nav #DivIdentificationMenuOptions ul{
     width: 100%;
     height: 100%;
-    margin-top: -5%;
-    padding-top: -5%;
     position: relative;
 }
 
@@ -57,11 +74,8 @@ nav #DivIdentificationMenuOptions ul li a{
     float: left;
     font-family: "fontheader", cursive;
     color: #0555b7;
-    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 20px 17px;
-
 }
 
 nav #DivIdentificationMenuOptions ul li ul li a{
@@ -83,7 +97,6 @@ nav #DivIdentificationMenuOptions ul ul{
     width: 160px;
     height: auto;
     background: transparent;
-
 }
 
 nav #DivIdentificationMenuOptions ul li:hover ul{
@@ -94,8 +107,7 @@ nav #DivIdentificationMenuOptions ul li:hover ul{
 
 nav #DivIdentificationMenuOptions ul li:hover ul li a{
     border: none;
-    width: 126px;
-    border-bottom: 1px solid #ddd;
+    width: 130px;
 }
 
 nav #DivIdentificationMenuOptions a:hover{

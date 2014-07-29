@@ -9,7 +9,7 @@
     padding: 0%;
 }
 
-.BoxMenuTop{
+#BoxMenuTop{
     background-color: red;
     width: 100%;
     height: 5%;
@@ -21,7 +21,6 @@ nav#Menu{
     width: 18%;
     height: 5%;
     float: left;
-    ;
 }
 
 nav#Menu ul {
@@ -70,7 +69,7 @@ li{
     float: left;
     opacity: 0.5;
     width: 10%;
-    height: 100%;
+    height: 4.5%;
 }
 
 #BoxMenuSearch {
@@ -97,18 +96,18 @@ li{
 }
 
 #BoxMenuOptionsHolder {
-    background-color: yellow;
+    background-color: #0eaa8c;
     position: absolute;
     right:0%;
     float: left;
     opacity: 0.5;
     width: 20%;
-    height: 100%;
+    height: 4.5%;
 }
 
 #BoxMenuOptions {
+    width: 20%;
     margin:0%;
-    width:auto;
     background-color: green;
     position: absolute;
     right:0%;
@@ -137,21 +136,5 @@ li{
     float: inherit;
     position: relative;
 }
-
-# a{
-    margin:0%;
-    padding:0%;
-    list-style:none;
-    text-align:center;
-    height:30px;
-    width:150px;
-    display:block;
-    color:#000;
-    font-family:"Comic Sans MS", cursive;
-    text-decoration:none;
-    border:1px solid #FFF;
-    text-shadow:1px 1px 1px #000;
-}
-
 
 
