@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/Website/4Carrus/teste1.html" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/Website/4Carrus/teste2.css" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/Website/4Carrus/teste2.html" charset="ISO-8859-1" />
   </component>
 </project>
 
