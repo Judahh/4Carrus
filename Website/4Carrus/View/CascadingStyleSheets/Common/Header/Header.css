@@ -14,8 +14,8 @@ nav{
     top: 0%;
     width: 100%;
     height: 40px;
-    font-family: "FontHeader", Cursive;
 }
+
 
 nav #BoxMenuSearchHolder {
     background-color: yellow;
@@ -27,21 +27,28 @@ nav #BoxMenuSearchHolder {
     height: 100%;
 }
 
-nav #DivIdentificatonMenuSearch{
+nav #DivIdentificatonMenuSearch ul li{
     position: absolute;
+    color: #AA0000;
+    font-family: "FontHeader";
     width: 3%;
     height: 100%;
     float: left;
 }
 
-nav #DivIdentificatonMenuSearch a:hover{
+nav #DivIdentificatonMenuSearch ul li ul{
     background: #003333;
     width: 12%;
     height: 300%;
+    display: none;
 }
 
+nav #DivIdentificatonMenuSearch ul li ul:hover li{
+    display: block;
+}
 nav #BoxMenuOptionsHolder {
-    width:10%;    background-color: green;
+    width:10%;
+    background-color: green;
     opacity: 0.5;
     position: absolute;
     right:0%;
@@ -65,16 +72,13 @@ nav #DivIdentificationMenuOptions ul{
 
 nav #DivIdentificationMenuOptions ul li{
     float: left;
+    font-family: "fontheader", cursive;
     display: block;
     position: relative;
 }
 
-nav #DivIdentificationMenuOptions ul li a{
+nav #DivIdentificationMenuOptions ul li{
     float: left;
-    font-family: "fontheader", cursive;
-    color: #0555b7;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 nav #DivIdentificationMenuOptions ul li ul li a{
