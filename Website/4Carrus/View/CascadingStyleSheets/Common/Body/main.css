@@ -11,8 +11,11 @@ main{
     top: 100%;
     margin-top: 10%;
 }
+
+table{
+    background-color: gray;
+}
+
 table td, tr{
     width: 100%;
-    height: 90%;
-
 }

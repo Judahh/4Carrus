@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css" />
       <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\IndexPage.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\teste2main.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="IndexPage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="62" selection-start="328" selection-end="328" vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="14892">
+            <state line="26" column="34" selection-start="850" selection-end="850" vertical-scroll-proportion="-7.1923075" vertical-offset="255" max-vertical-offset="14892">
               <folding />
             </state>
           </provider>
@@ -42,7 +43,7 @@
       <file leaf-file-name="Header.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="510" selection-end="510" vertical-scroll-proportion="0.6786427" vertical-offset="255" max-vertical-offset="3672">
+            <state line="105" column="14" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.61077845" vertical-offset="1479" max-vertical-offset="2125">
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="19" column="16" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -373,7 +374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,21 +591,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="19" column="16" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="62" selection-start="328" selection-end="328" vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="14892">
+        <state line="26" column="34" selection-start="850" selection-end="850" vertical-scroll-proportion="-7.1923075" vertical-offset="255" max-vertical-offset="14892">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="510" selection-end="510" vertical-scroll-proportion="0.6786427" vertical-offset="255" max-vertical-offset="3672">
+        <state line="105" column="14" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.61077845" vertical-offset="1479" max-vertical-offset="2125">
           <folding />
         </state>
       </provider>

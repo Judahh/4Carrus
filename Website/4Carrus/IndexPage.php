@@ -10,30 +10,30 @@
 <body>
 <header><nav>
 
-        <div id="BoxMenuSearchHolder"></div>
+        <div id="DivIdentificatonBoxMenuSearchHolder"></div>
         <div id="DivIdentificatonMenuSearch">
             <ul>
                 <li>'
                     <ul>
-                        <li>Prefer�ncias</a></li>
+                        <li>Preferências</a></li>
                         <li>Cores</a></li>
                         <li>Idioma</li>
-                        <li>Regi�o</li>
+                        <li>Região</li>
                     </ul>
                 </li>
             </ul>
         </div>
 
-        <div id="BoxMenuOptionsHolder"></div>
+        <div id="DivIdentificationBoxMenuOptionsHolder"></div>
         <div id="DivIdentificationMenuOptions">
             <ul>
-                <li>�</li>
-                <li>�
+                <li></li>
+                <li>¥
                     <ul>
-                        <li>Prefer�ncias</li>
+                        <li>Preferências</li>
                         <li>Cores</li>
                         <li>Idioma</li>
-                        <li>Regi�o</li>
+                        <li>Região</li>
                     </ul>
                 </li>
 
@@ -424,7 +424,7 @@
 <footer>
     <div id="Information">
         <ul>
-            <li><a href="#">Informa��es</a>
+            <li><a href="#">Informações</a>
                 <ul>
                     <li><a href="#">Contato</a></li>
                     <li><a href="#">Sobre o Site</a></li>
@@ -450,10 +450,10 @@
                     <ul>
                         <li>'
                             <ul>
-                                <li>Prefer�ncias</a></li>
+                                <li>Preferï¿½ncias</a></li>
                                 <li>Cores</a></li>
                                 <li>Idioma</li>
-                                <li>Regi�o</li>
+                                <li>Regiï¿½o</li>
                             </ul>
                         </li>
                     </ul>
@@ -462,13 +462,13 @@
                 <div id="BoxMenuOptionsHolder"></div>
                 <div id="DivIdentificationMenuOptions">
                     <ul>
-                        <li>›</li>
-                        <li>¥
+                        <li>âº</li>
+                        <li>Â¥
                             <ul>
-                                <li>Prefer�ncias</li>
+                                <li>Preferï¿½ncias</li>
                                 <li>Cores</li>
                                 <li>Idioma</li>
-                                <li>Regi�o</li>
+                                <li>Regiï¿½o</li>
                             </ul>
                         </li>
 
@@ -858,7 +858,7 @@
     <footer>
         <div id="Information">
             <ul>
-                <li>Informa��es
+                <li>Informaï¿½ï¿½es
                     <ul>
                         <li>Contato</li>
                         <li>Sobre o Site</li>
