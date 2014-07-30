@@ -1,140 +1,122 @@
 @font-face {
     font-family: "FontHeader";
-    src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.otf");
-    src: url("/../4Carrus/Website/4Carrus/View/Fonts/CarPart.woff");
+    src: url("../../../Fonts/CarPart.otf");
+    src: url("../../../Fonts/CarPart.woff");
 }
 
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
-#BoxMenuTop{
-    background-color: red;
+nav{
+    position: fixed;
+    top: 0%;
     width: 100%;
-    height: 5%;
-}
-
-nav#Menu{
-    background-color: #000000;
-    position: absolute;
-    width: 18%;
-    height: 5%;
-    float: left;
-}
-
-nav#Menu ul {
-    background-color: #008000;
-    position: relative;
-    width: 100%;
-    height: 5%;
-    float: left;
-}
-
-.Icon{
+    height: 40px;
     font-family: "FontHeader", Cursive;
-    color:blue;
-    margin: 0.1% 1% 0.1% 0.1%;
 }
 
-.Icon:hover{
-    color: #0099FF;
-
-}
-
-.SubMenu{
-    position: relative;
-    float: left;
-}
-.SubMenu a{
-    visibility: visible;
-    text-decoration: none;
-    color: #000000;
-
-}
-
-li{
-    display: inline-block;
-    list-style: none;
-    float: left;
-    margin: 0%;
-    padding: 0%;
-    position: relative;
-}
-
-#BoxMenuSearchHolder {
+nav #BoxMenuSearchHolder {
     background-color: yellow;
     position: absolute;
     left:0%;
     float: left;
     opacity: 0.5;
-    width: 10%;
-    height: 4.5%;
+    width: 3%;
+    height: 100%;
 }
 
-#BoxMenuSearch {
+nav #DivIdentificatonMenuSearch{
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    float: left;
+}
+
+nav #DivIdentificatonMenuSearch a:hover{
+    background: #003333;
+    width: 12%;
+    height: 300%;
+}
+
+nav #BoxMenuOptionsHolder {
+    width:10%;
     background-color: green;
-    position: absolute;
-    left:0%;
-    float: left;
-
-}
-
-#navMenu ul li a {
-
-}
-
-#navMenu ul ul {
-    position:absolute;
-    visibility:hidden;
-    top:32px;
-}
-
-#navMenu ul li:hover ul {
-    visibility:visible;
-    z-index:9999;
-}
-
-#BoxMenuOptionsHolder {
-    background-color: #0eaa8c;
-    position: absolute;
-    right:0%;
-    float: left;
     opacity: 0.5;
-    width: 20%;
-    height: 4.5%;
-}
-
-#BoxMenuOptions {
-    width: 20%;
-    margin:0%;
-    background-color: green;
     position: absolute;
     right:0%;
     float: left;
+    height: 100%;
 }
 
-#boxmenuoptions ul{
-    margin:0%;
-    padding:0%;
-    line-height:2%;
-    right: 0%;
+nav #DivIdentificationMenuOptions{
+    width:10%;
+    position: absolute;
+    right:0%;
+    float: left;
+    height: 100%;
 }
 
-#boxmenuoptions ul li {
-    margin:0%;
-    padding:0%;
-    list-style:none;
-    display: inline-block;
-    float:right;
-    position:relative;
-    background: transparent;
-}
-
-#BoxMenuOptions ul li ul li.SubMenu{
-    visibility: hidden;
-    float: inherit;
+nav #DivIdentificationMenuOptions ul{
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
+nav #DivIdentificationMenuOptions ul li{
+    float: left;
+    display: block;
+    position: relative;
+}
 
+nav #DivIdentificationMenuOptions ul li a{
+    float: left;
+    font-family: "fontheader", cursive;
+    color: #0555b7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav #DivIdentificationMenuOptions ul li ul li a{
+    font-family: "Tahoma", cursive;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover{
+    text-decoration-color: #aa1c34;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+nav #DivIdentificationMenuOptions ul ul{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: auto;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover ul li a{
+    border: none;
+    width: 130px;
+}
+
+nav #DivIdentificationMenuOptions a:hover{
+    color: #99941b;
+}
+
+table{
+    background-color: gray;
+}
+
+main, td, tr{
+    width: 100%;
+}
