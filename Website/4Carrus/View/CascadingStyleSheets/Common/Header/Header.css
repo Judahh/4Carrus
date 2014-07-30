@@ -1,10 +1,6 @@
 @font-face {
     font-family: "FontHeader";
 <<<<<<< HEAD
-    src: url("../../../../../../../4Carrus/Website/4Carrus/View/Fonts/CarPart.otf");
-    src: url("/Website/4Carrus/View/Fonts/CarPart.woff");
-    font-weight: normal;
-    font-style: normal;
 =======
     src: url("../../../Fonts/CarPart.otf");
     src: url("../../../Fonts/CarPart.woff");
@@ -31,8 +27,7 @@ nav{
 
 
 =======
-    font-family: "FontHeader", Cursive;
-}
+
 
 >>>>>>> origin/master
 nav #BoxMenuSearchHolder {
@@ -46,7 +41,7 @@ nav #BoxMenuSearchHolder {
     opacity: 0.5;
 >>>>>>> origin/master
     width: 3%;
-    height: 100%;
+    height: 00%;
 }
 
 <<<<<<< HEAD
@@ -135,7 +130,6 @@ nav  ul li:hover{
     color: #99941b;
 }
 
-=======
 nav #DivIdentificatonMenuSearch{
     position: absolute;
     width: 3%;
@@ -144,7 +138,7 @@ nav #DivIdentificatonMenuSearch{
 }
 
 nav #DivIdentificatonMenuSearch a:hover{
-    background: #003333;
+    background: #aa1c34;
     width: 12%;
     height: 300%;
 }

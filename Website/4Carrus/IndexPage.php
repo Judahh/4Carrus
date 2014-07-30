@@ -27,8 +27,8 @@
         <div id="BoxMenuOptionsHolder"></div>
         <div id="DivIdentificationMenuOptions">
             <ul>
-                <li>›asd</li>
-                <li>¥asd
+                <li>›</li>
+                <li>¥
                     <ul>
                         <li>Preferências</li>
                         <li>Cores</li>
@@ -37,13 +37,13 @@
                     </ul>
                 </li>
 
-                <li>Uasd
+                <li>U
                     <ul>
                         <li>Gas Station</li>
                     </ul>
                 </li>
 
-                <li>tasd
+                <li>t
                     <ul>
                         <li>Minha Conta</li>
                         <li>Meu Carrinho</li>
