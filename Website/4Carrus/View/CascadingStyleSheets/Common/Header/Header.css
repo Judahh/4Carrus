@@ -1,19 +1,13 @@
 @font-face {
     font-family: "FontHeader";
-<<<<<<< HEAD
-=======
     src: url("../../../Fonts/CarPart.otf");
     src: url("../../../Fonts/CarPart.woff");
->>>>>>> origin/master
 }
 
 *{
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
-    font-family: "FontHeader";
-=======
->>>>>>> origin/master
+
 }
 
 nav{
@@ -21,30 +15,20 @@ nav{
     top: 0%;
     width: 100%;
     height: 40px;
-<<<<<<< HEAD
     font-family: "FontHeader", cursive;
 }
 
-
-=======
-
-
->>>>>>> origin/master
 nav #BoxMenuSearchHolder {
     background-color: yellow;
     position: absolute;
     left:0%;
     float: left;
-<<<<<<< HEAD
-    opacity: 0.3;
-=======
-    opacity: 0.5;
->>>>>>> origin/master
+    opacity: 0.6;
     width: 3%;
-    height: 00%;
+    height: 0%;
 }
 
-<<<<<<< HEAD
+
 nav ul{
     width: 100%;
     height: 100%;
@@ -63,7 +47,7 @@ nav ul li:hover ul li {
 }
 
 nav ul li:hover{
-    color: #99941b;
+    color: blue;
 }
 
 
@@ -89,13 +73,13 @@ nav #DivIdentificationMenuOptions{
 
 nav ul li{
     float: left;
-    font-family: "fontheader", cursive;
+    font-family: "FontHeader", cursive;
     display: block;
     position: relative;
 }
 
 nav  ul li ul li{
-    font-family: "Tahoma", cursive;
+    font-family: "Arial", cursive;
 }
 
 nav ul li:hover{
@@ -138,7 +122,7 @@ nav #DivIdentificatonMenuSearch{
 }
 
 nav #DivIdentificatonMenuSearch a:hover{
-    background: #aa1c34;
+    background: red;
     width: 12%;
     height: 300%;
 }
@@ -223,4 +207,4 @@ table{
 main, td, tr{
     width: 100%;
 }
->>>>>>> origin/master
+

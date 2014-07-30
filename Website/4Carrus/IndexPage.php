@@ -13,7 +13,7 @@
         <div id="BoxMenuSearchHolder"></div>
         <div id="DivIdentificatonMenuSearch">
             <ul>
-                <li>'jhkjh
+                <li>'
                     <ul>
                         <li>Preferências</a></li>
                         <li>Cores</a></li>
@@ -851,23 +851,21 @@
                     <td>Carro</td>
                     <td>Imagem</td>
                 </tr>
-
             </table>
-
         </main>
-
-        <footer>
-            <div id="Information">
-                <ul>
-                    <li>Informaï¿½ï¿½es
-                        <ul>
-                            <li>Contato</li>
-                            <li>Sobre o Site</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </footer>
     </body>
+
+    <footer>
+        <div id="Information">
+            <ul>
+                <li>Informaï¿½ï¿½es
+                    <ul>
+                        <li>Contato</li>
+                        <li>Sobre o Site</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
 >>>>>>> origin/master
 </html>
