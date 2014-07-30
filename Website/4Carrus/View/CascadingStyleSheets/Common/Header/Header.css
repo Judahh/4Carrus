@@ -1,15 +1,23 @@
 @font-face {
     font-family: "FontHeader";
+<<<<<<< HEAD
     src: url("../../../../../../../4Carrus/Website/4Carrus/View/Fonts/CarPart.otf");
     src: url("/Website/4Carrus/View/Fonts/CarPart.woff");
     font-weight: normal;
     font-style: normal;
+=======
+    src: url("../../../Fonts/CarPart.otf");
+    src: url("../../../Fonts/CarPart.woff");
+>>>>>>> origin/master
 }
 
 *{
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
     font-family: "FontHeader";
+=======
+>>>>>>> origin/master
 }
 
 nav{
@@ -17,20 +25,31 @@ nav{
     top: 0%;
     width: 100%;
     height: 40px;
+<<<<<<< HEAD
     font-family: "FontHeader", cursive;
 }
 
 
+=======
+    font-family: "FontHeader", Cursive;
+}
+
+>>>>>>> origin/master
 nav #BoxMenuSearchHolder {
     background-color: yellow;
     position: absolute;
     left:0%;
     float: left;
+<<<<<<< HEAD
     opacity: 0.3;
+=======
+    opacity: 0.5;
+>>>>>>> origin/master
     width: 3%;
     height: 100%;
 }
 
+<<<<<<< HEAD
 nav ul{
     width: 100%;
     height: 100%;
@@ -116,3 +135,98 @@ nav  ul li:hover{
     color: #99941b;
 }
 
+=======
+nav #DivIdentificatonMenuSearch{
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    float: left;
+}
+
+nav #DivIdentificatonMenuSearch a:hover{
+    background: #003333;
+    width: 12%;
+    height: 300%;
+}
+
+nav #BoxMenuOptionsHolder {
+    width:10%;
+    background-color: green;
+    opacity: 0.5;
+    position: absolute;
+    right:0%;
+    float: left;
+    height: 100%;
+}
+
+nav #DivIdentificationMenuOptions{
+    width:10%;
+    position: absolute;
+    right:0%;
+    float: left;
+    height: 100%;
+}
+
+nav #DivIdentificationMenuOptions ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+nav #DivIdentificationMenuOptions ul li{
+    float: left;
+    display: block;
+    position: relative;
+}
+
+nav #DivIdentificationMenuOptions ul li a{
+    float: left;
+    font-family: "fontheader", cursive;
+    color: #0555b7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav #DivIdentificationMenuOptions ul li ul li a{
+    font-family: "Tahoma", cursive;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover{
+    text-decoration-color: #aa1c34;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+nav #DivIdentificationMenuOptions ul ul{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: auto;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+
+nav #DivIdentificationMenuOptions ul li:hover ul li a{
+    border: none;
+    width: 130px;
+}
+
+nav #DivIdentificationMenuOptions a:hover{
+    color: #99941b;
+}
+
+table{
+    background-color: gray;
+}
+
+main, td, tr{
+    width: 100%;
+}
+>>>>>>> origin/master
