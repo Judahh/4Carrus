@@ -17,12 +17,24 @@ nav{
     font-family: "FontHeader", cursive;
 }
 
-nav #DivIdentificatonBoxMenuSearchHolder {
-    background-color: yellow;
+nav #DivIdentificationBoxMenuSearchHolder {
+    background: yellow;
     position: absolute;
     left:0;
     float: left;
     width: 3%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+nav #DivIdentificationBoxMenuOptionsHolder {
+    width:10%;
+    background: green;
+    opacity: 0.5;
+    position: absolute;
+    right:0;
+    float: left;
+    height: 100%;
 }
 
 
@@ -33,6 +45,7 @@ nav ul{
 }
 
 nav ul li:hover ul{
+    color: blue;
     display: block;
     position: absolute;
     top: 100%;
@@ -43,15 +56,6 @@ nav ul li:hover ul li {
     width: 130px;
 }
 
-nav #DivIdentificationBoxMenuOptionsHolder {
-    width:10%;
-    background-color: green;
-    opacity: 0.5;
-    position: absolute;
-    right:0;
-    float: left;
-    height: 100%;
-}
 
 nav ul li{
     float: left;
@@ -61,11 +65,11 @@ nav ul li{
 }
 
 nav  ul li ul li{
-    font-family: "Arial", cursive;
+    font-family: "Times New Roman", cursive;
 }
 
 nav ul li:hover{
-    color: blue;
+    color: darkred;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -91,10 +95,6 @@ nav  ul li:hover ul li {
     width: 130px;
 }
 
-nav  ul li:hover{
-    color: #99941b;
-}
-
 nav #DivIdentificatonMenuSearch{
     position: absolute;
     width: 3%;
@@ -108,6 +108,7 @@ nav #DivIdentificationMenuOptions{
     right:0;
     float: left;
     height: 100%;
+    padding-right: 1%;
 }
 
 
