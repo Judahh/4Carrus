@@ -59,7 +59,7 @@
 <main>
     <table>
         <tr>
-            <td rowspan="4">Imagem</td>
+            <td rowspan="4"><img src="View/Carros/Auspuffanlage_Ferrari_F12.jpg"></td>
             <td rowspan="4">Logo Marca</td>
             <td>Modelo</td>
             <td>Ano</td>
