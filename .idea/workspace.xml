@@ -1,13 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="" />
-=======
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\Attribute.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicAngle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicCubicBezier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicFontWeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicFourPartsColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicFourPartsInt.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicFourPartsLength.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicFourPartsWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicFullPosition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicHexdecimalRange.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicLength.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicMatrix.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicMatrixSpecifics\BasicMatrixThreeDimensional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicPerspective.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicPosition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicRotate.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicRotateSpecifcs\BasicRotateHorizontal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicRotateSpecifcs\BasicRotateLongitudinal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicRotateSpecifcs\BasicRotateThreeDimensional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicRotateSpecifcs\BasicRotateVertical.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicScale.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicScaleSpecifcs\BasicScaleHorizontal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicScaleSpecifcs\BasicScaleLongitudinal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicScaleSpecifcs\BasicScaleThreeDimensional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicScaleSpecifcs\BasicScaleVertical.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicShape.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicShapeSpecifics\BasicShapeRectangle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicSimpleLength.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicSkew.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicSkewSpecifcs\BasicSkewHorizontal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicSkewSpecifcs\BasicSkewVertical.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicTime.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicTranslate.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicTranslateSpecifcs\BasicTranslateHorizontal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicTranslateSpecifcs\BasicTranslateLongitudinal.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicTranslateSpecifcs\BasicTranslateVertical.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicTranslateSpecifcs\BasictranslateThreeDimensional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicUnicodeRange.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicUniformResourceLocator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicVerticalAxis.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BasicxHorizontalAxis.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\BrowserDiffer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\Declaration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnFill.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnGap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnRule.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnRuleSpecifics\ColumnRuleNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnRuleSpecifics\ColumnRuleValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnRuleSpecifics\DeclarationColumnRuleColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnRuleSpecifics\DeclarationColumnRuleStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnRuleSpecifics\DeclarationColumnRuleWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnSpan.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumnWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationColumns.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationContent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationContentSpecifics\ContentValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationCounterIncrement.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationCounterReset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationCursor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationFlexSpecifics\FlexValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationListStyleSpecifics\ListStyleValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAlignContent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAlignItens.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAlignSelf.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\AnimationNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\AnimationValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationDelay.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationDirection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationDuration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationFillMode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationIterationCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationName.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationPlayState.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationAnimationSpecifics\DeclarationAnimationTimingFunction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackfaceVisibility.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackground.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\BackgroundNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\BackgroundValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundAttachment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundClip.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundImage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundOrigin.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundPosition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundRepeat.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBackgroundSpecifics\DeclarationBackgroundSize.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\BorderNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\BorderValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\BorderBottomNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\BorderBottomValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\DeclarationBorderBottomColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\DeclarationBorderBottomLeftRadius.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\DeclarationBorderBottomRightRadius.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\DeclarationBorderBottomStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderBottomSpecifics\DeclarationBorderBottomWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderCollapse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\BorderImageNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\BorderImageValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\DeclarationBorderImageOutset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\DeclarationBorderImageRepeat.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\DeclarationBorderImageSlice.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\DeclarationBorderImageSource.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderImageSpecifics\DeclarationBorderImageWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderLeft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderLeftSpecifics\BorderLeftNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderLeftSpecifics\BorderLeftValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderLeftSpecifics\DeclarationBorderLeftColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderLeftSpecifics\DeclarationBorderLeftStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderLeftSpecifics\DeclarationBorderLeftWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRadius.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRightSpecifics\BorderRightNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRightSpecifics\BorderRightValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRightSpecifics\DeclarationBorderRightColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRightSpecifics\DeclarationBorderRightStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderRightSpecifics\DeclarationBorderRightWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderSpacing.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTop.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\BorderTopNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\BorderTopValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\DeclarationBorderTopColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\DeclarationBorderTopLeftRadius.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\DeclarationBorderTopRightRadius.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\DeclarationBorderTopStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderTopSpecifics\DeclarationBorderTopWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBorderSpecifics\DeclarationBorderWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBottom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBoxShadow.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBoxShadowSpecifics\BoxShadowNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBoxShadowSpecifics\BoxShadowValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationBoxSizing.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationClear.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationClip.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColumnCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColumnFill.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColumnGap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColumnRule.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColumnSpan.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationColumnWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationCounterIncrement.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationCounterReset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationCursor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationDirection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationDisplay.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationEmptyCells.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationFloat.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationFontFamily.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationFontStretch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationFontStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationFontWeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationHangingPunctuation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationHeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationJustifyContent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationLeft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationLetterSpacing.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationLineHeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMargin.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMarginBottom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMarginLeft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMarginRight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMarginTop.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMaxHeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMaxWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMinHeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationMinWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationNavDown.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationNavIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationNavLeft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationNavRight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationNavUp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOpacity.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOrder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOutline.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOutlineSpecifics\DeclarationOutlineColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOutlineSpecifics\DeclarationOutlineStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOutlineSpecifics\DeclarationOutlineWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOutlineSpecifics\OutlineNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOutlineSpecifics\OutlineValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOverflow.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOverflowSpecifics\DeclarationOverflowX.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationOverflowSpecifics\DeclarationOverflowY.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPadding.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPaddingBottom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPaddingLeft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPaddingRight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPaddingTop.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPageBreakAfter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPageBreakBefore.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPageBreakInside.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPerspective.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPerspectiveOrigin.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationPosition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationQuotes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationResize.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationRight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTabSize.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTableLayout.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextAlign.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextAlignLast.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextDecoration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextDecorationColor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextDecorationLine.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextIndent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextJustify.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextOverflow.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextShadow.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTextTransform.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTop.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransform.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformOrigin.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformSpecifics\AuxiliaryMatrix.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformSpecifics\AuxiliaryRotate.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformSpecifics\AuxiliaryScale.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformSpecifics\AuxiliarySkew.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformSpecifics\AuxiliaryTranslate.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransformStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransitionSpecifics\DeclarationTransitionDelay.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransitionSpecifics\DeclarationTransitionDuration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransitionSpecifics\DeclarationTransitionProperty.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransitionSpecifics\DeclarationTransitionTimingFunction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransitionSpecifics\TransitionNameValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationTransitionSpecifics\TransitionValue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationUnicodeBidirectional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationVerticalAlign.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationVisibility.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationWhiteSpace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationWidth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationWordBreak.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationWordSpacing.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationWordWrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\DeclarationZIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\SelectorAtFontFaceDeclarationSpecifics\DeclarationFontFamily.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\SelectorAtFontFaceDeclarationSpecifics\DeclarationFontStretch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\SelectorAtFontFaceDeclarationSpecifics\DeclarationFontStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\SelectorAtFontFaceDeclarationSpecifics\DeclarationFontWeight.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\SelectorAtFontFaceDeclarationSpecifics\DeclarationSource.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\DeclarationSpecifics\SelectorAtFontFaceDeclarationSpecifics\DeclarationUnicodeRange.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\Element.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\ElementSpecifics\ElementBootstrapSpecifics\ElementBootstrapButton.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\ElementSpecifics\ElementBootstrapSpecifics\ElementBootstrapButtonSpecifics\MultipleSelectorBootstrapButton.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\ElementSpecifics\ElementBootstrapSpecifics\ElementBootstrapButtonSpecifics\MultipleSelectorElementBootstrapButtonSpecifics\SelectorBootstrapButtonBtn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\Example\ExamplePHPGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\Example\ExampleWithoutPHPGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\MultipleSelector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\Selector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\SelectorSpecifics\SelectorAtFontFace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\SelectorSpecifics\SelectorAtKeyframes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\SelectorSpecifics\SelectorKeyframesSubSelectorSpecifics\SelectorKeyframesSubSelectorFrom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\SelectorSpecifics\SelectorKeyframesSubSelectorSpecifics\SelectorKeyframesSubSelectorPercent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Basic\SelectorSpecifics\SelectorKeyframesSubSelectorSpecifics\SelectorKeyframesSubSelectorTo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Body\Body.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Body\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\StyleCommon.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Footer.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Footer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Header.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Style.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
->>>>>>> parent of 92a24ad... Revert "update"
     <ignored path="4Carrus.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,65 +298,34 @@
       <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state line="61" column="6" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8517">
-=======
-            <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
->>>>>>> parent of 92a24ad... Revert "update"
-=======
-            <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
->>>>>>> parent of 92a24ad... Revert "update"
+            <state line="65" column="20" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.22894168" vertical-offset="999" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="Header.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
+      <file leaf-file-name="Main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="20" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2159">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Footer.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Footer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1547">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
+      <file leaf-file-name="Header.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-=======
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
->>>>>>> parent of 92a24ad... Revert "update"
-=======
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
->>>>>>> parent of 92a24ad... Revert "update"
+            <state line="16" column="39" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
@@ -124,18 +359,11 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/teste.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/teste2main.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Main.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Main.css" />
->>>>>>> parent of 92a24ad... Revert "update"
-=======
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Main.css" />
->>>>>>> parent of 92a24ad... Revert "update"
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Header.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
       </list>
     </option>
@@ -269,8 +497,94 @@
               <option name="myItemId" value="CascadingStyleSheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Header" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Body" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,23 +658,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14876033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14876033" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14975846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -388,84 +702,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
         <state line="61" column="6" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8517">
-=======
-=======
->>>>>>> parent of 92a24ad... Revert "update"
-        <state line="319" column="56" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="14" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="26" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="23" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="4930">
->>>>>>> parent of 92a24ad... Revert "update"
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -477,30 +714,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="14" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="28" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="14926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="16" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="4046">
           <folding />
         </state>
       </provider>
@@ -512,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="43" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="11" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7497">
@@ -526,23 +735,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="43" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="11" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7497">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="43" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2210">
           <folding />
         </state>
       </provider>
@@ -554,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7497">
@@ -568,81 +756,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="23" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="469" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/StyleCommon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="601" selection-end="601" vertical-scroll-proportion="0.37638375" vertical-offset="0" max-vertical-offset="813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/DeclarationSpecifics/DeclarationOverflow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Fonts/CarPart.otf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Style.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.33932135" vertical-offset="0" max-vertical-offset="501" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/tables.rnc">
@@ -652,74 +768,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1547">
-=======
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
->>>>>>> parent of 92a24ad... Revert "update"
-=======
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
->>>>>>> parent of 92a24ad... Revert "update"
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Carros/MansoryMaclarenMP412C.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
-=======
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
->>>>>>> parent of 92a24ad... Revert "update"
-=======
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
->>>>>>> parent of 92a24ad... Revert "update"
+        <state line="16" column="39" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state line="61" column="6" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8517">
-=======
-        <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
->>>>>>> parent of 92a24ad... Revert "update"
-=======
-        <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
->>>>>>> parent of 92a24ad... Revert "update"
+        <state line="65" column="20" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.22894168" vertical-offset="999" max-vertical-offset="1870">
           <folding />
         </state>
       </provider>
