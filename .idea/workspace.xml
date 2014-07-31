@@ -33,7 +33,11 @@
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state line="61" column="6" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8517">
+=======
+            <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
+>>>>>>> parent of 92a24ad... Revert "update"
 =======
             <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
 >>>>>>> parent of 92a24ad... Revert "update"
@@ -42,6 +46,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="Header.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css">
@@ -74,6 +79,12 @@
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+=======
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
+>>>>>>> parent of 92a24ad... Revert "update"
 =======
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
@@ -118,6 +129,10 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.css" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Main.css" />
+>>>>>>> parent of 92a24ad... Revert "update"
 =======
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/Main.css" />
 >>>>>>> parent of 92a24ad... Revert "update"
@@ -374,8 +389,11 @@
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state line="61" column="6" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8517">
 =======
+=======
+>>>>>>> parent of 92a24ad... Revert "update"
         <state line="319" column="56" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9690">
           <folding />
         </state>
@@ -649,9 +667,15 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="16" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1547">
+=======
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
+>>>>>>> parent of 92a24ad... Revert "update"
 =======
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Footer/Footer.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,6 +685,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Carros/MansoryMaclarenMP412C.JPG">
       <provider selected="true" editor-type-id="images">
@@ -675,6 +700,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
 >>>>>>> parent of 92a24ad... Revert "update"
+=======
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Body/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="731">
+>>>>>>> parent of 92a24ad... Revert "update"
           <folding />
         </state>
       </provider>
@@ -682,7 +712,11 @@
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state line="61" column="6" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8517">
+=======
+        <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
+>>>>>>> parent of 92a24ad... Revert "update"
 =======
         <state line="332" column="13" selection-start="9157" selection-end="9797" vertical-scroll-proportion="0.8173913" vertical-offset="5268" max-vertical-offset="9673">
 >>>>>>> parent of 92a24ad... Revert "update"
