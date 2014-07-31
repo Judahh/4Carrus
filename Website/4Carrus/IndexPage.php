@@ -9,8 +9,8 @@
     <link href="View/CascadingStyleSheets/Common/Body/Main.css" rel="stylesheet" media="all">
 </head>
 
-<header><nav>
-
+<header>
+    <nav>
         <div id="DivIdentificationBoxMenuSearchHolder"></div>
         <div id="DivIdentificationMenuSearch">
             <ul>
@@ -54,10 +54,11 @@
             </ul>
         </div>
 
-    </nav></header>
-
+    </nav>
+</header>
 
 <body>
+<<<<<<< HEAD
 <main>
     <table border="5px">
         <tr>
@@ -334,8 +335,218 @@
 
 
     </table>
+=======
+    <main>
+        <table>
+            <tr>
+                <td rowspan="4"><img src="View/Carros/MansoryMaclarenMP412C.JPG"></td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td colspan="2">Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
 
-</main>
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Imagem</td>
+                <td rowspan="4">Logo Marca</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>KM</td>
+            </tr>
+            <tr>
+                <td>Preço R$</td>
+            </tr>
+            <tr>
+                <td>Suspenção</td>
+            </tr>
+            <tr>
+                <td>Pontência</td>
+            </tr>
+
+        </table>
+>>>>>>> origin/master
+
+    </main>
+</body>
 
 <footer>
     <div id="DivIdentificationBoxMenuInformationHolder"></div>
@@ -350,5 +561,5 @@
         </ul>
     </div>
 </footer>
-</body>
+
 </html>
