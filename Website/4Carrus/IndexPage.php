@@ -8,7 +8,7 @@
     <link href="View/CascadingStyleSheets/Common/Footer/Footer.css" rel="stylesheet" media="all">
     <link href="View/CascadingStyleSheets/Common/Body/Main.css" rel="stylesheet" media="all">
 </head>
-<body>
+
 <header><nav>
 
         <div id="DivIdentificationBoxMenuSearchHolder"></div>
@@ -54,8 +54,10 @@
             </ul>
         </div>
 
-</nav></header>
+    </nav></header>
 
+
+<body>
 <main>
     <table>
         <tr>
@@ -69,7 +71,7 @@
             <td>Preço R$</td>
         </tr>
         <tr>
-            <td>Suspenção</td>
+            <td colspan="2">Suspenção</td>
         </tr>
         <tr>
             <td>Pontência</td>
