@@ -59,9 +59,9 @@
 
 <body>
 <main>
-    <table>
+    <table border="5px">
         <tr>
-            <td rowspan="4"><img src="View/Carros/Auspuffanlage_Ferrari_F12.jpg"></td>
+            <td rowspan="4"><img src="View/Carros/MansoryMaclarenMP412C.JPG"></td>
             <td rowspan="4">Logo Marca</td>
             <td>Modelo</td>
             <td>Ano</td>
