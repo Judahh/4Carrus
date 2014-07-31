@@ -13,22 +13,22 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 40px;
+    height: 2.7em;
     font-family: "FontHeader", cursive;
 }
 
-nav #DivIdentificationBoxMenuSearchHolder {
+#DivIdentificationBoxMenuSearchHolder {
     background: white;
     position: absolute;
     left:0;
     float: left;
-    width: 3%;
+    width: 2.7em;
     height: 100%;
     opacity: 0.5;
 }
 
-nav #DivIdentificationBoxMenuOptionsHolder {
-    width:10%;
+#DivIdentificationBoxMenuOptionsHolder {
+    width: 12em;
     background: white;
     opacity: 0.5;
     position: absolute;
@@ -37,21 +37,24 @@ nav #DivIdentificationBoxMenuOptionsHolder {
     height: 100%;
 }
 
-nav #DivIdentificatonMenuSearch{
+#DivIdentificatonMenuSearch{
     position: absolute;
-    width: 3%;
+    width: 2.7em;
     height: 100%;
     float: left;
 }
 
-nav #DivIdentificationMenuOptions{
-    width:10%;
+#DivIdentificationMenuOptions{
+    width: 12em;
     position: absolute;
     right:0;
     float: left;
     height: 100%;
 }
 
+#DivIdentificationIcon{
+    padding: 0.5em;
+}
 
 nav ul{
     width: 100%;
