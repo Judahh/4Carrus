@@ -37,6 +37,21 @@ nav #DivIdentificationBoxMenuOptionsHolder {
     height: 100%;
 }
 
+nav #DivIdentificatonMenuSearch{
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    float: left;
+}
+
+nav #DivIdentificationMenuOptions{
+    width:10%;
+    position: absolute;
+    right:0;
+    float: left;
+    height: 100%;
+}
+
 
 nav ul{
     width: 100%;
@@ -95,21 +110,7 @@ nav  ul li:hover ul li {
     width: 130px;
 }
 
-nav #DivIdentificatonMenuSearch{
-    position: absolute;
-    width: 3%;
-    height: 100%;
-    float: left;
-}
 
-nav #DivIdentificationMenuOptions{
-    width:10%;
-    position: absolute;
-    right:0;
-    float: left;
-    height: 100%;
-    padding-right: 1%;
-}
 
 
 
