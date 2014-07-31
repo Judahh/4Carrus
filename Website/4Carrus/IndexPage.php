@@ -267,19 +267,20 @@
         </table>
 
     </main>
-
-    <footer>
-        <div id="DivIdentificationBoxMenuInformationHolder"></div>
-        <div id="DivIndentificationInformation">
-            <ul>
-                <li>C
-                    <ul>
-                        <li>Contato</li>
-                        <li>Sobre o Site</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </footer>
 </body>
+
+<footer>
+    <div id="DivIdentificationBoxMenuInformationHolder"></div>
+    <div id="DivIndentificationInformation">
+        <ul>
+            <li>C
+                <ul>
+                    <li>Contato</li>
+                    <li>Sobre o Site</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+
 </html>
