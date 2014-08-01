@@ -62,21 +62,9 @@
                 ?>
 
                 <tr>
-                    <td rowspan="4" class="ColummLeft"><img src="View/Carros/MansoryMaclarenMP412C.JPG"></td>
-                    <td rowspan="4" class="ColummLogoBrand">Logo</td>
-                    <td rowspan="1" class="ColummRigth">Maclaren</td>
-                    <td rowspan="1" class="ColummRigth">2013</td>
-                    <td rowspan="1" class="ColummRigth">20.000KM</td>
+                    <td rowspan="1"><img src="View/Carros/tupla.png"></td>
                 </tr>
-                <tr>
-                    <td rowspan="1" class="ColummRigth">R$ 5.000.000,00</td>
-                </tr>
-                <tr>
-                    <td colspan="3" class="ColummRigth">Suspenção</td>
-                </tr>
-                <tr>
-                    <td rowspan="1" class="ColummRigth">Pontência</td>
-                </tr>
+
 
                 <?php
                     }

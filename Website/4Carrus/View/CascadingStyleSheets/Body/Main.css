@@ -12,21 +12,9 @@ main{
 
 table{
     width: 100%;
+
 }
 
-table td.ColummRigth{
-}
-
-table td.ColummLeft{
-    width: 12%;
-}
-
-table td.ColummLogoBrand{
-    font-weight: bold;
-    vertical-align: top;
-    font-size: 200%;
-    width: 5%;
-}
 table img{
     width: 100%;
 }
