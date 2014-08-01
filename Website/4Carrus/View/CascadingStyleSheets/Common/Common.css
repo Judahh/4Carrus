@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "FontHeader";
+    src: url("../../Fonts/CarPart.otf");
+    src: url("../../Fonts/CarPart.woff");
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#DivIdentificationIcon{
+    padding: 0.5em;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+ul li:hover ul{
+    cursor: pointer;
+    color: blue;
+    display: block;
+    position: absolute;
+}
+
+ul li:hover ul li {
+    top: 3px;
+    cursor: pointer;
+    border: 12px;
+    width: 130px;
+}
+
+ul li{
+    color: steelblue;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+ul li ul li{
+    font-family: "Times New Roman", cursive;
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: dodgerblue;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+ul ul{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: auto;
+}
+
+ul li:hover ul{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+}
+
+ul li:hover ul li {
+    border: none;
+    width: 130px;
+}

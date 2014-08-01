@@ -4,9 +4,10 @@
 
         <title>4Carrus</title>
         <meta content="text/html" charset="UTF-8"/>
-        <link href="View/CascadingStyleSheets/Header/Header.css" rel="stylesheet" media="all">
-        <link href="View/CascadingStyleSheets/Footer/Footer.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Header/Common.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Footer/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Body/Main.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Common/Common.css" rel="stylesheet" media="all">
     </head>
 
     <header>
@@ -15,38 +16,60 @@
             <div id="DivIdentificationMenuSearch">
                 <ul>
                     <li><div id="DivIdentificationIcon">'</div>
-                        <ul>
-                            <li>Preferências</a></li>
-                            <li>Cores</a></li>
-                            <li>Idioma</li>
-                            <li>Região</li>
-                        </ul>
+                        <div id="DivIndentificationSubMenuSearchHolder"></div>
+                        <div id="DivIndentificationSubMenuSearch">
+                            <ul>
+                                <li>Preferências</a></li>
+                                <li>Cores</a></li>
+                                <li>Idioma</li>
+                                <li>Região</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
             <div id="DivIdentificationBoxMenuOptionsHolder"></div>
             <div id="DivIdentificationMenuOptions">
                 <ul>
-                    <li><div id="DivIdentificationIcon">›</div></li>
+                    <li><div id="DivIdentificationIcon">›</div>
+                        <div id="DivIndentificationSubMenuNotificationsHolder"></div>
+                        <div id="DivIndentificationSubMenuNotifications">
+                            <ul>
+                                <li>Preferências</li>
+                                <li>Cores</li>
+                                <li>Idioma</li>
+                                <li>Região</li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><div id="DivIdentificationIcon">¥</div>
-                        <ul>
-                            <li>Preferências</li>
-                            <li>Cores</li>
-                            <li>Idioma</li>
-                            <li>Região</li>
-                        </ul>
+                        <div id="DivIndentificationSubMenuSettingsHolder"></div>
+                        <div id="DivIndentificationSubMenuSettings">
+                            <ul>
+                                <li>Preferências</li>
+                                <li>Cores</li>
+                                <li>Idioma</li>
+                                <li>Região</li>
+                            </ul>
+                        </div>
                     </li>
                     <li><div id="DivIdentificationIcon">U</div>
-                        <ul>
-                            <li>Gas Station</li>
-                        </ul>
+                        <div id="DivIndentificationSubMenuApplicationsHolder"></div>
+                        <div id="DivIndentificationSubMenuApplications">
+                            <ul>
+                                <li>Gas Station</li>
+                            </ul>
+                        </div>
                     </li>
                     <li><div id="DivIdentificationIcon">t</div>
-                        <ul>
-                            <li>Minha Conta</li>
-                            <li>Meu Carrinho</li>
-                            <li>Minha Agenda</li>
-                        </ul>
+                        <div id="DivIndentificationSubMenuUserHolder"></div>
+                        <div id="DivIndentificationSubMenuUser">
+                            <ul>
+                                <li>Minha Conta</li>
+                                <li>Meu Carrinho</li>
+                                <li>Minha Agenda</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -58,14 +81,14 @@
         <main>
             <table>
                 <?php
-                    for($index=0; $index<100; $index++){
+                    for($index=0; $index<10; $index++){
                 ?>
-
-                <tr>
-                    <td rowspan="1"><img src="View/Carros/tupla.png"></td>
-                </tr>
-
-
+                <div id="DivIndentificationTableRowHolder"></div>
+                <div id="DivIndentificationTableRow">
+                    <tr>
+                        <td><img src="View/Carros/tupla2.png"></td>
+                    </tr>
+                </div>
                 <?php
                     }
                 ?>
@@ -77,11 +100,14 @@
         <div id="DivIdentificationBoxMenuInformationHolder"></div>
         <div id="DivIndentificationInformation">
             <ul>
-                <li><div id="DivIdentificationIcon">'</div>
-                    <ul>
-                        <li>Contato</li>
-                        <li>Sobre o Site</li>
-                    </ul>
+                <li><div id="DivIdentificationIcon">i</div>
+                    <div id="DivIndentificationSubMenuInformationHolder"></div>
+                    <div id="DivIndentificationSubMenuInformation">
+                        <ul>
+                            <li>Contato</li>
+                            <li>Sobre o Site</li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>

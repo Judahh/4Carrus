@@ -12,15 +12,23 @@ main{
 
 table{
     width: 100%;
-
 }
 
-table img{
+img{
     width: 100%;
+    height: auto;
+}
+
+td{
+    height: 100%;
+}
+
+tr{
+    height: 100%;
 }
 
 #DivIdentificationBodyHolder {
-    background: blue;
+    background: white;
     opacity: 0.1;
     z-index: -1;
     float: left;
