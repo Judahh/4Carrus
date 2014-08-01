@@ -8,6 +8,9 @@
         <link href="View/CascadingStyleSheets/Footer/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Body/Main.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Common.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Header/Menu/MenuSearchHolder.css" rel="stylesheet" media="all">
+
     </head>
 
     <header>

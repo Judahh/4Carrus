@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearchHolder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplications.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplicationsHolder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotifications.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch/SubMenuSearch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch/SubMenuSearchHolder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuSettings.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuSettingsHolder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUser.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUserHolder.css" />
-      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\Carros\MansoryMaclarenMP412C.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Footer\Footer.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Header\Header.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Carros/tupla.png" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Carros/tupla.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -47,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SubMenuNotificationsHolder.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotificationsHolder.css">
+      <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
+            <state line="11" column="78" selection-start="696" selection-end="696" vertical-scroll-proportion="0.39039665" vertical-offset="0" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -93,8 +74,10 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Header.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/MenuSearchHolder.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/MenuSearch.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch/SubMenuSearchHolder.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
       </list>
     </option>
@@ -132,6 +115,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,7 +446,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,7 +516,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -549,11 +532,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14876033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -575,6 +558,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotificationsHolder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="14" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1598">
@@ -584,9 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="26" column="16" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
@@ -605,9 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="15" column="1" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
@@ -626,9 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
-          <folding />
-        </state>
+        <state line="35" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
@@ -647,9 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
-          <folding />
-        </state>
+        <state line="35" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
@@ -668,9 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
@@ -755,56 +735,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="287" selection-end="287" vertical-scroll-proportion="1.009901" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="30" column="21" selection-start="287" selection-end="287" vertical-scroll-proportion="1.009901" vertical-offset="0" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch/SubMenuSearch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch/SubMenuSearchHolder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="26" selection-start="4547" selection-end="4547" vertical-scroll-proportion="0.6310044" vertical-offset="1564" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.49173555" vertical-offset="357" max-vertical-offset="969">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuSettings.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.16831683" vertical-offset="0" max-vertical-offset="505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUserHolder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuSettingsHolder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplicationsHolder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotifications.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUser.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplications.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.09504951" vertical-offset="48" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="-1.2396694" vertical-offset="838" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotificationsHolder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
           <folding />
         </state>
       </provider>
@@ -816,72 +816,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuSearch/SubMenuSearchHolder.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.16831683" vertical-offset="0" max-vertical-offset="505">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="0.16831683" vertical-offset="153" max-vertical-offset="1343">
+        <state line="10" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.25940594" vertical-offset="39" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Common.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.10020877" vertical-offset="48" max-vertical-offset="629">
+        <state line="13" column="1" selection-start="352" selection-end="352" vertical-scroll-proportion="0.43762377" vertical-offset="0" max-vertical-offset="505">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUserHolder.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuSettingsHolder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplicationsHolder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotifications.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUser.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplications.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuNotificationsHolder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
+        <state line="11" column="78" selection-start="696" selection-end="696" vertical-scroll-proportion="0.39039665" vertical-offset="0" max-vertical-offset="2091">
           <folding />
         </state>
       </provider>
