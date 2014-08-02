@@ -15,12 +15,19 @@ table{
 }
 
 img{
+    top: 100%;
     width: 100%;
     height: auto;
 }
 
-td{
-    height: 100%;
+#TDColummLeft{
+    width: 10% ;
+    height: auto;
+}
+
+#TDColummRigth{
+    width: 80% ;
+    height: auto;
 }
 
 tr{
@@ -35,4 +42,11 @@ tr{
     width: 100%;
     height: 100%;
     position: fixed;
+}
+
+#DivIdentificationLogoCar{
+    float: right;
+    position: relative;
+    top: 105px;
+    right:3px;
 }

@@ -89,7 +89,11 @@
                 <div id="DivIndentificationTableRowHolder"></div>
                 <div id="DivIndentificationTableRow">
                     <tr>
-                        <td><img src="View/Carros/tupla2.png"></td>
+
+                        <td id="TDColummLeft">
+                            <div id="DivIdentificationLogoCar">logo</div>
+                            <img src="View/Carros/bugatti-veyron-grand-2_800x0w.jpg"></td>
+                        <td id="TDColummRigth">Informações</td>
                     </tr>
                 </div>
                 <?php
