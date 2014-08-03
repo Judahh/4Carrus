@@ -22,10 +22,10 @@
                         <div id="DivIndentificationSubMenuSearchHolder"></div>
                         <div id="DivIndentificationSubMenuSearch">
                             <ul>
-                                <li>Preferências</a></li>
-                                <li>Cores</a></li>
-                                <li>Idioma</li>
-                                <li>Região</li>
+                                <li><a href="#">Preferências</a></li>
+                                <li><a href="#">Cores</a></li>
+                                <li><a href="#">Idioma</a></li>
+                                <li><a href="#">Região</a></li>
                             </ul>
                         </div>
                     </li>
@@ -38,10 +38,10 @@
                         <div id="DivIndentificationSubMenuNotificationsHolder"></div>
                         <div id="DivIndentificationSubMenuNotifications">
                             <ul>
-                                <li>Preferências</li>
-                                <li>Cores</li>
-                                <li>Idioma</li>
-                                <li>Região</li>
+                                <li><a href="#">Preferências</a></li>
+                                <li><a href="#">Cores</a></li>
+                                <li><a href="#">Idioma</a></li>
+                                <li><a href="#">Região</a></li>
                             </ul>
                         </div>
                     </li>
@@ -49,10 +49,10 @@
                         <div id="DivIndentificationSubMenuSettingsHolder"></div>
                         <div id="DivIndentificationSubMenuSettings">
                             <ul>
-                                <li>Preferências</li>
-                                <li>Cores</li>
-                                <li>Idioma</li>
-                                <li>Região</li>
+                                <li><a href="#">Preferências</a></li>
+                                <li><a href="#">Cores</a></li>
+                                <li><a href="#">Idioma</a></li>
+                                <li><a href="#">Região</a></li>
                             </ul>
                         </div>
                     </li>
@@ -60,7 +60,7 @@
                         <div id="DivIndentificationSubMenuApplicationsHolder"></div>
                         <div id="DivIndentificationSubMenuApplications">
                             <ul>
-                                <li>Gas Station</li>
+                                <li><a href="#">Gas Station</a></li>
                             </ul>
                         </div>
                     </li>
@@ -68,9 +68,9 @@
                         <div id="DivIndentificationSubMenuUserHolder"></div>
                         <div id="DivIndentificationSubMenuUser">
                             <ul>
-                                <li>Minha Conta</li>
-                                <li>Meu Carrinho</li>
-                                <li>Minha Agenda</li>
+                                <li><a href="#"> Minha Conta</a></li>
+                                <li><a href="#">Meu Carrinho</a></li>
+                                <li><a href="#">Minha Agenda</a></li>
                             </ul>
                         </div>
                     </li>
@@ -107,7 +107,7 @@
         <div id="DivIdentificationBoxMenuInformationHolder"></div>
         <div id="DivIndentificationInformation">
             <ul>
-                <li><div id="DivIdentificationIcon">i</div>
+                <li><div id="DivIdentificationIcon">‚</div>
                     <div id="DivIndentificationSubMenuInformationHolder"></div>
                     <div id="DivIndentificationSubMenuInformation">
                         <ul>

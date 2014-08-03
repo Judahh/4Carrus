@@ -3,7 +3,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 2.7em;
-    font-family: "Times New Roman", cursive;
+    font-family: "FontHeader", cursive;
 }
 
 #DivIdentificationBoxMenuInformationHolder{
@@ -24,7 +24,7 @@ footer{
 #DivIndentificationInformation{
     width: 2.7em;
     position: absolute;
-    left:0;
+    left:.8%;
     float: left;
     height: 100%;
 }

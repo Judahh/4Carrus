@@ -16,9 +16,13 @@ table{
 }
 
 img{
-    width: 100%;
+    width: 110%;
     height: auto;
     top: 0;
+}
+
+tr{
+    height: 0%;
 }
 
 #TDColummLeft{
@@ -27,13 +31,10 @@ img{
 }
 
 #TDColummRigth{
-    width: 80% ;
+    width: 90% ;
     height: auto;
 }
 
-tr{
-    height: 100%;
-}
 
 #DivIdentificationBodyHolder {
     background: white;
@@ -49,5 +50,5 @@ tr{
     float: right;
     position: relative;
     top: 105px;
-    right:3px;
+    right:0px;
 }
