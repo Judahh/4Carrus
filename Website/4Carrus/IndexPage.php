@@ -15,7 +15,9 @@
 
     <header>
         <nav>
-            <div id="DivIdentificationBoxMenuSearchHolder"></div>
+            <div id="DivIdentificationBoxMenuSearchHolder">
+                <div class="DivClassEfectGlass"></div>
+            </div>
             <div id="DivIdentificationMenuSearch">
                 <ul>
                     <li><div id="DivIdentificationIcon">'</div>
@@ -31,7 +33,9 @@
                     </li>
                 </ul>
             </div>
-            <div id="DivIdentificationBoxMenuOptionsHolder"></div>
+            <div id="DivIdentificationBoxMenuOptionsHolder">
+                <div class="DivClassEfectGlass"></div>
+            </div>
             <div id="DivIdentificationMenuOptions">
                 <ul>
                     <li><div id="DivIdentificationIcon">›</div>
@@ -79,7 +83,9 @@
         </nav>
     </header>
 
-    <div id="DivIdentificationBodyHolder"></div>
+    <div id="DivIdentificationBodyHolder">
+        <div class="DivClassEfectGlass"></div>
+    </div>
     <body>
         <main>
             <table>

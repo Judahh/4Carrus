@@ -2,7 +2,6 @@
     font-family: "FontHeader";
     src: url("../../Fonts/CarPart.otf");
     src: url("../../Fonts/CarPart.woff");
-
 }
 
 *{
@@ -41,10 +40,6 @@ ul li{
     position: relative;
 }
 
-ul li ul li{
-    font-family: "Times New Roman", cursive;
-}
-
 ul li:hover{
     cursor: pointer;
     color: dodgerblue;
@@ -53,6 +48,14 @@ ul li:hover{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+
+    -webkit-animation: neon 1s ease-in-out infinite alternate;
+    -moz-animation: neon 1s ease-in-out infinite alternate;
+    animation: neon 1s ease-in-out infinite alternate;
+    color:white;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
 }
 
 ul ul{
@@ -82,45 +85,20 @@ ul li{
     color:dodgerblue;
 }
 
-ul li:hover{
-    -webkit-animation: neon 1s ease-in-out infinite alternate;
-    -moz-animation: neon 1s ease-in-out infinite alternate;
-    animation: neon 1s ease-in-out infinite alternate;
-    color:white;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
-}
-
-
-
-
-
-
-
-
-
-
-
-a{
-    text-decoration:none;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
-}
 
 a{
     font-family:arial;
     font-size:1.2em;
     color:dodgerblue;
+    text-decoration:none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
 }
 a:hover{
     -webkit-animation: neon 1s ease-in-out infinite alternate;
     -moz-animation: neon 1s ease-in-out infinite alternate;
     animation: neon 1s ease-in-out infinite alternate;
-}
-
-a:hover{
     color:white;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
