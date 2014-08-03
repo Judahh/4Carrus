@@ -73,6 +73,35 @@ ul li:hover ul li {
     width: 130px;
 }
 
+ul li{
+    text-decoration:none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    font-size:1.1em;
+    color:dodgerblue;
+}
+
+ul li:hover{
+    -webkit-animation: neon 1s ease-in-out infinite alternate;
+    -moz-animation: neon 1s ease-in-out infinite alternate;
+    animation: neon 1s ease-in-out infinite alternate;
+    color:white;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
 a{
     text-decoration:none;
     -webkit-transition: all 1s;
