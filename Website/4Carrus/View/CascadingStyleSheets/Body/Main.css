@@ -19,29 +19,14 @@ table{
 
 img{
     position: relative;
-    width: 110%;
+    width: 100%;
     height: auto;
     top: 0;
 }
 
-tr{
-    height: 0%;
+#DivIdentificationTableRow{
+    width: 100%;
 }
-
-#TDColummLeft{
-    position: relative;
-    width: 10% ;
-    height: auto;
-}
-
-#TDColummRigth{
-    position: relative;
-    width: 80% ;
-    height: auto;
-    left: 1%;
-    top: 0;
-}
-
 
 #DivIdentificationBodyHolder {
     background: white;
@@ -53,9 +38,29 @@ tr{
     position: fixed;
 }
 
+#TdIdentificationColummLeft{
+    width: 25%;
+    height: 100%;
+    background: red;
+}
+
+#ImgIdentificationCar{
+    float: left;
+    left:0;
+    top:0;
+}
+
+#TdIdentificationColummRight{
+}
+
 #DivIdentificationLogoCar{
-    float: right;
+    z-index: 100;
     position: relative;
-    top: 105px;
-    right:0px;
+    float: left;
+    bottom: -70%;
+    right: 50px;
+    background: blue;
+    color: red;
+    width: 0px;
+    height: 0px;
 }

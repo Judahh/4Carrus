@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
     <head>
 
@@ -68,7 +68,7 @@
                         <div id="DivIndentificationSubMenuUserHolder"></div>
                         <div id="DivIndentificationSubMenuUser">
                             <ul>
-                                <li><a href="#"> Minha Conta</a></li>
+                                <li><a href="#">Minha Conta</a></li>
                                 <li><a href="#">Meu Carrinho</a></li>
                                 <li><a href="#">Minha Agenda</a></li>
                             </ul>
@@ -86,14 +86,15 @@
                 <?php
                     for($index=0; $index<10; $index++){
                 ?>
-                <div id="DivIndentificationTableRowHolder"></div>
-                <div id="DivIndentificationTableRow">
+                <div id="DivIdentificationTableRowHolder"></div>
+                <div id="DivIdentificationTableRow">
                     <tr>
-
-                        <td id="TDColummLeft">
-                            <div id="DivIdentificationLogoCar">logo</div>
-                            <img src="View/Carros/bugatti-veyron-grand-2_800x0w.jpg"></td>
-                        <td id="TDColummRigth">Informações</td>
+                        <td id="TdIdentificationColummLeft">
+			    <img  id="ImgIdentificationCar" src="View/Carros/bugatti-veyron-grand-2_800x0w.jpg">
+			    <div id="DivIdentificationLogoCar">logo</div>
+			</td>
+			
+                        <td id="TdIdentificationColummRight">Informações</td>
                     </tr>
                 </div>
                 <?php
