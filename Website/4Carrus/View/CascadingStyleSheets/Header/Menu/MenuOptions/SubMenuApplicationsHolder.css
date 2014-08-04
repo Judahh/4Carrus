@@ -1,7 +1,8 @@
 #DivIdentificationSubMenuApplicationsHolder{
     position: absolute;
     float: left;
-    left: -100px;
+    top: -0.1em;
+    left: -5.84em;
     height: 30px;
     width: 125%;
 }
@@ -9,7 +10,8 @@
 #DivIdentificationSubMenuApplicationsHolder2{
     position: absolute;
     float: left;
-    left: -95px;
+    top: -0.1em;
+    left: -5.54em;
     height: 30px;
     width: 125%;
 }

@@ -1,14 +1,16 @@
 #DivIdentificationSubMenuSearchHolder{
     position: absolute;
     float: left;
-    left: 0.35em;
+    top: -0.1em;
+    left: 0em;
     height: 6em;
     width: 100%;
 }
 
 #DivIdentificationSubMenuSearchHolder2{
     position: absolute;
-    left: 0.55em;
+    left: 0.3em;
+    top: -0.1em;
     float: left;
     height: 6em;
     width: 100%;

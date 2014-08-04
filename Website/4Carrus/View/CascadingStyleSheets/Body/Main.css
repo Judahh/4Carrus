@@ -29,8 +29,8 @@ img{
 }
 
 #DivIdentificationBodyHolder {
-    background: white;
-    opacity: 0.1;
+    background: #DDDDDD;
+    opacity: 0.7;
     z-index: -1;
     float: left;
     width: 100%;
@@ -41,7 +41,7 @@ img{
 #TdIdentificationColummLeft{
     width: 25%;
     height: 100%;
-    background: red;
+    /*background: red;*/
 }
 
 #ImgIdentificationCar{
@@ -51,7 +51,7 @@ img{
 }
 
 #TdIdentificationColummRight{
-    background-color: green;
+    /*background-color: green;*/
 }
 
 #DivIdentificationLogoCar{
@@ -64,4 +64,19 @@ img{
     color: red;
     width: 0px;
     height: 0px;
+}
+
+#DivIdentificationTableRowHolder{
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+#DivIdentificationBodyHolder{
+    position: fixed;
+    float: left;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
 }

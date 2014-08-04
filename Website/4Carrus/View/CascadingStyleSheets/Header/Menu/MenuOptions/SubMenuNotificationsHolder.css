@@ -1,15 +1,17 @@
 #DivIdentificationSubMenuNotificationsHolder{
     position: absolute;
     float: left;
-    left: 0px;
-    height: 105px;
+    left: 0em;
+    top: -0.1em;
+    height: 6em;
     width: 125%;
 }
 
 #DivIdentificationSubMenuNotificationsHolder2{
     position: absolute;
     float: left;
-    left: 5px;
-    height: 105px;
+    top: -0.1em;
+    left: 0.3em;
+    height: 6em;
     width: 125%;
 }

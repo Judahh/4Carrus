@@ -1,15 +1,17 @@
 #DivIdentificationSubMenuUserHolder{
     position: absolute;
     float: left;
-    left: -145px;
-    height: 105px;
+    left: -8.49em;
+    top: -0.1em;
+    height: 6em;
     width: 125%;
 }
 
 #DivIdentificationSubMenuUserHolder2{
     position: absolute;
     float: left;
-    left: -140px;
-    height: 105px;
+    left: -8.19em;
+    top: -0.1em;
+    height: 6em;
     width: 125%;
 }

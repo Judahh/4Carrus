@@ -9,6 +9,11 @@
     padding: 0px;
 }
 
+table,tr,td{
+    border:0px;
+    border-collapse: collapse;
+}
+
 #DivIdentificationIcon{
     padding: 0.5em;
 }
