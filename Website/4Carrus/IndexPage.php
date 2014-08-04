@@ -124,15 +124,18 @@
     </header>
 
     <div id="DivIdentificationBodyHolder">
-
+        <img  id="ImgIdentificationCar" src="View/Carros/mercedessalzufer1.jpg">
     </div>
+    
     <body>
         <main>
             <table>
                 <?php
                     for($index=0; $index<10; $index++){
                 ?>
-                <div id="DivIdentificationTableRowHolder"></div>
+                <div id="DivIdentificationTableRowHolder">
+                    
+                </div>
                 <div id="DivIdentificationTableRow">
                     <tr>
                         <td id="TdIdentificationColummLeft">
