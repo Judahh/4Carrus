@@ -5,15 +5,40 @@
     <meta content="text/html" charset="UTF-8"/>
 </head>
 <body>
-<form id="FormIdentificationUserSignUp">
+<form method="post" id="FormIdentificationUserSignUp" >
     <label for="InputTextIdentificationUserName">Name:</label>
     <input type="text" id="InputTextIdentificationUserName" size="45" maxlength="50" required="true">
     <label for="inputTextIdentificationUserCPF">CPF:</label>
     <input type="text" id="inputTextIdentificationUserCPF" size="14">
+    <label for="InputDateIdentificationDataNascimento">Data Nascimento:</label>
+    <input type="date" id="InputDateIdentificationDataNascimento">
     <fieldset>
-        <legend>Sexo:</legend>
-        <input type="radio" name="prioridade" value="1" />M
-        <input type="radio" name="prioridade" value="2" /> F
+        <legend>Sexo</legend>
+        <input type="radio" name="Masculino" value="1" />M
+        <input type="radio" name="Feminino" value="2" /> F
+    </fieldset>
+
+    <fieldset>
+        <legend>Endereço</legend>
+        <label for="SelectIdentificationPasture">Logradouro</label>
+        <select id="SelectIdentificationPasture">
+            <option selected>Rua</option>
+            <option>Avenida</option>
+            <option>Condominio</option>
+        </select>
+        <input type="text"  size="60" placeholder="ex: 537"/>
+        <label for="InputTextIdentificationNumber">Número:</label>
+        <input type="text" id="InputTextIdentificationNumber" size="6"/>
+        <label for="InputTextIdentificationcomplement">Complemento:</label>
+        <input type="text" size="40" id="InputTextIdentificationcomplement" placeholder="ex: 2ª etapa">
+        <label for="InputTextIdentificationMunicipio">Municipio</label>
+        <input type="text" id="InputTextIdentificationMunicipio" size="50" placeholder="ex: Fortaleza">
+        <label for="IdentificationEstado">Estado:</label>
+        <select id="IdentificationEstado">
+            <option selected>CE</option>
+            <option>RJ</option>
+            <option>SP</option>
+        </select>
     </fieldset>
 
 </form>
