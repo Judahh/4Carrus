@@ -15,10 +15,11 @@ footer{
 
 }
 
-#DivIndentificationInformation{
+#DivIdentificationInformation{
     width: 2.7em;
     position: absolute;
-    left:.8%;
+    left: 0;
+    padding: 0 0 0 0.65em;
     float: left;
     height: 100%;
 }

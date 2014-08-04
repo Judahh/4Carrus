@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#DivIdentificationSubMenuInformationHolder{
+    position: absolute;
+    float: left;
+    left: -0.55em;
+    height: 2.8em;
+    width: 100%;
+    top: -5.5em;
+}
+
+#DivIdentificationSubMenuInformationHolder2{
+    position: absolute;
+    float: left;
+    left: -0.35em;
+    height: 2.8em;
+    width: 100%;
+    top: -5.5em;
+}

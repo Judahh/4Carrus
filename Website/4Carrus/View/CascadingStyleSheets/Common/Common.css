@@ -104,9 +104,9 @@ ul li{
 
 @-webkit-keyframes neon {
     from {
-        text-shadow: 0 0 1px white,
-        0 0 2px white,
-        0 0 3px white,
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
         0 0 4px dodgerblue,
         0 0 5px dodgerblue,
         0 0 6px dodgerblue,
@@ -116,24 +116,24 @@ ul li{
         0 0 10px dodgerblue;
     }
     to {
-        text-shadow: 0 0 5px white,
-        0 0 10px  white,
-        0 0 15px  white,
-        0 0 20px  dodgerblue,
-        0 0 25px  dodgerblue,
-        0 0 30px  dodgerblue,
-        0 0 35px  dodgerblue,
-        0 0 40px  dodgerblue,
-        0 0 45px  dodgerblue,
-        0 0 50px  dodgerblue;
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
     }
 }
 
 @-moz-keyframes neon {
     from {
-        text-shadow: 0 0 1px white,
-        0 0 2px white,
-        0 0 3px white,
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
         0 0 4px dodgerblue,
         0 0 5px dodgerblue,
         0 0 6px dodgerblue,
@@ -143,24 +143,24 @@ ul li{
         0 0 10px dodgerblue;
     }
     to {
-        text-shadow: 0 0 5px white,
-        0 0 10px  white,
-        0 0 15px  white,
-        0 0 20px  dodgerblue,
-        0 0 25px  dodgerblue,
-        0 0 30px  dodgerblue,
-        0 0 35px  dodgerblue,
-        0 0 40px  dodgerblue,
-        0 0 45px  dodgerblue,
-        0 0 50px  dodgerblue;
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
     }
 }
 
 @keyframes neon {
     from {
-        text-shadow: 0 0 1px white,
-        0 0 2px white,
-        0 0 3px white,
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
         0 0 4px dodgerblue,
         0 0 5px dodgerblue,
         0 0 6px dodgerblue,
@@ -170,15 +170,15 @@ ul li{
         0 0 10px dodgerblue;
     }
     to {
-        text-shadow: 0 0 5px white,
-        0 0 10px  white,
-        0 0 15px  white,
-        0 0 20px  dodgerblue,
-        0 0 25px  dodgerblue,
-        0 0 30px  dodgerblue,
-        0 0 35px  dodgerblue,
-        0 0 40px  dodgerblue,
-        0 0 45px  dodgerblue,
-        0 0 50px  dodgerblue;
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
     }
 }

@@ -1,0 +1,15 @@
+#DivIdentificationSubMenuApplicationsHolder{
+    position: absolute;
+    float: left;
+    left: -100px;
+    height: 30px;
+    width: 125%;
+}
+
+#DivIdentificationSubMenuApplicationsHolder2{
+    position: absolute;
+    float: left;
+    left: -95px;
+    height: 30px;
+    width: 125%;
+}
