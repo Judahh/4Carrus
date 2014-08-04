@@ -1,14 +1,7 @@
 #DivIdentificationBoxMenuOptionsHolder {
-    width: 12em;
-    background: white;
     position: absolute;
     right:0;
     float: left;
+    width: 12em;
     height: 100%;
-    border: 1px solid;
-    opacity: 0.5;
-    border-color: white;
-    border-color: rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 5px rgba(0, 0, 0, 0.4);
 }

@@ -10,71 +10,86 @@
         <link href="View/CascadingStyleSheets/Common/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Header/Menu/MenuSearchHolder.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Header/Menu/MenuOptions.css" rel="stylesheet" media="all">
 
     </head>
 
     <header>
         <nav>
             <div id="DivIdentificationBoxMenuSearchHolder">
-                <div class="DivClassEfectGlass"></div>
+                <div id="DivIdentificationGlass"></div>
             </div>
             <div id="DivIdentificationMenuSearch">
                 <ul>
-                    <li><div id="DivIdentificationIcon">'</div>
-                        <div id="DivIndentificationSubMenuSearchHolder"></div>
+                    <li><div id="DivIdentificationNeon"><div id="DivIdentificationIcon">'</div></div>
+                        <div id="DivIndentificationSubMenuSearchHolder">
+                            <div id="DivIdentificationGlass"></div>
+                        </div>
                         <div id="DivIndentificationSubMenuSearch">
                             <ul>
-                                <li><a href="#">Preferências</a></li>
-                                <li><a href="#">Cores</a></li>
-                                <li><a href="#">Idioma</a></li>
-                                <li><a href="#">Região</a></li>
+                                <li><div id="DivIdentificationNeon">Preferências</div></li>
+                                <li><div id="DivIdentificationNeon">Cores</div></li>
+                                <li><div id="DivIdentificationNeon">Idioma</div></li>
+                                <li><div id="DivIdentificationNeon">Região</div></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </div>
             <div id="DivIdentificationBoxMenuOptionsHolder">
-                <div class="DivClassEfectGlass"></div>
+                <div id="DivIdentificationGlass"></div>
             </div>
             <div id="DivIdentificationMenuOptions">
                 <ul>
-                    <li><div id="DivIdentificationIcon">›</div>
-                        <div id="DivIndentificationSubMenuNotificationsHolder"></div>
+                    <li><div id="DivIdentificationNeon"><div id="DivIdentificationIcon">›</div></div>
+                        <div id="DivIndentificationSubMenuNotificationsHolder">
+                            <div id="DivIdentificationGlass"></div>
+                        </div>
                         <div id="DivIndentificationSubMenuNotifications">
                             <ul>
-                                <li><a href="#">Preferências</a></li>
-                                <li><a href="#">Cores</a></li>
-                                <li><a href="#">Idioma</a></li>
-                                <li><a href="#">Região</a></li>
+                                <li><div id="DivIdentificationNeon">Preferências</div></li>
+                                <li><div id="DivIdentificationNeon">Cores</div></li>
+                                <li><div id="DivIdentificationNeon">Idioma</div></li>
+                                <li><div id="DivIdentificationNeon">Região</div></li>
                             </ul>
                         </div>
                     </li>
-                    <li><div id="DivIdentificationIcon">¥</div>
-                        <div id="DivIndentificationSubMenuSettingsHolder"></div>
+                    <li><div id="DivIdentificationNeon"><div id="DivIdentificationIcon">¥</div></div>
+                        <div id="DivIndentificationSubMenuSettingsHolder">
+                            <div id="DivIdentificationGlass"></div>
+                        </div>
                         <div id="DivIndentificationSubMenuSettings">
                             <ul>
-                                <li><a href="#">Preferências</a></li>
-                                <li><a href="#">Cores</a></li>
-                                <li><a href="#">Idioma</a></li>
-                                <li><a href="#">Região</a></li>
+                                <li><div id="DivIdentificationNeon">Preferências</div></li>
+                                <li><div id="DivIdentificationNeon">Cores</div></li>
+                                <li><div id="DivIdentificationNeon">Idioma</div></li>
+                                <li><div id="DivIdentificationNeon">Região</div></li>
                             </ul>
                         </div>
                     </li>
-                    <li><div id="DivIdentificationIcon">U</div>
-                        <div id="DivIndentificationSubMenuApplicationsHolder"></div>
+                    <li><div id="DivIdentificationNeon">
+                            <div id="DivIdentificationIcon">U</div>
+                        </div>
+                        <div id="DivIndentificationSubMenuApplicationsHolder">
+                            <div id="DivIdentificationGlass"></div>
+                        </div>
                         <div id="DivIndentificationSubMenuApplications">
                             <ul>
-                                <li><a href="#">Gas Station</a></li>
+                                <li><div id="DivIdentificationNeon">Gas Station</div></li>
                             </ul>
                         </div>
                     </li>
-                    <li><div id="DivIdentificationIcon">t</div>
-                        <div id="DivIndentificationSubMenuUserHolder"></div>
+                    <li><div id="DivIdentificationNeon">
+                            <div id="DivIdentificationIcon">t</div>
+                        </div>
+                        <div id="DivIndentificationSubMenuUserHolder">
+                            <div id="DivIdentificationGlass"></div>
+                        </div>
                         <div id="DivIndentificationSubMenuUser">
                             <ul>
-                                <li><a href="#">Minha Conta</a></li>
-                                <li><a href="#">Meu Carrinho</a></li>
-                                <li><a href="#">Minha Agenda</a></li>
+                                <li><div id="DivIdentificationNeon">Minha Conta</div></li>
+                                <li><div id="DivIdentificationNeon">Meu Carrinho</div></li>
+                                <li><div id="DivIdentificationNeon">Minha Agenda</div></li>
                             </ul>
                         </div>
                     </li>
@@ -84,7 +99,7 @@
     </header>
 
     <div id="DivIdentificationBodyHolder">
-        <div class="DivClassEfectGlass"></div>
+
     </div>
     <body>
         <main>
@@ -111,15 +126,21 @@
     </body>
 
     <footer>
-        <div id="DivIdentificationBoxMenuInformationHolder"></div>
+        <div id="DivIdentificationBoxMenuInformationHolder">
+            <div id="DivIdentificationGlass"></div>
+        </div>
         <div id="DivIndentificationInformation">
             <ul>
-                <li><div id="DivIdentificationIcon">‚</div>
-                    <div id="DivIndentificationSubMenuInformationHolder"></div>
+                <li><div id="DivIdentificationNeon">
+                        <div id="DivIdentificationIcon">‚</div>
+                    </div>
+                    <div id="DivIndentificationSubMenuInformationHolder">
+                        <div id="DivIdentificationGlass"></div>
+                    </div>
                     <div id="DivIndentificationSubMenuInformation">
                         <ul>
-                            <li>Contato</li>
-                            <li>Sobre o Site</li>
+                            <li><div id="DivIdentificationNeon">Contato</div></li>
+                            <li><div id="DivIdentificationNeon">Sobre o Site</div></li>
                         </ul>
                     </div>
                 </li>
