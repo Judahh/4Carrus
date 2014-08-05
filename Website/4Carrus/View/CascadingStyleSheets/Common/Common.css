@@ -56,16 +56,16 @@ table,tr,td{
     -o-animation: neon 1s ease-in-out infinite alternate;
     animation: neon 1s ease-in-out infinite alternate;
     color:white;
-    text-shadow: 0 0 1px #9CCEFF,
-        0 0 2px #9CCEFF,
-        0 0 3px #9CCEFF,
-        0 0 4px dodgerblue,
-        0 0 5px dodgerblue,
-        0 0 6px dodgerblue,
-        0 0 7px dodgerblue,
-        0 0 8px dodgerblue,
-        0 0 9px dodgerblue,
-        0 0 10px dodgerblue;
+    text-shadow: 0 0 2px #9CCEFF,
+    0 0 4px  #9CCEFF,
+    0 0 6px  #9CCEFF,
+    0 0 8px  dodgerblue,
+    0 0 10px  dodgerblue,
+    0 0 12px  dodgerblue,
+    0 0 14px  dodgerblue,
+    0 0 16px  dodgerblue,
+    0 0 18px  dodgerblue,
+    0 0 20px  dodgerblue;
     webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -129,6 +129,60 @@ ul li:hover ul li {
 }
 
 @-moz-keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}
+
+@-ms-keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}
+
+@-o-keyframes neon {
     from {
         text-shadow: 0 0 1px #9CCEFF,
         0 0 2px #9CCEFF,
