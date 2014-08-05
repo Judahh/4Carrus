@@ -9,11 +9,6 @@
     padding: 0px;
 }
 
-table,tr,td{
-    border:0px;
-    border-collapse: collapse;
-}
-
 #DivIdText{
     cursor: pointer;
     font-family: "Arial", cursive;
