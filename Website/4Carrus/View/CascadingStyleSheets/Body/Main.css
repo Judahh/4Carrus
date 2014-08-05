@@ -61,7 +61,7 @@ img{
 #DivIdColummLeft{
     float: left;
     height: 100%;
-    width: 25%;
+    max-width: 25%;
     display: inline;
     /*background: red;*/
 }
@@ -82,11 +82,22 @@ img{
     transition: all 1s;
     position: relative;
     max-height: 186px;
+    max-width: 290px;
     float: left;
     left:0;
     top:0;
     border-radius: 15px 15px 15px 15px;
     opacity: 0.5;
+    box-shadow: 0 0 1px,
+        0 0 2px,
+        0 0 3px,
+        0 0 4px,
+        0 0 5px,
+        0 0 6px,
+        0 0 7px,
+        0 0 8px,
+        0 0 9px,
+        0 0 10px;
 }
 
 #ImgIdCar:hover{
@@ -97,6 +108,7 @@ img{
     transition: all 1s;
     border-radius: 0px 0px 0px 0px;
     opacity: 1;
+    box-shadow: 0 0 10px;
 }
 
 #ImgIdDealership{
