@@ -1,17 +1,17 @@
-#DivIdentificationSubMenuApplicationsHolder{
+#DivIdSubMenuApplicationsHolder{
     position: absolute;
     float: left;
-    top: -0.1em;
-    left: -5.84em;
-    height: 30px;
+    padding: 5px 0 0 0;
+    right: 53px;
+    height: 45px;
     width: 125%;
 }
 
-#DivIdentificationSubMenuApplicationsHolder2{
+#DivIdSubMenuApplicationsHolder2{
     position: absolute;
     float: left;
-    top: -0.1em;
-    left: -5.54em;
-    height: 30px;
+    padding: 15px 0 0 0;
+    right: 43px;
+    height: 45px;
     width: 125%;
 }

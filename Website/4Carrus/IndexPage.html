@@ -36,12 +36,12 @@
                         <div id="DivIdNeon">
                             <div id="DivIdIcon">'</div>
                         </div>
-                        <div id="DivIdentificationSubMenuSearch">
+                        <div id="DivIdSubMenuSearch">
                             <ul>
-                                <div id="DivIdentificationSubMenuSearchHolder">
+                                <div id="DivIdSubMenuSearchHolder">
                                     <div id="DivIdGlass"></div>
                                 </div>
-                                <div id="DivIdentificationSubMenuSearchHolder2">
+                                <div id="DivIdSubMenuSearchHolder2">
                                     <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
@@ -59,12 +59,12 @@
                 <ul>
                     <li><div id="DivIdNeon"><div id="DivIdIcon">›</div></div>
 
-                        <div id="DivIdentificationSubMenuNotifications">
+                        <div id="DivIdSubMenuNotifications">
                             <ul>
-                                <div id="DivIdentificationSubMenuNotificationsHolder">
+                                <div id="DivIdSubMenuNotificationsHolder">
                                     <div id="DivIdGlass"></div>
                                 </div>
-                                <div id="DivIdentificationSubMenuNotificationsHolder2">
+                                <div id="DivIdSubMenuNotificationsHolder2">
                                     <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
@@ -74,12 +74,12 @@
                         </div>
                     </li>
                     <li><div id="DivIdNeon"><div id="DivIdIcon">¥</div></div>
-                        <div id="DivIdentificationSubMenuSettings">
+                        <div id="DivIdSubMenuSettings">
                             <ul>
-                                <div id="DivIdentificationSubMenuSettingsHolder">
+                                <div id="DivIdSubMenuSettingsHolder">
                                     <div id="DivIdGlass"></div>
                                 </div>
-                                <div id="DivIdentificationSubMenuSettingsHolder2">
+                                <div id="DivIdSubMenuSettingsHolder2">
                                     <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
@@ -91,12 +91,12 @@
                     <li><div id="DivIdNeon">
                             <div id="DivIdIcon">U</div>
                         </div>
-                        <div id="DivIdentificationSubMenuApplications">
+                        <div id="DivIdSubMenuApplications">
                             <ul>
-                                <div id="DivIdentificationSubMenuApplicationsHolder">
+                                <div id="DivIdSubMenuApplicationsHolder">
                                     <div id="DivIdGlass"></div>
                                 </div>
-                                <div id="DivIdentificationSubMenuApplicationsHolder2">
+                                <div id="DivIdSubMenuApplicationsHolder2">
                                     <li><div id="DivIdNeon"><div id="DivIdText">Gas Station</div></div></li>
                                 </div>
                             </ul>
@@ -105,12 +105,12 @@
                     <li><div id="DivIdNeon">
                             <div id="DivIdIcon">t</div>
                         </div>
-                        <div id="DivIdentificationSubMenuUser">
+                        <div id="DivIdSubMenuUser">
                             <ul>
-                                <div id="DivIdentificationSubMenuUserHolder">
+                                <div id="DivIdSubMenuUserHolder">
                                     <div id="DivIdGlass"></div>
                                 </div>
-                                <div id="DivIdentificationSubMenuUserHolder2">
+                                <div id="DivIdSubMenuUserHolder2">
                                     <li><div id="DivIdNeon"><div id="DivIdText">Minha Conta </div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Meu Carrinho</div></div></li>
                                     <li><div id="DivIdNeon"><div id="DivIdText">Minha Agenda</div></div></li>
@@ -164,12 +164,12 @@
                         <div id="DivIdIcon">‚</div>
                     </div>
 
-                    <div id="DivIdentificationSubMenuInformation">
+                    <div id="DivIdSubMenuInformation">
                         <ul>
-                            <div id="DivIdentificationSubMenuInformationHolder">
+                            <div id="DivIdSubMenuInformationHolder">
                                 <div id="DivIdGlass"></div>
                             </div>
-                            <div id="DivIdentificationSubMenuInformationHolder2">
+                            <div id="DivIdSubMenuInformationHolder2">
                                 <li><div id="DivIdNeon"><div id="DivIdText">Contato     </div></div></li>
                                 <li><div id="DivIdNeon"><div id="DivIdText">Sobre o Site</div></div></li>
                             </div>
