@@ -27,10 +27,10 @@
 
     <header>
         <nav>
-            <div id="DivIdentificationBoxMenuSearchHolder">
+            <div id="DivIdMenuSearchHolder">
                 <div id="DivIdGlass"></div>
             </div>
-            <div id="DivIdentificationMenuSearch">
+            <div id="DivIdMenuSearch">
                 <ul>
                     <li>
                         <div id="DivIdNeon">
@@ -52,10 +52,10 @@
                     </li>
                 </ul>
             </div>
-            <div id="DivIdentificationBoxMenuOptionsHolder">
+            <div id="DivIdMenuOptionsHolder">
                 <div id="DivIdGlass"></div>
             </div>
-            <div id="DivIdentificationMenuOptions">
+            <div id="DivIdMenuOptions">
                 <ul>
                     <li><div id="DivIdNeon"><div id="DivIdIcon">›</div></div>
 
@@ -154,10 +154,10 @@
     </body>
 
     <footer>
-        <div id="DivIdentificationBoxMenuInformationHolder">
+        <div id="DivIdMenuInformationHolder">
             <div id="DivIdGlass"></div>
         </div>
-        <div id="DivIdentificationInformation">
+        <div id="DivIdMenuInformation">
             <ul>
                 <li>
                     <div id="DivIdNeon">
