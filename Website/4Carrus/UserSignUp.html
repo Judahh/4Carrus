@@ -6,31 +6,33 @@
 </head>
 <body>
 <form method="post" id="FormIdentificationUserSignUp" >
-    <label for="InputTextIDNamePerson">Nome:</label>
+    <label for="InputTextIDNamePerson">Nome Completo:</label><br/>
     <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true"><br/>
-    <label for="inputTextIdentificationUserCPF">CPF:</label>
+    <label for="InputIdNickname">Como Deseja ser chamado</label><br/>
+    <input type="text" id="InputIdNickname" size="15"><br/>
+    <label for="inputTextIdentificationUserCPF">CPF:</label><br/>
     <input type="text" id="inputTextIdentificationUserCPF" size="14"><br/>
 
-        <label for="InputTextIDRegistroGeral">RG</label>
+        <label for="InputTextIDRegistroGeral">RG</label><br/>
         <input type="text" id="InputTextIDRegistroGeral"><br/>
 
-        <label for="InputTextIDOrgãoEmissor">Orgão Emissor</label>
+        <label for="InputTextIDOrgãoEmissor">Orgão Emissor</label><br/>
         <input type="text" id="InputTextIDOrgãoEmissor"><br/>
 
-        <label for="InputDateIDDataExpedição">Data de Expedição</label>
+        <label for="InputDateIDDataExpedição">Data de Expedição</label><br/>
         <input type="date" id="InputDateIDDataExpedição"><br/>
 
 
-    <label for="InputDateIDDateBirth">Data Nascimento:</label>
+    <label for="InputDateIDDateBirth">Data Nascimento:</label><br/>
     <input type="date" id="InputDateIDDateBirth"><br/>
-    <label >Sexo:</label>
-    <label for="InputRadioMan">M</label>
+    <label >Sexo:</label><br/>
+    <label for="InputRadioMan">M</label><br/>
         <input type="radio" name="Sexo" id="InputRadioMan" value="1" />
     <label for="InputRadioWoman">F</label>
         <input type="radio" name="Sexo" id="InputRadioWoman" value="2" /><br/>
 
 
-    <label for="SelectIDMaritalStatus">Estado Civil:</label>
+    <label for="SelectIDMaritalStatus">Estado Civil:</label><br/>
     <select id="SelectIDMaritalStatus">
         <option selected>Solteiro(a)</option>
         <option>Casado(a)</option>
@@ -38,36 +40,36 @@
         <option>Viuvo(a)</option>
     </select><br/>
 
-        <label for="SelectIDPasture">Logradouro</label>
+        <label for="SelectIDPasture">Logradouro</label><br/>
         <select id="SelectIDPasture">
             <option selected>Rua</option>
             <option>Avenida</option>
             <option>Condominio</option>
         </select>
         <input type="text"  size="60" placeholder="ex: 537"/><br/>
-        <label for="InputTextIdentificationNumber">Número:</label>
+        <label for="InputTextIdentificationNumber">Número:</label><br/>
         <input type="text" id="InputTextIdentificationNumber" size="6"/><br/>
 
-        <label for="InputTextIDNeighborhood">Bairro:</label>
+        <label for="InputTextIDNeighborhood">Bairro:</label><br/>
         <input type="text" id="InputTextIDNeighborhood" size="40"><br/>
 
-        <label for="InputTextIdentificationPostalCode">CEP:</label>
+        <label for="InputTextIdentificationPostalCode">CEP:</label><br/>
         <input type="text" id="InputTextIdentificationPostalCode" size="9" placeholder="ex: 99999-999"><br/>
 
-        <label for="InputTextIDComplement">Complemento:</label>
+        <label for="InputTextIDComplement">Complemento:</label><br/>
         <input type="text" size="40" id="InputTextIDComplement" placeholder="ex: 2ª etapa"><br/>
 
-        <label for="InputTextIDCity">Municipio:</label>
+        <label for="InputTextIDCity">Municipio:</label><br/>
         <input type="text" id="InputTextIDCity" size="50" placeholder="ex: Fortaleza"><br/>
 
-        <label for="SelectIDState">Estado:</label>
+        <label for="SelectIDState">Estado:</label><br/>
         <select id="SelectIDState">
             <option selected>CE</option>
             <option>RJ</option>
             <option>SP</option>
         </select><br/>
 
-        <label for="SelectIDCountry">País:</label>
+        <label for="SelectIDCountry">País:</label><br/>
         <select id="SelectIDCountry">
             <option selected>United States of America</option>
             <option>Brasil</option>
@@ -76,8 +78,17 @@
             <option>Africa do Sul</option>
         </select><br/>
 
-        <label for="InputTextTelefone">Teleone Fixo:</label>
-        <Input type="tel" id="InputTextTelefone"><br/>
+    <label for="InputTextPhone">Teleone Fixo:</label><br/>
+    <Input type="tel" id="InputTextPhone"><br/>
+
+    <label for="InputTextCommercialPhone">Telefone Comercial:</label><br/>
+    <Input type="tel" id="InputTextCommercialPhone"><br/>
+
+    <label for="InputTextCellPhone">Teleone Celular:</label><br/>
+    <Input type="tel" id="InputTextCellPhone"><br/>
+
+    <label for="InputIdEmail">E-Mail:</label><br/>
+    <input type="email" id="InputIdEmail"><br/>
 
 
 </form>
