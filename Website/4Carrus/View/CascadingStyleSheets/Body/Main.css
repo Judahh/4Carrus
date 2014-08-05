@@ -58,6 +58,7 @@ img{
 }
 
 #ImgIdCar{
+    position: relative;
     float: left;
     left:0;
     top:0;
@@ -72,7 +73,7 @@ img{
 #DivIdLogoCar{
     position: relative;
     float: left;
-    bottom: -70%;
+    top: 10px;
     right: 50px;
     background: blue;
     color: red;

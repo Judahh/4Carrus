@@ -124,7 +124,7 @@
     </header>
 
     <div id="DivIdBodyHolder">
-        <img  id="ImgIdDealership" src="View/Carros/mercedessalzufer1.jpg">
+        <img  id="ImgIdDealership" src="View/Carros/mercedessalzufer1.jpg"></img>
     </div>
     
     <body>
@@ -139,7 +139,7 @@
                 <div id="DivIdTableRow">
                     <tr>
                         <td id="TdIdColummLeft">
-			    <img  id="ImgIdCar" src="View/Carros/bugatti-veyron-grand-2_800x0w.jpg">
+			    <img  id="ImgIdCar" src="View/Carros/bugatti-veyron-grand-2_800x0w.jpg"></img>
 			    <div id="DivIdLogoCar"><div id="DivIdNeon"><div id="DivIdText">logo</div></div></div>
 			</td>
 			

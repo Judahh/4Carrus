@@ -22,6 +22,7 @@ table,tr,td{
 
 #DivIdIcon{
     cursor: pointer;
+    font-family: "FontHeader", cursive;
     padding: 8px;
     font-size:16px;
 }
@@ -39,6 +40,7 @@ table,tr,td{
 }
 
 #DivIdNeon{
+    text-shadow: 0 0 1px #3A9DFC;
     color: dodgerblue;
     webkit-transition: all 1s;
     -moz-transition: all 1s;
