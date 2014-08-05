@@ -24,38 +24,52 @@ img{
     top: 0;
 }
 
-#DivIdentificationTableRow{
-    width: 100%;
-}
-
-#DivIdentificationBodyHolder {
+#DivIdBodyHolder {
     background: #DDDDDD;
     opacity: 0.7;
     z-index: -1;
     float: left;
     width: 100%;
     height: 100%;
+    bottom: 0;
     position: fixed;
 }
 
-#TdIdentificationColummLeft{
+#DivIdTableRowHolder{
+    z-index:-1;
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+#DivIdTableRow{
+    width: 100%;
+}
+
+#TdIdColummLeft{
     width: 25%;
     height: 100%;
     /*background: red;*/
 }
 
-#ImgIdentificationCar{
+#TdIdColummRight{
+    /*background-color: green;*/
+}
+
+#ImgIdCar{
     float: left;
     left:0;
     top:0;
 }
 
-#TdIdentificationColummRight{
-    /*background-color: green;*/
+#ImgIdDealership{
+    float: left;
+    left:0;
+    top:0;
 }
 
-#DivIdentificationLogoCar{
-    z-index: 100;
+#DivIdLogoCar{
     position: relative;
     float: left;
     bottom: -70%;
@@ -64,19 +78,4 @@ img{
     color: red;
     width: 0px;
     height: 0px;
-}
-
-#DivIdentificationTableRowHolder{
-    position: absolute;
-    float: left;
-    height: 100%;
-    width: 100%;
-}
-
-#DivIdentificationBodyHolder{
-    position: fixed;
-    float: left;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
 }
