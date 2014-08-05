@@ -150,14 +150,12 @@
                                 <div id="DivIdText">Informações</div>
                             </div>
                         </div>
-
-                        <div id="DivIdTableRowHolder">
-                            <div id="DivIdGlass"></div>
-                        </div>
                     </div>
-
+                    <div id="DivIdTableRowHolder">
+                        <div id="DivIdGlass"></div>
+                    </div>
                 </div>
-
+                
                 <?php
                     }
                 ?>
