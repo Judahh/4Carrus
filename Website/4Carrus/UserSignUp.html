@@ -10,6 +10,17 @@
     <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true">
     <label for="inputTextIdentificationUserCPF">CPF:</label>
     <input type="text" id="inputTextIdentificationUserCPF" size="14">
+    <fieldset id="FieldsetIDRegistroGeral">
+        <label for="InputTextIDRegistroGeral">RG</label>
+        <input type="text" id="InputTextIDRegistroGeral">
+
+        <label for="InputTextIDOrgãoEmissor">Orgão Emissor</label>
+        <input type="text" id="InputTextIDOrgãoEmissor">
+
+        <label for="InputTextIDDataExpedição">Data de Expedição</label>
+        <input type="text" id="InputTextIDDataExpedição">
+    </fieldset>
+
     <label for="InputDateIDDateBirth">Data Nascimento:</label>
     <input type="date" id="InputDateIDDateBirth">
     <fieldset>
@@ -43,10 +54,10 @@
         <label for="InputTextIdentificationPostalCode">CEP:</label>
         <input type="text" id="InputTextIdentificationPostalCode" size="9" placeholder="ex: 99999-999">
 
-        <label for="InputTextIdentificationcomplement">Complemento:</label>
-        <input type="text" size="40" id="InputTextIdentificationcomplement" placeholder="ex: 2ª etapa">
+        <label for="InputTextIDComplement">Complemento:</label>
+        <input type="text" size="40" id="InputTextIDComplement" placeholder="ex: 2ª etapa">
 
-        <label for="InputTextIDCity">Municipio</label>
+        <label for="InputTextIDCity">Municipio:</label>
         <input type="text" id="InputTextIDCity" size="50" placeholder="ex: Fortaleza">
 
         <label for="SelectIDState">Estado:</label>
@@ -55,6 +66,21 @@
             <option>RJ</option>
             <option>SP</option>
         </select>
+
+        <label for="SelectIDCountry">País:</label>
+        <select id="SelectIDCountry">
+            <option selected>United States of America</option>
+            <option>Brasil</option>
+            <option>China</option>
+            <option>Suécia</option>
+            <option>Africa do Sul</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contatos</legend>
+        <label for="InputTextTelefone">Teleone Fixo:</label>
+        <Input type="tel" id="InputTextTelefone">
     </fieldset>
 
 </form>
