@@ -4,3 +4,31 @@
     height: 100%;
     float: left;
 }
+
+#DivIdMenuSearch ul ul{
+    opacity:0;
+    display: block;
+    position: absolute;
+    width: 160px;
+    height: auto;
+    top:-200px;
+    
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#DivIdMenuSearch ul li:hover ul{
+    opacity:1;
+    display: block;
+    position: absolute;
+    top:0px;
+    
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
