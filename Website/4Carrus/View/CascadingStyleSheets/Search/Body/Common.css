@@ -46,16 +46,15 @@ img{
 #DivIdTableRow{
     height: 200px;
     width: 100%;
-    padding: 5px;
+    margin: 0  0 7px 0;
 }
 
 #DivIdTableRowWrap{
     z-index: 1;
     float: left;
-    position: absolute;
     width: 100%;
     height: 100%;
-    padding: 7px;
+    padding: 0;
 }
 
 #DivIdColummLeft{
@@ -63,6 +62,7 @@ img{
     height: 100%;
     max-width: 25%;
     display: inline;
+    margin: 7px;
     /*background: red;*/
 }
 
@@ -70,7 +70,7 @@ img{
     float: left;
     height: 100%;
     display: inline;
-    padding: 15px;
+    margin: 15px;
     /*background-color: green;*/
 }
 
@@ -88,16 +88,7 @@ img{
     top:0;
     border-radius: 15px 15px 15px 15px;
     opacity: 0.5;
-    box-shadow: 0 0 1px,
-        0 0 2px,
-        0 0 3px,
-        0 0 4px,
-        0 0 5px,
-        0 0 6px,
-        0 0 7px,
-        0 0 8px,
-        0 0 9px,
-        0 0 10px;
+    box-shadow: 0 0 10px;
 }
 
 #ImgIdCar:hover{
@@ -117,11 +108,11 @@ img{
     left:0;
     top:0;
     
-    -webkit-animation: fade 240s ease-in-out;
-    -moz-animation: fade 240s ease-in-out;
-    -ms-animation: fade 240s ease-in-out;
-    -o-animation: fade 240s ease-in-out;
-    animation: fade 240s ease-in-out;
+    -webkit-animation: fade 200s ease-in-out;
+    -moz-animation: fade 200s ease-in-out;
+    -ms-animation: fade 200s ease-in-out;
+    -o-animation: fade 200s ease-in-out;
+    animation: fade 200s ease-in-out;
 }
 
 #IframeIdDealership{
@@ -145,35 +136,35 @@ img{
 
 @-webkit-keyframes fade {
     0%   { opacity: 1;}
-    1%   { opacity: 0;}
-    99%   { opacity: 0;}
+    2%   { opacity: 0;}
+    98%   { opacity: 0;}
     100% { opacity: 1;}
 }
 
 @-moz-keyframes fade {
     0%   { opacity: 1;}
-    1%   { opacity: 0;}
-    99%   { opacity: 0;}
+    2%   { opacity: 0;}
+    98%   { opacity: 0;}
     100% { opacity: 1;}
 }
 
 @-ms-keyframes fade {
     0%   { opacity: 1;}
-    1%   { opacity: 0;}
-    99%   { opacity: 0;}
+    2%   { opacity: 0;}
+    98%   { opacity: 0;}
     100% { opacity: 1;}
 }
 
 @-o-keyframes fade {
     0%   { opacity: 1;}
-    1%   { opacity: 0;}
-    99%   { opacity: 0;}
+    2%   { opacity: 0;}
+    98%   { opacity: 0;}
     100% { opacity: 1;}
 }
 
 @keyframes fade {
     0%   { opacity: 1;}
-    1%   { opacity: 0;}
-    99%   { opacity: 0;}
+    2%   { opacity: 0;}
+    98%   { opacity: 0;}
     100% { opacity: 1;}
 }
