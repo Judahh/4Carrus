@@ -132,7 +132,7 @@
 
     <div id="DivIdBodyHolder">
         <iframe id="IframeIdDealership" width="100%" height="100%" src="http://www.youtube.com/embed/PRAE8YTcHZ4?autoplay=1&controls=0&loop=1" frameborder="0" allowfullscreen></iframe>
-        <img  id="ImgIdDealership" src="View/Carros/mercedessalzufer1.jpg"></img>
+        <img  id="ImgIdDealership" src="View/Carros/mercedessalzufer1.jpg"/>
     </div>
     
     <body>
