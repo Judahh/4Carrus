@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    float: left;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+}
+
+img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+#DivIdBodyHolder {
+    /*background: #DDDDDD;
+    opacity: 0.7;*/
+    z-index: -1;
+    float: left;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+#DivIdTable{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#DivIdTableRowHolder{
+    z-index: -1;
+    float: left;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+}
+
+#DivIdTableRow{
+    height: 200px;
+    width: 100%;
+    padding: 5px;
+}
+
+#DivIdTableRowWrap{
+    z-index: 1;
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+}
+
+#DivIdColummLeft{
+    float: left;
+    height: 100%;
+    max-width: 25%;
+    display: inline;
+    /*background: red;*/
+}
+
+#DivIdColummRight{
+    float: left;
+    height: 100%;
+    display: inline;
+    padding: 15px;
+    /*background-color: green;*/
+}
+
+#ImgIdCar{
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    position: relative;
+    max-height: 186px;
+    max-width: 290px;
+    float: left;
+    left:0;
+    top:0;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0.5;
+    box-shadow: 0 0 1px,
+        0 0 2px,
+        0 0 3px,
+        0 0 4px,
+        0 0 5px,
+        0 0 6px,
+        0 0 7px,
+        0 0 8px,
+        0 0 9px,
+        0 0 10px;
+}
+
+#ImgIdCar:hover{
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    box-shadow: 0 0 10px;
+}
+
+#ImgIdDealership{
+    float: left;
+    left:0;
+    top:0;
+    -webkit-animation: fadeOut 1s ease-in-out;
+    -moz-animation: fadeOut 1s ease-in-out;
+    -ms-animation: fadeOut 1s ease-in-out;
+    -o-animation: fadeOut 1s ease-in-out;
+    animation: fadeOut 1s ease-in-out;
+}
+
+#IframeIdDealership{
+    float: left;
+    left:0;
+    top:0;
+}
+
+#DivIdLogoCar{
+    position: relative;
+    float: left;
+    top: 10px;
+    right: 50px;
+    color: red;
+    width: 0px;
+    height: 0px;
+}
+
+@-webkit-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+@-moz-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+@-ms-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+@-o-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+
+@keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
