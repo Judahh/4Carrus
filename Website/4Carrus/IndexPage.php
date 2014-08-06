@@ -9,9 +9,11 @@
         <link href="View/CascadingStyleSheets/Search/Body/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Common/Common.css" rel="stylesheet" media="all">
         
-        <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
-        <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearchHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearchHolder.css" rel="stylesheet" media="all">
+        
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearch/SubMenuSearch.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearch/SubMenuSearchHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions/SubMenuNotifications.css" rel="stylesheet" media="all">

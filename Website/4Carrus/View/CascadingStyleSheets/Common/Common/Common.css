@@ -86,27 +86,15 @@ ul ul{
     position: absolute;
     width: 160px;
     height: auto;
-    
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
 }
 
 ul li:hover ul{
     opacity:1;
     display: block;
     position: absolute;
-    
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
 }
 
-ul li:hover ul li {
+ul li ul li {
     width: 130px;
 }
 
