@@ -37,7 +37,7 @@
 #DivIdNeon{
     text-shadow: 0 0 1px #3A9DFC;
     color: dodgerblue;
-    webkit-transition: all 1s;
+    -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
     -o-transition: all 1s;
@@ -45,7 +45,7 @@
 }
 
 #DivIdNeon:hover{
-    webkit-animation: neon 1s ease-in-out infinite alternate;
+    -webkit-animation: neon 1s ease-in-out infinite alternate;
     -moz-animation: neon 1s ease-in-out infinite alternate;
     -ms-animation: neon 1s ease-in-out infinite alternate;
     -o-animation: neon 1s ease-in-out infinite alternate;
@@ -61,7 +61,7 @@
     0 0 16px  dodgerblue,
     0 0 18px  dodgerblue,
     0 0 20px  dodgerblue;
-    webkit-transition: all 1s;
+    -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
     -o-transition: all 1s;

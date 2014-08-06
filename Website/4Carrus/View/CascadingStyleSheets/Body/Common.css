@@ -75,7 +75,7 @@ img{
 }
 
 #ImgIdCar{
-    webkit-transition: all 1s;
+    -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
     -o-transition: all 1s;
@@ -101,7 +101,7 @@ img{
 }
 
 #ImgIdCar:hover{
-    webkit-transition: all 1s;
+    -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
     -o-transition: all 1s;
@@ -115,6 +115,17 @@ img{
     float: left;
     left:0;
     top:0;
+    -webkit-animation: fadeOut 1s ease-in-out;
+    -moz-animation: fadeOut 1s ease-in-out;
+    -ms-animation: fadeOut 1s ease-in-out;
+    -o-animation: fadeOut 1s ease-in-out;
+    animation: fadeOut 1s ease-in-out;
+}
+
+#IframeIdDealership{
+    float: left;
+    left:0;
+    top:0;
 }
 
 #DivIdLogoCar{
@@ -125,4 +136,26 @@ img{
     color: red;
     width: 0px;
     height: 0px;
+}
+
+@-webkit-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+@-moz-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+@-ms-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+@-o-keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
+}
+
+@keyframes fadeOut {
+    0%   { opacity: 1;}
+    100% { opacity: 0;}
 }
