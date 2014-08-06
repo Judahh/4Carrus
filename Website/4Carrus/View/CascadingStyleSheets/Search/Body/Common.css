@@ -88,7 +88,7 @@ img{
     top:0;
     border-radius: 15px 15px 15px 15px;
     opacity: 0.5;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 5px;
 }
 
 #ImgIdCar:hover{
@@ -99,7 +99,7 @@ img{
     transition: all 1s;
     border-radius: 0px 0px 0px 0px;
     opacity: 1;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 5px;
 }
 
 #ImgIdDealership{
