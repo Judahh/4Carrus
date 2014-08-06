@@ -26,6 +26,8 @@
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions/SubMenuUserHolder.css" rel="stylesheet" media="all">
         
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformation.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformationHolder.css" rel="stylesheet" media="all">
+        
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformation/SubMenuInformation.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformation/SubMenuInformationHolder.css" rel="stylesheet" media="all">
     </head>
