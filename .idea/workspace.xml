@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="75" selection-start="8178" selection-end="8178" vertical-scroll-proportion="0.47663552" vertical-offset="1989" max-vertical-offset="3451">
+            <state line="147" column="100" selection-start="8726" selection-end="8726" vertical-scroll-proportion="0.47663552" vertical-offset="2244" max-vertical-offset="3485">
               <folding />
             </state>
           </provider>
@@ -86,7 +85,7 @@
       <file leaf-file-name="IndexPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="14" selection-start="3270" selection-end="3270" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3502">
+            <state line="46" column="14" selection-start="3300" selection-end="3300" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3536">
               <folding />
             </state>
           </provider>
@@ -184,6 +183,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -496,7 +496,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,7 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -575,7 +574,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27452415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27452415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57326895" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -609,6 +608,58 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="30" selection-start="8048" selection-end="8048" vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="3485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="47" selection-start="1582" selection-end="3682" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
+          <folding>
+            <marker date="1407367107943" expanded="true" signature="1608:1741" placeholder="{...}" />
+            <marker date="1407367107943" expanded="true" signature="1795:1922" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="14" selection-start="3300" selection-end="3300" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="75" selection-start="8178" selection-end="8178" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3451">
@@ -842,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="14" selection-start="3270" selection-end="3270" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3502">
+        <state line="46" column="14" selection-start="3300" selection-end="3300" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3536">
           <folding />
         </state>
       </provider>
@@ -873,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="75" selection-start="8178" selection-end="8178" vertical-scroll-proportion="0.47663552" vertical-offset="1989" max-vertical-offset="3451">
+        <state line="147" column="100" selection-start="8726" selection-end="8726" vertical-scroll-proportion="0.47663552" vertical-offset="2244" max-vertical-offset="3485">
           <folding />
         </state>
       </provider>
