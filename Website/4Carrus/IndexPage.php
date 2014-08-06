@@ -1,13 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
     <head>
-
         <title>4Carrus</title>
         <meta content="text/html" charset="UTF-8"/>
+        
         <link href="View/CascadingStyleSheets/Header/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Footer/Common.css" rel="stylesheet" media="all">
-        <link href="View/CascadingStyleSheets/Body/Main.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Body/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Common.css" rel="stylesheet" media="all">
+        
         <link href="View/CascadingStyleSheets/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Header/Menu/MenuSearchHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Header/Menu/MenuOptions.css" rel="stylesheet" media="all">
@@ -21,6 +22,8 @@
         <link href="View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuApplicationsHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUser.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Header/Menu/MenuOptions/SubMenuUserHolder.css" rel="stylesheet" media="all">
+        
+        <link href="View/CascadingStyleSheets/Footer/Menu/MenuInformation.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Footer/Menu/MenuInformation/SubMenuInformation.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Footer/Menu/MenuInformation/SubMenuInformationHolder.css" rel="stylesheet" media="all">
     </head>

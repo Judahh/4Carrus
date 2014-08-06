@@ -5,22 +5,3 @@ footer{
     height: 45px;
     font-family: "FontHeader", cursive;
 }
-
-#DivIdMenuInformationHolder{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 45px;
-    height: 100%;
-
-}
-
-#DivIdMenuInformation{
-    width: 45px;
-    position: absolute;
-    left: 0;
-    padding: 0 0 0 12px;
-    float: left;
-    height: 100%;
-}
-
