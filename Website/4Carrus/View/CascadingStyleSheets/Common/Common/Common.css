@@ -19,15 +19,44 @@ input{
 input[type='range'] {
     -webkit-appearance: none;
     background-color: dodgerblue;
-    opacity: 0.5;
+    opacity: 0.7;
     height: 10px;
     vertical-align: middle;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']:hover {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 input[type='range']::-moz-range-track {
     -moz-appearance: none;
     background-color: dodgerblue;
+    opacity: 0.7;
     height: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-moz-range-track:hover {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -35,6 +64,19 @@ input[type='range']::-webkit-slider-thumb {
     background-color: white;
     height: 20px;
     width: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 input[type='range']::-moz-range-thumb {
@@ -42,6 +84,23 @@ input[type='range']::-moz-range-thumb {
     background-color: white;
     height: 20px;
     width: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-moz-range-thumb:hover {
+    -moz-appearance: none;
+    background-color: white;
+    height: 20px;
+    width: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 button, button:active, button:after, button:before {
@@ -54,14 +113,14 @@ button, button:active, button:after, button:before {
 #DivIdText{
     cursor: pointer;
     font-family: "Arial", cursive;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #DivIdIcon{
     cursor: pointer;
     font-family: "FontHeader", cursive;
     padding: 8px;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #DivIdGlass{
