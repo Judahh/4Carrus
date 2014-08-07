@@ -9,6 +9,41 @@
     padding: 0;
 }
 
+input{
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+
+input[type='range'] {
+    -webkit-appearance: none;
+    background-color: dodgerblue;
+    opacity: 0.5;
+    height: 10px;
+    vertical-align: middle;
+}
+
+input[type='range']::-moz-range-track {
+    -moz-appearance: none;
+    background-color: dodgerblue;
+    height: 10px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: white;
+    height: 20px;
+    width: 10px;
+}
+
+input[type='range']::-moz-range-thumb {
+    -moz-appearance: none;
+    background-color: white;
+    height: 20px;
+    width: 10px;
+}
+
 button, button:active, button:after, button:before {
     background: transparent;
     border: none;
