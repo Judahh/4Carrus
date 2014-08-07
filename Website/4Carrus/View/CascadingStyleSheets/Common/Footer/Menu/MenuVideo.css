@@ -1,16 +1,18 @@
-#DivIdMenuSearch{
+#DivIdMenuVideo{
+    width: 180px;
     position: absolute;
-    width: 45px;
-    height: 100%;
+    right: 0;
+    padding: 0 0 0 12px;
     float: left;
+    height: 100%;
 }
 
-#DivIdMenuSearch ul ul{
+#DivIdMenuVideo ul ul{
     opacity:0;
     display: block;
     position: absolute;
     height: auto;
-    top:-200px;
+    right:-200px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -19,11 +21,11 @@
     transition: all 1s;
 }
 
-#DivIdMenuSearch ul li:hover ul{
+#DivIdMenuVideo ul li:hover ul{
     opacity:1;
     display: block;
     position: absolute;
-    top:40px;
+    left:0px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -31,4 +33,3 @@
     -o-transition: all 1s;
     transition: all 1s;
 }
-

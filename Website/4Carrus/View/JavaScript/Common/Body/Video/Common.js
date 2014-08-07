@@ -2,9 +2,9 @@ videoIdDealership = document.getElementById("VideoIdDealership");
 buttonIdPlay = document.getElementById("ButtonIdPlay");
 buttonIdMute = document.getElementById("ButtonIdMute");
 buttonIdSkip = document.getElementById("ButtonIdSkip");
-buttonIdfullScreen = document.getElementById("ButtonIdfullScreen");
-rangeIdSeekBar = document.getElementById("RangeIdSeekBar");
+//buttonIdfullScreen = document.getElementById("ButtonIdfullScreen");
 rangeIdVolumeBar = document.getElementById("RangeIdVolumeBar");
+//rangeIdSeekBar = document.getElementById("RangeIdSeekBar");
         
 function enableControls(){ 
     videoIdDealership.controls=true;
@@ -28,13 +28,13 @@ window.onload = function(){
                 videoIdDealership.play();
 
                 // Update the button text to 'Pause'
-                buttonIdPlay.innerHTML = "Pause";
+                buttonIdPlay.innerHTML = "S";
         } else {
                 // Pause the video
                 videoIdDealership.pause();
 
                 // Update the button text to 'Play'
-                buttonIdPlay.innerHTML = "Play";
+                buttonIdPlay.innerHTML = "P";
         }
     });
 
@@ -46,61 +46,65 @@ window.onload = function(){
                 videoIdDealership.muted = true;
 
                 // Update the button text
-                buttonIdMute.innerHTML = "Unmute";
+                buttonIdMute.innerHTML = "U";
         } else {
                 // Unmute the video
                 videoIdDealership.muted = false;
 
                 // Update the button text
-                buttonIdMute.innerHTML = "Mute";
+                buttonIdMute.innerHTML = "M";
         }
     });
-
-
-    // Event listener for the full-screen button
-    buttonIdfullScreen.addEventListener("click", function() {
-        if (videoIdDealership.requestFullscreen) {
-                videoIdDealership.requestFullscreen();
-        } else if (videoIdDealership.mozRequestFullScreen) {
-                videoIdDealership.mozRequestFullScreen(); // Firefox
-        } else if (videoIdDealership.webkitRequestFullscreen) {
-                videoIdDealership.webkitRequestFullscreen(); // Chrome and Safari
-        }
+    
+    // Event listener for the mute button
+    buttonIdSkip.addEventListener("click", function() {
     });
 
 
-    // Event listener for the seek bar
-    rangeIdSeekBar.addEventListener("change", function() {
-        // Calculate the new time
-        var time = videoIdDealership.duration * (rangeIdSeekBar.value / 100);
+//    // Event listener for the full-screen button
+//    buttonIdfullScreen.addEventListener("click", function() {
+//        if (videoIdDealership.requestFullscreen) {
+//                videoIdDealership.requestFullscreen();
+//        } else if (videoIdDealership.mozRequestFullScreen) {
+//                videoIdDealership.mozRequestFullScreen(); // Firefox
+//        } else if (videoIdDealership.webkitRequestFullscreen) {
+//                videoIdDealership.webkitRequestFullscreen(); // Chrome and Safari
+//        }
+//    });
 
-        // Update the video time
-        videoIdDealership.currentTime = time;
-    });
+
+//    // Event listener for the seek bar
+//    rangeIdSeekBar.addEventListener("change", function() {
+//        // Calculate the new time
+//        var time = videoIdDealership.duration * (rangeIdSeekBar.value / 100);
+//
+//        // Update the video time
+//        videoIdDealership.currentTime = time;
+//    });
 
 
-    // Update the seek bar as the video plays
-    videoIdDealership.addEventListener("timeupdate", function() {
-        // Calculate the slider value
-        var value = (100 / videoIdDealership.duration) * videoIdDealership.currentTime;
-
-        // Update the slider value
-        rangeIdSeekBar.value = value;
-    });
-
-    // Pause the video when the seek handle is being dragged
-    rangeIdSeekBar.addEventListener("mousedown", function() {
-        videoIdDealership.pause();
-    });
-
-    // Play the video when the seek handle is dropped
-    rangeIdSeekBar.addEventListener("mouseup", function() {
-        videoIdDealership.play();
-    });
+//    // Update the seek bar as the video plays
+//    videoIdDealership.addEventListener("timeupdate", function() {
+//        // Calculate the slider value
+//        var value = (100 / videoIdDealership.duration) * videoIdDealership.currentTime;
+//
+//        // Update the slider value
+//        rangeIdSeekBar.value = value;
+//    });
 
     // Event listener for the volume bar
     rangeIdVolumeBar.addEventListener("change", function() {
         // Update the video volume
         videoIdDealership.volume = rangeIdVolumeBar.value;
     });
+
+//    // Pause the video when the seek handle is being dragged
+//    rangeIdSeekBar.addEventListener("mousedown", function() {
+//        videoIdDealership.pause();
+//    });
+//
+//    // Play the video when the seek handle is dropped
+//    rangeIdSeekBar.addEventListener("mouseup", function() {
+//        videoIdDealership.play();
+//    });
 }
