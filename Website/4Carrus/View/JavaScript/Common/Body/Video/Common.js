@@ -2,6 +2,7 @@ divIdMenuVideo=document.getElementById("DivIdMenuVideo");
 divIdMenuVideoHolder=document.getElementById("DivIdMenuVideoHolder");
 
 videoId = document.getElementById("VideoId");
+divIdLogo = document.getElementById("DivIdLogo");
 
 buttonIdPlay = document.getElementById("ButtonIdPlay");
 buttonIdMute = document.getElementById("ButtonIdMute");
@@ -10,7 +11,23 @@ buttonIdSkip = document.getElementById("ButtonIdSkip");
 
 rangeIdVolumeBar = document.getElementById("RangeIdVolumeBar");
 //rangeIdSeekBar = document.getElementById("RangeIdSeekBar");
-        
+
+videoId.oncanplaythrough= function() {
+    if(videoId.canPlayType('video/mp4'+';codecs="'+'avc1.42E01E, mp4a.40.2'+'"')){
+        videoId.play();
+        fadeOut(divIdLogo,4);
+        fadeIn(divIdMenuVideo,4);
+        fadeIn(divIdMenuVideoHolder,4);
+        goBackLeft(divIdMenuVideo,4);
+        goBackLeft(divIdMenuVideoHolder,4);
+    }
+};
+
+function videoLoad(){ 
+    divIdMenuVideo.style.right = -200 + "px";
+    divIdMenuVideoHolder.style.right = -200 + "px";
+}
+
 function enableControls(){ 
     videoId.controls=true;
     videoId.load();
@@ -26,6 +43,7 @@ function checkControls(){
 } 
 
 window.onload = function(){
+    videoLoad();
     // Event listener for the play/pause button
     buttonIdPlay.addEventListener("click", function() {
         if (videoId.paused == true) {
@@ -72,6 +90,14 @@ window.onload = function(){
     });
 
 
+    videoId.addEventListener("ended", function() {
+        fadeOut(videoId,4);
+        audioFadeOut(videoId,4);
+        fadeOut(divIdMenuVideo,4);
+        fadeOut(divIdMenuVideoHolder,4);
+        goRight(divIdMenuVideo,4);
+        goRight(divIdMenuVideoHolder,4);
+    });
 //    // Event listener for the full-screen button
 //    buttonIdfullScreen.addEventListener("click", function() {
 //        if (videoIdDealership.requestFullscreen) {
@@ -216,6 +242,10 @@ function goRight(element,time){
 
 function goLeft(element,time){
     goHorizontal(element,time,0,200,false);
+}
+
+function goBackLeft(element,time){
+    goHorizontal(element,time,-100,0,false);
 }
 
 function goVertical(element,time,initial,end,top){
