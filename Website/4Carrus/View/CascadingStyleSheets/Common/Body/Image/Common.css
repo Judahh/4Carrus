@@ -5,34 +5,6 @@ img{
     top: 0;
 }
 
-#ImgIdCar{
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    position: relative;
-    max-height: 186px;
-    max-width: 290px;
-    float: left;
-    left:0;
-    top:0;
-    border-radius: 15px 15px 15px 15px;
-    opacity: 0.5;
-    box-shadow: 0 0 5px;
-}
-
-#ImgIdCar:hover{
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    border-radius: 0px 0px 0px 0px;
-    opacity: 1;
-    box-shadow: 0 0 5px;
-}
-
 #ImgIdDealership{
     position: absolute;
     float: left;
