@@ -44,7 +44,7 @@
     transition: all 1s;
 }
 
-#DivIdNeon:hover{
+#DivIdNeon:hover, ul li:hover #DivIdNeon #DivIdIcon{
     -webkit-animation: neon 1s ease-in-out infinite alternate;
     -moz-animation: neon 1s ease-in-out infinite alternate;
     -ms-animation: neon 1s ease-in-out infinite alternate;
