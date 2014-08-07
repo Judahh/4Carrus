@@ -10,46 +10,43 @@ img{
     float: left;
     left:0;
     top:0;
+}
+
+#ImgIdLogo{
+    position: absolute;
+    float: left;
+    left:0;
+    top:0;
     
-    -webkit-animation: fade 200s ease-in-out;
-    -moz-animation: fade 200s ease-in-out;
-    -ms-animation: fade 200s ease-in-out;
-    -o-animation: fade 200s ease-in-out;
-    animation: fade 200s ease-in-out;
+    -webkit-animation: fadeOut 5s ease-in-out;
+    -moz-animation: fadeOut 5s ease-in-out;
+    -ms-animation: fadeOut 5s ease-in-out;
+    -o-animation: fadeOut 5s ease-in-out;
+    animation: fadeOut 5s ease-in-out;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes fadeOut {
     0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
+    100% { opacity: 0;}
 }
 
-@-moz-keyframes fade {
+@-moz-keyframes fadeOut {
     0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
+    100% { opacity: 0;}
 }
 
-@-ms-keyframes fade {
+@-ms-keyframes fadeOut {
     0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
+    100% { opacity: 0;}
 }
 
-@-o-keyframes fade {
+@-o-keyframes fadeOut {
     0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
+    100% { opacity: 0;}
 }
 
-@keyframes fade {
+@keyframes fadeOut {
     0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
+    100% { opacity: 0;}
 }
 
