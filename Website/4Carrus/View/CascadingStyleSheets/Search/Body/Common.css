@@ -115,7 +115,10 @@ img{
     animation: fade 200s ease-in-out;
 }
 
-#IframeIdDealership{
+#VideoIdDealership{
+    width: 100%;
+    height: 100%;
+    background: black;
     position: absolute;
     margin: 0;
     padding: 0;
