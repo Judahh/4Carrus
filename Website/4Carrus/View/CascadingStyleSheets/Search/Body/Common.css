@@ -1,20 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 main{
     float: left;
     width: 100%;
     height: 100%;
     top: 100%;
-}
-
-img{
-    position: relative;
-    width: 100%;
-    height: auto;
-    top: 0;
 }
 
 #DivIdBodyHolder {
@@ -74,59 +62,6 @@ img{
     /*background-color: green;*/
 }
 
-#ImgIdCar{
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    position: relative;
-    max-height: 186px;
-    max-width: 290px;
-    float: left;
-    left:0;
-    top:0;
-    border-radius: 15px 15px 15px 15px;
-    opacity: 0.5;
-    box-shadow: 0 0 5px;
-}
-
-#ImgIdCar:hover{
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    border-radius: 0px 0px 0px 0px;
-    opacity: 1;
-    box-shadow: 0 0 5px;
-}
-
-#ImgIdDealership{
-    position: absolute;
-    float: left;
-    left:0;
-    top:0;
-    
-    -webkit-animation: fade 200s ease-in-out;
-    -moz-animation: fade 200s ease-in-out;
-    -ms-animation: fade 200s ease-in-out;
-    -o-animation: fade 200s ease-in-out;
-    animation: fade 200s ease-in-out;
-}
-
-#VideoIdDealership{
-    width: 100%;
-    height: 100%;
-    background: black;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    float: left;
-    left:0;
-    top:0;
-}
-
 #DivIdLogoCar{
     position: relative;
     float: left;
@@ -135,39 +70,4 @@ img{
     color: red;
     width: 0px;
     height: 0px;
-}
-
-@-webkit-keyframes fade {
-    0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-moz-keyframes fade {
-    0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-ms-keyframes fade {
-    0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-o-keyframes fade {
-    0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes fade {
-    0%   { opacity: 1;}
-    2%   { opacity: 0;}
-    98%   { opacity: 0;}
-    100% { opacity: 1;}
 }

@@ -4,10 +4,14 @@
         <title>4Carrus</title>
         <meta content="text/html" charset="UTF-8"/>
         
+        <link href="View/CascadingStyleSheets/Search/Body/Common.css" rel="stylesheet" media="all">
+        
         <link href="View/CascadingStyleSheets/Common/Header/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Common.css" rel="stylesheet" media="all">
-        <link href="View/CascadingStyleSheets/Search/Body/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Common/Common.css" rel="stylesheet" media="all">
+        
+        <link href="View/CascadingStyleSheets/Common/Body/Image/Common.css" rel="stylesheet" media="all">
+        <link href="View/CascadingStyleSheets/Common/Body/Video/Common.css" rel="stylesheet" media="all">
         
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
@@ -202,4 +206,6 @@
             </ul>
         </div>
     </footer>
+    
+    <script src="View/JavaScript/Common/Body/Video/Common.js"></script>
 </html>
