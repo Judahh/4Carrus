@@ -1,19 +1,23 @@
 #DivIdSubMenuVideoHolder{
     position: absolute;
     float: left;
-    left:19px;
-    padding: 0 0 0 14px;
+    left:35px;
+    padding: 0;
     top: -42px;
+    left: -92px;
     height: 45px;
-    width: 100%;
+    width: 130px;
 }
 
 #DivIdSubMenuVideoHolder2{
     position: absolute;
     float: left;
-    left:19px;
-    padding: 0 0 0 24px;
+    left:35px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     top: -38px;
+    left: -92px;
     height: 45px;
-    width: 100%;
+    width: 130px;
 }
