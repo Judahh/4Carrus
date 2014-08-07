@@ -19,6 +19,7 @@ input{
 input[type='range'] {
     -webkit-appearance: none;
     background-color: dodgerblue;
+    border: 1px white;
     opacity: 0.7;
     height: 10px;
     vertical-align: middle;
@@ -41,6 +42,7 @@ input[type='range']:hover {
 input[type='range']::-moz-range-track {
     -moz-appearance: none;
     background-color: dodgerblue;
+    border: 1px white;
     opacity: 0.7;
     height: 10px;
     -webkit-transition: all 1s;
@@ -62,6 +64,7 @@ input[type='range']::-moz-range-track:hover {
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none !important;
     background-color: white;
+    border: 1px dodgerblue;
     height: 20px;
     width: 10px;
     -webkit-transition: all 1s;
@@ -82,6 +85,7 @@ input[type='range']::-webkit-slider-thumb:hover {
 input[type='range']::-moz-range-thumb {
     -moz-appearance: none;
     background-color: white;
+    border: 1px dodgerblue;
     height: 20px;
     width: 10px;
     -webkit-transition: all 1s;
@@ -94,6 +98,7 @@ input[type='range']::-moz-range-thumb {
 input[type='range']::-moz-range-thumb:hover {
     -moz-appearance: none;
     background-color: white;
+    border: 1px dodgerblue;
     height: 20px;
     width: 10px;
     -webkit-transition: all 1s;
@@ -113,6 +118,7 @@ button, button:active, button:after, button:before {
 #DivIdText{
     cursor: pointer;
     font-family: "Arial", cursive;
+    font-weight:bold;
     font-size: 16px;
 }
 
@@ -131,13 +137,15 @@ button, button:active, button:after, button:before {
     opacity: 0.5;*/
     border-color: white;
     border-color: rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 5px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 5px rgba(0, 0, 0, 0.5);
 }
 
 #DivIdNeon{
-    text-shadow: 0 0 1px #3A9DFC;
     color: dodgerblue;
+    
+    /*text-shadow: -1px 0 1px #9CCEFF, 0 1px 1px #9CCEFF, 1px 0 1px #9CCEFF, 0 -1px 1px #9CCEFF;*/
+
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
