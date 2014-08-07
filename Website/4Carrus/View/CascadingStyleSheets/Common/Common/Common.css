@@ -9,6 +9,13 @@
     padding: 0;
 }
 
+button, button:active, button:after, button:before {
+    background: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
 #DivIdText{
     cursor: pointer;
     font-family: "Arial", cursive;
