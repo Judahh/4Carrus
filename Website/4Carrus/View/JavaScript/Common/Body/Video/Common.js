@@ -42,6 +42,23 @@ function checkControls(){
     alert(videoId.controls);
 } 
 
+function updateVolume(){
+    if(videoId.volume>2/3){
+        buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">s</div></div>";
+    }else{
+        if(videoId.volume>1/3){
+            buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">t</div></div>";
+        }else{
+            if(videoId.volume>0){
+                buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">u</div></div>";
+            }else{
+                buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">v</div></div>";
+            }
+        }
+    }
+        
+} 
+
 window.onload = function(){
     videoLoad();
     // Event listener for the play/pause button
@@ -51,13 +68,13 @@ window.onload = function(){
                 videoId.play();
 
                 // Update the button text to 'Pause'
-                buttonIdPlay.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">S</div></div>";
+                buttonIdPlay.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">r</div></div>";
         } else {
                 // Pause the video
                 videoId.pause();
 
                 // Update the button text to 'Play'
-                buttonIdPlay.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">P</div></div>";
+                buttonIdPlay.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">p</div></div>";
         }
     });
 
@@ -69,13 +86,13 @@ window.onload = function(){
                 videoId.muted = true;
 
                 // Update the button text
-                buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">U</div></div>";
+                buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">w</div></div>";
         } else {
                 // Unmute the video
                 videoId.muted = false;
 
                 // Update the button text
-                buttonIdMute.innerHTML = "<div id=\"DivIdNeon\"><div id=\"DivIdIcon\">M</div></div>";
+                updateVolume();
         }
     });
     
@@ -133,6 +150,7 @@ window.onload = function(){
     rangeIdVolumeBar.addEventListener("change", function() {
         // Update the video volume
         videoId.volume = rangeIdVolumeBar.value;
+        updateVolume();
     });
 
 //    // Pause the video when the seek handle is being dragged

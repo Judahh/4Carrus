@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "FontHeader";
-    src: url("../../../Fonts/CarPart.otf");
-    src: url("../../../Fonts/CarPart.woff");
+    font-family: "FontIcon";
+    src: url("../../../Fonts/BlueLionIcons.otf");
+    src: url("../../../Fonts/BlueLionIcons.woff");
 }
 
 *{
@@ -124,9 +124,9 @@ button, button:active, button:after, button:before {
 
 #DivIdIcon{
     cursor: pointer;
-    font-family: "FontHeader", cursive;
+    font-family: "FontIcon", cursive;
     padding: 8px;
-    font-size: 16px;
+    font-size: 34px;
 }
 
 #DivIdGlass{

@@ -5,19 +5,19 @@
         <meta content="text/html" charset="UTF-8"/>
         
         <link href="View/CascadingStyleSheets/Search/Body/Common.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Header/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Common/Common.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Body/Image/Common.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Body/Video/Common.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptionsHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearchHolder.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearch/SubMenuSearch.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuSearch/SubMenuSearchHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions/SubMenuNotifications.css" rel="stylesheet" media="all">
@@ -28,16 +28,16 @@
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions/SubMenuApplicationsHolder.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions/SubMenuUser.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Header/Menu/MenuOptions/SubMenuUserHolder.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuVideo.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuVideoHolder.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuVideo/SubMenuVideo.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuVideo/SubMenuVideoHolder.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformation.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformationHolder.css" rel="stylesheet" media="all">
-
+        
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformation/SubMenuInformation.css" rel="stylesheet" media="all">
         <link href="View/CascadingStyleSheets/Common/Footer/Menu/MenuInformation/SubMenuInformationHolder.css" rel="stylesheet" media="all">
     </head>
@@ -51,7 +51,7 @@
                 <ul>
                     <li>
                         <div id="DivIdNeon">
-                            <div id="DivIdIcon">'</div>
+                            <div id="DivIdIcon">S</div>
                         </div>
                         <div id="DivIdSubMenuSearch">
                             <ul>
@@ -74,7 +74,7 @@
             </div>
             <div id="DivIdMenuOptions">
                 <ul>
-                    <li><div id="DivIdNeon"><div id="DivIdIcon">›</div></div>
+                    <li><div id="DivIdNeon"><div id="DivIdIcon">T</div></div>
 
                         <div id="DivIdSubMenuNotifications">
                             <ul>
@@ -90,7 +90,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li><div id="DivIdNeon"><div id="DivIdIcon">¥</div></div>
+                    <li><div id="DivIdNeon"><div id="DivIdIcon">X</div></div>
                         <div id="DivIdSubMenuSettings">
                             <ul>
                                 <div id="DivIdSubMenuSettingsHolder">
@@ -106,7 +106,7 @@
                         </div>
                     </li>
                     <li><div id="DivIdNeon">
-                            <div id="DivIdIcon">U</div>
+                            <div id="DivIdIcon">Y</div>
                         </div>
                         <div id="DivIdSubMenuApplications">
                             <ul>
@@ -120,7 +120,7 @@
                         </div>
                     </li>
                     <li><div id="DivIdNeon">
-                            <div id="DivIdIcon">t</div>
+                            <div id="DivIdIcon">A</div>
                         </div>
                         <div id="DivIdSubMenuUser">
                             <ul>
@@ -196,7 +196,7 @@
             <ul>
                 <li>
                     <div id="DivIdNeon">
-                        <div id="DivIdIcon">‚</div>
+                        <div id="DivIdIcon">I</div>
                     </div>
 
                     <div id="DivIdSubMenuInformation">
@@ -222,7 +222,7 @@
                 <li>
                     <button type="button" id="ButtonIdPlay">
                         <div id="DivIdNeon">
-                            <div id="DivIdIcon">S</div>
+                            <div id="DivIdIcon">r</div>
                         </div>
                     </button>
                 <li>
@@ -230,7 +230,7 @@
                 <li>
                     <button type="button" id="ButtonIdMute">
                         <div id="DivIdNeon">
-                            <div id="DivIdIcon">M</div>
+                            <div id="DivIdIcon">s</div>
                         </div>
                     </button>
                     
@@ -248,7 +248,7 @@
                 <li>
                     <button type="button" id="ButtonIdSkip">
                         <div id="DivIdNeon">
-                            <div id="DivIdIcon">D</div>
+                            <div id="DivIdIcon">q</div>
                         </div>
                     </button>
                 </li>
