@@ -29,7 +29,7 @@
       <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="147" selection-end="3528" vertical-scroll-proportion="0.0953271" vertical-offset="51" max-vertical-offset="4471">
+            <state line="192" column="18" selection-start="10491" selection-end="10491" vertical-scroll-proportion="0.73477405" vertical-offset="2890" max-vertical-offset="4607">
               <folding />
             </state>
           </provider>
@@ -56,10 +56,10 @@
       <file leaf-file-name="Common.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="3" selection-start="4235" selection-end="4249" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="5916">
+            <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="5916">
               <folding>
-                <marker date="1407435449603" expanded="true" signature="4092:4225" placeholder="{...}" />
-                <marker date="1407435449603" expanded="true" signature="4279:4406" placeholder="{...}" />
+                <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
+                <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,7 +68,7 @@
       <file leaf-file-name="Common.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1802">
+            <state line="95" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
       <file leaf-file-name="MenuSearch.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+            <state line="22" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -567,7 +567,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -620,8 +620,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
           <folding>
-            <marker date="1407435449603" expanded="true" signature="4092:4225" placeholder="{...}" />
-            <marker date="1407435449603" expanded="true" signature="4279:4406" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -672,8 +672,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
           <folding>
-            <marker date="1407435449603" expanded="true" signature="4092:4225" placeholder="{...}" />
-            <marker date="1407435449603" expanded="true" signature="4279:4406" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -724,8 +724,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
           <folding>
-            <marker date="1407435449603" expanded="true" signature="4092:4225" placeholder="{...}" />
-            <marker date="1407435449603" expanded="true" signature="4279:4406" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -925,17 +925,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1802">
+        <state line="95" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="3" selection-start="4235" selection-end="4249" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="5916">
+        <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="5916">
           <folding>
-            <marker date="1407435449603" expanded="true" signature="4092:4225" placeholder="{...}" />
-            <marker date="1407435449603" expanded="true" signature="4279:4406" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -956,14 +956,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+        <state line="22" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="147" selection-end="3528" vertical-scroll-proportion="0.0953271" vertical-offset="51" max-vertical-offset="4471">
+        <state line="192" column="18" selection-start="10491" selection-end="10491" vertical-scroll-proportion="0.73477405" vertical-offset="2890" max-vertical-offset="4607">
           <folding />
         </state>
       </provider>
