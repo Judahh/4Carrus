@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" afterPath="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/UserSignUp.html" afterPath="$PROJECT_DIR$/Website/4Carrus/UserSignUp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IndexPage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="18" selection-start="10491" selection-end="10491" vertical-scroll-proportion="0.73477405" vertical-offset="2890" max-vertical-offset="4607">
+            <state line="187" column="15" selection-start="10394" selection-end="10394" vertical-scroll-proportion="-15.5" vertical-offset="2776" max-vertical-offset="4505">
               <folding />
             </state>
           </provider>
@@ -38,37 +39,16 @@
       <file leaf-file-name="UserSignUp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="47" selection-start="1582" selection-end="3682" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1683">
+            <state line="135" column="12" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-23.192308" vertical-offset="1692" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessSignUp.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BusinessSignUp.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="46" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1241">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Common.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="5916">
-              <folding>
-                <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
-                <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Common.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1887">
+            <state line="65" column="38" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.8804921" vertical-offset="604" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -77,7 +57,7 @@
       <file leaf-file-name="MenuSearch.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state line="22" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -143,11 +123,11 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Footer/Menu/MenuInformation/SubMenuInformationHolder.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/UserSignUp.html" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/UserSignUp.html" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" />
       </list>
     </option>
   </component>
@@ -282,218 +262,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CascadingStyleSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Body" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CascadingStyleSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CascadingStyleSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Footer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CascadingStyleSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Footer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CascadingStyleSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Footer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MenuInformation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CascadingStyleSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -583,11 +351,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57326895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57326895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -620,8 +388,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
           <folding>
-            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
-            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -672,8 +440,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
           <folding>
-            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
-            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -724,8 +492,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063">
           <folding>
-            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
-            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -925,32 +693,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1887">
+        <state line="95" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.5261324" vertical-offset="1313" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="5916">
+        <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.057142857" vertical-offset="3009" max-vertical-offset="5916">
           <folding>
-            <marker date="1407502443826" expanded="true" signature="4100:4233" placeholder="{...}" />
-            <marker date="1407502443826" expanded="true" signature="4287:4414" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1407502443826" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.0" vertical-offset="238" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="47" selection-start="1582" selection-end="3682" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1683">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +717,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="18" selection-start="10491" selection-end="10491" vertical-scroll-proportion="0.73477405" vertical-offset="2890" max-vertical-offset="4607">
+        <state line="187" column="15" selection-start="10394" selection-end="10394" vertical-scroll-proportion="-15.5" vertical-offset="2776" max-vertical-offset="4505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="12" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-23.192308" vertical-offset="1692" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="38" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.8804921" vertical-offset="604" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
