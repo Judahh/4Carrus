@@ -39,7 +39,7 @@
       <file leaf-file-name="UserSignUp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="12" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-23.192308" vertical-offset="1692" max-vertical-offset="2465">
+            <state line="133" column="13" selection-start="2102" selection-end="4866" vertical-scroll-proportion="-16.653847" vertical-offset="1828" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="BusinessSignUp.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="38" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.8804921" vertical-offset="604" max-vertical-offset="1241">
+            <state line="83" column="0" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.23901582" vertical-offset="1275" max-vertical-offset="2448">
               <folding />
             </state>
           </provider>
@@ -335,7 +335,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -724,14 +724,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="12" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-23.192308" vertical-offset="1692" max-vertical-offset="2465">
+        <state line="133" column="13" selection-start="2102" selection-end="4866" vertical-scroll-proportion="-16.653847" vertical-offset="1828" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="38" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.8804921" vertical-offset="604" max-vertical-offset="1241">
+        <state line="83" column="0" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.23901582" vertical-offset="1275" max-vertical-offset="2448">
           <folding />
         </state>
       </provider>
