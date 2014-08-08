@@ -20,6 +20,9 @@ videoId.oncanplaythrough= function() {
         fadeIn(divIdMenuVideoHolder,2);
         goBackLeft(divIdMenuVideo,2);
         goBackLeft(divIdMenuVideoHolder,2);
+    }else{
+        fadeOut(videoId,4);
+        fadeOut(divIdLogo,4);
     }
 };
 
