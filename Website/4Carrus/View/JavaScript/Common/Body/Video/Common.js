@@ -16,10 +16,10 @@ videoId.oncanplaythrough= function() {
     if(videoId.canPlayType('video/mp4'+';codecs="'+'avc1.42E01E, mp4a.40.2'+'"')){
         videoId.play();
         fadeOut(divIdLogo,4);
-        fadeIn(divIdMenuVideo,4);
-        fadeIn(divIdMenuVideoHolder,4);
-        goBackLeft(divIdMenuVideo,4);
-        goBackLeft(divIdMenuVideoHolder,4);
+        fadeIn(divIdMenuVideo,2);
+        fadeIn(divIdMenuVideoHolder,2);
+        goBackLeft(divIdMenuVideo,2);
+        goBackLeft(divIdMenuVideoHolder,2);
     }
 };
 
@@ -100,20 +100,20 @@ window.onload = function(){
     buttonIdSkip.addEventListener("click", function() {
         fadeOut(videoId,4);
         audioFadeOut(videoId,4);
-        fadeOut(divIdMenuVideo,4);
-        fadeOut(divIdMenuVideoHolder,4);
-        goRight(divIdMenuVideo,4);
-        goRight(divIdMenuVideoHolder,4);
+        fadeOut(divIdMenuVideo,2);
+        fadeOut(divIdMenuVideoHolder,2);
+        goRight(divIdMenuVideo,2);
+        goRight(divIdMenuVideoHolder,2);
     });
 
 
     videoId.addEventListener("ended", function() {
         fadeOut(videoId,4);
         audioFadeOut(videoId,4);
-        fadeOut(divIdMenuVideo,4);
-        fadeOut(divIdMenuVideoHolder,4);
-        goRight(divIdMenuVideo,4);
-        goRight(divIdMenuVideoHolder,4);
+        fadeOut(divIdMenuVideo,2);
+        fadeOut(divIdMenuVideoHolder,2);
+        goRight(divIdMenuVideo,2);
+        goRight(divIdMenuVideoHolder,2);
     });
 //    // Event listener for the full-screen button
 //    buttonIdfullScreen.addEventListener("click", function() {

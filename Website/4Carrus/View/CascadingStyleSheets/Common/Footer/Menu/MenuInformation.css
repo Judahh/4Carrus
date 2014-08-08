@@ -5,6 +5,12 @@
     padding: 0 0 0 12px;
     float: left;
     height: 100%;
+    
+    -webkit-animation: goRight 2s ease-in-out;
+    -moz-animation: goRight 2s ease-in-out;
+    -ms-animation: goRight 2s ease-in-out;
+    -o-animation: goRight 2s ease-in-out;
+    animation: goRight 2s ease-in-out;
 }
 
 #DivIdMenuInformation ul ul{
@@ -32,4 +38,59 @@
     -ms-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
+}
+
+@-webkit-keyframes goRight {
+    from {
+        left: -100px;
+        opacity:0;
+    }
+    to {
+        left: 0;
+        opacity:1;
+    }
+}
+
+@-moz-keyframes goRight {
+    from {
+        left: -100px;
+        opacity:0;
+    }
+    to {
+        left: 0;
+        opacity:1;
+    }
+}
+
+@-ms-keyframes goRight {
+    from {
+        left: -100px;
+        opacity:0;
+    }
+    to {
+        left: 0;
+        opacity:1;
+    }
+}
+
+@-o-keyframes goRight {
+    from {
+        left: -100px;
+        opacity:0;
+    }
+    to {
+        left: 0;
+        opacity:1;
+    }
+}
+
+@keyframes goRight {
+    from {
+        left: -100px;
+        opacity:0;
+    }
+    to {
+        left: 0;
+        opacity:1;
+    }
 }
