@@ -257,4 +257,5 @@
     </footer>
     
     <script src="View/JavaScript/Common/Body/Video/Common.js"></script>
+    <script src="View/JavaScript/Common/Body/PopUp/Common.js"></script>
 </html>
