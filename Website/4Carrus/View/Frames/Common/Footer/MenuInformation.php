@@ -1,0 +1,24 @@
+<div id="DivIdMenuInformationHolder">
+    <div id="DivIdGlass"></div>
+</div>
+<div id="DivIdMenuInformation">
+    <ul>
+        <li>
+            <div id="DivIdNeon">
+                <div id="DivIdIcon">I</div>
+            </div>
+
+            <div id="DivIdSubMenuInformation">
+                <ul>
+                    <div id="DivIdSubMenuInformationHolder">
+                        <div id="DivIdGlass"></div>
+                    </div>
+                    <div id="DivIdSubMenuInformationHolder2">
+                        <li><div id="DivIdNeon"><div id="DivIdIcon">9</div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdIcon">?</div></div></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
