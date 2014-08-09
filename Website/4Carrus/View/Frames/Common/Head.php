@@ -2,7 +2,7 @@
     <title>4Carrus</title>
     <meta content="text/html" charset="UTF-8"/>
 
-    <link href="View/CascadingStyleSheets/Search/Body/Common.css" rel="stylesheet" media="all">
+    <link href="View/CascadingStyleSheets/Common/Body/Search/Common.css" rel="stylesheet" media="all">
 
     <link href="View/CascadingStyleSheets/Common/Header/Common.css" rel="stylesheet" media="all">
     <link href="View/CascadingStyleSheets/Common/Footer/Common.css" rel="stylesheet" media="all">
