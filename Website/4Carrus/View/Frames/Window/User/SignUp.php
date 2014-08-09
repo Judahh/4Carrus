@@ -1,8 +1,3 @@
-<head>
-    <title>User Sign Up</title>
-    <meta content="text/html" charset="UTF-8"/>
-</head>
-<body>
 <form method="post" id="FormIdentificationUserSignUp" >
     <table id="TableIdUserSingUp">
         <tr>

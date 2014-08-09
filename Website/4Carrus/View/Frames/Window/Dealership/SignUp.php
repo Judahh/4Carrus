@@ -1,8 +1,3 @@
-<head>
-    <title>Cadastro de Empresas</title>
-    <meta content="text/html" charset="UTF-8"/>
-</head>
-<body>
 <table id="TableIdBusinessSingUp">
     <tr>
         <td><label for="InputIdFantasyName">Nome Fantasia:</label></td>
@@ -105,41 +100,4 @@
         <td><label for="InputIdEmail">E-Mail:</label></td>
         <td><input type="email" id="InputIdEmail"></td>
     </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
 </table>
-</body>
-</html>
