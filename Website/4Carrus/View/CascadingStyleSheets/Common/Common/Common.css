@@ -153,7 +153,7 @@ button, button:active, button:after, button:before {
     transition: all 1s;
 }
 
-#DivIdNeon:hover, ul li:hover #DivIdNeon #DivIdIcon{
+#DivIdNeon:hover, ul li:hover #DivIdNeon #DivIdMenuItem{
     -webkit-animation: neon 1s ease-in-out infinite alternate;
     -moz-animation: neon 1s ease-in-out infinite alternate;
     -ms-animation: neon 1s ease-in-out infinite alternate;

@@ -1,5 +1,5 @@
 <body>
     <?php
-        include 'View/Frames/Search/Body/Common.php';
+        include 'Body/Search/Common.php';
     ?>
 </body>

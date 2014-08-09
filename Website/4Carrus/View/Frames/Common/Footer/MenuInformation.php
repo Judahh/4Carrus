@@ -5,7 +5,7 @@
     <ul>
         <li>
             <div id="DivIdNeon">
-                <div id="DivIdIcon">I</div>
+                <div id="DivIdMenuItem"><div id="DivIdIcon">I</div></div>
             </div>
 
             <div id="DivIdSubMenuInformation">
