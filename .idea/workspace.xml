@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b809f858-9973-442d-8297-06ed310e5441" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" afterPath="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
+>>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -29,7 +34,94 @@
       <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="187" column="15" selection-start="10394" selection-end="10394" vertical-scroll-proportion="0.72482014" vertical-offset="2776" max-vertical-offset="4505">
+=======
+            <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="0.018952062" vertical-offset="0" max-vertical-offset="897">
+>>>>>>> origin/master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Common.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Search/Body/Common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="12" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuVideo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer/MenuVideo.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="133" column="13" selection-start="2102" selection-end="4866" vertical-scroll-proportion="0.0" vertical-offset="2261" max-vertical-offset="2465">
+=======
+            <state line="39" column="6" selection-start="1179" selection-end="1179" vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="782">
+>>>>>>> origin/master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="BusinessSignUp.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="57" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-52.96154" vertical-offset="0" max-vertical-offset="2584">
+=======
+      <file leaf-file-name="MenuInformation.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer/MenuInformation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="6" selection-start="770" selection-end="770" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="510">
+>>>>>>> origin/master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="9" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuOptions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/MenuOptions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="6" selection-start="3013" selection-end="3013" vertical-scroll-proportion="-43.807693" vertical-offset="0" max-vertical-offset="1241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuSearch.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/MenuSearch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="6" selection-start="962" selection-end="962" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -38,34 +130,7 @@
       <file leaf-file-name="UserSignUp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="13" selection-start="2102" selection-end="4866" vertical-scroll-proportion="0.0" vertical-offset="2261" max-vertical-offset="2465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessSignUp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="57" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-52.96154" vertical-offset="0" max-vertical-offset="2584">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuSearch.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexPage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="14" selection-start="4191" selection-end="4191" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="4505">
+            <state line="139" column="7" selection-start="4879" selection-end="4905" vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
@@ -84,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Header.php" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Style.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/StyleCommon.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Basic/Element.php" />
         <option value="$PROJECT_DIR$/Website/teste1.html" />
@@ -124,18 +187,28 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Body/Main.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/UserSignUp.html" />
         <option value="$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/IndexPage.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/head.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/MenuSearch.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/MenuOptions.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/header.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer/MenuVideo.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer/MenuInformation.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/footer.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Search/Body/Common.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Wamp PHP 5.5.12" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP_5.5.12" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -257,7 +330,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Frames" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Body" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,29 +431,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/www/LetsDateNEW" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHP/php5.5.12" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Footer" />
+      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Header" />
       <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header" />
       <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Search\Body" />
+      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common" />
       <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\Carros" />
       <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Header\Menu" />
       <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Basic\DeclarationSpecifics" />
-      <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View" />
-      <recent name="C:\Users\Tarciso Torres\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.IndexPage.php">
+    <configuration default="false" name="IndexPage.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/4Carrus/Website/4Carrus/IndexPage.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -301,10 +472,17 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="aa9fa3cc-9b8f-4007-91ce-33303cc22df5" server_name="WampApache">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.IndexPage.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.IndexPage.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -333,7 +511,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -342,8 +520,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27452415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27447918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57326895" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -378,31 +556,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1241">
+        <state line="138" column="0" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="2448">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063" />
+=======
+        <state line="181" column="7" selection-start="9451" selection-end="9451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
+          <folding />
+        </state>
+>>>>>>> origin/master
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="75" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2992" />
+=======
+        <state line="86" column="7" selection-start="2102" selection-end="3216" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="1564">
+          <folding />
+        </state>
+>>>>>>> origin/master
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="663">
+        <state line="8" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="14" selection-start="3300" selection-end="3300" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3536">
+        <state line="14" column="46" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
@@ -428,6 +618,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063" />
@@ -452,6 +643,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="75" selection-start="8178" selection-end="8178" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3451">
@@ -473,6 +666,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="4" selection-start="1751" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4063" />
@@ -497,6 +691,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="12" selection-start="8153" selection-end="8153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
@@ -518,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="43" selection-start="8066" selection-end="8066" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
@@ -535,13 +724,6 @@
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="96" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
           <folding />
         </state>
       </provider>
@@ -657,52 +839,112 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch/SubMenuSearch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="14" selection-start="4191" selection-end="4191" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="4505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Search/Body/Common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.5261324" vertical-offset="1313" max-vertical-offset="1887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.057142857" vertical-offset="3009" max-vertical-offset="5916" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Header/Menu/MenuSearch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="13" selection-start="2102" selection-end="4866" vertical-scroll-proportion="0.0" vertical-offset="2261" max-vertical-offset="2465">
+        <state line="139" column="7" selection-start="4879" selection-end="4905" vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="0" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Head.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="95" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.5261324" vertical-offset="1313" max-vertical-offset="1887" />
+=======
+        <state line="40" column="7" selection-start="3368" selection-end="3368" vertical-scroll-proportion="0.7580825" vertical-offset="0" max-vertical-offset="897">
+          <folding />
+        </state>
+>>>>>>> origin/master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/MenuSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="179" column="3" selection-start="4243" selection-end="4257" vertical-scroll-proportion="0.057142857" vertical-offset="3009" max-vertical-offset="5916" />
+=======
+        <state line="24" column="6" selection-start="962" selection-end="962" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+>>>>>>> origin/master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header/MenuOptions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="6" selection-start="3013" selection-end="3013" vertical-scroll-proportion="-43.807693" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/UserSignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="13" selection-start="2102" selection-end="4866" vertical-scroll-proportion="0.0" vertical-offset="2261" max-vertical-offset="2465">
+=======
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/BusinessSignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="57" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-52.96154" vertical-offset="0" max-vertical-offset="2584">
+=======
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="15" selection-start="10394" selection-end="10394" vertical-scroll-proportion="0.72482014" vertical-offset="2776" max-vertical-offset="4505">
+=======
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer/MenuInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="6" selection-start="770" selection-end="770" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Footer/MenuVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="6" selection-start="1179" selection-end="1179" vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Search/Body/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="15" selection-start="10394" selection-end="10394" vertical-scroll-proportion="0.72482014" vertical-offset="2776" max-vertical-offset="4505">
+        <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="0.018952062" vertical-offset="0" max-vertical-offset="897">
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
