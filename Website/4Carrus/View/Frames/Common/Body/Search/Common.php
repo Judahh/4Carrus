@@ -1,8 +1,8 @@
 <main>
     <div id="DivIdTable">
         <?php
-        for($index=0; $index<10; $index++){
-            ?>
+            for($index=0; $index<10; $index++){
+        ?>
 
             <div id="DivIdTableRow">
                 <div id="DivIdTableRowWrap">
@@ -27,7 +27,7 @@
             </div>
 
         <?php
-        }
+            }
         ?>
     </div>
 </main>
