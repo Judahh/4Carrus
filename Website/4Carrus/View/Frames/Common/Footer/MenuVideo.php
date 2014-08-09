@@ -14,7 +14,9 @@
         <li>
             <button type="button" id="ButtonIdMute">
                 <div id="DivIdNeon">
-                    <div id="DivIdIcon">s</div>
+                    <div id="DivIdMenuItem">
+                        <div id="DivIdIcon">s</div>
+                    </div>
                 </div>
             </button>
 

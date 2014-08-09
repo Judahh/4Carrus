@@ -3,7 +3,12 @@
 </div>
 <div id="DivIdMenuOptions">
     <ul>
-        <li><div id="DivIdNeon"><div id="DivIdIcon">T</div></div>
+        <li>
+            <div id="DivIdNeon">
+                <div id="DivIdMenuItem">
+                    <div id="DivIdIcon">T</div>
+                </div>
+            </div>
 
             <div id="DivIdSubMenuNotifications">
                 <ul>
@@ -19,7 +24,12 @@
                 </ul>
             </div>
         </li>
-        <li><div id="DivIdNeon"><div id="DivIdIcon">X</div></div>
+        <li>
+            <div id="DivIdNeon">
+                <div id="DivIdMenuItem">
+                    <div id="DivIdIcon">X</div>
+                </div>
+            </div>
             <div id="DivIdSubMenuSettings">
                 <ul>
                     <div id="DivIdSubMenuSettingsHolder">
@@ -34,8 +44,11 @@
                 </ul>
             </div>
         </li>
-        <li><div id="DivIdNeon">
-                <div id="DivIdIcon">Y</div>
+        <li>
+            <div id="DivIdNeon">
+                <div id="DivIdMenuItem">
+                    <div id="DivIdIcon">Y</div>
+                </div>
             </div>
             <div id="DivIdSubMenuApplications">
                 <ul>
@@ -48,8 +61,11 @@
                 </ul>
             </div>
         </li>
-        <li><div id="DivIdNeon">
-                <div id="DivIdIcon">A</div>
+        <li>
+            <div id="DivIdNeon">
+                <div id="DivIdMenuItem">
+                    <div id="DivIdIcon">A</div>
+                </div>
             </div>
             <div id="DivIdSubMenuUser">
                 <ul>
