@@ -1,7 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-
-
     <?php
         include 'View/Frames/Common/Head.php';
         include 'View/Frames/Common/Header.php';
