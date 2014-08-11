@@ -1,5 +1,7 @@
 <form method="post" id="FormIdentificationUserSignUp" >
-    <table id="TableIdUserSingUp">
+    <ol>
+
+    </ol>
         <tr>
             <td><label for="InputTextIDNamePerson">Nome Completo:</label></td>
             <td><input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true"></td>
