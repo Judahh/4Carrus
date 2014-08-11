@@ -68,7 +68,6 @@
     <ul>
         <li>Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></li>
         <li>Concordo em receber comunicações do 4Carrus e posso mudar minhas preferências de notificação em Meu 4Carrus.</li>
-        <li>Tenho, no mínimo, 18 anos de idade.</li>
     </ul>
 
     <input type="button" value="Enviar" id="InputIdButtonEnviar">
