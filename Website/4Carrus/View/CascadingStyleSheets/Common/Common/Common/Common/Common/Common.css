@@ -1,0 +1,343 @@
+@font-face {
+    font-family: "FontIcon";
+    src: url("../../../../../../Fonts/BlueLionIcons.otf");
+    src: url("../../../../../../Fonts/BlueLionIcons.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+
+input[type='range'] {
+    -webkit-appearance: none;
+    background-color: dodgerblue;
+    border: 1px white;
+    opacity: 0.7;
+    height: 10px;
+    vertical-align: middle;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']:hover {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-moz-range-track {
+    -moz-appearance: none;
+    background-color: dodgerblue;
+    border: 1px white;
+    opacity: 0.7;
+    height: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-moz-range-track:hover {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: white;
+    border: 1px dodgerblue;
+    height: 20px;
+    width: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-moz-range-thumb {
+    -moz-appearance: none;
+    background-color: white;
+    border: 1px dodgerblue;
+    height: 20px;
+    width: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+input[type='range']::-moz-range-thumb:hover {
+    -moz-appearance: none;
+    background-color: white;
+    border: 1px dodgerblue;
+    height: 20px;
+    width: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+button, button:active, button:after, button:before {
+    background: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+#DivIdText{
+    cursor: pointer;
+    font-family: "Arial", cursive;
+    font-weight:bold;
+    font-size: 16px;
+}
+
+#DivIdIcon{
+    cursor: pointer;
+    font-family: "FontIcon", cursive;
+    padding: 8px;
+    font-size: 34px;
+}
+
+#DivIdGlass{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid;
+    opacity: 0.5;*/
+    border-color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 5px rgba(0, 0, 0, 0.5);
+}
+
+#DivIdNeon{
+    color: dodgerblue;
+    
+    /*text-shadow: -1px 0 1px #9CCEFF, 0 1px 1px #9CCEFF, 1px 0 1px #9CCEFF, 0 -1px 1px #9CCEFF;*/
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#DivIdNeon:hover, ul li:hover #DivIdNeon #DivIdMenuItem{
+    -webkit-animation: neon 1s ease-in-out infinite alternate;
+    -moz-animation: neon 1s ease-in-out infinite alternate;
+    -ms-animation: neon 1s ease-in-out infinite alternate;
+    -o-animation: neon 1s ease-in-out infinite alternate;
+    animation: neon 1s ease-in-out infinite alternate;
+    color:white;
+    text-shadow: 0 0 2px #9CCEFF,
+    0 0 4px  #9CCEFF,
+    0 0 6px  #9CCEFF,
+    0 0 8px  dodgerblue,
+    0 0 10px  dodgerblue,
+    0 0 12px  dodgerblue,
+    0 0 14px  dodgerblue,
+    0 0 16px  dodgerblue,
+    0 0 18px  dodgerblue,
+    0 0 20px  dodgerblue;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+ul li{
+    float: left;
+    display: block;
+    position: relative;
+}
+
+ul ul{
+    display: none;
+    opacity:0;
+    position: absolute;
+    width: 160px;
+    height: auto;
+}
+
+ul li:hover ul{
+    opacity:1;
+    display: block;
+    position: absolute;
+}
+
+ul li ul li {
+    width: 130px;
+}
+
+@-webkit-keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}
+
+@-moz-keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}
+
+@-ms-keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}
+
+@-o-keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 1px #9CCEFF,
+        0 0 2px #9CCEFF,
+        0 0 3px #9CCEFF,
+        0 0 4px dodgerblue,
+        0 0 5px dodgerblue,
+        0 0 6px dodgerblue,
+        0 0 7px dodgerblue,
+        0 0 8px dodgerblue,
+        0 0 9px dodgerblue,
+        0 0 10px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 2px #9CCEFF,
+        0 0 4px  #9CCEFF,
+        0 0 6px  #9CCEFF,
+        0 0 8px  dodgerblue,
+        0 0 10px  dodgerblue,
+        0 0 12px  dodgerblue,
+        0 0 14px  dodgerblue,
+        0 0 16px  dodgerblue,
+        0 0 18px  dodgerblue,
+        0 0 20px  dodgerblue;
+    }
+}

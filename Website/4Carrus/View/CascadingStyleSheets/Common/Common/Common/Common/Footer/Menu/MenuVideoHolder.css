@@ -1,0 +1,8 @@
+#DivIdMenuVideoHolder{
+    float: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 130px;
+    height: 100%;
+}
