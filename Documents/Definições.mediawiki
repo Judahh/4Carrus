@@ -6,6 +6,7 @@
 * Possuirá diversos aplicativos para se sobressair da concorrência.
 * Para impedir fraudes, concessionárias poderão apenas criar instancias de veículos já existentes. Acelerando a criação de anúncios, impedindo falsas características e tornando a busca mais exata.
 * Diferentemente de outros sites de venda de veículos este permitirá uma busca mais genérica e com mais filtros, como buscar carros sedan médios e veículos com mais 150 cavalos.
+* Outro diferencial será a parceria com oficinas que tenha confiabilidade dos compradores para avaliar o estado de integridade do automóvel, para assim trazer maior confiabilidade ao nosso serviço.
 * Como os carros já serão cadastrados por nós, com exceção de adicionais que serão das instancias criadas por concessionarias será disponibilizado também como um banco de dados, para amantes de carros onde mostrará suas características cadastradas por nós e um pouco de sua história que pode ser feita por usuários ou wikipedia ou mesmo ambos.
 
 === Design ===
