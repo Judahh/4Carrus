@@ -82,7 +82,7 @@
       <file leaf-file-name="Common.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body/Search/Common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="992" selection-end="992" vertical-scroll-proportion="0.54960984" vertical-offset="0" max-vertical-offset="897">
+            <state line="33" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.62541807" vertical-offset="0" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -281,6 +281,14 @@
               <option name="myItemId" value="JavaScript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Body" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -444,7 +452,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -732,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Body/Search/Common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="992" selection-end="992" vertical-scroll-proportion="0.54960984" vertical-offset="0" max-vertical-offset="897">
+        <state line="33" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.62541807" vertical-offset="0" max-vertical-offset="897">
           <folding />
         </state>
       </provider>
