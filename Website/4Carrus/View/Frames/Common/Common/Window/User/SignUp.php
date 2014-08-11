@@ -1,55 +1,71 @@
 <form method="post" id="FormIdentificationUserSignUp" >
     <ol>
+        <li id="LiIdNamePerson">
+            <label for="InputTextIDNamePerson">
+                Nome Completo:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true">
+        </li>
 
-    </ol>
-        <tr>
-            <td><label for="InputTextIDNamePerson">Nome Completo:</label></td>
-            <td><input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true"></td>
-        </tr>
-        <tr>
-            <td><label for="inputTextIdentificationUserCPF">CPF:</label></td>
-            <td><input type="text" id="inputTextIdentificationUserCPF" size="14"></td>
-        </tr>
+        <li>
+            <label for="inputTextIdentificationUserCPF">
+                CPF:
+                <em>*</em>
+            </label>
+            <input type="text" id="inputTextIdentificationUserCPF" size="14">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDRegistroGeral">RG</label></td>
-            <td><input type="text" id="InputTextIDRegistroGeral"></td>
-        </tr>
+        <li>
+            <label for="InputTextIDGeneralRegister">
+                RG:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIDGeneralRegister">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDOrgãoEmissor">Orgão Emissor</label></td>
-            <td><input type="text" id="InputTextIDOrgãoEmissor"></td>
-        </tr>
+        <li>
+            <label for="InputTextIDOrgãoEmissor">
+                Orgão Emissor
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIDOrgãoEmissor">
+        </li>
 
-        <tr>
-            <td><label for="InputDateIDDataExpedição">Data de Expedição</label><br/></td>
-            <td><input type="date" id="InputDateIDDataExpedição"></td>
-        </tr>
+        <li>
+            <label for="InputDateIdExpedição">
+                Data de Expedição
+                <em>*</em>
+            </label>
+            <input type="date" id="InputDateIdExpedição">
+        </li>
 
-        <tr>
-            <td><label for="InputDateIDDateBirth">Data Nascimento:</label></td>
-            <td><input type="date" id="InputDateIDDateBirth"></td>
-        </tr>
+        <li>
+            <label for="InputDateIdBirth">
+                Data Nascimento:
+                <em>*</em>
+            </label>
+            <input type="date" id="InputDateIdBirth">
+        </li>
 
-        <tr>
-            <td><label >Sexo:</label>
-            <td>
+        <li>
+            <label >Sexo:</label>
             <label for="InputRadioMan">M</label><input type="radio" name="Sexo" id="InputRadioMan" value="1" />
             <label for="InputRadioWoman">F</label><input type="radio" name="Sexo" id="InputRadioWoman" value="2" />
-        </td>
-        </tr>
+        </li>
 
-        <tr>
-            <td><label for="SelectIDMaritalStatus">Estado Civil:</label></td>
-            <td>
-                <select id="SelectIDMaritalStatus">
-                    <option selected>Solteiro(a)</option>
-                    <option>Casado(a)</option>
-                    <option>Divorciado(a)</option>
-                    <option>Viuvo(a)</option>
-                </select>
-            </td>
-        </tr>
+        <li>
+            <label for="SelectIDMaritalStatus">Estado Civil:</label>
+            <select id="SelectIDMaritalStatus">
+                <option selected>Solteiro(a)</option>
+                <option>Casado(a)</option>
+                <option>Divorciado(a)</option>
+                <option>Viuvo(a)</option>
+            </select>
+        </li>
+    </ol>
+
+
 
         <tr>
             <td><label for="SelectIDPasture">Logradouro</label></td>

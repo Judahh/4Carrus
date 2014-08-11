@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b057830-1d45-46b8-b948-a1ff4776b5a7" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Window/User/BasicSingUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Window/User/BasicSingUp.php" />
-=======
-    <list default="true" id="200a580c-e82e-4235-9718-7c407bd1adb9" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/temp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Safari/temp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Mobile/temp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Options/temp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Safari/temp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Mobile/temp" />
-=======
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Body\Image\Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Body/Image/Common.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Body\Search\Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Body/Search/Common.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Body\Video\Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Body/Video/Common.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\CommonStyle.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/CommonStyle.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Common.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuInformation.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuInformation.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuInformationHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuInformationHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuInformation\SubMenuInformation.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuInformation/SubMenuInformation.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuInformation\SubMenuInformationHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuInformation/SubMenuInformationHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuVideo.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuVideo.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuVideoHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuVideoHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuVideo\SubMenuVideo.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuVideo/SubMenuVideo.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Footer\Menu\MenuVideo\SubMenuVideoHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Menu/MenuVideo/SubMenuVideoHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Common.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptionsHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptionsHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuApplications.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuApplications.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuApplicationsHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuApplicationsHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuNotifications.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuNotifications.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuNotificationsHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuNotificationsHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuSettings.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuSettings.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuSettingsHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuSettingsHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuUser.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuUser.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuOptions\SubMenuUserHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuUserHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuSearch.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuSearch.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuSearchHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuSearchHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuSearch\SubMenuSearch.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuSearch/SubMenuSearch.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Header\Menu\MenuSearch\SubMenuSearchHolder.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuSearch/SubMenuSearchHolder.css" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Body.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Body\Search\Common.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body/Search/Common.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Footer.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Footer.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Footer\MenuInformation.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Footer/MenuInformation.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Footer\MenuVideo.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Footer/MenuVideo.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Head.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Head.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Header.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Header\MenuOptions.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Header\MenuSearch.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuSearch.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Window\Administrator\IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Administrator/IndexPage.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Window\Dealership\SignUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Window\User\BasicSingUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Window\User\SignUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\JavaScript\Common\Body\PopUp\Common.js" afterPath="$PROJECT_DIR$/Website/4Carrus/View/JavaScript/Common/Common/Common/Body/PopUp/Common.js" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\JavaScript\Common\Body\Video\Common.js" afterPath="$PROJECT_DIR$/Website/4Carrus/View/JavaScript/Common/Common/Common/Body/Video/Common.js" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\JavaScript\Common\Common.js" afterPath="$PROJECT_DIR$/Website/4Carrus/View/JavaScript/Common/Common/Common/Common.js" />
-      <change type="MOVED" beforePath="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\JavaScript\Common\OnWindowLoad.js" afterPath="$PROJECT_DIR$/Website/4Carrus/View/JavaScript/Common/Common/Common/OnWindowLoad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" afterPath="$PROJECT_DIR$/Website/4Carrus/IndexPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
     </list>
     <ignored path="4Carrus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,94 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="IndexPage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Safari/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Mobile/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Options/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Safari/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Mobile/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
-      <file leaf-file-name="BasicSingUp.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BasicSingUp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="69" column="125" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.6713533" vertical-offset="791" max-vertical-offset="1360">
-=======
-            <state line="0" column="0" selection-start="0" selection-end="2436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-=======
-      <file leaf-file-name="IndexPage.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/IndexPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="637" selection-end="637" vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="897">
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+            <state line="69" column="125" selection-start="2290" selection-end="2290" vertical-scroll-proportion="-14.692307" vertical-offset="791" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUp.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SignUp.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="2635">
+            <state line="57" column="68" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5377856" vertical-offset="663" max-vertical-offset="2907">
               <folding />
             </state>
           </provider>
@@ -197,8 +57,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Window/User/BasicSingUp.php" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php" />
       </list>
     </option>
   </component>
@@ -329,11 +189,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemId" value="Frames" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frames" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Frames" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -485,6 +396,36 @@
               <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -493,7 +434,48 @@
               <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
->>>>>>> origin/master
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CascadingStyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -507,44 +489,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-<<<<<<< HEAD
-=======
-=======
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Mobile" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Safari" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Common\Window\Options" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Mobile" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\Safari" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\Common" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\Common\Common" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common\Common\Common\Common" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\CascadingStyleSheets\Common\Common" />
-      <recent name="C:\Users\G4flex\Documents\GitHub\4Carrus\Website\4Carrus\View\Frames\Common\Common" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
->>>>>>> origin/master
->>>>>>> origin/master
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -558,7 +505,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -598,67 +545,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="2635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="69" column="125" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.6713533" vertical-offset="791" max-vertical-offset="1360">
-=======
-<<<<<<< HEAD
-        <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="323">
+        <state line="69" column="125" selection-start="2290" selection-end="2290" vertical-scroll-proportion="-14.692307" vertical-offset="791" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/temp">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Safari/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Mobile/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Options/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Safari/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Mobile/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-=======
-        <state line="13" column="7" selection-start="637" selection-end="637" vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="897">
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+        <state line="57" column="68" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5377856" vertical-offset="663" max-vertical-offset="2907">
           <folding />
         </state>
       </provider>
