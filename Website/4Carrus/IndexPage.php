@@ -6,7 +6,9 @@
         include 'View/Frames/Common/Body.php';
         include 'View/Frames/Common/Footer.php';
     ?>
-    
+
+    <script src="View/JavaScript/Common/Common.js"></script>
+    <script src="View/JavaScript/Common/OnWindowLoad.js"></script>
     <script src="View/JavaScript/Common/Body/Video/Common.js"></script>
     <script src="View/JavaScript/Common/Body/PopUp/Common.js"></script>
 </html>
