@@ -1,3 +1,7 @@
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+</head>
 <h1>Logo 4Carrus</h1>
 <h5>Cadastre-se em uma conta pessoal ou uma <a href="#">conta comercial</a></h5>
 <p id="Hint-Text">* Dados obrigatórios</p>
@@ -62,10 +66,11 @@
     </ol>
 
     <ul>
-        <li>Li e aceito o Contrato do Usuário e a Política de Privacidade.</li>
+        <li>Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></li>
         <li>Concordo em receber comunicações do 4Carrus e posso mudar minhas preferências de notificação em Meu 4Carrus.</li>
         <li>Tenho, no mínimo, 18 anos de idade.</li>
     </ul>
 
     <input type="button" value="Enviar" id="InputIdButtonEnviar">
 </form>
+</html>
