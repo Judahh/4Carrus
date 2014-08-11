@@ -6,7 +6,7 @@
 
     <link href="View/CascadingStyleSheets/Common/Header/Common.css" rel="stylesheet" media="all">
     <link href="View/CascadingStyleSheets/Common/Footer/Common.css" rel="stylesheet" media="all">
-    <link href="View/CascadingStyleSheets/Common/Common/Common.css" rel="stylesheet" media="all">
+    <link href="View/CascadingStyleSheets/Common/Common/Common.css" rel="stylesheet" media="all" type="text/css">
 
     <link href="View/CascadingStyleSheets/Common/Body/Image/Common.css" rel="stylesheet" media="all">
     <link href="View/CascadingStyleSheets/Common/Body/Video/Common.css" rel="stylesheet" media="all">
