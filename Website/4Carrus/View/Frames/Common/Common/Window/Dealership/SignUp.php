@@ -1,103 +1,135 @@
-<table id="TableIdBusinessSingUp">
-    <tr>
-        <td><label for="InputIdFantasyName">Nome Fantasia:</label></td>
-        <td><input type="text" id="InputIdFantasyName" size="50"></td>
-    </tr>
+<div id="DivIdFormDealership">
+    <ol>
+        <li id="LiIdFantasyName">
+            <label for="InputIdFantasyName" id="LabelIdFantasyName">
+                Nome Fantasia:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputIdFantasyName" size="50">
+        </li>
 
-    <tr>
-        <td><label for="InputIdCorporateName">Razão Social:</label></td>
-        <td><input type="text" id="InputIdCorporateName" size="30"></td>
-    </tr>
+        <li id="LiIdCorporateName">
+            <label for="InputIdCorporateName" id="LabelIdCorporateName">
+                Razão Social:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputIdCorporateName" size="30">
+        </li>
 
-    <tr>
-        <td><label for="InputIdCompanyIdentification">CNPJ:</label></td>
-        <td><input type="text" id="InputIdCompanyIdentification" size="30"></td>
-    </tr>
+        <li id="LiIdCompanyIdentification">
+            <label for="InputIdCompanyIdentification" id="LabelIdCompanyIdentification">
+                CNPJ:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputIdCompanyIdentification" size="30">
+        </li>
 
-    <tr>
-        <td><label for="SelectIDPasture">Logradouro</label></td>
-        <td>
-            <select id="SelectIDPasture">
+        <li id="LiIdPasture">
+            <label for="InputIdPasture" id="LabelIdPasture">
+                Logradouro:
+                <em>*</em>
+            </label>
+            <select id="SelectIdPasture">
                 <option selected>Rua</option>
                 <option>Avenida</option>
                 <option>Condominio</option>
             </select>
-            <input type="text"  size="60" placeholder="ex: 537"/>
-        </td>
-    </tr>
+            <input type="text"  size="60" id="InputIdPasture" placeholder="ex: 537"/>
+        </li>
 
-    <tr>
-        <td><label for="InputTextIdentificationNumber">Número:</label></td>
-        <td><input type="text" id="InputTextIdentificationNumber" size="6"/></td>
-    </tr>
+        <li id="LiIdNumber">
+            <label for="InputTextIdNumber" id="LabelIdNumber">
+                Número:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIdNumber" size="6"/>
+        </li>
 
-    <tr>
-        <td><label for="InputTextIDNeighborhood">Bairro:</label></td>
-        <td><input type="text" id="InputTextIDNeighborhood" size="40"></td>
-    </tr>
+        <li id="LiIdNeighborhood">
+            <label for="InputTextIdNeighborhood" id="LabelIdNeighborhood">
+                Bairro:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIdNeighborhood" size="40">
+        </li>
 
-    <tr>
-        <td><label for="InputTextIdentificationPostalCode">CEP:</label></td>
-        <td><input type="text" id="InputTextIdentificationPostalCode" size="9" placeholder="ex: 99999-999"></td>
-    </tr>
+        <li id="LiIdPostalCode">
+            <label for="InputTextIdPostalCode" id="LabelIdPostalCode">
+                CEP:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIdPostalCode" size="9" placeholder="ex: 99999-999">
+        </li id="LiId">
 
-    <tr>
-        <td><label for="InputTextIDComplement">Complemento:</label></td>
-        <td><input type="text" size="40" id="InputTextIDComplement" placeholder="ex: 2ª etapa"></td>
-    </tr>
+        <li>
+            <label for="InputTextIdComplement" id="LabelIdComplement">
+                Complemento:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIdComplement" size="40" placeholder="ex: 2ª etapa">
+        </li>
 
-    <tr>
-        <td><label for="InputTextIDCity">Municipio:</label></td>
-        <td><input type="text" id="InputTextIDCity" size="50" placeholder="ex: Fortaleza"><br/></td>
-    </tr>
+        <li id="LiId">
+            <label for="InputTextIdCity" id="LabelIdCity">
+                Municipio:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIdCity" size="50" placeholder="ex: Fortaleza">
+        </li>
 
-    <tr>
-        <td><label for="SelectIDState">Estado:</label></td>
-        <td><select id="SelectIDState">
-            <option selected>CE</option>
-            <option>RJ</option>
-            <option>SP</option>
-        </select></td>
-    </tr>
+        <li id="LiId">
+            <label for="SelectIdState" id="LabelIdState">
+                Estado:
+                <em>*</em>
+            </label>
+            <select id="SelectIdState">
+                <option selected>CE</option>
+                <option>RJ</option>
+                <option>SP</option>
+            </select>
+        </li>
 
-    <tr>
-        <td><label for="SelectIDCountry">País:</label></td>
-        <td><select id="SelectIDCountry">
-            <option selected>United States of America</option>
-            <option>Brasil</option>
-            <option>China</option>
-            <option>Suécia</option>
-            <option>Africa do Sul</option>
-        </select>
-    </tr>
+        <li id="LiIdCountry">
+            <label for="SelectIdCountry" id="LabelIdCountry">
+                País:
+                <em>*</em>
+            </label>
+            <select id="SelectIdCountry">
+                <option selected>United States of America</option>
+                <option>Brasil</option>
+                <option>China</option>
+                <option>Suécia</option>
+                <option>Africa do Sul</option>
+            </select>
 
-    <tr>
-        <td><label for="InputTextResponsible">Responsavel:</label></td>
-        <td>
-            <input type="text" id="InputTextResponsible" size="50" list="DataListIdResponsible">
-            <datalist id="DataListIdResponsible">
-            <option>Judah</option>
-            <option>Felipe</option>
-            <option>Felipa</option>
-            <option>Romulo</option>
-            <option>Tarciso</option>
-            <option>Karla</option>
-            <option>Karine</option>
-        </datalist> </td>
-    </tr>
+        <li ng-repeat="phone in phones" id="LiIdPhone">
+            <label for="InputTextPhone" id="LabelIdPhone">
+                Telefone:
+                <em>*</em>
+            </label>
 
-    <tr>
-        <td><label for="InputTextCommercialPhone">Telefone Comercial:</label></td>
-        <td><Input type="tel" id="InputTextCommercialPhone"></td>
-    </tr>
+            <select id="SelectedIdPhone">
+                <option selected>Fixo</option>
+                <option>Celular</option>
+                <option>Comercial</option>
+                <option>Fax</option>
+            </select>
+            <input type="text" id="InputTextPhone" size="15">
+            <input type="button" id="InputButtonPhone" ng-submit="addTodo() value="Add">
+        </li>
 
-    <tr>
-        <td><label for="InputTextCellPhone">Teleone Celular:</label><br/></td>
-        <td><Input type="tel" id="InputTextCellPhone"></td>
-    </tr>
+        <li id="LiIdEmail">
+            <label for="InputIdEmail" id="LabelIdEmail">
+                E-Mail:
+                <em>*</em>
+            </label>
+            <input type="email" id="InputIdEmail">
+        </li>
+    </ol>
 
-    <tr>
-        <td><label for="InputIdEmail">E-Mail:</label></td>
-        <td><input type="email" id="InputIdEmail"></td>
-    </tr>
-</table>
+    <input type="checkbox" id="InputCheckbox" />Aceito
+    <ul id="UlIdContractTerms">
+        <li>Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></li>
+        <li>Concordo em receber comunicações do 4Carrus e posso mudar minhas preferências de notificação em Meu 4Carrus.</li>
+    </ul>
+</div>
