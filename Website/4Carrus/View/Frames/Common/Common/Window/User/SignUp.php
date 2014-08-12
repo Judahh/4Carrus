@@ -90,25 +90,25 @@
         </li>
 
         <li>
-            <label for="InputTextIDComplement" id="LabelId">Complemento:</label>
-            <input type="text" size="40" id="InputTextIDComplement" placeholder="ex: 2ª etapa">
+            <label for="InputTextIdComplement" id="LabelIdComplement">Complemento:</label>
+            <input type="text" id="InputTextIdComplement" size="40" placeholder="ex: 2ª etapa">
         </li>
-    </ol>
-        <tr>
-            <td><label for="InputTextIDCity" id="LabelId">Municipio:</label></td>
-            <td><input type="text" id="InputTextIDCity" size="50" placeholder="ex: Fortaleza"><br/></td>
-        </tr>
 
-        <tr>
-            <td><label for="SelectIDState" id="LabelId">Estado:</label></td>
-            <td><select id="SelectIDState">
+        <li>
+            <label for="InputTextIdCity" id="LabelIdCity">Municipio:</label>
+            <input type="text" id="InputTextIdCity" size="50" placeholder="ex: Fortaleza">
+        </li>
+
+        <li>
+            <label for="SelectIdState" id="LabelIdState">Estado:</label>
+            <select id="SelectIdState">
                 <option selected>CE</option>
                 <option>RJ</option>
                 <option>SP</option>
-            </select></td>
-        </tr>
+            </select>
+        </li>
+    </ol>
 
-        <tr>
             <label for="SelectIDCountry" id="LabelId">País:</label>
             <select id="SelectIDCountry">
                 <option selected>United States of America</option>
@@ -120,12 +120,12 @@
         </tr>
 
         <tr>
-            <td><label for="InputTextPhone">Teleone Fixo:</label></td>
+            <td><label for="InputTextPhone" id="LabelId">Teleone Fixo:</label></td>
             <td><Input type="tel" id="InputTextPhone"></td>
         </tr>
 
         <tr>
-            <td><label for="InputTextCommercialPhone">Telefone Comercial:</label></td>
+            <td><label for="InputTextCommercialPhone" id="LabelId">Telefone Comercial:</label></td>
             <td>
                 <Input type="tel" id="InputTextCommercialPhone">
                 <select id="SelectIdCarrierFixedPhone">
@@ -138,8 +138,8 @@
         </tr>
 
         <tr>
-            <td><label for="InputTextCellPhone">Teleone Celular:</label><br/></td>
-            <td>
+            <td><label for="InputTextCellPhone" id="LabelId">Teleone Celular:</label>
+
                 <select id="SelectIdCarrierCellFone">
                     <option selected>OI</option>
                     <option>TIM</option>
@@ -147,15 +147,12 @@
                     <option>Vivo</option>
                 </select>
                 <input type="tel" id="InputTextCellPhone">
-            </td>
-        </tr>
 
-        <tr>
-            <td><label for="InputIdEmail">E-Mail:</label></td>
-            <td><input type="email" id="InputIdEmail"></td>
-        </tr>
 
-    </table>
+
+            <label for="InputIdEmail" id="LabelId">E-Mail:</label>
+            <input type="email" id="InputIdEmail">
+
 
 </form>
 </body>
