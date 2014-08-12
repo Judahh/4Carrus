@@ -1,105 +1,116 @@
 <form method="post" id="FormIdentificationUserSignUp" >
     <ol>
+        <li id="LiIdNamePerson">
+            <label for="InputTextIDNamePerson" id="LabelIdNamePerson">
+                Nome Completo:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true">
+        </li>
 
-    </ol>
-        <tr>
-            <td><label for="InputTextIDNamePerson">Nome Completo:</label></td>
-            <td><input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true"></td>
-        </tr>
-        <tr>
-            <td><label for="inputTextIdentificationUserCPF">CPF:</label></td>
-            <td><input type="text" id="inputTextIdentificationUserCPF" size="14"></td>
-        </tr>
+        <li id="LiIdUserCPF">
+            <label for="inputTextIdentificationUserCPF" id="LabelIdUserCPF">
+                CPF:
+                <em>*</em>
+            </label>
+            <input type="text" id="inputTextIdentificationUserCPF" size="14">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDRegistroGeral">RG</label></td>
-            <td><input type="text" id="InputTextIDRegistroGeral"></td>
-        </tr>
+        <li>
+            <label for="InputTextIDGeneralRegister" id="LabelIdGeneralRegister">
+                RG:
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIDGeneralRegister">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDOrgãoEmissor">Orgão Emissor</label></td>
-            <td><input type="text" id="InputTextIDOrgãoEmissor"></td>
-        </tr>
+        <li>
+            <label for="InputTextIDOrgãoEmissor" id="LabelId">
+                Orgão Emissor
+                <em>*</em>
+            </label>
+            <input type="text" id="InputTextIDOrgãoEmissor">
+        </li>
 
-        <tr>
-            <td><label for="InputDateIDDataExpedição">Data de Expedição</label><br/></td>
-            <td><input type="date" id="InputDateIDDataExpedição"></td>
-        </tr>
+        <li>
+            <label for="InputDateIdExpedição" id="LabelId">
+                Data de Expedição
+                <em>*</em>
+            </label>
+            <input type="date" id="InputDateIdExpedição" id="LabelId">
+        </li>
 
-        <tr>
-            <td><label for="InputDateIDDateBirth">Data Nascimento:</label></td>
-            <td><input type="date" id="InputDateIDDateBirth"></td>
-        </tr>
+        <li>
+            <label for="InputDateIdBirth" id="LabelId">
+                Data Nascimento:
+                <em>*</em>
+            </label>
+            <input type="date" id="InputDateIdBirth">
+        </li>
 
-        <tr>
-            <td><label >Sexo:</label>
-            <td>
-            <label for="InputRadioMan">M</label><input type="radio" name="Sexo" id="InputRadioMan" value="1" />
-            <label for="InputRadioWoman">F</label><input type="radio" name="Sexo" id="InputRadioWoman" value="2" />
-        </td>
-        </tr>
+        <li>
+            <label id="LabelId">Sexo:</label>
+            <label for="InputRadioMan" id="LabelId>M</label><input type="radio" name="Sexo" id="InputRadioMan" value="1" />
+            <label for="InputRadioWoman" id="LabelId>F</label><input type="radio" name="Sexo" id="InputRadioWoman" value="2" />
+        </li>
 
-        <tr>
-            <td><label for="SelectIDMaritalStatus">Estado Civil:</label></td>
-            <td>
-                <select id="SelectIDMaritalStatus">
-                    <option selected>Solteiro(a)</option>
-                    <option>Casado(a)</option>
-                    <option>Divorciado(a)</option>
-                    <option>Viuvo(a)</option>
-                </select>
-            </td>
-        </tr>
+        <li>
+            <label for="SelectIDMaritalStatus" id="LabelId">Estado Civil:</label>
+            <select id="SelectIDMaritalStatus">
+                <option selected>Solteiro(a)</option>
+                <option>Casado(a)</option>
+                <option>Divorciado(a)</option>
+                <option>Viuvo(a)</option>
+            </select>
+        </li>
 
-        <tr>
-            <td><label for="SelectIDPasture">Logradouro</label></td>
-            <td>
-                <select id="SelectIDPasture">
-                    <option selected>Rua</option>
-                    <option>Avenida</option>
-                    <option>Condominio</option>
-                </select>
-                <input type="text"  size="60" placeholder="ex: 537"/>
-            </td>
-        </tr>
+        <li>
+            <label for="SelectIDPasture" id="LabelId">Logradouro</label>
+            <select id="SelectIDPasture">
+                <option selected>Rua</option>
+                <option>Avenida</option>
+                <option>Condominio</option>
+            </select>
+            <input type="text"  size="60" placeholder="ex: 537"/>
+        </li>
 
-        <tr>
-            <td><label for="InputTextIdentificationNumber">Número:</label></td>
-            <td><input type="text" id="InputTextIdentificationNumber" size="6"/></td>
-        </tr>
+        <li>
+            <label for="InputTextIdentificationNumber" id="LabelId">Número:</label>
+            <input type="text" id="InputTextIdentificationNumber" size="6"/>
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDNeighborhood">Bairro:</label></td>
-            <td><input type="text" id="InputTextIDNeighborhood" size="40"></td>
-        </tr>
+        <li>
+            <label for="InputTextIDNeighborhood" id="LabelId">Bairro:</label>
+            <input type="text" id="InputTextIDNeighborhood" size="40">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIdentificationPostalCode">CEP:</label></td>
-            <td><input type="text" id="InputTextIdentificationPostalCode" size="9" placeholder="ex: 99999-999"></td>
-        </tr>
+        <li>
+            <label for="InputTextIdentificationPostalCode" id="LabelId">CEP:</label>
+            <input type="text" id="InputTextIdentificationPostalCode" size="9" placeholder="ex: 99999-999">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDComplement">Complemento:</label></td>
-            <td><input type="text" size="40" id="InputTextIDComplement" placeholder="ex: 2ª etapa"></td>
-        </tr>
+        <li>
+            <label for="InputTextIdComplement" id="LabelIdComplement">Complemento:</label>
+            <input type="text" id="InputTextIdComplement" size="40" placeholder="ex: 2ª etapa">
+        </li>
 
-        <tr>
-            <td><label for="InputTextIDCity">Municipio:</label></td>
-            <td><input type="text" id="InputTextIDCity" size="50" placeholder="ex: Fortaleza"><br/></td>
-        </tr>
+        <li>
+            <label for="InputTextIdCity" id="LabelIdCity">Municipio:</label>
+            <input type="text" id="InputTextIdCity" size="50" placeholder="ex: Fortaleza">
+        </li>
 
-        <tr>
-            <td><label for="SelectIDState">Estado:</label></td>
-            <td><select id="SelectIDState">
+        <li>
+            <label for="SelectIdState" id="LabelIdState">Estado:</label>
+            <select id="SelectIdState">
                 <option selected>CE</option>
                 <option>RJ</option>
                 <option>SP</option>
-            </select></td>
-        </tr>
+            </select>
+        </li>
+    </ol>
 
-        <tr>
-            <td><label for="SelectIDCountry">País:</label></td>
-            <td><select id="SelectIDCountry">
+            <label for="SelectIDCountry" id="LabelId">País:</label>
+            <select id="SelectIDCountry">
                 <option selected>United States of America</option>
                 <option>Brasil</option>
                 <option>China</option>
@@ -109,12 +120,12 @@
         </tr>
 
         <tr>
-            <td><label for="InputTextPhone">Teleone Fixo:</label></td>
+            <td><label for="InputTextPhone" id="LabelId">Teleone Fixo:</label></td>
             <td><Input type="tel" id="InputTextPhone"></td>
         </tr>
 
         <tr>
-            <td><label for="InputTextCommercialPhone">Telefone Comercial:</label></td>
+            <td><label for="InputTextCommercialPhone" id="LabelId">Telefone Comercial:</label></td>
             <td>
                 <Input type="tel" id="InputTextCommercialPhone">
                 <select id="SelectIdCarrierFixedPhone">
@@ -127,8 +138,8 @@
         </tr>
 
         <tr>
-            <td><label for="InputTextCellPhone">Teleone Celular:</label><br/></td>
-            <td>
+            <td><label for="InputTextCellPhone" id="LabelId">Teleone Celular:</label>
+
                 <select id="SelectIdCarrierCellFone">
                     <option selected>OI</option>
                     <option>TIM</option>
@@ -136,15 +147,12 @@
                     <option>Vivo</option>
                 </select>
                 <input type="tel" id="InputTextCellPhone">
-            </td>
-        </tr>
 
-        <tr>
-            <td><label for="InputIdEmail">E-Mail:</label></td>
-            <td><input type="email" id="InputIdEmail"></td>
-        </tr>
 
-    </table>
+
+            <label for="InputIdEmail" id="LabelId">E-Mail:</label>
+            <input type="email" id="InputIdEmail">
+
 
 </form>
 </body>
