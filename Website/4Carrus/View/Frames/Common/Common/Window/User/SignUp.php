@@ -1,166 +1,182 @@
-<form method="post" id="FormIdentificationUserSignUp" >
-    <ol>
-        <li id="LiIdNamePerson">
-            <label for="InputTextIDNamePerson">
-                Nome Completo:
-                <em>*</em>
-            </label>
-            <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true">
-        </li>
+<div id="FormUserSingUp">
+    <form method="post" id="FormIdentificationUserSignUp" >
+        <ol>
+            <li id="LiIdNamePerson">
+                <label for="InputTextIDNamePerson" id="LabelIdNamePerson">
+                    Nome Completo:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true">
+            </li>
 
-        <li>
-            <label for="inputTextIdentificationUserCPF">
-                CPF:
-                <em>*</em>
-            </label>
-            <input type="text" id="inputTextIdentificationUserCPF" size="14">
-        </li>
+            <li id="LiIdUserCPF">
+                <label for="inputTextIdentificationUserCPF" id="LabelIdUserCPF">
+                    CPF:
+                    <em>*</em>
+                </label>
+                <input type="text" id="inputTextIdentificationUserCPF" size="14">
+            </li>
 
-        <li>
-            <label for="InputTextIDGeneralRegister">
-                RG:
-                <em>*</em>
-            </label>
-            <input type="text" id="InputTextIDGeneralRegister">
-        </li>
+            <li id="LiIdGeneralRegister">
+                <label for="InputTextIdGeneralRegister" id="LabelIdGeneralRegister">
+                    RG:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdGeneralRegister">
+            </li>
 
-        <li>
-            <label for="InputTextIDOrgãoEmissor">
-                Orgão Emissor
-                <em>*</em>
-            </label>
-            <input type="text" id="InputTextIDOrgãoEmissor">
-        </li>
+            <li id="LiIdIssuerOrgan">
+                <label for="InputTextIdIssuerOrgan" id="LabelIdIssuerOrgan">
+                    Orgão Emissor:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdIssuerOrgan">
+            </li>
 
-        <li>
-            <label for="InputDateIdExpedição">
-                Data de Expedição
-                <em>*</em>
-            </label>
-            <input type="date" id="InputDateIdExpedição">
-        </li>
+            <li id="LiIdDateExpedition">
+                <label for="InputDateIdExpedition" id="LabelIdDateExpedition">
+                    Data de Expedição:
+                    <em>*</em>
+                </label>
+                <input type="date" id="InputDateIdExpedition">
+            </li>
 
-        <li>
-            <label for="InputDateIdBirth">
-                Data Nascimento:
-                <em>*</em>
-            </label>
-            <input type="date" id="InputDateIdBirth">
-        </li>
+            <li id="LiIdDateIdBirth">
+                <label for="InputDateIdBirth" id="LabelIdDateIdBirth">
+                    Data Nascimento:
+                    <em>*</em>
+                </label>
+                <input type="date" id="InputDateIdBirth">
+            </li>
 
-        <li>
-            <label >Sexo:</label>
-            <label for="InputRadioMan">M</label><input type="radio" name="Sexo" id="InputRadioMan" value="1" />
-            <label for="InputRadioWoman">F</label><input type="radio" name="Sexo" id="InputRadioWoman" value="2" />
-        </li>
+            <li id="LiIdGender">
+                <label id="LabelIdGender">
+                    Sexo:
+                    <em>*</em>
+                </label>
+                <label for="InputRadioGenderMan" id="LabelIdGenderMan">
+                    M
+                </label>
+                <input type="radio" name="Sexo" id="InputRadioGenderMan" value="1" />
+                <label for="InputRadioGenderWoman" id="LabelIdGenderMan">
+                    F
+                </label><input type="radio" name="Sexo" id="InputRadioGenderWoman" value="2" />
+            </li>
 
-        <li>
-            <label for="SelectIDMaritalStatus">Estado Civil:</label>
-            <select id="SelectIDMaritalStatus">
-                <option selected>Solteiro(a)</option>
-                <option>Casado(a)</option>
-                <option>Divorciado(a)</option>
-                <option>Viuvo(a)</option>
-            </select>
-        </li>
-    </ol>
+            <li id="LiIdMaritalStatus">
+                <label for="SelectIdMaritalStatus" id="LabelIdMaritalStatus">
+                    Estado Civil:
+                    <em>*</em>
+                </label>
+                <select id="SelectIdMaritalStatus">
+                    <option selected>Solteiro(a)</option>
+                    <option>Casado(a)</option>
+                    <option>Divorciado(a)</option>
+                    <option>Viuvo(a)</option>
+                </select>
+            </li>
 
-
-
-        <tr>
-            <td><label for="SelectIDPasture">Logradouro</label></td>
-            <td>
-                <select id="SelectIDPasture">
+            <li id="LiIdPasture">
+                <label for="InputIdPasture" id="LabelIdPasture">
+                    Logradouro:
+                    <em>*</em>
+                </label>
+                <select id="SelectIdPasture">
                     <option selected>Rua</option>
                     <option>Avenida</option>
                     <option>Condominio</option>
                 </select>
-                <input type="text"  size="60" placeholder="ex: 537"/>
-            </td>
-        </tr>
+                <input type="text"  size="60" id="InputIdPasture" placeholder="ex: 537"/>
+            </li>
 
-        <tr>
-            <td><label for="InputTextIdentificationNumber">Número:</label></td>
-            <td><input type="text" id="InputTextIdentificationNumber" size="6"/></td>
-        </tr>
+            <li id="LiIdNumber">
+                <label for="InputTextIdNumber" id="LabelIdNumber">
+                    Número:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdNumber" size="6"/>
+            </li>
 
-        <tr>
-            <td><label for="InputTextIDNeighborhood">Bairro:</label></td>
-            <td><input type="text" id="InputTextIDNeighborhood" size="40"></td>
-        </tr>
+            <li id="LiIdNeighborhood">
+                <label for="InputTextIdNeighborhood" id="LabelIdNeighborhood">
+                    Bairro:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdNeighborhood" size="40">
+            </li>
 
-        <tr>
-            <td><label for="InputTextIdentificationPostalCode">CEP:</label></td>
-            <td><input type="text" id="InputTextIdentificationPostalCode" size="9" placeholder="ex: 99999-999"></td>
-        </tr>
+            <li id="LiIdPostalCode">
+                <label for="InputTextIdPostalCode" id="LabelIdPostalCode">
+                    CEP:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdPostalCode" size="9" placeholder="ex: 99999-999">
+            </li id="LiId">
 
-        <tr>
-            <td><label for="InputTextIDComplement">Complemento:</label></td>
-            <td><input type="text" size="40" id="InputTextIDComplement" placeholder="ex: 2ª etapa"></td>
-        </tr>
+            <li>
+                <label for="InputTextIdComplement" id="LabelIdComplement">
+                    Complemento:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdComplement" size="40" placeholder="ex: 2ª etapa">
+            </li>
 
-        <tr>
-            <td><label for="InputTextIDCity">Municipio:</label></td>
-            <td><input type="text" id="InputTextIDCity" size="50" placeholder="ex: Fortaleza"><br/></td>
-        </tr>
+            <li id="LiId">
+                <label for="InputTextIdCity" id="LabelIdCity">
+                    Municipio:
+                    <em>*</em>
+                </label>
+                <input type="text" id="InputTextIdCity" size="50" placeholder="ex: Fortaleza">
+            </li>
 
-        <tr>
-            <td><label for="SelectIDState">Estado:</label></td>
-            <td><select id="SelectIDState">
-                <option selected>CE</option>
-                <option>RJ</option>
-                <option>SP</option>
-            </select></td>
-        </tr>
-
-        <tr>
-            <td><label for="SelectIDCountry">País:</label></td>
-            <td><select id="SelectIDCountry">
-                <option selected>United States of America</option>
-                <option>Brasil</option>
-                <option>China</option>
-                <option>Suécia</option>
-                <option>Africa do Sul</option>
-            </select>
-        </tr>
-
-        <tr>
-            <td><label for="InputTextPhone">Teleone Fixo:</label></td>
-            <td><Input type="tel" id="InputTextPhone"></td>
-        </tr>
-
-        <tr>
-            <td><label for="InputTextCommercialPhone">Telefone Comercial:</label></td>
-            <td>
-                <Input type="tel" id="InputTextCommercialPhone">
-                <select id="SelectIdCarrierFixedPhone">
-                    <option selected>OI</option>
-                    <option>Oi</option>
-                    <option>GVT</option>
-                    <option>Vivo</option>
+            <li id="LiId">
+                <label for="SelectIdState" id="LabelIdState">
+                    Estado:
+                    <em>*</em>
+                </label>
+                <select id="SelectIdState">
+                    <option selected>CE</option>
+                    <option>RJ</option>
+                    <option>SP</option>
                 </select>
-            </td>
-        </tr>
+            </li>
 
-        <tr>
-            <td><label for="InputTextCellPhone">Teleone Celular:</label><br/></td>
-            <td>
-                <select id="SelectIdCarrierCellFone">
-                    <option selected>OI</option>
-                    <option>TIM</option>
-                    <option>Claro</option>
-                    <option>Vivo</option>
+            <li id="LiIdCountry">
+                <label for="SelectIdCountry" id="LabelIdCountry">
+                    País:
+                    <em>*</em>
+                </label>
+                <select id="SelectIdCountry">
+                    <option selected>United States of America</option>
+                    <option>Brasil</option>
+                    <option>China</option>
+                    <option>Suécia</option>
+                    <option>Africa do Sul</option>
                 </select>
-                <input type="tel" id="InputTextCellPhone">
-            </td>
-        </tr>
 
-        <tr>
-            <td><label for="InputIdEmail">E-Mail:</label></td>
-            <td><input type="email" id="InputIdEmail"></td>
-        </tr>
+            <li ng-repeat="phone in phones" id="LiIdPhone">
+                <label for="InputTextPhone" id="LabelIdPhone">
+                    Telefone:
+                    <em>*</em>
+                </label>
 
-    </table>
+                <select id="SelectedIdPhone">
+                    <option selected>Fixo</option>
+                    <option>Celular</option>
+                    <option>Comercial</option>
+                    <option>Fax</option>
+                </select>
+                <input type="text" id="InputTextPhone" size="15">
+                <input type="button" id="InputButtonPhone" ng-submit="addTodo() value="Add">
+            </li>
 
-</form>
-</body>
+            <li id="LiIdEmail">
+                <label for="InputIdEmail" id="LabelIdEmail">
+                    E-Mail:
+                    <em>*</em>
+                </label>
+                <input type="email" id="InputIdEmail">
+            </li>
+        </ol>
+    </form>
+</div>
