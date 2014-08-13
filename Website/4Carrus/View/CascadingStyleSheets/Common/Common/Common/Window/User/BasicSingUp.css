@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+#DivIdBasicSingUp{
+    background: red;
+    width: 50%;
+    height: 40%;
+}
