@@ -177,7 +177,7 @@ button, button:active, button:after, button:before {
 
 #DivIdNeon{
     color: white;
-    text-shadow: -1px 0 1px grey, 0 1px 1px grey, 1px 0 1px grey, 0 -1px 1px grey;
+    text-shadow: -1px 0 2px grey, 0 1px 2px grey, 1px 0 2px grey, 0 -1px 2px grey;
     opacity: 0.9;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -189,16 +189,6 @@ button, button:active, button:after, button:before {
 #DivIdNeon:hover, ul li:hover #DivIdNeon #DivIdMenuItem{
     color: deepskyblue;
     text-shadow: -1px 0 1px lightblue, 0 1px 1px lightblue, 1px 0 1px lightblue, 0 -1px 1px lightblue;
-    /*text-shadow: 0 0 2px white,
-    0 0 4px  lightgrey,
-    0 0 6px  lightgrey,
-    0 0 8px  lightgrey,
-    0 0 10px  lightgrey,
-    0 0 12px  lightgrey,
-    0 0 14px  lightgrey,
-    0 0 16px  lightgrey,
-    0 0 18px  lightgrey,
-    0 0 20px  grey;*/
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;

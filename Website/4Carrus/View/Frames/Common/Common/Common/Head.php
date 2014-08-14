@@ -3,6 +3,7 @@
     <meta content="text/html" charset="UTF-8"/>
 
     <link href="View/CascadingStyleSheets/Common/Common/Common/Common/Body/Search/Common.css" rel="stylesheet" media="all" type="text/css">
+    <link href="View/CascadingStyleSheets/Common/Common/Common/Common/Body/PopUp/Common.css" rel="stylesheet" media="all" type="text/css">
 
     <link href="View/CascadingStyleSheets/Common/Common/Common/Common/Header/Common.css" rel="stylesheet" media="all" type="text/css">
     <link href="View/CascadingStyleSheets/Common/Common/Common/Common/Footer/Common.css" rel="stylesheet" media="all" type="text/css">
