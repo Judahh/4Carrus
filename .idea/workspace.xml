@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="b89df367-3e04-40d9-9df3-520749f4d4cf" name="Default" comment="" />
+=======
     <list default="true" id="93cb9ab0-c511-4d9b-830a-14540a6982d2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+>>>>>>> origin/master
     <ignored path="4Carrus.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,6 +30,17 @@
   <component name="FavoritesManager">
     <favorites_list name="4Carrus" />
   </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+=======
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="BasicSingUp.php" pinned="false" current="false" current-in-tab="false">
@@ -124,6 +139,7 @@
         </selected-state>
       </profile-state>
     </entry>
+>>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -138,6 +154,13 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+=======
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -652,19 +675,34 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+>>>>>>> origin/master
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="b89df367-3e04-40d9-9df3-520749f4d4cf" name="Default" comment="" />
+      <created>1407889692718</created>
+      <updated>1407889692718</updated>
+=======
       <changelist id="93cb9ab0-c511-4d9b-830a-14540a6982d2" name="Default" comment="" />
       <created>1407853210211</created>
       <updated>1407853210211</updated>
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1366" height="738" extended-state="0" />
+=======
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+=======
+    <frame x="-8" y="0" width="1382" height="738" extended-state="0" />
+>>>>>>> origin/master
+>>>>>>> origin/master
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -672,8 +710,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27599388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2613293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
+>>>>>>> origin/master
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -682,7 +728,14 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -704,6 +757,8 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+<<<<<<< HEAD
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -937,5 +992,6 @@
       </provider>
     </entry>
   </component>
+>>>>>>> origin/master
 </project>
 
