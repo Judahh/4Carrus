@@ -27,7 +27,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">X</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdSpin">X</div>
+                    </div>
                 </div>
             </div>
             <div id="DivIdSubMenuSettings">
