@@ -18,7 +18,7 @@ input{
 
 input[type='range'] {
     -webkit-appearance: none;
-    background-color: dodgerblue;
+    background-color: grey;
     border: 1px white;
     opacity: 0.7;
     height: 10px;
@@ -41,9 +41,9 @@ input[type='range']:hover {
 
 input[type='range']::-moz-range-track {
     -moz-appearance: none;
-    background-color: dodgerblue;
+    background-color: grey;
     border: 1px white;
-    opacity: 0.7;
+    opacity: 0.5;
     height: 10px;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -64,7 +64,7 @@ input[type='range']::-moz-range-track:hover {
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none !important;
     background-color: white;
-    border: 1px dodgerblue;
+    border: 1px grey;
     height: 20px;
     width: 10px;
     -webkit-transition: all 1s;
@@ -85,7 +85,7 @@ input[type='range']::-webkit-slider-thumb:hover {
 input[type='range']::-moz-range-thumb {
     -moz-appearance: none;
     background-color: white;
-    border: 1px dodgerblue;
+    border: 1px grey;
     height: 20px;
     width: 10px;
     -webkit-transition: all 1s;
@@ -98,7 +98,7 @@ input[type='range']::-moz-range-thumb {
 input[type='range']::-moz-range-thumb:hover {
     -moz-appearance: none;
     background-color: white;
-    border: 1px dodgerblue;
+    border: 1px grey;
     height: 20px;
     width: 10px;
     -webkit-transition: all 1s;
@@ -136,16 +136,15 @@ button, button:active, button:after, button:before {
     /*border: 1px solid;
     opacity: 0.5;*/
     border-color: white;
-    border-color: rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 5px rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 5px rgba(0, 0, 0, 0.3);
 }
 
 #DivIdNeon{
-    color: dodgerblue;
-    
-    /*text-shadow: -1px 0 1px #9CCEFF, 0 1px 1px #9CCEFF, 1px 0 1px #9CCEFF, 0 -1px 1px #9CCEFF;*/
-
+    color: white;
+    text-shadow: -1px 0 1px grey, 0 1px 1px grey, 1px 0 1px grey, 0 -1px 1px grey;
+    opacity: 0.9;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -159,17 +158,17 @@ button, button:active, button:after, button:before {
     -ms-animation: neon 1s ease-in-out infinite alternate;
     -o-animation: neon 1s ease-in-out infinite alternate;
     animation: neon 1s ease-in-out infinite alternate;
-    color:white;
-    text-shadow: 0 0 2px #9CCEFF,
-    0 0 4px  #9CCEFF,
-    0 0 6px  #9CCEFF,
-    0 0 8px  dodgerblue,
-    0 0 10px  dodgerblue,
-    0 0 12px  dodgerblue,
-    0 0 14px  dodgerblue,
-    0 0 16px  dodgerblue,
-    0 0 18px  dodgerblue,
-    0 0 20px  dodgerblue;
+    color: white;
+    text-shadow: 0 0 2px white,
+    0 0 4px  lightgrey,
+    0 0 6px  lightgrey,
+    0 0 8px  lightgrey,
+    0 0 10px  lightgrey,
+    0 0 12px  lightgrey,
+    0 0 14px  lightgrey,
+    0 0 16px  lightgrey,
+    0 0 18px  lightgrey,
+    0 0 20px  grey;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -209,135 +208,135 @@ ul li ul li {
 
 @-webkit-keyframes neon {
     from {
-        text-shadow: 0 0 1px #9CCEFF,
-        0 0 2px #9CCEFF,
-        0 0 3px #9CCEFF,
-        0 0 4px dodgerblue,
-        0 0 5px dodgerblue,
-        0 0 6px dodgerblue,
-        0 0 7px dodgerblue,
-        0 0 8px dodgerblue,
-        0 0 9px dodgerblue,
-        0 0 10px dodgerblue;
+        text-shadow: 0 0 1px white,
+        0 0 2px lightgrey,
+        0 0 3px lightgrey,
+        0 0 4px lightgrey,
+        0 0 5px lightgrey,
+        0 0 6px lightgrey,
+        0 0 7px lightgrey,
+        0 0 8px lightgrey,
+        0 0 9px lightgrey,
+        0 0 10px grey;
     }
     to {
-        text-shadow: 0 0 2px #9CCEFF,
-        0 0 4px  #9CCEFF,
-        0 0 6px  #9CCEFF,
-        0 0 8px  dodgerblue,
-        0 0 10px  dodgerblue,
-        0 0 12px  dodgerblue,
-        0 0 14px  dodgerblue,
-        0 0 16px  dodgerblue,
-        0 0 18px  dodgerblue,
-        0 0 20px  dodgerblue;
+        text-shadow: 0 0 2px white,
+        0 0 4px  lightgrey,
+        0 0 6px  lightgrey,
+        0 0 8px  lightgrey,
+        0 0 10px  lightgrey,
+        0 0 12px  lightgrey,
+        0 0 14px  lightgrey,
+        0 0 16px  lightgrey,
+        0 0 18px  lightgrey,
+        0 0 20px  grey;
     }
 }
 
 @-moz-keyframes neon {
     from {
-        text-shadow: 0 0 1px #9CCEFF,
-        0 0 2px #9CCEFF,
-        0 0 3px #9CCEFF,
-        0 0 4px dodgerblue,
-        0 0 5px dodgerblue,
-        0 0 6px dodgerblue,
-        0 0 7px dodgerblue,
-        0 0 8px dodgerblue,
-        0 0 9px dodgerblue,
-        0 0 10px dodgerblue;
+        text-shadow: 0 0 1px white,
+        0 0 2px lightgrey,
+        0 0 3px lightgrey,
+        0 0 4px lightgrey,
+        0 0 5px lightgrey,
+        0 0 6px lightgrey,
+        0 0 7px lightgrey,
+        0 0 8px lightgrey,
+        0 0 9px lightgrey,
+        0 0 10px grey;
     }
     to {
-        text-shadow: 0 0 2px #9CCEFF,
-        0 0 4px  #9CCEFF,
-        0 0 6px  #9CCEFF,
-        0 0 8px  dodgerblue,
-        0 0 10px  dodgerblue,
-        0 0 12px  dodgerblue,
-        0 0 14px  dodgerblue,
-        0 0 16px  dodgerblue,
-        0 0 18px  dodgerblue,
-        0 0 20px  dodgerblue;
+        text-shadow: 0 0 2px white,
+        0 0 4px  lightgrey,
+        0 0 6px  lightgrey,
+        0 0 8px  lightgrey,
+        0 0 10px  lightgrey,
+        0 0 12px  lightgrey,
+        0 0 14px  lightgrey,
+        0 0 16px  lightgrey,
+        0 0 18px  lightgrey,
+        0 0 20px  grey;
     }
 }
 
 @-ms-keyframes neon {
     from {
-        text-shadow: 0 0 1px #9CCEFF,
-        0 0 2px #9CCEFF,
-        0 0 3px #9CCEFF,
-        0 0 4px dodgerblue,
-        0 0 5px dodgerblue,
-        0 0 6px dodgerblue,
-        0 0 7px dodgerblue,
-        0 0 8px dodgerblue,
-        0 0 9px dodgerblue,
-        0 0 10px dodgerblue;
+        text-shadow: 0 0 1px white,
+        0 0 2px lightgrey,
+        0 0 3px lightgrey,
+        0 0 4px lightgrey,
+        0 0 5px lightgrey,
+        0 0 6px lightgrey,
+        0 0 7px lightgrey,
+        0 0 8px lightgrey,
+        0 0 9px lightgrey,
+        0 0 10px grey;
     }
     to {
-        text-shadow: 0 0 2px #9CCEFF,
-        0 0 4px  #9CCEFF,
-        0 0 6px  #9CCEFF,
-        0 0 8px  dodgerblue,
-        0 0 10px  dodgerblue,
-        0 0 12px  dodgerblue,
-        0 0 14px  dodgerblue,
-        0 0 16px  dodgerblue,
-        0 0 18px  dodgerblue,
-        0 0 20px  dodgerblue;
+        text-shadow: 0 0 2px white,
+        0 0 4px  lightgrey,
+        0 0 6px  lightgrey,
+        0 0 8px  lightgrey,
+        0 0 10px  lightgrey,
+        0 0 12px  lightgrey,
+        0 0 14px  lightgrey,
+        0 0 16px  lightgrey,
+        0 0 18px  lightgrey,
+        0 0 20px  grey;
     }
 }
 
 @-o-keyframes neon {
     from {
-        text-shadow: 0 0 1px #9CCEFF,
-        0 0 2px #9CCEFF,
-        0 0 3px #9CCEFF,
-        0 0 4px dodgerblue,
-        0 0 5px dodgerblue,
-        0 0 6px dodgerblue,
-        0 0 7px dodgerblue,
-        0 0 8px dodgerblue,
-        0 0 9px dodgerblue,
-        0 0 10px dodgerblue;
+        text-shadow: 0 0 1px white,
+        0 0 2px lightgrey,
+        0 0 3px lightgrey,
+        0 0 4px lightgrey,
+        0 0 5px lightgrey,
+        0 0 6px lightgrey,
+        0 0 7px lightgrey,
+        0 0 8px lightgrey,
+        0 0 9px lightgrey,
+        0 0 10px grey;
     }
     to {
-        text-shadow: 0 0 2px #9CCEFF,
-        0 0 4px  #9CCEFF,
-        0 0 6px  #9CCEFF,
-        0 0 8px  dodgerblue,
-        0 0 10px  dodgerblue,
-        0 0 12px  dodgerblue,
-        0 0 14px  dodgerblue,
-        0 0 16px  dodgerblue,
-        0 0 18px  dodgerblue,
-        0 0 20px  dodgerblue;
+        text-shadow: 0 0 2px white,
+        0 0 4px  lightgrey,
+        0 0 6px  lightgrey,
+        0 0 8px  lightgrey,
+        0 0 10px  lightgrey,
+        0 0 12px  lightgrey,
+        0 0 14px  lightgrey,
+        0 0 16px  lightgrey,
+        0 0 18px  lightgrey,
+        0 0 20px  grey;
     }
 }
 
 @keyframes neon {
     from {
-        text-shadow: 0 0 1px #9CCEFF,
-        0 0 2px #9CCEFF,
-        0 0 3px #9CCEFF,
-        0 0 4px dodgerblue,
-        0 0 5px dodgerblue,
-        0 0 6px dodgerblue,
-        0 0 7px dodgerblue,
-        0 0 8px dodgerblue,
-        0 0 9px dodgerblue,
-        0 0 10px dodgerblue;
+        text-shadow: 0 0 1px lightgrey,
+        0 0 2px lightgrey,
+        0 0 3px lightgrey,
+        0 0 4px lightgrey,
+        0 0 5px lightgrey,
+        0 0 6px lightgrey,
+        0 0 7px lightgrey,
+        0 0 8px lightgrey,
+        0 0 9px lightgrey,
+        0 0 10px grey;
     }
     to {
-        text-shadow: 0 0 2px #9CCEFF,
-        0 0 4px  #9CCEFF,
-        0 0 6px  #9CCEFF,
-        0 0 8px  dodgerblue,
-        0 0 10px  dodgerblue,
-        0 0 12px  dodgerblue,
-        0 0 14px  dodgerblue,
-        0 0 16px  dodgerblue,
-        0 0 18px  dodgerblue,
-        0 0 20px  dodgerblue;
+        text-shadow: 0 0 2px lightgrey,
+        0 0 4px  lightgrey,
+        0 0 6px  lightgrey,
+        0 0 8px  lightgrey,
+        0 0 10px  lightgrey,
+        0 0 12px  lightgrey,
+        0 0 14px  lightgrey,
+        0 0 16px  lightgrey,
+        0 0 18px  lightgrey,
+        0 0 20px  grey;
     }
 }
