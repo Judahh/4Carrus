@@ -127,13 +127,13 @@ button, button:active, button:after, button:before {
 
 #DivIdText{
     cursor: pointer;
-    font-family: "FontFuturisticI", cursive;
+    font-family: "FontFuturisticI";
     font-size: 16px;
 }
 
 #DivIdIcon{
     cursor: pointer;
-    font-family: "FontIcon", cursive;
+    font-family: "FontIcon";
     padding: 8px;
     font-size: 34px;
 }
