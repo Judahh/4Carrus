@@ -158,8 +158,9 @@ button, button:active, button:after, button:before {
     -ms-animation: neon 1s ease-in-out infinite alternate;
     -o-animation: neon 1s ease-in-out infinite alternate;
     animation: neon 1s ease-in-out infinite alternate;
-    color: white;
-    text-shadow: 0 0 2px white,
+    color: dodgerblue;
+    text-shadow: -1px 0 1px white, 0 1px 1px white, 1px 0 1px white, 0 -1px 1px white;
+    /*text-shadow: 0 0 2px white,
     0 0 4px  lightgrey,
     0 0 6px  lightgrey,
     0 0 8px  lightgrey,
@@ -168,7 +169,7 @@ button, button:active, button:after, button:before {
     0 0 14px  lightgrey,
     0 0 16px  lightgrey,
     0 0 18px  lightgrey,
-    0 0 20px  grey;
+    0 0 20px  grey;*/
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -205,7 +206,7 @@ ul li:hover ul{
 ul li ul li {
     width: 130px;
 }
-
+/*
 @-webkit-keyframes neon {
     from {
         text-shadow: 0 0 1px white,
@@ -339,4 +340,4 @@ ul li ul li {
         0 0 18px  lightgrey,
         0 0 20px  grey;
     }
-}
+}*/
