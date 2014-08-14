@@ -4,6 +4,7 @@
     <list default="true" id="93cb9ab0-c511-4d9b-830a-14540a6982d2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="BasicSingUp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="117" selection-start="171" selection-end="171" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1428">
+            <state line="6" column="27" selection-start="217" selection-end="231" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -39,7 +40,7 @@
       <file leaf-file-name="SignUp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="39.5" vertical-offset="2455" max-vertical-offset="3196">
+            <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3196">
               <folding />
             </state>
           </provider>
@@ -48,7 +49,16 @@
       <file leaf-file-name="SignUp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="24" selection-start="4378" selection-end="4378" vertical-scroll-proportion="-13.923077" vertical-offset="1848" max-vertical-offset="2380">
+            <state line="130" column="58" selection-start="4369" selection-end="4369" vertical-scroll-proportion="-13.923077" vertical-offset="1848" max-vertical-offset="2431">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicSingUp.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="10" selection-start="265" selection-end="265" vertical-scroll-proportion="0.26881722" vertical-offset="156" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -57,7 +67,7 @@
       <file leaf-file-name="UserSingUp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+            <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -67,15 +77,6 @@
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/UserSingUp.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicSingUp.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="89" selection-end="89" vertical-scroll-proportion="0.21326165" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -95,9 +96,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/UserSingUp.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css" />
       </list>
@@ -105,8 +106,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Storm Php5.5.12" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1366" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -664,7 +664,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="738" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="738" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -673,7 +673,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2613293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27599388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -681,11 +681,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -705,6 +705,132 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="117" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="58" selection-start="4369" selection-end="4369" vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="2431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/UserSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="117" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="24" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/UserSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="117" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="24" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/UserSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3196">
@@ -768,9 +894,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+        <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3196">
           <folding />
         </state>
       </provider>
@@ -782,30 +908,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/SignUp.php">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Dealership/UserSingUp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="24" selection-start="3219" selection-end="3219" vertical-scroll-proportion="39.5" vertical-offset="2455" max-vertical-offset="3196">
+        <state line="3" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicSingUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="117" selection-start="171" selection-end="171" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1428">
+        <state line="6" column="27" selection-start="217" selection-end="231" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="24" selection-start="4378" selection-end="4378" vertical-scroll-proportion="-13.923077" vertical-offset="1848" max-vertical-offset="2380">
+        <state line="130" column="58" selection-start="4369" selection-end="4369" vertical-scroll-proportion="-13.923077" vertical-offset="1848" max-vertical-offset="2431">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="89" selection-end="89" vertical-scroll-proportion="0.21326165" vertical-offset="0" max-vertical-offset="558">
+        <state line="18" column="10" selection-start="265" selection-end="265" vertical-scroll-proportion="0.26881722" vertical-offset="156" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
