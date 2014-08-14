@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cc65c4-3690-4028-b7e0-db50b170316d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Fonts/Projects/BlueLionIcons.fcp" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Fonts/Projects/BlueLionIcons.fcp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Fonts/Projects/Earth Memory.fcp" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Fonts/Projects/Earth Memory.fcp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css" afterPath="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body/Search/Common.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body/Search/Common.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuSearch.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuSearch.php" />
     </list>
     <ignored path="4Carrus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Body.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Body.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="83" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0990676" vertical-offset="0" max-vertical-offset="858">
+            <state line="5" column="83" selection-start="254" selection-end="254" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -52,6 +47,15 @@
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="129" column="44" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9027">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuOptions.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="77" selection-start="3471" selection-end="3471" vertical-scroll-proportion="0.77272725" vertical-offset="765" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -72,10 +76,10 @@
       <list>
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuSettings.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuSearch.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body/Search/Common.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php" />
       </list>
     </option>
   </component>
@@ -932,23 +936,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="80" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.7622378" vertical-offset="791" max-vertical-offset="1649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuSettings.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="44" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9027">
           <folding />
         </state>
       </provider>
@@ -962,7 +952,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="83" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0990676" vertical-offset="0" max-vertical-offset="858">
+        <state line="5" column="83" selection-start="254" selection-end="254" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="44" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9027">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="77" selection-start="3471" selection-end="3471" vertical-scroll-proportion="0.77272725" vertical-offset="765" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
