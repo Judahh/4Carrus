@@ -4,6 +4,16 @@
     src: url("../../../../../../Fonts/BlueLionIcons.woff");
 }
 
+@font-face {
+    font-family: "FontFuturisticI";
+    src: url("../../../../../../Fonts/Steinerlight.ttf");
+}
+
+@font-face {
+    font-family: "FontFuturisticII";
+    src: url("../../../../../../Fonts/Steinerlight.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -117,8 +127,7 @@ button, button:active, button:after, button:before {
 
 #DivIdText{
     cursor: pointer;
-    font-family: "Arial", cursive;
-    font-weight:bold;
+    font-family: "FontFuturisticI", cursive;
     font-size: 16px;
 }
 

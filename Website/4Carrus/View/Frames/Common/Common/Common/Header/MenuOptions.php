@@ -18,10 +18,10 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuNotificationsHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Região      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Preferences </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Colors      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Language    </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Region      </div></div></li>
                     </div>
                 </ul>
             </div>
@@ -40,10 +40,10 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuSettingsHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Região      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Preferences </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Colors      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Language    </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Region      </div></div></li>
                     </div>
                 </ul>
             </div>
@@ -81,9 +81,9 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuUserHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Minha Conta </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Meu Carrinho</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Minha Agenda</div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">My Account  </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Meu Chart   </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Agenda      </div></div></li>
                     </div>
                 </ul>
             </div>

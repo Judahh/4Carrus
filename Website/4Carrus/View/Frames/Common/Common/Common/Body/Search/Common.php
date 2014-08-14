@@ -17,7 +17,7 @@
 
                     <div id="DivIdColummRight">
                         <div id="DivIdNeon">
-                            <div id="DivIdText">Informações</div>
+                            <div id="DivIdText">Informations</div>
                         </div>
                     </div>
                 </div>
