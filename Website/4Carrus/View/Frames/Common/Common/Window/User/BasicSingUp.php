@@ -14,7 +14,7 @@
         <form>
             <ol>
                 <li id="LiIdFirstName">
-                    <label for="InputIdTextFirstName">
+                    <label for="InputIdTextFirstName" id="LabelIdtFirstName">
                         Nome:
                         <em>*</em>
                     </label>
@@ -22,7 +22,7 @@
                 </li>
 
                 <li id="LiIdSecondName">
-                    <label for="InputIdTextSecondName">
+                    <label for="InputIdTextSecondName" id="LabelIdSecondName">
                         Sobrenome:
                         <em>*</em>
                     </label>
@@ -30,7 +30,7 @@
                 </li>
 
                 <li id="LiIdEmail">
-                    <label for="InputIdTextEmail">
+                    <label for="InputIdTextEmail" id="LabelIdEmail">
                         E-mail:
                         <em>*</em>
                     </label>
