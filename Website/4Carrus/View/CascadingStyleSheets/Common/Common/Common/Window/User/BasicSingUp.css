@@ -3,8 +3,41 @@
     padding: 0;
 }
 
+#DivIdScopo{
+    position: absolute;
+    background: green;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#DivInformation{
+    position: relative;
+    background: dodgerblue;
+    width: 100%;
+    height: 12%;
+    padding-left: 0.4%;
+}
+
 #DivIdBasicSingUp{
     background: red;
-    width: 50%;
-    height: 40%;
+    width: 100%;
+    height: 88%;
+    position: relative;
+    padding-left: 0.4%;
+}
+
+ol li{
+    display: block;
+    padding-left: 0.1%;
+    margin-bottom: 0.7%;
+}
+
+ul{
+    padding-left: 2%;
+}
+
+label{
+    padding-right: 3%;
+
 }
