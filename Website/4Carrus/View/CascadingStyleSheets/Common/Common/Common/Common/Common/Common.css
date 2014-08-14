@@ -158,8 +158,8 @@ button, button:active, button:after, button:before {
     -ms-animation: neon 1s ease-in-out infinite alternate;
     -o-animation: neon 1s ease-in-out infinite alternate;
     animation: neon 1s ease-in-out infinite alternate;
-    color: dodgerblue;
-    text-shadow: -1px 0 1px white, 0 1px 1px white, 1px 0 1px white, 0 -1px 1px white;
+    color: deepskyblue;
+    text-shadow: -1px 0 1px lightblue, 0 1px 1px lightblue, 1px 0 1px lightblue, 0 -1px 1px lightblue;
     /*text-shadow: 0 0 2px white,
     0 0 4px  lightgrey,
     0 0 6px  lightgrey,
