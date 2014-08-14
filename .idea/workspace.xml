@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Body.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Body.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="63" selection-start="121" selection-end="121" vertical-scroll-proportion="0.039627038" vertical-offset="0" max-vertical-offset="858">
+            <state line="5" column="60" selection-start="225" selection-end="225" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Common.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="27" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9027">
+            <state line="131" column="22" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.5769231" vertical-offset="1717" max-vertical-offset="9044">
               <folding />
             </state>
           </provider>
@@ -85,9 +85,9 @@
         <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Header/Menu/MenuOptions/SubMenuSettings.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuSearch.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Header/MenuOptions.php" />
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body/Search/Common.php" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css" />
       </list>
     </option>
   </component>
@@ -958,9 +958,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="27" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9027">
+        <state line="5" column="60" selection-start="225" selection-end="225" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
@@ -972,9 +972,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Common/Body.php">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Common/Common/Common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="63" selection-start="121" selection-end="121" vertical-scroll-proportion="0.039627038" vertical-offset="0" max-vertical-offset="858">
+        <state line="131" column="22" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.5769231" vertical-offset="1717" max-vertical-offset="9044">
           <folding />
         </state>
       </provider>

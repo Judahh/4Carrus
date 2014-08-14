@@ -3,7 +3,7 @@
         <img  id="ImgIdDealership" src="View/Carros/dealership6.jpg"/>
     </div>
     <video id="VideoId">
-        <source src="View/Carros/video.mp4" type="video/mp4">
+        <source src="View/Carros/video.mp4" type="video/mp45">
     </video>
     <div id="DivIdLogo">
         <img  id="ImgIdLogo" src="View/Carros/4Carrus.jpg"/>
