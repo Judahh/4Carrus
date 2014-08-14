@@ -6,7 +6,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">T</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdShake">T</div>
+                    </div>
                 </div>
             </div>
 
@@ -49,7 +51,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">Y</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdPulse">Y</div>
+                    </div>
                 </div>
             </div>
             <div id="DivIdSubMenuApplications">
@@ -66,7 +70,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">A</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdPulse">A</div>
+                    </div>
                 </div>
             </div>
             <div id="DivIdSubMenuUser">
