@@ -22,9 +22,17 @@ function audioFadeOut(element,time){
     audioFade(element,time,100,0);
 }
 
+function close(element){
+    element.style.display = "none";
+}
+
+function open(element){
+    element.style.display = "block";
+}
+
 function fade(element,time,initial,end){
     var increment = 0;
-    element.style.display = "block";
+    open(element);
     if(initial < end){
         increment = 1;
     }
@@ -36,7 +44,7 @@ function fade(element,time,initial,end){
 
     if(opacity == end){
         if(end == 0){
-            element.style.display = "none";
+            close(element);
         }
     }
 
@@ -44,7 +52,7 @@ function fade(element,time,initial,end){
         function(){
             if((opacity == end)){
                 if(end == 0){
-                    element.style.display = "none";
+                    close(element);
                 }
                 clearInterval(interval);
             }else {
@@ -68,7 +76,7 @@ function audioFade(element,time,initial,end){
 
     if(volume == end){
         if(end == 0){
-            element.style.display = "none";
+            close(element);
             element.pause();
         }
     }
@@ -77,7 +85,7 @@ function audioFade(element,time,initial,end){
         function(){
             if((volume == end)){
                 if(end == 0){
-                    element.style.display = "none";
+                    close(element);
                     element.pause();
                 }
                 clearInterval(interval);
