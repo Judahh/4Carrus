@@ -81,7 +81,7 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuUserHolder2">
-                        <li><div id="DivIdNeon" onclick="popup('popUpDiv')"><div id="DivIdText">My Account  </div></div></li>
+                        <li onclick="popup('DivIdPopUp')"><div id="DivIdNeon"><div id="DivIdText">My Account  </div></div></li>
                         <li><div id="DivIdNeon"><div id="DivIdText">My Chart    </div></div></li>
                         <li><div id="DivIdNeon"><div id="DivIdText">Agenda      </div></div></li>
                     </div>

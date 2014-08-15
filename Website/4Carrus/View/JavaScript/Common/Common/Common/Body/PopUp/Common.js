@@ -16,7 +16,7 @@ function blanketSize(popUpDivId) {
                         blanketHeight = document.body.parentNode.scrollHeight;
         }
     }
-    var blanket = document.getElementById('blanket');
+    var blanket = document.getElementById('DivIdBlanket');
     blanket.style.height = blanketHeight + 'px';
     var popUpElement = document.getElementById(popUpDivId);
     var popUpElementHeight=blanketHeight/2-150;//150 is half popup's height
@@ -48,6 +48,6 @@ function windowPosition(popUpDivId) {
 function popup(windowname) {
     blanketSize(windowname);
     windowPosition(windowname);
-    toggle('blanket');
+    toggle('DivIdBlanket');
     toggle(windowname);		
 }

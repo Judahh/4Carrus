@@ -2,7 +2,7 @@
     <div id="DivIdDealership">
         <img  id="ImgIdDealership" src="View/Carros/dealership6.jpg"/>
     </div>
-    <video id="VideoId">
+    <video id="DivIdVideo">
         <source src="View/Carros/video.mp4" type="video/mp4">
     </video>
     <div id="DivIdLogo">
@@ -11,9 +11,9 @@
 </div>
 
 <body>
-    <div id=”blanket” style="display:none;"></div>
-    <div id=”popUpDiv” style="display:none;">
-        <a href=”#” onclick="popup('popUpDiv')">Click Me To Close</a>
+    <div id=”DivIdBlanket” style="display:none;"></div>
+    <div id=”DivIdPopUp” style="display:none;">
+        <a href=”#” onclick="popup('DivIdPopUp')">Click Me To Close</a>
     </div>
 
     <?php
