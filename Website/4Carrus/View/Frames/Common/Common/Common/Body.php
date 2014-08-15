@@ -11,12 +11,17 @@
 </div>
 
 <body>
-    <div id=”DivIdBlanket” style="display:none;"></div>
-    <div id=”DivIdPopUp” style="display:none;">
-        <a onclick="popup('DivIdPopUp')">Click Me To Close</a>
-    </div>
-
     <?php
         include 'Body/Search/Common.php';
     ?>
 </body>
+
+<div id="DivIdPopUp">
+    <div id="DivIdGlass">
+        <div id="DivIdPopUpClose">
+            <div id="DivIdNeon" onclick="popup('DivIdPopUp')">
+                <div id="DivIdText">Close - X</div>
+            </div>
+        </div>
+    </div>
+</div>
