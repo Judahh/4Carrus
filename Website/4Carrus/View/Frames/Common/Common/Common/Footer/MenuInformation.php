@@ -16,7 +16,7 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuInformationHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdIcon">9</div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdIcon">6</div></div></li>
                         <li><div id="DivIdNeon"><div id="DivIdIcon">?</div></div></li>
                     </div>
                 </ul>
