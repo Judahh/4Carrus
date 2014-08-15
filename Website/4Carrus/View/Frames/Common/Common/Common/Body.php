@@ -13,7 +13,7 @@
 <body>
     <div id=”DivIdBlanket” style="display:none;"></div>
     <div id=”DivIdPopUp” style="display:none;">
-        <a href=”#” onclick="popup('DivIdPopUp')">Click Me To Close</a>
+        <a onclick="popup('DivIdPopUp')">Click Me To Close</a>
     </div>
 
     <?php
