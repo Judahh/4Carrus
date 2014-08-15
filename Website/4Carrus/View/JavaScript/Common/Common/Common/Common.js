@@ -1,8 +1,9 @@
 function toggle(divId) {
     var element = document.getElementById(divId);
     if ( element.style.display == 'none' ) {
-        element.style.display = 'block';
-    }else {element.style.display = 'none';
+        open(element);
+    }else {
+        close(element);
     }
 }
 
