@@ -6,7 +6,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">T</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdShake">T</div>
+                    </div>
                 </div>
             </div>
 
@@ -16,10 +18,10 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuNotificationsHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Região      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Preferences </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Colors      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Language    </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Region      </div></div></li>
                     </div>
                 </ul>
             </div>
@@ -27,7 +29,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">X</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdSpin">X</div>
+                    </div>
                 </div>
             </div>
             <div id="DivIdSubMenuSettings">
@@ -36,10 +40,10 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuSettingsHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Região      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Preferences </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Colors      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Language    </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Region      </div></div></li>
                     </div>
                 </ul>
             </div>
@@ -47,7 +51,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">Y</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdPulse">Y</div>
+                    </div>
                 </div>
             </div>
             <div id="DivIdSubMenuApplications">
@@ -64,7 +70,9 @@
         <li>
             <div id="DivIdNeon">
                 <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">A</div>
+                    <div id="DivIdIcon">
+                        <div id="DivIdPulse">A</div>
+                    </div>
                 </div>
             </div>
             <div id="DivIdSubMenuUser">
@@ -73,9 +81,9 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuUserHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Minha Conta </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Meu Carrinho</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Minha Agenda</div></div></li>
+                        <li onclick="popup('DivIdPopUp')"><div id="DivIdNeon"><div id="DivIdText">My Account  </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">My Chart    </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Agenda      </div></div></li>
                     </div>
                 </ul>
             </div>

@@ -15,10 +15,10 @@
                         <div id="DivIdGlass"></div>
                     </div>
                     <div id="DivIdSubMenuSearchHolder2">
-                        <li><div id="DivIdNeon"><div id="DivIdText">Preferências</div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Cores       </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Idioma      </div></div></li>
-                        <li><div id="DivIdNeon"><div id="DivIdText">Região      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Preferences </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Colors      </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Language    </div></div></li>
+                        <li><div id="DivIdNeon"><div id="DivIdText">Region      </div></div></li>
                     </div>
                 </ul>
             </div>
