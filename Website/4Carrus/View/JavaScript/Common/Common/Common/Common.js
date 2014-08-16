@@ -1,10 +1,18 @@
-function toggle(divId) {
+function toggleDivId(divId) {
     var element = document.getElementById(divId);
-    if ( element.style.display == 'none' ) {
+    if (element.style.display == 'none') {
         open(element);
     }else {
         close(element);
     }
+}
+
+function fadeInDivId(divId,time){
+    fadeIn(element,divId);
+}
+
+function fadeOutDivId(divId,time){
+    fadeOut(divId,time);
 }
 
 function fadeIn(element,time){
@@ -21,6 +29,16 @@ function audioFadeIn(element,time){
 
 function audioFadeOut(element,time){
     audioFade(element,time,100,0);
+}
+
+function closeDivId(divId){
+    var element = document.getElementById(divId);
+    close(element);
+}
+
+function openDivId(divId){
+    var element = document.getElementById(divId);
+    open(element);
 }
 
 function close(element){
@@ -97,6 +115,11 @@ function audioFade(element,time,initial,end){
         },time * 10);
 }
 
+function goVerticalDivId(divId,time,initial,end,top){
+    var element = document.getElementById(divId);
+    goVertical(element,time,initial,end,top);
+}
+
 function goUp(element,time){
     goVertical(element,time,0,200,true);
 }
@@ -134,7 +157,8 @@ function goVertical(element,time,initial,end,top){
                     element.style.top = vertical + "px";
                 }
             }
-        },time * 10);
+        },time * 10
+    );
 }
 
 function goHorizontal(element,time,initial,end,right){
@@ -154,5 +178,6 @@ function goHorizontal(element,time,initial,end,right){
                     element.style.right = horizontal + "px";
                 }
             }
-        },time * 10);
+        },time * 10
+    );
 }
