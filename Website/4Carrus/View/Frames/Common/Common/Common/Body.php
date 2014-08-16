@@ -16,11 +16,15 @@
     ?>
 </body>
 
-<div id="DivIdPopUp">
+<div id="DivIdPopUpBox">
     <div id="DivIdGlass">
-        <div id="DivIdPopUpClose">
-            <div id="DivIdNeon" onclick="popup('DivIdPopUp')">
-                <div id="DivIdText">Close - X</div>
+        <div id="DivIdPopUp">
+            <div id="DivIdPopUpHeader">
+                <div id="DivIdPopUpClose">
+                    <div id="DivIdNeon" onclick="popUpClose('DivIdPopUpBox')">
+                        <div id="DivIdText">X</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
