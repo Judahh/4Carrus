@@ -7,7 +7,7 @@
     <div id="DivInformation">
         <h1>Logo 4Carrus</h1>
         <h5>Cadastre-se em uma conta pessoal ou uma <a href="#">conta comercial</a></h5>
-        <p id="Hint-Text">* Dados obrigatórios</p>
+        <p id="Hint-Text"><em>*</em> Dados obrigatórios</p>
     </div>
 
     <div id="DivIdBasicSingUp">
