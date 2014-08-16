@@ -59,7 +59,7 @@
                             <option>Fax</option>
                         </select>
                         <input type="text" id="InputTextPhone" size="15">
-                        <input type="button" id="InputButtonPhone" ng-submit="addTodo() value="Add">
+                        <button type="button"id="InputButtonPhone" ng-submit="addTodo()" >Add</button>
                     </li>
 
                     <li id="LiIdPassword">
@@ -73,7 +73,10 @@
                 </ol>
 
                 <ul>
-                    <li>Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></li>
+                    <li>
+                        <input type="checkbox" id="InputCheckBox">
+                        <label for="InputCheckBox" id="Label">Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></label>
+                    </li>
                     <li>Concordo em receber comunicações do 4Carrus e posso mudar minhas preferências de notificação em Meu 4Carrus.</li>
                 </ul>
 

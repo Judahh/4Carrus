@@ -11,6 +11,12 @@
     height: 100%;
 }
 
+#DivIdScopo p{
+    font-family: "Arial", cursive;
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
 #DivInformation{
     position: relative;
     background: dodgerblue;
@@ -23,38 +29,39 @@
     background: red;
     width: 100%;
     height: 88%;
-    left: 0;
-    bottom: 0;
     position: relative;
     padding-left: 0.4%;
 }
 
+ol{
+    margin-top: 1%;
+}
 ol li{
     display: block;
     padding-left: 0.1%;
     margin-bottom: 0.7%;
 }
 
+fieldset{
+    border: 0;
+}
+
+#DivIdBasicSingUp ol li label{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    background: #ffff00;
+    text-align: right;
+}
+
+#DivIdBasicSingUp input{
+    width: 15%;
+    padding: .5%;
+    border: 1px solid #999999;
+    color: #333;
+
+}
 ul{
     padding-left: 2%;
 }
 
-#LabelIdtFirstName{
-    margin-left: 3.4%;
-
-}
-
-#InputIdTextFirstName{
-}
-
-
-#LabelIdSecondName{
-    margin-left: 1.2%;
-}
-
-#InputIdTextSecondName{
-}
-
-#LabelIdEmail{
-    margin-left: 3.1%;
-}
