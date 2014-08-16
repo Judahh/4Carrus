@@ -3,7 +3,6 @@
         <?php
             for($index=0; $index<10; $index++){
         ?>
-
             <div id="DivIdTableRow">
                 <div id="DivIdTableRowWrap">
                     <div id="DivIdColummLeft">
@@ -25,7 +24,6 @@
                     <div id="DivIdGlass"></div>
                 </div>
             </div>
-
         <?php
             }
         ?>
