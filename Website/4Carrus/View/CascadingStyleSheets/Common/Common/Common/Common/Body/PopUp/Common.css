@@ -16,10 +16,36 @@
 }
 
 #DivIdPopUpHeader{
+    top:0;
     height: 45px;
     width: 100%;
 }
 
 #DivIdPopUpClose{
     float: right;
+}
+
+#DivIdPopUpOK{
+    margin-left: 45px;
+    margin-right: 45px;
+    float: right;
+}
+
+#DivIdPopUpCancel{
+    margin-left: 45px;
+    margin-right: 45px;
+    float: right;
+}
+
+#DivIdPopUpFooter{
+    bottom:0;
+    height: 45px;
+    width: 100%;
+}
+
+#DivIdPopUpBody{
+    top: 45px;
+    bottom: 45px;
+    background: blue;
+    width: 100%;
 }
