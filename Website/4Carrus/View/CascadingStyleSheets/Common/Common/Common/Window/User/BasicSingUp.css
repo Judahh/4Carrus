@@ -57,11 +57,11 @@ fieldset{
 #DivIdBasicSingUp input{
     width: 15%;
     padding: .5%;
-    border: 2px solid cornflowerblue;
     color: #333;
 
 }
-ul{
-    padding-left: 2%;
+ul li{
+
+    display: block;
 }
 
