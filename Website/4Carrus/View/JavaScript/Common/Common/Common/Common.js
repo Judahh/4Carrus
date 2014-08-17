@@ -8,11 +8,13 @@ function toggleDivId(divId) {
 }
 
 function fadeInDivId(divId,time){
-    fadeIn(element,divId);
+    var element = document.getElementById(divId);
+    fadeIn(element,time);
 }
 
 function fadeOutDivId(divId,time){
-    fadeOut(divId,time);
+    var element = document.getElementById(divId);
+    fadeOut(element,time);
 }
 
 function fadeIn(element,time){
@@ -51,13 +53,16 @@ function open(element){
 
 function fade(element,time,initial,end){
     var increment = 0;
-    open(element);
     if(initial < end){
+        element.style.opacity = initial/100;
+        element.style.filter = "alpha(opacity="+initial+")";
         increment = 1;
     }
     if(initial > end){
         increment = -1;
     }
+
+    open(element);
 
     var opacity = initial;
 

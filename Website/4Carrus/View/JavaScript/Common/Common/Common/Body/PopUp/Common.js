@@ -3,8 +3,5 @@ function popUpClose(window) {
 }
 
 function popUpOpen(window) {
-    var element = document.getElementById(window);
-    alert("height():" + element.height());
     fadeInDivId(window,2);
-    goVerticalDivId(window,2,element.height(),0,top);
 }
