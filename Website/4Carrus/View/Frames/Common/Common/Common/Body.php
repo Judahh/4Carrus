@@ -28,15 +28,54 @@
             </div>
 
             <div id="DivIdPopUpBody">
-                <div id="DivIdNeon">
-                    <div id="DivIdText">
-                        <?php
-                            for($index=0; $index<1; $index++){
-                        ?>
-                                TEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXT
-                        <?php
-                            }
-                        ?>
+                <div id="DivIdPopUpBodyWrap">
+                    <div id="DivIdNeon">
+                        <div id="DivIdText">
+                            <?php
+                                for($index=0; $index<10; $index++){
+                            ?>
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+
+                            <?php
+                                }
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>

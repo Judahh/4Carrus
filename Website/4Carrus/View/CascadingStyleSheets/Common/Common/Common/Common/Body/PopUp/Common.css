@@ -12,40 +12,50 @@
 }
 
 #DivIdPopUp{
-    padding: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 #DivIdPopUpHeader{
-    top:0;
+    top: 0;
     height: 45px;
     width: 100%;
 }
 
-#DivIdPopUpClose{
-    float: right;
-}
-
-#DivIdPopUpOK{
-    margin-left: 45px;
-    margin-right: 45px;
-    float: right;
-}
-
-#DivIdPopUpCancel{
-    margin-left: 45px;
-    margin-right: 45px;
-    float: right;
-}
-
 #DivIdPopUpFooter{
-    bottom:0;
+    bottom: 0;
     height: 45px;
     width: 100%;
 }
 
 #DivIdPopUpBody{
-    top: 45px;
-    bottom: 45px;
-    background: blue;
+    margin: 15px;
+    max-height: 80%;
+    overflow: auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    height:auto;
+    width: auto;
+}
+
+#DivIdPopUpBodyWrap{
+    height: 100%;
     width: 100%;
+}
+
+#DivIdPopUpClose{
+    margin: 15px;
+    float: right;
+}
+
+#DivIdPopUpOK{
+    margin: 15px;
+    float: right;
+}
+
+#DivIdPopUpCancel{
+    margin: 15px;
+    float: right;
 }
