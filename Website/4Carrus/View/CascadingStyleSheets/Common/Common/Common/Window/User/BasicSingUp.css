@@ -5,7 +5,6 @@
 
 #DivIdScopo{
     position: absolute;
-    background: green;
     float: left;
     width: 100%;
     height: 100%;
@@ -19,14 +18,12 @@
 
 #DivInformation{
     position: relative;
-    background: dodgerblue;
     width: 100%;
     height: 12%;
     padding-left: 0.4%;
 }
 
 #DivIdBasicSingUp{
-    background: red;
     width: 100%;
     height: 88%;
     position: relative;
@@ -50,7 +47,6 @@ fieldset{
     position: relative;
     display: inline-block;
     width: 10%;
-    background: #ffff00;
     text-align: right;
 }
 
@@ -58,7 +54,12 @@ fieldset{
     width: 15%;
     padding: .5%;
     color: #333;
+    text-transform: uppercase;
 
+}
+
+#DivIdBasicSingUp select{
+    padding: .5%;
 }
 ul li{
 

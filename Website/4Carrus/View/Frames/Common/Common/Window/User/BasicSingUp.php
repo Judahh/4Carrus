@@ -11,7 +11,7 @@
     </div>
 
     <div id="DivIdBasicSingUp">
-        <form>
+        <form id="FormIdBasicSingUp" name="FormNameBasicSingUp" method="post">
             <fieldset>
                 <ol>
                     <li id="LiIdFirstName">
@@ -59,7 +59,6 @@
                                     if(this.value == 'Campo Obrigatório!'){
                                         this.value = ''
                                     }
-
                                "
 
                                onblur="
@@ -68,6 +67,14 @@
                                         this.style.background = '#FFA6A6',
                                         this.style.borderColor = 'red'
                                     }
+                                "
+
+                               onchange="
+                                if(this.value.length > 1){
+                                  this.style.background = '#97FFB1',
+                                  this.style.borderColor = 'green'
+                                  }
+
                                 ">
                     </li>
 
@@ -84,7 +91,6 @@
                                     if(this.value == 'Campo Obrigatório!'){
                                         this.value = ''
                                     }
-
                                "
 
                                onblur="
@@ -93,6 +99,14 @@
                                         this.style.background = '#FFA6A6',
                                         this.style.borderColor = 'red'
                                     }
+                                "
+
+                               onchange="
+                                if(this.value.length > 1){
+                                  this.style.background = '#97FFB1',
+                                  this.style.borderColor = 'green'
+                                  }
+
                                 ">
                     </li>
 
@@ -109,7 +123,6 @@
                                     if(this.value == 'Campo Obrigatório!'){
                                         this.value = ''
                                     }
-
                                "
 
                                onblur="
@@ -118,6 +131,14 @@
                                         this.style.background = '#FFA6A6',
                                         this.style.borderColor = 'red'
                                     }
+                                "
+
+                               onchange="
+                                if(this.value.length > 1){
+                                  this.style.background = '#97FFB1',
+                                  this.style.borderColor = 'green'
+                                  }
+
                                 ">
                     </li>
 
@@ -141,7 +162,6 @@
                                     if(this.value == 'Campo Obrigatório!'){
                                         this.value = ''
                                     }
-
                                "
 
                                onblur="
@@ -150,6 +170,14 @@
                                         this.style.background = '#FFA6A6',
                                         this.style.borderColor = 'red'
                                     }
+                                "
+
+                               onchange="
+                                if(this.value.length > 1){
+                                  this.style.background = '#97FFB1',
+                                  this.style.borderColor = 'green'
+                                  }
+
                                 ">
                         <button type="button"id="InputButtonPhone" ng-submit="addTodo()" >Add</button>
                     </li>
@@ -159,28 +187,7 @@
                             Definir senha:
                             <em>*</em>
                         </label>
-                        <input type="password" id="InputIdPassword" size="25"
-                               onclick="
-                                    this.style.background = '#F5F5F5',
-                                    this.style.borderColor = '#FFF'
-
-                                    if(this.value == 'Campo Obrigatório!'){
-                                        this.value = ''
-                                    }
-
-                               "
-
-                               onblur="
-                                    if(this.value == ''){
-                                        this.value = 'Campo Obrigatório!',
-                                        this.style.background = '#FFA6A6',
-                                        this.style.borderColor = 'red'
-                                        this.input.type =
-                                    }
-                                "
-
-
-                                ">
+                        <input type="password" id="InputIdPassword" size="25">
                         <span>Senha deve conter de 6 a 20 caracteres</span>
                     </li>
                 </ol>

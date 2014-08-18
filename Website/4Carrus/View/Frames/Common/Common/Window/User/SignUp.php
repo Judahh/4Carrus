@@ -1,4 +1,16 @@
-<div id="FormUserSingUp">
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="../../../../../CascadingStyleSheets/Common/Common/Common/Window/User/BasicSingUp.css" rel="stylesheet">
+</head>
+<div id="DivIdScopo">
+    <div id="DivInformation">
+        <h1>Logo 4Carrus</h1>
+        <h5>Cadastre-se em uma conta pessoal ou uma <a href="#">conta comercial</a></h5>
+        <p id="Hint-Text"><em>*</em> Dados obrigatórios</p>
+    </div>
+
+<div id="DivIdSingUp">
     <form method="post" id="FormIdentificationUserSignUp" >
         <ol>
             <li id="LiIdNamePerson">
