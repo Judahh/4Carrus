@@ -1,7 +1,7 @@
 function popUpClose(window) {
-    fadeOutDivId(window,2);
+    fadeOutDivId(window,0.5);
 }
 
 function popUpOpen(window) {
-    fadeInDivId(window,2);
+    fadeInDivId(window,0.5);
 }
