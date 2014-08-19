@@ -15,7 +15,7 @@
                     CPF:
                     <em>*</em>
                 </label>
-                <input type="text" id="inputTextIdentificationUserCPF" size="14" ui-mask="999.999.999.-99">
+                <input type="text" id="inputTextIdentificationUserCPF" size="14" ng-model="cpf" ui-mask="999.999.999.-99">
             </li>
 
             <li id="LiIdGeneralRegister">
@@ -55,13 +55,16 @@
                     Sexo:
                     <em>*</em>
                 </label>
+                <div id="DivId"
                 <label for="InputRadioGenderMan" id="LabelIdGenderMan">
                     M
                 </label>
                 <input type="radio" name="Sexo" id="InputRadioGenderMan" value="1" />
+
                 <label for="InputRadioGenderWoman" id="LabelIdGenderMan">
                     F
-                </label><input type="radio" name="Sexo" id="InputRadioGenderWoman" value="2" />
+                </label>
+                <input type="radio" name="Sexo" id="InputRadioGenderWoman" value="2" />
             </li>
 
             <li id="LiIdMaritalStatus">
