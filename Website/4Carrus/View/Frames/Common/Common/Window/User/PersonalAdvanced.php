@@ -55,7 +55,7 @@
                     Sexo:
                     <em>*</em>
                 </label>
-                <div id="DivId"
+
                 <label for="InputRadioGenderMan" id="LabelIdGenderMan">
                     M
                 </label>
