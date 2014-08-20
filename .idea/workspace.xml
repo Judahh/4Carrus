@@ -42,7 +42,7 @@
       <file leaf-file-name="Form.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="14" selection-start="767" selection-end="767" vertical-scroll-proportion="0.58916086" vertical-offset="683" max-vertical-offset="1462">
+            <state line="59" column="1" selection-start="736" selection-end="736" vertical-scroll-proportion="0.55944055" vertical-offset="683" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css" />
         <option value="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php" />
+        <option value="$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css" />
       </list>
     </option>
   </component>
@@ -441,7 +441,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="14" selection-start="767" selection-end="767" vertical-scroll-proportion="0.58916086" vertical-offset="683" max-vertical-offset="1462">
+        <state line="59" column="1" selection-start="736" selection-end="736" vertical-scroll-proportion="0.55944055" vertical-offset="683" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>

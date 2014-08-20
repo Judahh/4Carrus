@@ -57,10 +57,13 @@ ol li label{
     text-align: right;
 }
 
-#InputRadioClass{
+.InputRadioClass{
     width: 1%;
 }
 
+.LabelClassGender{
+    width: 1%;
+}
 
 input{
     width: 15%;
