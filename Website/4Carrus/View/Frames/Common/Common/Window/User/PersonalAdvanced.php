@@ -56,15 +56,15 @@
                     <em>*</em>
                 </label>
 
-                <label for="InputRadioGenderMan" id="LabelIdGenderMan">
+                <label for="InputRadioGenderMan" id="LabelIdGenderMan" class="LabelClassGender">
                     M
                 </label>
-                <input type="radio" name="Sexo" id="InputRadioGenderMan" value="1" />
+                <input type="radio" name="Sexo" id="InputRadioGenderMan" class="InputRadioClass" value="1" />
 
-                <label for="InputRadioGenderWoman" id="LabelIdGenderMan">
+                <label for="InputRadioGenderWoman" id="LabelIdGenderMan" class="LabelClassGender">
                     F
                 </label>
-                <input type="radio" name="Sexo" id="InputRadioGenderWoman" value="2" />
+                <input type="radio" name="Sexo" id="InputRadioGenderWoman" class="InputRadioClass" value="2" />
             </li>
 
             <li id="LiIdMaritalStatus">
