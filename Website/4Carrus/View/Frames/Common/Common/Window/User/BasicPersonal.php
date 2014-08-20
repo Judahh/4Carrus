@@ -193,11 +193,11 @@
 
                 <ul>
                     <li>
-                        <input type="checkbox" id="InputCheckBox">
+                        <input type="checkbox" id="InputCheckBox" class="InputCheckboxClass">
                         <label for="InputCheckBox" id="Label">Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></label>
                     </li>
                     <li>
-                        <input type="checkbox" id="InputCheckBoxNewsLetter">
+                        <input type="checkbox" id="InputCheckBoxNewsLetter" class="InputCheckboxClass">
                         <label for="InputCheckBoxNewsLetter">Concordo em receber comunicações do 4Carrus e posso mudar minhas preferências de notificação em Meu 4Carrus.</label>
                     </li>
                 </ul>

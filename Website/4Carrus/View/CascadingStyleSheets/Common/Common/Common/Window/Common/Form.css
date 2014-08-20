@@ -48,7 +48,9 @@ ol li{
     margin-bottom: 0.7%;
 }
 
-
+.InputCheckboxClass{
+    width: 1%;
+}
 
 ol li label{
     position: relative;
@@ -76,8 +78,8 @@ input{
 select{
     padding: .5%;
 }
-ul li{
 
+ul li{
     display: block;
 }
 
