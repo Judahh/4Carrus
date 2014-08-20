@@ -1,12 +1,12 @@
 <div id="DivIdBodyHolder">
     <div id="DivIdDealership">
-        <img  id="ImgIdDealership" src="View/Carros/dealership6.jpg"/>
+        <img  id="ImgIdDealership" src="View/Images/Dealerships/dealership6.jpg"/>
     </div>
     <video id="DivIdVideo">
-        <source src="View/Carros/video.mp4" type="video/mp4">
+        <source src="View/Videos/Intros/intro0.mp4" type="video/mp4">
     </video>
     <div id="DivIdLogo">
-        <img  id="ImgIdLogo" src="View/Carros/4Carrus.jpg"/>
+        <img  id="ImgIdLogo" src="View/Images/Logos/logo0.jpg"/>
     </div>
 </div>
 
@@ -28,15 +28,54 @@
             </div>
 
             <div id="DivIdPopUpBody">
-                <div id="DivIdNeon">
-                    <div id="DivIdText">
-                        <?php
-                            for($index=0; $index<1; $index++){
-                        ?>
-                                TEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXTTEXT TEXT
-                        <?php
-                            }
-                        ?>
+                <div id="DivIdPopUpBodyWrap">
+                    <div id="DivIdNeon">
+                        <div id="DivIdText">
+                            <?php
+                                for($index=0; $index<10; $index++){
+                            ?>
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+
+                            <?php
+                                }
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>

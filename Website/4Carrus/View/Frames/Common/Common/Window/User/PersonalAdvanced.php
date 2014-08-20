@@ -1,20 +1,21 @@
-<div id="FormUserSingUp">
-    <form method="post" id="FormIdentificationUserSignUp" >
-        <ol>
-            <li id="LiIdNamePerson">
-                <label for="InputTextIDNamePerson" id="LabelIdNamePerson">
-                    Nome Completo:
-                    <em>*</em>
-                </label>
-                <input type="text" id="InputTextIDNamePerson" size="45" maxlength="50" required="true">
-            </li>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="../../../../../CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
+</head>
 
+
+<form method="post" id="FormIdentificationUserSignUp" >
+    <fieldset>
+        <legend>Completar Cadastro Pessoal</legend>
+        <ol>
             <li id="LiIdUserCPF">
                 <label for="inputTextIdentificationUserCPF" id="LabelIdUserCPF">
                     CPF:
                     <em>*</em>
                 </label>
-                <input type="text" id="inputTextIdentificationUserCPF" size="14">
+                <input type="text" id="inputTextIdentificationUserCPF" size="14" ng-model="cpf" ui-mask="999.999.999.-99">
             </li>
 
             <li id="LiIdGeneralRegister">
@@ -54,13 +55,16 @@
                     Sexo:
                     <em>*</em>
                 </label>
+
                 <label for="InputRadioGenderMan" id="LabelIdGenderMan">
                     M
                 </label>
                 <input type="radio" name="Sexo" id="InputRadioGenderMan" value="1" />
+
                 <label for="InputRadioGenderWoman" id="LabelIdGenderMan">
                     F
-                </label><input type="radio" name="Sexo" id="InputRadioGenderWoman" value="2" />
+                </label>
+                <input type="radio" name="Sexo" id="InputRadioGenderWoman" value="2" />
             </li>
 
             <li id="LiIdMaritalStatus">
@@ -167,16 +171,9 @@
                     <option>Fax</option>
                 </select>
                 <input type="text" id="InputTextPhone" size="15">
-                <input type="button" id="InputButtonPhone" ng-submit="addTodo() value="Add">
-            </li>
-
-            <li id="LiIdEmail">
-                <label for="InputIdEmail" id="LabelIdEmail">
-                    E-Mail:
-                    <em>*</em>
-                </label>
-                <input type="email" id="InputIdEmail">
+                <button id="ButtonIdPlusPhone" ng-submit="addTodo()" >Plus</button>
             </li>
         </ol>
-    </form>
-</div>
+    </fieldset>
+</form>
+
