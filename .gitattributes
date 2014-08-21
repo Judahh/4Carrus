@@ -2,4 +2,3 @@
 *.cdm diff=cdm
 *.pdb diff=pdb
 *.pdm diff=pdm
-*.jpg diff=jpg
