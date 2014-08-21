@@ -350,7 +350,6 @@ CheckSeverity=Yes
 FixRequested=No
 CheckRequested=Yes
 
-
 [FolderOptions\CheckModel\Entity.Identifier]
 
 [FolderOptions\CheckModel\Entity.Identifier\UniqueName]
