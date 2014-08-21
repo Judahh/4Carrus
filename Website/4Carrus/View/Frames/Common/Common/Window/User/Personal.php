@@ -1,3 +1,4 @@
+<script src="../../../../../JavaScript/Framework/angular-1.2.22/ui-utils/modules/mask/mask.js"></script>
 <form id="FormIdBasicSingUp" name="FormNameBasicSingUp" method="post">
     <fieldset>
         <legend>Dados Pessoais</legend>
@@ -176,7 +177,7 @@
                     CPF:
                     <em>*</em>
                 </label>
-                <input type="text" id="inputTextIdentificationUserCPF" size="14" ng-model="cpf" ui-mask="999.999.999.-99">
+                <input type="text" id="inputTextIdentificationUserCPF" size="14" ui-mask="999.999.999-99">
             </li>
 
             <li id="LiIdGeneralRegister">
