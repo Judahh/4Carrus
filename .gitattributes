@@ -1,1 +1,4 @@
-*.odt diff=odt
+*.cdb diff=cdb
+*.cdm diff=cdm
+*.pdb diff=pdb
+*.pdm diff=pdm
