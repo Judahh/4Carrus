@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="842b503e-1da5-4398-8553-e2aedb8669f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php" afterPath="$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4Carrus.iws" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="PersonalAdvanced.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="17" selection-start="432" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3145">
+            <state line="160" column="59" selection-start="6065" selection-end="6065" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file leaf-file-name="Personal.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="-14.384615" vertical-offset="3043" max-vertical-offset="5831">
+            <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="0.0" vertical-offset="3043" max-vertical-offset="5831">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,19 @@
       <file leaf-file-name="SingUpCar.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="13" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.9379562" vertical-offset="812" max-vertical-offset="1462">
+            <state line="78" column="103" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.8759124" vertical-offset="846" max-vertical-offset="1479">
               <folding>
                 <element signature="e#6#94#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexPage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Administrator/IndexPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,40 +195,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Carrus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-1.2.22" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,6 +435,48 @@
               <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Window" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4Carrus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frames" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -512,19 +529,23 @@
       <created>1408568720216</created>
       <updated>1408568720216</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1408665772862</created>
+      <updated>1408665772863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2847432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30664653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -532,13 +553,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -560,6 +581,140 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="0.0" vertical-offset="3043" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="64" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#6#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="17" selection-start="432" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicPersonal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="21" selection-start="459" selection-end="8402" vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="0.0" vertical-offset="3043" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="13" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#6#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="17" selection-start="432" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicPersonal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="21" selection-start="459" selection-end="8402" vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="0.0" vertical-offset="3043" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="13" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#6#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="17" selection-start="432" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicPersonal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="21" selection-start="459" selection-end="8402" vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="0.0" vertical-offset="3043" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="13" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#6#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="17" selection-start="432" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3145">
@@ -740,6 +895,18 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/JavaScript/Framework/angular-1.2.22/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7317" column="25" selection-start="250717" selection-end="250720" vertical-scroll-proportion="0.33271027" vertical-offset="124211" max-vertical-offset="372759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="0.0" vertical-offset="3043" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="16" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1547">
@@ -749,33 +916,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/BasicPersonal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="21" selection-start="459" selection-end="8402" vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3655">
+        <state line="191" column="21" selection-start="459" selection-end="8402" vertical-scroll-proportion="0.0" vertical-offset="3120" max-vertical-offset="3655">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/PersonalAdvanced.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="17" selection-start="432" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3145">
+        <state line="160" column="59" selection-start="6065" selection-end="6065" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="3145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/JavaScript/Framework/angular-1.2.22/angular.js">
+    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Administrator/IndexPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7317" column="25" selection-start="250717" selection-end="250720" vertical-scroll-proportion="0.33271027" vertical-offset="124211" max-vertical-offset="372759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/User/Personal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="30" selection-start="8505" selection-end="8505" vertical-scroll-proportion="-14.384615" vertical-offset="3043" max-vertical-offset="5831">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/4Carrus/View/Frames/Common/Common/Window/Dealership/SingUpCar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="13" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.9379562" vertical-offset="812" max-vertical-offset="1462">
+        <state line="78" column="103" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.8759124" vertical-offset="846" max-vertical-offset="1479">
           <folding>
             <element signature="e#6#94#0" expanded="true" />
           </folding>
