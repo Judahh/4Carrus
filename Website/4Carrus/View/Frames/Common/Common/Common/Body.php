@@ -11,9 +11,11 @@
 </div>
 
 <body>
-    <?php
-        include 'Body/Search/Common.php';
-    ?>
+    <div id="basicScroll" class="flexcroll">
+        <?php
+            include 'Body/Search/Common.php';
+        ?>
+    </div>
 </body>
 
 <div id="DivIdPopUpBox">

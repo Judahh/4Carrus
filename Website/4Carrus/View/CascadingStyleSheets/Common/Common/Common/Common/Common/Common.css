@@ -23,6 +23,62 @@
     padding: 0;
 }
 
+#basicScroll {
+    /* Typical fixed height and fixed width example */
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    /* IE overflow fix, position must be relative or absolute*/
+    position: relative;
+}
+
+.flexcroll {
+    height: 100%;
+}
+
+.scrollgeneric {
+    line-height: 1px;
+    font-size: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vscrollerbar {
+    width: 10px;
+}
+.hscrollerbar {
+    height: 10px;
+}
+
+.vscrollerbase {
+    width: 12px;
+}
+.hscrollerbase {
+    height: 12px;
+}
+
+.hscrollerbar, .vscrollerbar {
+    vertical-align: middle;
+    horizontal-align: middle;
+    margin: 1px;
+    background-color: grey;
+    /*-moz-border-radius: <?php echo $scrollerbar_radius;?>px;
+    border-radius: <?php echo $scrollerbar_radius;?>px;*/
+}
+
+.hscrollerbase, .vscrollerbase, .hscrollerbase:hover, .vscrollerbase:hover, .hscrollerbase:active, .vscrollerbase:active {
+    background-color: black;
+}
+
+.hscrollerbar:active, .vscrollerbar:active,.hscrollerbar:hover, .vscrollerbar:hover {
+    background-color: white;
+}
+
+.hscrollerbase:hover, .vscrollerbase:hover {
+    opacity: 0.5;
+}
+
 input{
     border: none;
     outline: none;
