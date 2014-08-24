@@ -11,11 +11,9 @@
 </div>
 
 <body>
-    <div id="basicScroll" class="flexcroll">
-        <?php
-            include 'Body/Search/Common.php';
-        ?>
-    </div>
+    <?php
+        include 'Body/Search/Common.php';
+    ?>
 </body>
 
 <div id="DivIdPopUpBox">
