@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Tarciso Torres
- * Date: 21/08/14
- * Time: 20:50
- */
-?>
 <form id="" name="" method="post" action="">
     <ol>
         <li>
@@ -87,4 +79,3 @@
             <input type="text" id="InputTextNumberOfDoors" name="InputNameNumberOfDoors" placeholder="4">
         </li>
     </ol>
-</form>
