@@ -6,17 +6,77 @@
 
 @font-face {
     font-family: "FontFuturisticI";
-    src: url("../../../../../../Fonts/Steinerlight.ttf");
+    src: url("../../../../../../Fonts/FuturisticFontI.otf");
+    src: url("../../../../../../Fonts/FuturisticFontI.woff");
+    /*src: url("../../../../../../Fonts/FuturisticFontI.ttf");*/
 }
 
 @font-face {
     font-family: "FontFuturisticII";
-    src: url("../../../../../../Fonts/Steinerlight.ttf");
+    src: url("../../../../../../Fonts/FuturisticFontII.otf");
+    src: url("../../../../../../Fonts/FuturisticFontII.woff");
+    /*src: url("../../../../../../Fonts/FuturisticFontII.ttf");*/
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+
+#basicScroll {
+    /* Typical fixed height and fixed width example */
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    /* IE overflow fix, position must be relative or absolute*/
+    position: relative;
+}
+
+.flexcroll {
+    height: 100%;
+}
+
+.scrollgeneric {
+    line-height: 1px;
+    font-size: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vscrollerbar {
+    width: 10px;
+}
+.hscrollerbar {
+    height: 10px;
+}
+
+.vscrollerbase {
+    width: 12px;
+}
+.hscrollerbase {
+    height: 12px;
+}
+
+.hscrollerbar, .vscrollerbar {
+    vertical-align: middle;
+    horizontal-align: middle;
+    margin: 1px;
+    background-color: grey;
+    /*-moz-border-radius: <?php echo $scrollerbar_radius;?>px;
+    border-radius: <?php echo $scrollerbar_radius;?>px;*/
+}
+
+.hscrollerbase, .vscrollerbase, .hscrollerbase:hover, .vscrollerbase:hover, .hscrollerbase:active, .vscrollerbase:active {
+    background-color: black;
+}
+
+.hscrollerbar:active, .vscrollerbar:active,.hscrollerbar:hover, .vscrollerbar:hover {
+    background-color: white;
+}
+
+.hscrollerbase:hover, .vscrollerbase:hover {
+    opacity: 0.5;
 }
 
 input{
@@ -129,7 +189,15 @@ button, button:active, button:after, button:before {
     cursor: pointer;
     font-family: "FontFuturisticI";
     font-size: 16px;
-    font-weight: bold;
+}
+
+#DivIdText:hover{
+    font-family: "FontFuturisticII";
+    /*-webkit-animation: fontFuturisticPulse 1.0s linear;
+    -moz-animation: fontFuturisticPulse 1.0s linear;
+    -ms-animation: fontFuturisticPulse 1.0s linear;
+    -o-animation: fontFuturisticPulse 1.0s linear;
+    animation: fontFuturisticPulse 1.0s linear;*/
 }
 
 #DivIdIcon{
@@ -515,3 +583,68 @@ ul li ul li {
         0 0 20px  grey;
     }
 }*/
+
+@-o-keyframes fontFuturisticPulse {
+    0% {  font-family: "FontFuturisticII"; }
+    10% { font-family: "FontFuturisticI"; }
+    20% { font-family: "FontFuturisticII"; }
+    30% { font-family: "FontFuturisticI"; }
+    40% { font-family: "FontFuturisticII"; }
+    60% { font-family: "FontFuturisticI"; }
+    70% { font-family: "FontFuturisticII"; }
+    80% { font-family: "FontFuturisticI"; }
+    90% { font-family: "FontFuturisticII"; }
+    100% {font-family: "FontFuturisticI"; }
+}
+
+@-ms-keyframes fontFuturisticPulse {
+    0% {  font-family: "FontFuturisticII"; }
+    10% { font-family: "FontFuturisticI"; }
+    20% { font-family: "FontFuturisticII"; }
+    30% { font-family: "FontFuturisticI"; }
+    40% { font-family: "FontFuturisticII"; }
+    60% { font-family: "FontFuturisticI"; }
+    70% { font-family: "FontFuturisticII"; }
+    80% { font-family: "FontFuturisticI"; }
+    90% { font-family: "FontFuturisticII"; }
+    100% {font-family: "FontFuturisticI"; }
+}
+
+@-moz-keyframes fontFuturisticPulse {
+    0% {  font-family: "FontFuturisticII"; }
+    10% { font-family: "FontFuturisticI"; }
+    20% { font-family: "FontFuturisticII"; }
+    30% { font-family: "FontFuturisticI"; }
+    40% { font-family: "FontFuturisticII"; }
+    60% { font-family: "FontFuturisticI"; }
+    70% { font-family: "FontFuturisticII"; }
+    80% { font-family: "FontFuturisticI"; }
+    90% { font-family: "FontFuturisticII"; }
+    100% {font-family: "FontFuturisticI"; }
+}
+
+@-webkit-keyframes fontFuturisticPulse {
+    0% {  font-family: "FontFuturisticII"; }
+    10% { font-family: "FontFuturisticI"; }
+    20% { font-family: "FontFuturisticII"; }
+    30% { font-family: "FontFuturisticI"; }
+    40% { font-family: "FontFuturisticII"; }
+    60% { font-family: "FontFuturisticI"; }
+    70% { font-family: "FontFuturisticII"; }
+    80% { font-family: "FontFuturisticI"; }
+    90% { font-family: "FontFuturisticII"; }
+    100% {font-family: "FontFuturisticI"; }
+}
+
+@keyframes fontFuturisticPulse {
+    0% {  font-family: "FontFuturisticII"; }
+    10% { font-family: "FontFuturisticI"; }
+    20% { font-family: "FontFuturisticII"; }
+    30% { font-family: "FontFuturisticI"; }
+    40% { font-family: "FontFuturisticII"; }
+    60% { font-family: "FontFuturisticI"; }
+    70% { font-family: "FontFuturisticII"; }
+    80% { font-family: "FontFuturisticI"; }
+    90% { font-family: "FontFuturisticII"; }
+    100% {font-family: "FontFuturisticI"; }
+}
