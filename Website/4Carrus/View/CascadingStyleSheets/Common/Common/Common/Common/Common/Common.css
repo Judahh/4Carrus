@@ -8,14 +8,14 @@
     font-family: "FontFuturisticI";
     src: url("../../../../../../Fonts/FuturisticFontI.otf");
     src: url("../../../../../../Fonts/FuturisticFontI.woff");
-    src: url("../../../../../../Fonts/FuturisticFontI.ttf");
+    /*src: url("../../../../../../Fonts/FuturisticFontI.ttf");*/
 }
 
 @font-face {
     font-family: "FontFuturisticII";
     src: url("../../../../../../Fonts/FuturisticFontII.otf");
     src: url("../../../../../../Fonts/FuturisticFontII.woff");
-    src: url("../../../../../../Fonts/FuturisticFontII.ttf");
+    /*src: url("../../../../../../Fonts/FuturisticFontII.ttf");*/
 }
 
 *{
