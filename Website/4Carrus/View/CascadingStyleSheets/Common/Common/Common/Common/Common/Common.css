@@ -6,12 +6,16 @@
 
 @font-face {
     font-family: "FontFuturisticI";
-    src: url("../../../../../../Fonts/Steinerlight.ttf");
+    src: url("../../../../../../Fonts/FuturisticFontI.otf");
+    src: url("../../../../../../Fonts/FuturisticFontI.woff");
+    src: url("../../../../../../Fonts/FuturisticFontI.ttf");
 }
 
 @font-face {
     font-family: "FontFuturisticII";
-    src: url("../../../../../../Fonts/Steinerlight.ttf");
+    src: url("../../../../../../Fonts/FuturisticFontII.otf");
+    src: url("../../../../../../Fonts/FuturisticFontII.woff");
+    src: url("../../../../../../Fonts/FuturisticFontII.ttf");
 }
 
 *{
@@ -129,7 +133,12 @@ button, button:active, button:after, button:before {
     cursor: pointer;
     font-family: "FontFuturisticI";
     font-size: 16px;
-    font-weight: bold;
+}
+
+#DivIdText:hover{
+    cursor: pointer;
+    font-family: "FontFuturisticII";
+    font-size: 16px;
 }
 
 #DivIdIcon{
