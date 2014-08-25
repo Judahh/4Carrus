@@ -52,11 +52,6 @@
         </li>
 
         <li>
-            <label for="InputTextInteriorColor">Cor Interior:</label>
-            <input type="text" id="InputTextInteriorColor" name="InputNameInteriorColor">
-        </li>
-
-        <li>
             <label for="InputTextBodyType">Tipo Corpo:</label>
             <input type="text" id="InputTextBodyType" name="InputNameBodyType" placeholder="Sedan">
         </li>

@@ -56,12 +56,12 @@
 
         <li>
             <label for="InputTextExteriorColor">Cor Exterior:</label>
-            <input type="text" id="InputTextExteriorColor" name="InputNameExteriorColor">
-        </li>
-
-        <li>
-            <label for="InputTextInteriorColor">Cor Interior:</label>
-            <input type="text" id="InputTextInteriorColor" name="InputNameInteriorColor">
+            <input type="text" id="InputTextExteriorColor" name="InputNameExteriorColor" list="DatalistIdColor" placeholder="Vermelho">
+            <datalist id="DatalistIdColor">
+                <option >Vermelho</option>
+                <option>Preto</option>
+                <option>Azul</option>
+            </datalist>
         </li>
 
         <li>
