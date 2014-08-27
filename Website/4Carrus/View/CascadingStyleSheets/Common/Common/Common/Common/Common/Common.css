@@ -204,6 +204,7 @@ button, button:active, button:after, button:before {
 }
 
 #DivIdText{
+    font-smooth:always;
     font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
@@ -225,6 +226,7 @@ button, button:active, button:after, button:before {
 }
 
 #DivIdIcon{
+    font-smooth:always;
     font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
@@ -237,6 +239,7 @@ button, button:active, button:after, button:before {
 }
 
 #DivIdCarDealershipI{
+    font-smooth:always;
     font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
