@@ -2,14 +2,16 @@
     position: absolute;
     float: left;
     padding: 5px 0 0 0;
-    height: 95px;
+    left: -5px;
+    height: 155px;
     width: 125%;
 }
 
 #DivIdSubMenuNotificationsHolder2{
     position: absolute;
     float: left;
-    padding: 15px 0 0 10px;
-    height: 95px;
+    padding: 15px 0 0 0;
+    left: 5px;
+    height: 155px;
     width: 125%;
 }

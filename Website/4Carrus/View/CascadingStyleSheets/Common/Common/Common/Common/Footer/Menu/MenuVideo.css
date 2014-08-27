@@ -1,8 +1,7 @@
 #DivIdMenuVideo{
     width: 123px;
     position: absolute;
-    right: 0;
-    padding: 0 0 0 0;
+    margin-right: -5px;
     float: left;
     height: 100%;
 }
@@ -25,7 +24,7 @@
     opacity:1;
     display: block;
     position: absolute;
-    bottom:45px;
+    bottom:43px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;

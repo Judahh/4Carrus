@@ -188,7 +188,8 @@ button, button:active, button:after, button:before {
 #DivIdText{
     cursor: pointer;
     font-family: "FontFuturisticI";
-    font-size: 16px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 #DivIdText:hover{
@@ -203,8 +204,8 @@ button, button:active, button:after, button:before {
 #DivIdIcon{
     cursor: pointer;
     font-family: "FontIcon";
-    padding: 8px;
-    font-size: 34px;
+    padding: 5px;
+    font-size: 40px;
 }
 
 #DivIdGlass{
