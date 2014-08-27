@@ -1,7 +1,6 @@
 #DivIdSubMenuVideoHolder{
     position: absolute;
     float: left;
-    left:35px;
     padding: 0;
     top: -43px;
     left: -43px;
@@ -12,7 +11,6 @@
 #DivIdSubMenuVideoHolder2{
     position: absolute;
     float: left;
-    left:35px;
     padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;

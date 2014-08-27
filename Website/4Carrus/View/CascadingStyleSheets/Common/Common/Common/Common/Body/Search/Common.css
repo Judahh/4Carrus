@@ -71,8 +71,8 @@ main{
 #DivIdLogoCar{
     position: relative;
     float: left;
-    top: 10px;
-    right: 50px;
+    top: 0px;
+    right: 100px;
     width: 0px;
     height: 0px;
 }
