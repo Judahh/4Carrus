@@ -18,6 +18,13 @@
     /*src: url("../../../../../../Fonts/FuturisticFontII.ttf");*/
 }
 
+@font-face {
+    font-family: "CarDealershipsI";
+    src: url("../../../../../../Fonts/CarDealershipsI.otf");
+    src: url("../../../../../../Fonts/CarDealershipsI.woff");
+    /*src: url("../../../../../../Fonts/CarDealershipsI.ttf");*/
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -204,6 +211,13 @@ button, button:active, button:after, button:before {
 #DivIdIcon{
     cursor: pointer;
     font-family: "FontIcon";
+    padding: 5px;
+    font-size: 40px;
+}
+
+#DivIdCarDealershipI{
+    cursor: pointer;
+    font-family: "CarDealershipsI";
     padding: 5px;
     font-size: 40px;
 }

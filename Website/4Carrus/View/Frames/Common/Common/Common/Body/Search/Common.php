@@ -9,7 +9,7 @@
                         <img  id="ImgIdCar" src="View/Images/Cars/car0.jpg"/>
                         <div id="DivIdLogoCar">
                             <div id="DivIdNeon">
-                                <div id="DivIdText">logo</div>
+                                <div id="DivIdCarDealershipI">F</div>
                             </div>
                         </div>
                     </div>

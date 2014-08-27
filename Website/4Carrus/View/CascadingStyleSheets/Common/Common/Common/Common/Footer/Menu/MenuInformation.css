@@ -19,6 +19,7 @@
     position: absolute;
     height: auto;
     left:-200px;
+    bottom:1px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -31,7 +32,8 @@
     opacity:1;
     display: block;
     position: absolute;
-    left:0px;
+    bottom:1px;
+    left:-2px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
