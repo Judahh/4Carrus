@@ -22,7 +22,7 @@
             <div id="DivIdPopUpHeader">
                 <div id="DivIdPopUpClose">
                     <div id="DivIdNeon" onclick="popUpClose('DivIdPopUpBox')">
-                        <div id="DivIdText">X</div>
+                        <div id="DivIdRedCircle"></div>
                     </div>
                 </div>
             </div>
