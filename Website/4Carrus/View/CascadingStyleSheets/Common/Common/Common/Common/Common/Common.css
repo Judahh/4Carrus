@@ -1,28 +1,39 @@
+/*@font-face {
+    font-family: ‘MyWebFont’;
+    src: url(‘webfont.eot’);
+    src: url(‘webfont.eot?#iefix’) format(‘embedded-opentype’),
+    url(‘webfont.svg#svgFontName’) format(‘svg’),
+    url(‘webfont.woff’) format(‘woff’),
+    url(‘webfont.ttf’)  format(‘truetype’);
+}*/
+
+
 @font-face {
     font-family: "FontIcon";
     src: url("../../../../../../Fonts/BlueLionIcons.otf");
-    src: url("../../../../../../Fonts/BlueLionIcons.woff");
+    src: url("../../../../../../Fonts/BlueLionIcons.woff") format('woff');
+    /*src: url("../../../../../../Fonts/BlueLionIcons.ttf")  format(‘truetype’);*/
 }
 
 @font-face {
     font-family: "FontFuturisticI";
     src: url("../../../../../../Fonts/FuturisticFontI.otf");
-    src: url("../../../../../../Fonts/FuturisticFontI.woff");
-    /*src: url("../../../../../../Fonts/FuturisticFontI.ttf");*/
+    src: url("../../../../../../Fonts/FuturisticFontI.woff") format('woff');
+    /*src: url("../../../../../../Fonts/FuturisticFontI.ttf")  format(‘truetype’);*/
 }
 
 @font-face {
     font-family: "FontFuturisticII";
     src: url("../../../../../../Fonts/FuturisticFontII.otf");
-    src: url("../../../../../../Fonts/FuturisticFontII.woff");
-    /*src: url("../../../../../../Fonts/FuturisticFontII.ttf");*/
+    src: url("../../../../../../Fonts/FuturisticFontII.woff") format('woff');
+    /*src: url("../../../../../../Fonts/FuturisticFontII.ttf")  format(‘truetype’);*/
 }
 
 @font-face {
     font-family: "CarDealershipsI";
     src: url("../../../../../../Fonts/CarDealershipsI.otf");
-    src: url("../../../../../../Fonts/CarDealershipsI.woff");
-    /*src: url("../../../../../../Fonts/CarDealershipsI.ttf");*/
+    src: url("../../../../../../Fonts/CarDealershipsI.woff") format('woff');
+    /*src: url("../../../../../../Fonts/CarDealershipsI.ttf")  format(‘truetype’);*/
 }
 
 *{
@@ -193,6 +204,12 @@ button, button:active, button:after, button:before {
 }
 
 #DivIdText{
+    font-smooth:always;
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
     cursor: pointer;
     font-family: "FontFuturisticI";
     padding: 5px;
@@ -209,6 +226,12 @@ button, button:active, button:after, button:before {
 }
 
 #DivIdIcon{
+    font-smooth:always;
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
     cursor: pointer;
     font-family: "FontIcon";
     padding: 5px;
@@ -216,6 +239,12 @@ button, button:active, button:after, button:before {
 }
 
 #DivIdCarDealershipI{
+    font-smooth:always;
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
     cursor: pointer;
     font-family: "CarDealershipsI";
     padding: 5px;
