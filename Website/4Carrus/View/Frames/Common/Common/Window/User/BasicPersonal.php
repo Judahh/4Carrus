@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <link href="../../../../../CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css" rel="stylesheet" />
-    <link href="../../../../../CascadingStyleSheets/Mobile/Window/Form.css" rel="stylesheet" />
+    <link href="../../../../../CascadingStyleSheets/Mobile/Window/Form.css" rel="stylesheet" media="screen and (max-width: 620px "/>
 </head>
 <div id="DivIdScopo">
     <div id="DivInformation">
@@ -195,7 +195,7 @@
                 <ul>
                     <li>
                         <input type="checkbox" id="InputCheckBox" class="InputCheckboxClass">
-                        <label for="InputCheckBox" id="Label">Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade.</a></label>
+                        <label for="InputCheckBox" id="Label">Li e aceito o <a href="#">Contrato do Usuário</a> e a <a href="#">Política de Privacidade</a>.</label>
                     </li>
                     <li>
                         <input type="checkbox" id="InputCheckBoxNewsLetter" class="InputCheckboxClass">

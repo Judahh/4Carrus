@@ -13,7 +13,7 @@ ol li{
 }
 
 .InputCheckboxClass{
-    width: 1%;
+    width: 10%;
 }
 
 ol li label{
@@ -32,8 +32,8 @@ ol li label{
 }
 
 input{
-    width: 15%;
-    padding: .5%;
+    width: 35%;
+    padding: 2%;
     color: #333;
     text-transform: uppercase;
 
