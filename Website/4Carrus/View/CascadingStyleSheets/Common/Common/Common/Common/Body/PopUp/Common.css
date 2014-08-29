@@ -23,19 +23,21 @@
 }
 
 #DivIdPopUpFooter{
-    bottom: 0;
+    position: absolute;
+    bottom: 15px;
+    right:30px;
     height: 45px;
     width: 100%;
 }
 
 #DivIdPopUpBody{
+    position: absolute;
     margin: 15px;
-    max-height: 80%;
     overflow: auto;
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
+    bottom:45px;
+    top:30px;
+    left:30px;
+    right:30px;
     height:auto;
     width: auto;
 }
