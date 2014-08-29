@@ -1,4 +1,5 @@
 #DivIdMenuOptionsHolder {
+    visibility: visible;
     position: absolute;
     right:0;
     float: left;

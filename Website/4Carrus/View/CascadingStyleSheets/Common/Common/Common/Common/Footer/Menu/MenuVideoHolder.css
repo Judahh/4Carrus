@@ -1,4 +1,5 @@
 #DivIdMenuVideoHolder{
+    visibility: visible;
     float: left;
     position: absolute;
     bottom: 0;
