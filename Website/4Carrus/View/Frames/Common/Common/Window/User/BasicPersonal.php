@@ -1,7 +1,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <link href="../../../../../CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css" rel="stylesheet">
+    <link href="../../../../../CascadingStyleSheets/Common/Common/Common/Window/Common/Form.css" rel="stylesheet" />
+    <link href="../../../../../CascadingStyleSheets/Mobile/Window/Form.css" rel="stylesheet" />
 </head>
 <div id="DivIdScopo">
     <div id="DivInformation">
