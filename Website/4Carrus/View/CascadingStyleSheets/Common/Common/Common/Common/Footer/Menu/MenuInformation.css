@@ -1,5 +1,6 @@
 #DivIdMenuInformation{
     visibility: visible;
+    display: block;
     width: 45px;
     position: absolute;
     left: 0;
@@ -16,6 +17,7 @@
 
 #DivIdMenuInformation ul ul{
     opacity:0;
+    visibility: visible;
     display: block;
     position: absolute;
     height: auto;
@@ -31,6 +33,7 @@
 
 #DivIdMenuInformation ul li:hover ul{
     opacity:1;
+    visibility: visible;
     display: block;
     position: absolute;
     bottom:1px;

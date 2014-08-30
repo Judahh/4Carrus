@@ -1,5 +1,6 @@
 #DivIdMenuInformationHolder{
     visibility: visible;
+    display: block;
     float: left;
     position: absolute;
     bottom: 0;

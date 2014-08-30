@@ -1,17 +1,35 @@
 #DivIdMenuSearch{
     visibility: visible;
+    display: block;
     position: absolute;
     width: 35px;
     height: 100%;
     float: left;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#DivIdMenuSearch:hover{
+    width: 95px;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 #DivIdMenuSearch ul ul{
     opacity:0;
+    visibility: visible;
     display: block;
     position: absolute;
-    height: auto;
-    top:-200px;
+    height: 0px;
+    top:40px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -22,9 +40,10 @@
 
 #DivIdMenuSearch ul li:hover ul{
     opacity:1;
+    visibility: visible;
     display: block;
     position: absolute;
-    top:40px;
+    height: 100%;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
