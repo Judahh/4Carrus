@@ -1,5 +1,6 @@
 #DivIdMenuSearch{
     visibility: visible;
+    display: block;
     position: absolute;
     width: 35px;
     height: 100%;
@@ -8,6 +9,7 @@
 
 #DivIdMenuSearch ul ul{
     opacity:0;
+    visibility: visible;
     display: block;
     position: absolute;
     height: auto;
@@ -22,6 +24,7 @@
 
 #DivIdMenuSearch ul li:hover ul{
     opacity:1;
+    visibility: visible;
     display: block;
     position: absolute;
     top:40px;

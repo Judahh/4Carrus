@@ -1,5 +1,6 @@
 #DivIdMenuVideo{
     visibility: visible;
+    display: block;
     width: 123px;
     position: absolute;
     margin-right: -8px;
@@ -10,6 +11,7 @@
 
 #DivIdMenuVideo ul ul{
     opacity:0;
+    visibility: visible;
     display: block;
     position: absolute;
     height: auto;
@@ -25,6 +27,7 @@
 
 #DivIdMenuVideo ul li:hover ul{
     opacity:1;
+    visibility: visible;
     display: block;
     position: absolute;
     bottom:46px;
