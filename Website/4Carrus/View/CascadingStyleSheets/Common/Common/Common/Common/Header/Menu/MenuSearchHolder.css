@@ -8,13 +8,7 @@
     height: 100%;
 }
 
-#DivIdMenuSearchHolder{
-    visibility: visible;
-    display: block;
-    position: absolute;
-    left:0;
-    float: left;
+#DivIdMenuSearchHolder:hover{
     width: 160px;
-    height: 100%;
 }
 
