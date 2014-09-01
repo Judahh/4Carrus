@@ -1,4 +1,6 @@
 #DivIdMenuSearchHolder{
+    background: red;
+
     visibility: visible;
     display: block;
     position: absolute;
