@@ -1,7 +1,7 @@
-<div id="DivIdMenuSearchHolder">
-    <div id="DivIdGlass"></div>
-</div>
 <div id="DivIdMenuSearch">
+    <div id="DivIdMenuSearchHolder">
+        <div id="DivIdGlass"></div>
+    </div>
     <ul>
         <li>
             <div id="DivIdNeon">

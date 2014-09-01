@@ -4,15 +4,19 @@
     width: 45px;
     position: absolute;
     left: 0;
-    padding: 3px 0 0 14px;
     float: left;
     height: 100%;
-    
+
     -webkit-animation: goRight 1s ease-in-out;
     -moz-animation: goRight 1s ease-in-out;
     -ms-animation: goRight 1s ease-in-out;
     -o-animation: goRight 1s ease-in-out;
     animation: goRight 1s ease-in-out;
+}
+
+#DivIdMenuInformationItem{
+    margin-top: 2px;
+    margin-left: 13px;
 }
 
 #DivIdMenuInformation ul ul{
@@ -22,7 +26,7 @@
     position: absolute;
     height: auto;
     left:-200px;
-    bottom:1px;
+    bottom:0px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -36,8 +40,7 @@
     visibility: visible;
     display: block;
     position: absolute;
-    bottom:1px;
-    left:-2px;
+    left: 12px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
