@@ -2,7 +2,7 @@
     visibility: visible;
     display: block;
     position: absolute;
-    width: 35px;
+    width: 45px;
     height: 100%;
     float: left;
 
@@ -14,7 +14,7 @@
 }
 
 #DivIdMenuSearch:hover{
-    width: 95px;
+    width: 160px;
 
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
