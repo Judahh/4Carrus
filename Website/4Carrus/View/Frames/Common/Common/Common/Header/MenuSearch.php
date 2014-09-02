@@ -9,6 +9,7 @@
                     <div id="DivIdIcon">S</div>
                 </div>
             </div>
+
             <div id="DivIdSubMenuSearch">
                 <ul>
                     <div id="DivIdSubMenuSearchHolder">
@@ -21,6 +22,11 @@
                         <li><div id="DivIdNeon"><div id="DivIdText">Region      </div></div></li>
                     </div>
                 </ul>
+            </div>
+        </li>
+        <li>
+            <div id="DivIdSearchInput">
+                <div id="DivIdIcon"><input type="text" id="InputIdSearch" name="InputSearch"></div>
             </div>
         </li>
     </ul>
