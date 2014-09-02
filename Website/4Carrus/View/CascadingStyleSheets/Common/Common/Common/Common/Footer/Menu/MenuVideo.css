@@ -1,12 +1,18 @@
 #DivIdMenuVideo{
     visibility: visible;
     display: block;
-    width: 123px;
+    width: 130px;
     position: absolute;
-    margin-right: -8px;
-    padding: 3px 0 0 14px;
+    padding: 3px 0 0 0;
+    right:0;
+    bottom:0;
     float: left;
     height: 100%;
+}
+
+#DivIdMenuVideoWrap{
+    margin-top: 1px;
+    margin-left: 11px;
 }
 
 #DivIdMenuVideo ul ul{
@@ -15,7 +21,7 @@
     display: block;
     position: absolute;
     height: auto;
-    left: 2px;
+    left: -1px;
     bottom:-200px;
     
     -webkit-transition: all 1s;
@@ -30,8 +36,7 @@
     visibility: visible;
     display: block;
     position: absolute;
-    bottom:46px;
-    left: 2px;
+    bottom:47px;
     
     -webkit-transition: all 1s;
     -moz-transition: all 1s;

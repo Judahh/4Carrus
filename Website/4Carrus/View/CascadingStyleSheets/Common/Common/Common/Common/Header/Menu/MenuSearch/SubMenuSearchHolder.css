@@ -4,6 +4,12 @@
     padding: 5px 0 0 0;
     height: 155px;
     width: 100%;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 #DivIdSubMenuSearchHolder2{
@@ -12,4 +18,10 @@
     float: left;
     height: 155px;
     width: 100%;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }

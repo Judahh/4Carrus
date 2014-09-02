@@ -1,12 +1,14 @@
-<div id="DivIdMenuInformationHolder">
-    <div id="DivIdGlass"></div>
-</div>
 <div id="DivIdMenuInformation">
+    <div id="DivIdMenuInformationHolder">
+        <div id="DivIdGlass"></div>
+    </div>
     <ul>
         <li>
-            <div id="DivIdNeon">
-                <div id="DivIdMenuItem">
-                    <div id="DivIdIcon">I</div>
+            <div id="DivIdMenuInformationItem">
+                <div id="DivIdNeon">
+                    <div id="DivIdMenuItem">
+                        <div id="DivIdIcon">I</div>
+                    </div>
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
-<div id="DivIdMenuOptionsHolder">
-    <div id="DivIdGlass"></div>
-</div>
 <div id="DivIdMenuOptions">
+    <div id="DivIdMenuOptionsHolder">
+        <div id="DivIdGlass"></div>
+    </div>
     <ul>
         <li>
             <div id="DivIdNeon">
