@@ -20,13 +20,19 @@
 }
 
 #InputIdSearch{
-    width: 100px;
+    width: 0px;
     height: 35px;
     margin-top: -50px;
     background: transparent;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: white;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 #DivIdMenuSearch:hover{
@@ -42,6 +48,7 @@
 #DivIdSearchInput{
     opacity:0;
     visibility: hidden;
+    width: 0px;
 
     -webkit-transition-delay: 1s;
     -moz-transition-delay: 1s;
@@ -58,7 +65,7 @@
 
 #DivIdMenuSearch:hover #DivIdSearchInput{
     display: inline;
-
+    width: 100px;
     visibility: visible;
     opacity:1;
 
@@ -71,9 +78,29 @@
 
 #DivIdSearchInput:hover{
     display: inline;
-
+    width: 100px;
     visibility: visible;
     opacity:1;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#DivIdMenuSearch:hover #InputIdSearch{
+    width: 100px;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#InputIdSearch:hover{
+    width: 100px;
 
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
