@@ -26,7 +26,7 @@
         </li>
         <li>
             <div id="DivIdSearchInput">
-                <div id="DivIdIcon"><input type="text" id="InputIdSearch" name="InputSearch"></div>
+                    <input type="text" id="InputIdSearch" name="InputSearch" placeholder="Search"/>
             </div>
         </li>
     </ul>
