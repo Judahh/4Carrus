@@ -16,10 +16,10 @@ divIdVideo.oncanplaythrough= function() {
     if(divIdVideo.canPlayType('video/mp4'+';codecs="'+'avc1.42E01E, mp4a.40.2'+'"')){
         divIdVideo.play();
         fadeOut(divIdLogo,4);
-        fadeIn(divIdMenuVideo,1);
         fadeIn(divIdMenuVideoHolder,1);
-        goBackLeft(divIdMenuVideo,1);
+        fadeIn(divIdMenuVideo,1);
         goBackLeft(divIdMenuVideoHolder,1);
+        goBackLeft(divIdMenuVideo,1);
     }else{
         fadeOut(divIdLogo,4);
         fadeOut(divIdVideo,4);
